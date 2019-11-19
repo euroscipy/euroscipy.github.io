@@ -21,11 +21,7 @@ DISPLAY_PAGES_ON_MENU = False
 SUBMENU = {}
 
 DELETE_OUTPUT_DIRECTORY = True
-TEMPLATE_PAGES = {
-    os.path.join(os.getcwd(), "content/pages/2020/index.html"): '2020/index.html'
-}
 DIRECT_TEMPLATES = []
-TEMPLATE_EXTENSIONS = ['.html']
 THEME = os.path.join(os.getcwd(), "theme", "beevibrant")
 
 # Feed generation is usually not desired when developing
@@ -35,15 +31,20 @@ TRANSLATION_FEED_ATOM = None
 
 DEFAULT_PAGINATION = 5
 
-STATIC_PATHS = ['content/static']
+PATH = 'content'
+STATIC_URL = '../static'
+STATIC_PATHS = ['static']
 ASSET_URL = 'theme'
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = [
     'assets',
     # 'sitemap',
-    'jinja2content'
 ]
+TYPOGRIFY = True
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+TWITTER_FOLLOW_URL = 'https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton'
+TELEGRAM_URL = 'https://t.me/euroscipy'
