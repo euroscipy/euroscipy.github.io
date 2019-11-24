@@ -2151,13 +2151,13 @@ li.tg-rss a{background:#ff6600;}
 	padding:15px;
 	list-style-type:none;
 }
-.tg-sponder{
+.tg-sponsor{
 	margin:0;
 	width:100%;
 	float:left;
 	background:#fff;
 }
-.tg-sponder a{
+.tg-sponsor a{
 	height:150px;
 	display:flex;
 	flex-direction: column;
@@ -2165,13 +2165,13 @@ li.tg-rss a{background:#ff6600;}
 	align-items: center;
 	align-content: center;
 }
-.tg-sponder a img{
+.tg-sponsor a img{
 	opacity: 1;
 	display: block;
 	-webkit-filter: grayscale(1);
 	filter: grayscale(1);
 }
-.tg-sponder:hover a img{
+.tg-sponsor:hover a img{
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
@@ -2712,11 +2712,11 @@ body.tg-homeone .tg-themescrollbar{height:265px;}
 	width:100%;
 	float:left;
 }
-.tg-sponsorvtwo .tg-sponder{
+.tg-sponsorvtwo .tg-sponsor{
 	background:#f5f5f5;
 	border:1px solid transparent;
 }
-.tg-sponsorvtwo .tg-sponder:hover{
+.tg-sponsorvtwo .tg-sponsor:hover{
 	background:#fff;
 	border-color:#dbdbdb;
 }

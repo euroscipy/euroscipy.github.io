@@ -5,7 +5,7 @@
  is the file you need to edit to change the look of the
  theme.
  However we used Less script to make things easy to maintain, this is the compressed ourput, we recommend to edit the less files and then recombile the files and add the result here, if you don't like to use less you can edit this file here.
- 
+
  This files contents are outlined below.
  01.	Theme Reset Style
  02.	Global Elements
@@ -145,7 +145,7 @@ input:focus,
 	box-shadow:none !important;
 }
 /*======================
-		 Select 		
+		 Select
 ======================*/
 .tg-select{
 	width: 100%;
@@ -184,7 +184,7 @@ input:focus,
 }
 .tg-select select option{color:#444349;}
 /*======================
-		CheckBox		
+		CheckBox
 ======================*/
 .tg-radio,
 .tg-radio label,
@@ -307,7 +307,7 @@ p ins { color: #999; }
 dl dd { margin-left: 20px; }
 address { font-style: italic; }
 /*==============================================
-			Global Elements						
+			Global Elements
 ==============================================*/
 .tg-haslayout{
 	width:100%;
@@ -539,7 +539,7 @@ li.tg-rss a{background:#ff6600;}
 	100% {transform: translate(0px, 0px);}
 }
 /*==============================================
-			Theme Pagination					
+			Theme Pagination
 ==============================================*/
 .tg-pagination{
 	width:100%;
@@ -583,7 +583,7 @@ li.tg-rss a{background:#ff6600;}
 .tg-pagination ul li.tg-prevpage a{border-radius:3px 0 0 3px;}
 .tg-pagination ul li.tg-nextpage a{border-radius:0 3px 3px 0;}
 /*==============================================
-			Theme BreadCrumb					
+			Theme BreadCrumb
 ==============================================*/
 .tg-breadcrumb {
 	margin:0;
@@ -667,7 +667,7 @@ li.tg-rss a{background:#ff6600;}
 .tg-prev:hover span:after,
 .tg-next:hover span:after{left:3px;}
 /*==============================================
-			Theme Style							
+			Theme Style
 ==============================================*/
 .tg-wrapper{
 	height: 100%;
@@ -938,7 +938,7 @@ li.tg-rss a{background:#ff6600;}
 	font: 400 12px/12px 'Poppins', Arial, Helvetica, sans-serif;
 }
 /*==============================================
-			Header								
+			Header
 ==============================================*/
 .tg-logo{float:left;}
 .tg-logo a,
@@ -1096,7 +1096,7 @@ li.tg-rss a{background:#ff6600;}
 	background: #484848;
 }
 /*==============================================
-			Banner								
+			Banner
 ==============================================*/
 .tg-bannerholder{
 	width:100%;
@@ -1318,7 +1318,7 @@ li.tg-rss a{background:#ff6600;}
 	width: 4px;
 }
 /*==============================================
-			About Us Style						
+			About Us Style
 ==============================================*/
 .tg-shortcode{
 	width:100%;
@@ -1365,7 +1365,7 @@ li.tg-rss a{background:#ff6600;}
 }
 .tg-btnarea .tg-btn + .tg-btn{margin:0 0 0 26px;}
 /*==============================================
-			Counter Style						
+			Counter Style
 ==============================================*/
 .tg-bgparallax{
 	position:relative;
@@ -1475,7 +1475,7 @@ li.tg-rss a{background:#ff6600;}
 	line-height:60px;
 }
 /*==============================================
-			Speakers Style						
+			Speakers Style
 ==============================================*/
 .tg-speaker{
 	width:100%;
@@ -1544,7 +1544,7 @@ li.tg-rss a{background:#ff6600;}
 }
 .tg-themepost:hover figure .tg-timetag{color:#fff;}
 /*==============================================
-			Feature Event Style					
+			Feature Event Style
 ==============================================*/
 .tg-bgfeatureevent{background-image: url(../images/bg-parallax/bg-parallax-02.jpg);}
 .tg-featuredevent{
@@ -1612,7 +1612,7 @@ li.tg-rss a{background:#ff6600;}
 	font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 /*==============================================
-			Event Schedule Style				
+			Event Schedule Style
 ==============================================*/
 .tg-eventconfrences{
 	width:100%;
@@ -1868,7 +1868,7 @@ li.tg-rss a{background:#ff6600;}
 	border-left: 20px solid transparent !important;
 }
 /*==============================================
-			Testimonial Style					
+			Testimonial Style
 ==============================================*/
 .tg-bgtestimonial{background-image: url(../images/bg-parallax/bg-parallax-03.jpg);}
 .tg-testimonials{
@@ -2027,7 +2027,7 @@ li.tg-rss a{background:#ff6600;}
 }
 .tg-formsignup .tg-checkbox{padding:10px 0 15px;}
 /*==============================================
-			Gallery Style						
+			Gallery Style
 ==============================================*/
 .tg-gallerymasnory{
 	width:100%;
@@ -2136,7 +2136,7 @@ li.tg-rss a{background:#ff6600;}
 	text-align:center;
 }
 /*==============================================
-			Sponsers Style						
+			Sponsers Style
 ==============================================*/
 .tg-bgsponser{background-image: url(../images/bg-parallax/bg-parallax-04.jpg);}
 .tg-sponsers{
@@ -2151,13 +2151,13 @@ li.tg-rss a{background:#ff6600;}
 	padding:15px;
 	list-style-type:none;
 }
-.tg-sponder{
+.tg-sponsor{
 	margin:0;
 	width:100%;
 	float:left;
 	background:#fff;
 }
-.tg-sponder a{
+.tg-sponsor a{
 	height:150px;
 	display:flex;
 	flex-direction: column;
@@ -2165,13 +2165,13 @@ li.tg-rss a{background:#ff6600;}
 	align-items: center;
 	align-content: center;
 }
-.tg-sponder a img{
+.tg-sponsor a img{
 	opacity: 1;
 	display: block;
 	-webkit-filter: grayscale(1);
 	filter: grayscale(1);
 }
-.tg-sponder:hover a img{
+.tg-sponsor:hover a img{
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
@@ -2185,7 +2185,7 @@ li.tg-rss a{background:#ff6600;}
 	background:#fff;
 }
 /*==============================================
-			Price Plan Style					
+			Price Plan Style
 ==============================================*/
 .tg-packages{
 	width:100%;
@@ -2301,7 +2301,7 @@ li.tg-rss a{background:#ff6600;}
 	box-shadow: 0 0 10px 0 rgba(68,67,73,0.20);
 }
 /*==============================================
-			Join Us Style						
+			Join Us Style
 ==============================================*/
 .tg-bgjoinus{background-image: url(../images/bg-parallax/bg-parallax-05.jpg);}
 .tg-joinusnow{
@@ -2351,7 +2351,7 @@ li.tg-rss a{background:#ff6600;}
 	line-height:30px;
 }
 /*==============================================
-			Venue Style							
+			Venue Style
 ==============================================*/
 .tg-venue{
 	width:100%;
@@ -2363,7 +2363,7 @@ li.tg-rss a{background:#ff6600;}
 	text-overflow:ellipsis;
 }
 /*==============================================
-			FAQs Style							
+			FAQs Style
 ==============================================*/
 .tg-bgfaqs{background-image: url(../images/bg-parallax/bg-parallax-06.jpg);}
 .tg-askquestions{
@@ -2496,7 +2496,7 @@ body.tg-homeone .tg-themescrollbar{height:265px;}
 	background:#e5e5e5;
 }
 /*==============================================
-			Articles Style						
+			Articles Style
 ==============================================*/
 .tg-latestarticles{
 	width:100%;
@@ -2570,7 +2570,7 @@ body.tg-homeone .tg-themescrollbar{height:265px;}
 }
 .tg-postcontent .tg-description p{margin:0;}
 /*==============================================
-			Footer Style						
+			Footer Style
 ==============================================*/
 .tg-bgtwitter{background-image: url(../images/bg-parallax/bg-parallax-07.jpg);}
 .tg-bgparallax.tg-bgtwitter:before{
@@ -2712,11 +2712,11 @@ body.tg-homeone .tg-themescrollbar{height:265px;}
 	width:100%;
 	float:left;
 }
-.tg-sponservtwo .tg-sponder{
+.tg-sponservtwo .tg-sponsor{
 	background:#f5f5f5;
 	border:1px solid transparent;
 }
-.tg-sponservtwo .tg-sponder:hover{
+.tg-sponservtwo .tg-sponsor:hover{
 	background:#fff;
 	border-color:#dbdbdb;
 }
@@ -4400,7 +4400,7 @@ body.tg-comingsoonpage .tg-foorterbar .tg-socialicons{padding:0;}
 .tg-footervthree .tg-footercolumn.tg-widgetrecentposts ul li time a,
 .tg-footervthree .tg-tag{color: #fff;}
 /* =============================================
-			Home 4 Style						
+			Home 4 Style
 ============================================= */
 .tg-headervfour{
 	position: static;
@@ -4798,7 +4798,7 @@ body.tg-comingsoonpage .tg-foorterbar .tg-socialicons{padding:0;}
 .tg-footervfour .tg-foorterbar .tg-socialicons{padding: 0;}
 .tg-footervfour .tg-foorterbar .tg-copyrights{padding: 8px 0;}
 /* =============================================
-			Alert Popup Style					
+			Alert Popup Style
 ============================================= */
 .tg-alert{
 	top:0;

@@ -24,7 +24,8 @@ DELETE_OUTPUT_DIRECTORY = True
 DIRECT_TEMPLATES = []
 THEME = os.path.join(os.getcwd(), "theme", "beevibrant")
 
-# Feed generation is usually not desired when developing
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
@@ -39,6 +40,7 @@ ASSET_URL = 'theme'
 PLUGIN_PATHS = ['plugins']
 PLUGINS = [
     'assets',
+    'md-metayaml',
     # 'sitemap',
 ]
 TYPOGRIFY = True
