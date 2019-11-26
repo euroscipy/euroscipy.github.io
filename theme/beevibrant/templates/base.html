@@ -1,0 +1,166 @@
+<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang=""> <!--<![endif]-->
+<head>
+	{% block head %}
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+	<link rel="shortcut icon" type="image/png" href="{{ SITEURL }}/{{ ASSET_URL }}/images/favicon.ico"/>
+	{% if page %}
+	<meta name="title" content="{{ page.title }}">
+	{% endif %}
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/normalize.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/icomoon.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/customScrollbar.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/animate.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/owl.carousel.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/prettyPhoto.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/jquery.fullpage.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/transitions.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/main.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/color.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/responsive.css">
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	{% endblock %}
+	<style>
+		html,
+		body{height: auto;}
+	</style>
+</head>
+<body class="tg-home tg-homeone">
+	<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!--************************************
+			Wrapper Start
+	*************************************-->
+	<div id="tg-wrapper" class="tg-wrapper tg-haslayout">
+		{% block header %}
+		<!--************************************
+				Header Start
+		*************************************-->
+		<header id="tg-header" class="tg-header tg-haslayout">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<strong class="tg-logo"><a href="index.html"><img src="{{ SITEURL }}/{{ ASSET_URL }}/images/logo.png" alt="company logo here"></a></strong>
+						<div class="tg-navigationarea">
+							<nav id="tg-nav" class="tg-nav">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
+									<ul>
+										<li class="current-menu-item">
+												<a href="javascript:void(0);">Home</a>
+										</li>
+										<li class="menu-item-has-children">
+											<a href="javascript:void(0);">Programme</a>
+											<ul class="sub-menu">
+												<li><a href="#schedule">Schedule</a></li>
+												<li><a href="index2.html">Maintainers' Track</a></li>
+												<li><a href="index3.html">GeoPython 2020</a></li>
+												<li><a href="index4.html">Keynote Speakers</a></li>
+												<li><a href="index4.html">Sprints</a></li>
+												<li><a href="index4.html">Tips for Speakers</a></li>
+												<li><a href="index4.html">Social Event</a></li>
+											</ul>
+										</li>
+										<li>
+												<a href="faq.html">FAQs</a>
+										</li>
+										<li>
+												<a href="location.html">Location</a>
+										</li>
+										<li>
+											<a href="sponsors.html">Sponsors</a>
+										</li>
+										<li>
+											<a href="coc.html">Code of Conduct</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
+							<a class="tg-btn tg-btnbookseat" href="javascript:void(0);">Buy Ticket</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--************************************
+				Header End
+		*************************************-->
+		{% endblock %}
+
+		{% block content %}{% endblock %}
+
+		{% block footer %}
+		<!--************************************
+				Footer Start
+		*************************************-->
+		<footer id="tg-footer" class="tg-footer tg-haslayout">
+			<div class="tg-sectionspace tg-haslayout tg-bgparallax tg-bgtwitter">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-xs-offset-0 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+							<div class="tg-twitterpost">
+								<i class="fa fa-twitter"></i>
+								<span class="tg-followus">Follow <a href="#">@EuroSciPy</a> &amp; Stay Posted</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tg-foorterbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<p class="tg-copyrights">2020 All Rights Reserved © EuroSciPy</p>
+							<ul class="tg-socialicons">
+								<li class="tg-twitter"><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+							<strong class="tg-logo"><a href="index.html"><img src="{{ SITEURL }}/{{ ASSET_URL }}/images/logo.png" alt="company logo here"></a></strong>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--************************************
+				Footer End
+		*************************************-->
+		{% endblock %}
+	</div>
+	<!--************************************
+			Wrapper End
+	*************************************-->
+	{% block extra_scripts %}{%endblock%}
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/vendor/jquery-library.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/vendor/bootstrap.min.js"></script>
+	<script src="https://maps.google.com/maps/api/js?key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus&language=en"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/customScrollbar.min.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/packery.pkgd.min.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/owl.carousel.min.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/jquery.hoverdir.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/jquery.vide.min.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/jquery.fullpage.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/isotope.pkgd.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/prettyPhoto.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/countdown.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/countTo.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/appear.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/gmap3.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/main.js"></script>
+</body>
+</html>
