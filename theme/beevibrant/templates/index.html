@@ -10,10 +10,6 @@
 
 {% block content %}
 {{ super() }}
-		<!--************************************
-				Main Start
-		*************************************-->
-		<main id="tg-main" class="tg-main tg-haslayout">
 			<!--************************************
 					Home Slider Start
 			*************************************-->
@@ -186,8 +182,8 @@
 			<!--************************************
 					Sponsor End
 			*************************************-->
-			<a id="sponsors"></a>
 			<section class="tg-sectionspace tg-haslayout tg-bgparallax tg-bgsponsor">
+				<a id="sponsors"></a>
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
@@ -208,15 +204,11 @@
 							</li>
     				{% endfor %}
 						</ul>
-						<a class="tg-btn" href="javascript:void(0);">Become A Sponsor</a>
+						<a class="tg-btn" href="{{ EVENT[page.section].sponsorship_url }}">Become A Sponsor</a>
 					</div>
 				</div>
 			</section>
 			<!--************************************
 					Sponsor End
 			*************************************-->
-		</main>
-		<!--************************************
-				Main End
-		*************************************-->
 {% endblock %}

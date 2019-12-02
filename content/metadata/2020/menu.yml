@@ -1,12 +1,9 @@
 ---
-# TODO: add 'class="current-menu-item"' to the <li> which is the current page
 - name: Home
-  url:  javascript:void(0);
+  url:  index.html
 - name: Programme
-  url: javascript:void(0);
+  url: programe.html
   submenu:
-  - name: Schedule
-    url: schedule.html
   - name: Maintainers' Track
     url: maintainers_track.html
   - name: GeoPython 2020
@@ -18,10 +15,12 @@
   - name: Social Event
     url: social_event.html
 - name: FAQ
-  url: faq.html
-- name: Location
-  url: location.html
+  url: faqs.html
+- name: Venue
+  url: venue.html
 - name: Sponsors
   url: '#sponsors'
 - name: Code of Conduct
-  url: coc.html
+  url: code_of_conduct.html
+- name: Privacy
+  url: privacy.html

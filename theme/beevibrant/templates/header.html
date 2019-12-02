@@ -21,7 +21,11 @@
 								<div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
 									<ul>
 										{% for item in SUBMENU[page.section] %}
+										{% if item.url in page.url %}
+										<li class="current-menu-item">
+										{% else %}
 										<li>
+										{% endif %}
 											<a href="{{ item.url }}">{{ item.name }}</a>
 											{% if item.submenu %}
 												<ul class="sub-menu">

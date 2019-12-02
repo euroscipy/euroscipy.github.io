@@ -20,7 +20,8 @@ that all delegates may expect to
 
 - be treated with courtesy, dignity and respect;
 - be free from any form of discrimination, victimisation, harassment or bullying;
-- enjoy an environment free from unwelcome behaviour, inappropriate language and unsuitable imagery.
+- enjoy an environment free from unwelcome behaviour, inappropriate language and
+unsuitable imagery.
 
 If problems covered by this code of conduct arise, please contact a
 EuroSciPy organiser directly or send an email to [info@euroscipy.org](mailto:info@euroscipy.org).

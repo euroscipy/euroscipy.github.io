@@ -1,7 +1,7 @@
 ---
 title: 'EuroSciPy 2020: Frequently Asked Questions'
-url: 2020/faq.html
-save_as: 2020/faq.html
+url: 2020/faqs.html
+save_as: 2020/faqs.html
 section: euroscipy_2020
 template: page
 slug: faq_2020
@@ -42,6 +42,32 @@ No, we are really sorry! We would love to find a solution, but we have no idea h
 Please contact us if you have found a solution good for you, we can help spreading the information and maybe supporting it financially.
 
 <h3 id="program">Program</h3>
+
+#### What are the topics you want to cover in the programme?
+
+We are looking for presentations of scientific tools and libraries using the
+Python language, including but not limited to:
+
+- Algorithms implemented or exposed in Python
+- Astronomy
+- Data Visualisation
+- Deep Learning & AI
+- Earth, Ocean and Geo Science
+- General-purpose Python tools that can be of special interest to the scientific community.
+- Image Processing
+- Materials Science
+- Parallel computing
+- Political and Social Sciences
+- Project Jupyter
+- Reports on the use of Python in scientific achievements or ongoing projects.
+- Robotics & IoT
+- Scientific data flow and persistence
+- Scientific visualization
+- Simulation
+- Statistics
+- Vector and array manipulation
+- Web applications and portals for science and engineering
+- 3D Printing
 
 
 #### What can I do to support?
