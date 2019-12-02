@@ -1,0 +1,48 @@
+		<!--************************************
+				Header Start
+		*************************************-->
+		<header id="tg-header" class="tg-header tg-haslayout">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<strong class="tg-logo"><a href="index.html"><img src="{{ SITEURL }}/{{ ASSET_URL }}/images/logo.png" alt="company logo here"></a></strong>
+						<div class="tg-navigationarea">
+							<nav id="tg-nav" class="tg-nav">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								{% block menu %}
+								{% if page.section %}
+								<div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
+									<ul>
+										{% for item in SUBMENU[page.section] %}
+										<li>
+											<a href="{{ item.url }}">{{ item.name }}</a>
+											{% if item.submenu %}
+												<ul class="sub-menu">
+														{% for subitem in item.submenu %}
+														<li><a href="{{ subitem.url }}">{{ subitem.name }}</a></li>
+														{% endfor %}
+												</ul>
+											{% endif %}
+										</li>
+										{% endfor %}
+									</ul>
+								</div>
+								{% endif %}
+								{% endblock %}
+							</nav>
+							<a class="tg-btn tg-btnbookseat" href="{{ EVENT[page.section].ticket_purchase_url }}">Buy Ticket</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--************************************
+				Header End
+		*************************************-->
