@@ -42,105 +42,19 @@
 			Wrapper Start
 	*************************************-->
 	<div id="tg-wrapper" class="tg-wrapper tg-haslayout">
-		{% block header %}
-		<!--************************************
-				Header Start
-		*************************************-->
-		<header id="tg-header" class="tg-header tg-haslayout">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<strong class="tg-logo"><a href="index.html"><img src="{{ SITEURL }}/{{ ASSET_URL }}/images/logo.png" alt="company logo here"></a></strong>
-						<div class="tg-navigationarea">
-							<nav id="tg-nav" class="tg-nav">
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-								</div>
-								<div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
-									<ul>
-										<li class="current-menu-item">
-												<a href="javascript:void(0);">Home</a>
-										</li>
-										<li class="menu-item-has-children">
-											<a href="javascript:void(0);">Programme</a>
-											<ul class="sub-menu">
-												<li><a href="#schedule">Schedule</a></li>
-												<li><a href="index2.html">Maintainers' Track</a></li>
-												<li><a href="index3.html">GeoPython 2020</a></li>
-												<li><a href="index4.html">Keynote Speakers</a></li>
-												<li><a href="index4.html">Sprints</a></li>
-												<li><a href="index4.html">Tips for Speakers</a></li>
-												<li><a href="index4.html">Social Event</a></li>
-											</ul>
-										</li>
-										<li>
-												<a href="faq.html">FAQs</a>
-										</li>
-										<li>
-												<a href="location.html">Location</a>
-										</li>
-										<li>
-											<a href="sponsors.html">Sponsors</a>
-										</li>
-										<li>
-											<a href="coc.html">Code of Conduct</a>
-										</li>
-									</ul>
-								</div>
-							</nav>
-							<a class="tg-btn tg-btnbookseat" href="javascript:void(0);">Buy Ticket</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<!--************************************
-				Header End
-		*************************************-->
-		{% endblock %}
+		{% block header %}{% endblock %}
 
+		<!--************************************
+				Main Start
+		*************************************-->
+		<main id="tg-main" class="tg-main tg-haslayout">
 		{% block content %}{% endblock %}
+		</main>
+		<!--************************************
+				Main End
+		*************************************-->
 
-		{% block footer %}
-		<!--************************************
-				Footer Start
-		*************************************-->
-		<footer id="tg-footer" class="tg-footer tg-haslayout">
-			<div class="tg-sectionspace tg-haslayout tg-bgparallax tg-bgtwitter">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-xs-offset-0 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-							<div class="tg-twitterpost">
-								<i class="fa fa-twitter"></i>
-								<span class="tg-followus">Follow <a href="#">@EuroSciPy</a> &amp; Stay Posted</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="tg-foorterbar">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<p class="tg-copyrights">2020 All Rights Reserved © EuroSciPy</p>
-							<ul class="tg-socialicons">
-								<li class="tg-twitter"><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
-							</ul>
-							<strong class="tg-logo"><a href="index.html"><img src="{{ SITEURL }}/{{ ASSET_URL }}/images/logo.png" alt="company logo here"></a></strong>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!--************************************
-				Footer End
-		*************************************-->
-		{% endblock %}
+		{% block footer %}{% endblock %}
 	</div>
 	<!--************************************
 			Wrapper End
