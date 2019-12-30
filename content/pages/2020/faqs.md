@@ -1,10 +1,9 @@
 ---
-title: 'EuroSciPy 2020: Frequently Asked Questions'
+title: EuroSciPy 2020 - Frequently Asked Questions
 url: 2020/faqs.html
 save_as: 2020/faqs.html
 section: euroscipy_2020
 template: page
-slug: faq_2020
 ---
 
 #### Who is behind this conference?
