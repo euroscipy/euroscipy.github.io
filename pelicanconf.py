@@ -24,6 +24,7 @@ DISPLAY_PAGES_ON_MENU = False
 DELETE_OUTPUT_DIRECTORY = True
 DIRECT_TEMPLATES = []
 THEME = os.path.join(os.getcwd(), "theme", "beevibrant")
+EXTRA_TEMPLATES_PATH = os.path.join(THEME, "templates")
 
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
