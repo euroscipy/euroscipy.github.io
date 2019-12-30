@@ -947,7 +947,6 @@ li.tg-rss a{background:#ff6600;}
 .tg-logo a img{
 	width:33%;
 	height:auto;
-	position: relative;
 }
 .tg-navigationarea {
 	float: right;
@@ -2139,8 +2138,7 @@ li.tg-rss a{background:#ff6600;}
 /*==============================================
 			Sponsors Style
 ==============================================*/
-/* .tg-bgsponsor{background-image: url(../images/bg-parallax/bg-parallax-04.jpg);} */
-
+.tg-bgsponsor{background-image: url(../images/bg-parallax/bg-parallax-04.jpg);}
 .tg-sponsors{
 	width:100%;
 	float:left;

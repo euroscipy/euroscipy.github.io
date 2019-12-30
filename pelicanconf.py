@@ -61,7 +61,7 @@ SUBMENU = {}
 SUBMENU['euroscipy_2020'] = yaml.load(open(os.path.join(METADATA, '2020', 'menu.yml')))
 
 KEYNOTES = {}
-KEYNOTES['euroscipy_2020'] = yaml.load(open(os.path.join(METADATA, '2020', 'keynotes.yml')))
+KEYNOTES['euroscipy_2020'] = yaml.load(open(os.path.join(METADATA, '2020', 'keynotes.yml'))) or []
 
 SPONSORS = {}
-SPONSORS['euroscipy_2020'] = yaml.load(open(os.path.join(METADATA, '2020', 'sponsors.yml')))
+SPONSORS['euroscipy_2020'] = yaml.load(open(os.path.join(METADATA, '2020', 'sponsors.yml'))) or []
