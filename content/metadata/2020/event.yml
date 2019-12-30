@@ -6,7 +6,7 @@ first_day: 2020-07-27
 address: Bizkaia Aretoa, Avda. Abandoibarra 3, Bilbao, Spain
 calendar_url:
 ticket_purchase_url: https://www.ti.to
-sponsorship_url: sponsorships.html
+sponsorship_url: sponsoring.html
 
 conference_logo: ../static/2020/logo.png
 background_poster: ../static/2020/background-1.jpg
