@@ -1,14 +1,23 @@
 {% extends 'base.html' %}
 
-{% block header %}
-{% include 'header.html' %}
-{% endblock %}
+  {% block header %}
+  {% include 'header.html' %}
+  {% endblock %}
 
 {% block footer %}
 {% include 'footer.html' %}
 {% endblock %}
 
+
+
 {% block content %}
 {{ super() }}
+<section id="tg-content" class="tg-sectionspace tg-haslayout", style="background-color: red;" >
+  <div class="container">
+    <div class="row">
 {% if page %}<p>{{ page.content }}</p>{% endif %}
+    </div>
+  </div>
+</section>
+
 {% endblock %}
