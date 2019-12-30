@@ -29,7 +29,7 @@ The collection of some personal data is also mandatory in order to be compliant 
 
 Your personal data will not be disclosed.
 
-You may contact ACPySS *info@pyss.org* to verify, complete, update or correct your data and/or to exercise other rights pursuant to Section 7 of the Personal Data Protection Code.
+You may contact ACPySS [info@pyss.org](mailto:info@pyss.org) to verify, complete, update or correct your data and/or to exercise other rights pursuant to Section 7 of the Personal Data Protection Code.
 
 In particular, you may refuse at any time the handling of your personal data for institutional promotional material mailing purposes.
 
