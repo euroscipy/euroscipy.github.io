@@ -8,6 +8,7 @@ calendar_url:
 ticket_purchase_url: https://www.ti.to
 sponsorship_url: sponsorships.html
 
+conference_logo: ../static/2020/logo.png
 background_poster: ../static/2020/background-1
 venue_picture: ../static/2020/bilbao.jpeg
 background_poster_counter: ../static/2020/euroscipy_coffee.jpg

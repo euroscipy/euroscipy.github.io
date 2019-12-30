@@ -12,12 +12,13 @@
 
 {% block content %}
 {{ super() }}
-<section id="tg-content" class="tg-sectionspace tg-haslayout", style="background-color: red;" >
-  <div class="container">
-    <div class="row">
-{% if page %}<p>{{ page.content }}</p>{% endif %}
-    </div>
-  </div>
+{% if page %}
+<section class="tg-sectionspace tg-haslayout">
+	<div class="container">
+		<div class="row">
+			<p>{{ page.content }}</p>
+		</div>
+	</div>
 </section>
-
+{% endif %}
 {% endblock %}
