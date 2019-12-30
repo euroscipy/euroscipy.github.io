@@ -678,6 +678,7 @@ li.tg-rss a{background:#ff6600;}
 	z-index:100;
 	padding:34px 0;
 	position:absolute;
+	background-color: #0077B5AA;
 }
 .tg-sectionhead{
 	width:100%;
@@ -944,8 +945,9 @@ li.tg-rss a{background:#ff6600;}
 .tg-logo a,
 .tg-logo a img{display:block;}
 .tg-logo a img{
-	width:100%;
+	width:33%;
 	height:auto;
+	position: relative;
 }
 .tg-navigationarea {
 	float: right;
@@ -1410,7 +1412,6 @@ li.tg-rss a{background:#ff6600;}
 		rgba(217,8,69,0.8) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd90845', endColorstr='#ccd90845',GradientType=0 );
 }
-.tg-bgcounter{background-image: url(../images/bg-parallax/bg-parallax-01.jpg);}
 .tg-statisticscounters{
 	width:100%;
 	float:left;
