@@ -1,5 +1,5 @@
 ---
-title: 'EuroSciPy 2020: About Us'
+title: EuroSciPy 2020 - About Us
 url: 2020/about.html
 save_as: 2020/about.html
 section: euroscipy_2020

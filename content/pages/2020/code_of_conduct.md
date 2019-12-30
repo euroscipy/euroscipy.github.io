@@ -1,5 +1,5 @@
 ---
-title: 'EuroSciPy 2020: Code of Conduct'
+title: EuroSciPy 2020 - Code of Conduct
 url: 2020/code_of_conduct.html
 save_as: 2020/code_of_conduct.html
 section: euroscipy_2020

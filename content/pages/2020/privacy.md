@@ -1,5 +1,5 @@
 ---
-title: 'EuroSciPy 2020: Privacy Policy'
+title: EuroSciPy 2020 - Privacy Policy
 url: 2020/privacy.html
 save_as: 2020/privacy.html
 section: euroscipy_2020

@@ -1,5 +1,5 @@
 ---
-title: 'EuroSciPy 2020: Venue'
+title: EuroSciPy 2020 - Venue'
 url: 2020/venue.html
 save_as: 2020/venue.html
 section: euroscipy_2020

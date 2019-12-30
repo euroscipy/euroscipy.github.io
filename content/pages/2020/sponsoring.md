@@ -1,10 +1,10 @@
 ---
-title: 'EuroSciPy 2020: Sponsorship Packages'
-url: 2020/sponsorships.html
-save_as: 2020/sponsorships.html
+title: EuroSciPy 2020: - Sponsoring'
+url: 2020/sponsoring.html
+save_as: 2020/sponsoring.html
 section: euroscipy_2020
 template: page
-slug: sponsorships_2020
+slug: sponsoring_2020
 ---
 
 If you want your company to become a sponsor, [sign up](https://forms.gle/1FHPEqybSgJjakbp8)
