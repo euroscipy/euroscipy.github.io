@@ -1,0 +1,26 @@
+language: python
+cache: apt
+sudo: false
+
+branches:
+  only:
+  - develop
+
+python:
+  - 3.7
+
+install:
+  - pip install -U --upgrade-strategy=eager Pelican
+script:
+  - make html
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  local_dir: output
+  repo: euroscipy/euroscipy.github.io
+  target_branch: master
+  on:
+    branch: master
