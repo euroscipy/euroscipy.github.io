@@ -1,5 +1,5 @@
 ---
-title: EuroSciPy 2020: - Sponsoring'
+title: EuroSciPy 2020 - Sponsoring
 url: 2020/sponsoring.html
 save_as: 2020/sponsoring.html
 section: euroscipy_2020
