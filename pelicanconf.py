@@ -42,7 +42,7 @@ ASSET_URL = 'theme'
 METADATA = os.path.join(PATH, 'metadata')
 EXTRA_PATH_METADATA = {
     'extra/404.md': {'path': '404.md'},
-    'extra/index.html': {'path': 'index.html'},
+    'extra/index.md': {'path': 'index.md'},
 }
 
 PLUGIN_PATHS = ['plugins']
