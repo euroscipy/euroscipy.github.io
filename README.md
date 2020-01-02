@@ -1,7 +1,7 @@
 euroscipy.org
 =============
 
-[![Build Status](https://travis-ci.org/euroscipy/euroscipy.github.io.svg?branch=develop)](https://travis-ci.org/euroscipy/euroscipy.github.io)
+[![](https://github.com/euroscipy/euroscipy.github.io/workflows/Publish%20Github%20Pages/badge.svg)](https://github.com/euroscipy/euroscipy.github.io/actions?query=workflow%3A%22Publish+Github+Pages%22)
 
 This repository contains the landing page and blog for the
 euroscipy.org.
@@ -11,7 +11,6 @@ euroscipy.org.
 ```bash
 git clone --recursive <git_url>
 ```
-
 
 ## Contributing
 
@@ -34,7 +33,7 @@ Here are a few ways you can contribute:
 
 * [Clone the fork](https://help.github.com/articles/fork-a-repo#step-2-clone-your-fork)
 
-```
+```bash
 git clone --recursive git@github.com:euroscipy/www.euroscipy.org.git
 cd www.euroscipy.org
 ```
@@ -45,8 +44,9 @@ cd www.euroscipy.org
   [Pelican docs](http://docs.getpelican.com/en/stable/content.html#writing-content)
   for details can be rst or markdown. An exmple below:
 
-```
+```bash
 $ cd content/news
+>
 $ cat << EOF > 2013-10-25-test.md
 > Title: Test
 > Date: 2013-10-25
@@ -72,61 +72,68 @@ $ cat << EOF > 2013-10-25-test.md
   * be sure to have [Markdown](http://pythonhosted.org/Markdown/index.html) installed as well
 
 * Next checkout the source code:
-```
-$ git clone git@github.com:euroscipy/www.euroscipy.org.git
-$ cd www.euroscipy.org
-```
 
+```bash
+git clone git@github.com:euroscipy/euroscipy.github.io.git
+cd euroscipy.github.io
+```
 
 * Editting pages:
 
   * The content of the page can be found in the content directory
-```
+
+```bash
 $ cd content; ls
- pages static
+> pages static
 ```
+
     * static: content to be copied,
     * pages: the set of pages to be displayed
-
   * To add a new post, add a file to the news, see pelican docs for the page issues:
-
 * Generating and viewing changes
   * Now go to the top dir and regenerate site:
-```
-$ cd ../../
-$ make html
+
+```bash
+cd ../../
+make html
 ```
 
   * To view it locally:
-```
+
+```bash
 $ make serve
+>
 < open browser to http://127.0.0.1:8000 >
 ( you should see your test page in the News and archives )
 < Ctrl-C to exit server on terminal >
 ```
 
   * To modify a page edit inside the pages content
-```
-$ cd content/pages
-$ vi 2018/index.md
+
+```bash
+cd content/pages
+vi 2018/index.md
 ```
 
   * Once again go to top and make it and view
-```
-$ cd ../.. && make html && make serve
+
+```bash
+cd ../.. && make html && make serve
 ```
 
   * To edit the layout see thing inside the theme
-```
-$ ls theme
-tuxlite_zf
+
+```bash
+ls theme
+> tuxlite_zf
 ```
 
   * Be sure to check in your changes and push
-```
-$ git add <files changed>
-$ git commit -m “<Describe changes>”
-$ git push origin <branch-name>
+
+```bash
+git add <files changed>
+git commit -m “<Describe changes>”
+git push origin <branch-name>
 ```
 
 ## Contact
