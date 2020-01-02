@@ -27,6 +27,11 @@ jobs:
     - name: Install dependencies
       run: make install
 
+    - name: Checkout target branch for publication
+      uses: actions/checkout@v2
+      with:
+        ref: master
+
     - name: Publish
       run: |
         pipenv run pip install ghp-import
