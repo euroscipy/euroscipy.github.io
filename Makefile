@@ -31,7 +31,7 @@ help:
 	@echo 'Usage:                                                                    '
 	@echo '   install                             install                            '
 	@echo '   install-dev                         install also development dependencies'
-	@echo '   update-submodule                    pulls the submodules of this repository'
+	@echo '   sync-plugins                        pulls the plugins submodules of this repository'
 	@echo '   clean                               clean all below                    '
 	@echo '   clean-build                         build - remove build artifacts     '
 	@echo '   clean-pyc                           pyc - remove Python file artifacts '
@@ -63,8 +63,10 @@ install-ci:
 install-dev: install-ci
 	pre-commit install
 
-update-submodule:
-	git submodule update --init --recursive
+sync-plugins:
+	auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+	git submodule sync --recursive
+	git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
 
 clean: clean-build clean-pyc
 
