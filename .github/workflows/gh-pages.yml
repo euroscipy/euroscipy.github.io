@@ -28,9 +28,8 @@ jobs:
       run: make install
 
     - name: Checkout target branch for publication
-      uses: actions/checkout@v2
-      with:
-        ref: master
+      shell: bash
+      run: git fetch --depth=1 origin master
 
     - name: Publish
       run: |
