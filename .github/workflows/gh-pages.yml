@@ -28,9 +28,7 @@ jobs:
       run: make install
 
     - name: Publish
-      run: |
-        pipenv shell
-        make github
+      run: pipenv run make github
       env:
         GITHUB_TOKEN: ${{ secrets. GITHUB_BOT_TOKEN }}
 
