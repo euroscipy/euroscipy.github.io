@@ -28,7 +28,9 @@ jobs:
       run: make install
 
     - name: Publish
-      run: pipenv run make github
+      run: |
+        pip install ghp-import
+        pipenv run make github
       env:
         GITHUB_TOKEN: ${{ secrets. GITHUB_BOT_TOKEN }}
 
