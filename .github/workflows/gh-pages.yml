@@ -12,8 +12,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - uses: actions/checkout@v2
     - name: Checkout submodules
-      uses: actions/checkout@v2
       shell: bash
       run: |
         auth_header="$(git config --local --get http.https://github.com/.extraheader)"
@@ -24,13 +24,12 @@ jobs:
     - uses: actions/setup-python@v1
       with:
         python-version: '3.7'
-    - uses: dschep/install-pipenv-action@v1
 
     - name: Install dependencies
-    - run: make install
+      run: make install
 
     - name: Publish
-    - run: make github
+      run: make github
       env:
         GITHUB_TOKEN: ${{ secrets. GITHUB_BOT_TOKEN }}
 
