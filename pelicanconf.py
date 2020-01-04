@@ -41,7 +41,7 @@ ARTICLE_EXCLUDES = STATIC_PATHS
 ASSET_URL = 'theme'
 METADATA = os.path.join(PATH, 'metadata')
 EXTRA_PATH_METADATA = {
-    'extra/CNAME': {'path': 'CNAME'},
+    # 'extra/CNAME': {'path': 'CNAME'},
 }
 
 PLUGIN_PATHS = ['plugins']
