@@ -37,6 +37,7 @@ help:
 	@echo '   clean-pyc                           pyc - remove Python file artifacts '
 	@echo '   lint                                check style with flake8            '
 	@echo '   deploy                              deploy                             '
+	@echo '   make validate                       validate the web site via html5validator'
 	@echo '   make html                           (re)generate the web site          '
 	@echo '   make clean                          remove the generated files         '
 	@echo '   make regenerate                     regenerate files upon modification '
@@ -61,7 +62,6 @@ install-ci:
 	pipenv install --dev
 
 install-dev: install-ci
-	pre-commit install
 
 sync-plugins:
 	auth_header="$(git config --local --get http.https://github.com/.extraheader)"
@@ -82,6 +82,10 @@ clean-pyc:
 	find . -name '*.log*' -delete
 	find . -name '*_cache' -exec rm -rf {} +
 	find . -name '*.egg-info' -exec rm -rf {} +
+
+
+validate: publish
+	html5validator --root $(OUTPUTDIR)
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
