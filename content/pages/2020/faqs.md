@@ -144,7 +144,7 @@ The size of the panel is: **100x250 cm**.
 
 <h1 id="tickets">Tickets</h1>
 
-### What is the right ticket to buy?
+#### What is the correct ticket to buy?
 
 Company and freelancers must buy company tickets.
 Simple rule: If you do make any money from using Python in a business fashion: buy a company ticket.
