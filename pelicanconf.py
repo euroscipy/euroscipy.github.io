@@ -42,6 +42,16 @@ ASSET_URL = 'theme'
 METADATA = os.path.join(PATH, 'metadata')
 EXTRA_PATH_METADATA = {
     # 'extra/CNAME': {'path': 'CNAME'},
+    'extra/index.html': {'path': 'index.html'},
+}
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
 }
 
 PLUGIN_PATHS = ['plugins']
@@ -58,6 +68,8 @@ RELATIVE_URLS = True
 TWITTER_FOLLOW_URL = 'https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton'
 TELEGRAM_URL = 'https://t.me/euroscipy'
 SPECTRUM_URL = 'https://spectrum.chat/euroscipy'
+
+CURRENT_EDITION = '2020'
 
 EVENT = {}
 EVENT['euroscipy_2020'] = yaml.load(open(os.path.join(METADATA, '2020', 'event.yml')))
