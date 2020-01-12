@@ -2,7 +2,6 @@
 - name: Home
   url:  index.html
 - name: Programme
-  url: programe.html
   submenu:
   # - name: Maintainers' Track
   #   url: maintainers_track.html
@@ -20,11 +19,13 @@
   url: venue.html
 - name: Sponsors
   url: 'index.html#sponsors'
-- name: Code of Conduct
-  url: code_of_conduct.html
-- name: Privacy
-  url: privacy.html
-- name: About Us
-  url: about.html
+- name: About
+  submenu:
+  - name: Code of Conduct
+    url: code_of_conduct.html
+  - name: Privacy
+    url: privacy.html
+  - name: Organizers
+    url: about.html
 - name: Buy Tickets
   url: https://ti.to/acpyss/euroscipy-2020/
