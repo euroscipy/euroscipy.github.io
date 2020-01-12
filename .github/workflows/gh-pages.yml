@@ -36,6 +36,6 @@ jobs:
         pipenv run pip install ghp-import
         pipenv run make github
       env:
-        SITEURL: euroscipy.github.io
+        SITEURL: //euroscipy.github.io
         RELATIVE: 1
         GITHUB_TOKEN: ${{ secrets. GITHUB_BOT_TOKEN }}
