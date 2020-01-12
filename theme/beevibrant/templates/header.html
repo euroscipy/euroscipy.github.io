@@ -1,12 +1,11 @@
 		<!--************************************
 				Header Start
 		*************************************-->
-		<header id="tg-header" class="tg-header tg-haslayout">
-			<div class="container">
+		<header id="tg-header" class="tg-header tg-headervtwo tg-haslayout">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<strong class="tg-logo"><a href="index.html"><img src="{{ EVENT[page.section].conference_logo }}" alt="logo here"></a></strong>
-						<div class="tg-navigationarea">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<strong class="tg-logo"><a href="index.html"><img src="{{ EVENT[page.section].conference_logo }}" alt="logo here"></a></strong>
 							<nav id="tg-nav" class="tg-nav">
 								<div class="navbar-header">
 									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
@@ -41,10 +40,8 @@
 								{% endif %}
 								{% endblock %}
 							</nav>
-							<a class="tg-btn tg-btnbookseat" href="{{ EVENT[page.section].ticket_purchase_url }}">Buy Ticket</a>
 						</div>
 					</div>
-				</div>
 			</div>
 		</header>
 		<!--************************************
