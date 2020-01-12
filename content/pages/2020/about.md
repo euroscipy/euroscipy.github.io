@@ -12,17 +12,23 @@ slug: about_2020
 #### Conference chairs
 
 - Darya Chyzhyk, Ph.D (ACPySS)
-- Oier Echaniz (ACPySS)
+- Oier Echaniz (University of the Basque Country, ACPySS)
 - Manuel Graña Romay, Prof. (University of the Basque Country, ACPySS)
 - Alexandre Manhães Savio, Ph.D (ACPySS)
+</br>
+</br>
 
 #### Program chair
 
 - Alexander CS Hendorf (Königsweg GmbH, DE)
+</br>
+</br>
 
 #### Tutorials chair
 
 - Giovanni De Gasperis, Ph.D (University of L'Aquila, IT)
+</br>
+</br>
 
 #### Organizing committee
 
@@ -32,10 +38,17 @@ slug: about_2020
 - Valerio Maggio, Ph.D (Fondazione Bruno Kessler, IT)
 - Oswald Yinyeh (Nordcloud Deutschland GmbH, DE)
 - Marc Garcia
+</br>
+</br>
 
-#### Contact
+#### Contact and Helpdesk
 
 - info at the domain euroscipy.org
+- Spectrum: [Spectrum Forum group](https://spectrum.chat/euroscipy)
+- Telegram: [Telegram chat group](https://t.me/euroscipy)
+
+</br>
+</br>
 
 #### Organizing institution
 

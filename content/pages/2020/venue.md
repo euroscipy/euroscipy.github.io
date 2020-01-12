@@ -7,14 +7,16 @@ template: page
 slug: venue_2020
 ---
 
-EuroSciPy takes place in Bilbao, Spain from Monday, July 27th until Friday, July 29th.
+EuroSciPy takes place in **BILBAO** (BIZKAIA ARETOA), Spain from Monday, July 27th until Friday, July 29th.
 
-### Locations of interest
+## Locations of interest
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.186582599108!2d-2.9399186846591627!3d43.26846677913634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4fdecdf9dee3%3A0x529de363ac4a9d01!2sBizkaia+Aretoa!5e0!3m2!1sen!2sde!4v1553541204159" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 <br />
+<br />
+<br />
 
-### Address
+## Address
 
 BIZKAIA ARETOA
 
@@ -24,15 +26,15 @@ Avda. Abandoibarra, 3, 48009 Bilbao, Bizkaia, Spain
 
 See also the [location at Google Maps](https://goo.gl/maps/qTCWw8cEdoN2)
 
-### Transportation
+## Transportation
 
-#### By Plane
+### By Plane
 
 **Bilbao Airport (IATA: BIO)** is served by Lufthansa, Air France, Air Berlin, TuiFly, AerLingus, Iberia, Air Europa, Vueling, Norwegian and several other airlines.
 EasyJet flies from London Stansted and Manchester to Bilbao airport.
 Lufthansa flies from Munich and Frankfurt to Bilbao airport.
 
-##### Other nearby airports
+### Other nearby airports
 
 **Biarritz Airport (IATA: BIQ)** is about an hour and half drive (146 km) to the east of the city and is a popular airport for visitors from France. There are buses between Biarritz and San Sebastian and train that involve at least one change. Once in San Sebastián you can take a PESA bus to Bilbao.
 
@@ -40,7 +42,7 @@ Lufthansa flies from Munich and Frankfurt to Bilbao airport.
 
 **Vitoria Foronda (IATA: VIT)** can be reached with Ryanair flights. This airport is 1:15 hour by car from Bilbao (104 km). You would have to take the bus to the Vitoria bus station (15 minutes) and from there take the bus from Vitoria to Bilbao. Be careful with the connection schedule.
 
-##### How to get from the airport to the city centre
+### How to get from the airport to the city centre
 
 To get to downtown from the airport, take the bus Bizkaibus A3247 from the arrivals sidewalk, just outside the arrivals hall, on the right hand side when you exit the airport. You can get the ticket from the bus driver and the cost is very reasonable at around 2€ (be sure to have exact change).
 
@@ -49,15 +51,15 @@ Other stops are Alda. Rekalde 14, Gran Via (Subdelegacion de Gobierno), Gran Via
 
 Taxis to downtown Bilbao from the airport cost about 25-30€.
 
-##### How to get from the city centre to the airport
+### How to get from the city centre to the airport
 
 The reverse journey is at :25 and :55 past the hour from the bus terminal to the airport, stopping three times on the way at Gran Via 79, Viajes Ecuador, Plaza Moyua and Almeda Recalde 11. A single ticket costs 1.40€.
 
-#### By train
+## By train
 
 RENFE runs intercity trains to Madrid, Barcelona, Vigo (Galicia). All Renfe trains leave from Abando Station.
 
-#### By bus
+## By bus
 
 All buses to other provinces leave from the TermiBus terminal. There are regular connections to Santander (75 minutes), San Sebastián (60 minutes), and Madrid (arriving at Avenida de Las Americas bus station, 4-5 hours) among others.
 
@@ -67,6 +69,10 @@ The bus companies connect Bilbao with many cities in Spain more cheaply and freq
 
 For Vitoria-Gasteiz, take La Unión Alavesa buses.
 
-#### By boat
+## By boat
 
 There is a direct car ferry available between Bilbao and Portsmouth, England. It is best to book early, since the ferry is often booked out in summer.
+
+## Parking slots for disable people
+
+If you are comming by car there are few **free parking slots** avalilable for disable people in the venue. Put in contact with us by email/telegram/spectrum for more information.

@@ -6,6 +6,7 @@ section: euroscipy_2020
 template: page
 slug: sponsoring_2020
 ---
+## Sponsorship information EuroSciPy 2020
 
 If you want your company to become a sponsor, [sign up](https://forms.gle/1FHPEqybSgJjakbp8)
 or contact us at <a href=mailto:sponsoring@euroscipy.org>sponsoring@euroscipy.org</a>.
@@ -17,7 +18,7 @@ or contact us at <a href=mailto:sponsoring@euroscipy.org>sponsoring@euroscipy.or
 | June 30    | Deadline for Diamond and Platinum sponsoring                                      |
 | July 6     | Deadline for all sponsoring packages                                              |
 
-#### European meeting for users of scientific Python software
+## European meeting for users of scientific Python software
 
 The conference brings together many of Europe's most talented individuals, among others:
 
@@ -28,18 +29,25 @@ The conference brings together many of Europe's most talented individuals, among
 - Data analysts
 - Researchers
 
+</br>
+
 > Python is one of the fastest growing languages today, in part due to its numerous scientific
 > and numeric libraries that make it an ideal tool for data analysis and computation.
 
-EuroSciPy 2020, held in Bilbao, Spain, will feature two days of tutorials,
-two days of scientific talks, and satellite meetings.
+</br>
 
-**EuroSciPy is a non-for-profit conference organised by volunteers.** Your contribution will be
-fully used for conference expenses, and to help the development of scientific open source software.
+> EuroSciPy 2020, held in Bilbao, Spain, will feature two days of tutorials,
+> two days of scientific talks, and satellite meetings.
 
-#### Key facts
+</br>
 
-From EuroSciPy 2018:
+> **EuroSciPy is a non-for-profit conference organised by volunteers.** Your contribution will be
+> fully used for conference expenses, and to help the development of scientific open source software.
+
+
+## Key facts
+
+From EuroSciPy 2019:
 
 - **280** atendees
 - **30** talks
@@ -53,11 +61,11 @@ From EuroSciPy 2018:
 <table style="table-layout:fixed">
     <tr>
         <td style="width: 25%;">
-            <img src="../static/2020/sponsors/levels/diamond.jpg">
+            <img src="../static/2020/diamond.jpg">
         </td>
         <td style="width: 75%;">
             <h4>Diamond sponsor</h4>
-            <ul>
+            <ul style="text-align: left">
                 <li><b>Exclusivity:</b> Only one diamond level company</li>
                 <li><b>Passes:</b> 10 conference passes for all conference days</li>
                 <li><b>Booth:</b> Double booth in the best location for all days</li>
@@ -71,11 +79,11 @@ From EuroSciPy 2018:
     </tr>
     <tr style="background: none;">
         <td style="width: 25%;">
-            <img src="../static/2020/sponsors/levels/platinum.jpg">
+            <img src="../static/2020/platinum.jpg">
         </td>
         <td style="width: 75%;">
             <h4>Platinum sponsor</h4>
-            <ul>
+            <ul style="text-align: left">
                 <li><b>Passes:</b> 4 conference passes for all conference days</li>
                 <li><b>Booth:</b> Booth in the conference venue</li>
                 <li><b>Logo:</b> Website sponsors page and opening and closing slides</li>
@@ -87,16 +95,15 @@ From EuroSciPy 2018:
     </tr>
     <tr>
         <td style="width: 25%;">
-            <img src="../static/2020/sponsors/levels/maintainers.jpg">
+            <img src="../static/2020/maintainers.jpg">
         </td>
         <td style="width: 75%;">
             <h4>Maintainers sponsor</h4>
-
             <p>
                 Your contribution will be used to support maintainers attending the conference with
                 discounted or free tickets, and reimbursement of travel expenses.
             </p>
-            <ul>
+            <ul style="text-align: left">
                 <li><b>Passes:</b> 2 conference passes for all conference days</li>
                 <li><b>Logo:</b> Website maintainers page and opening and closing slides</li>
                 <li><b>Roller banner:</b> Roller banner in the maintainers track (provided by you)</li>
@@ -113,9 +120,9 @@ Other sponsorship levels:
 <table style="table-layout:fixed">
     <tr>
         <td style="width: 33%;">
-            <img src="../static/2020/sponsors/levels/gold.jpg" style="width: 80px;"/>
-            <h5>Gold sponsor</h5>
-            <ul>
+            <img src="../static/2020/gold.jpg" style="width: 80px;"/>
+            <h4>Gold sponsor</h4>
+            <ul style="text-align: left">
                 <li><b>Passes:</b> 3 conference passes for all conference days</li>
                 <li><b>Logo:</b> Website sponsors page and opening and closing slides</li>
                 <li><b>Registration desk:</b> Logo in the registration desk roller banner</li>
@@ -123,9 +130,9 @@ Other sponsorship levels:
             </ul>
         </td>
         <td style="width: 33%;">
-            <img src="../static/2020/sponsors/levels/silver.jpg" style="width: 80px;"/>
+            <img src="../static/2020/silver.jpg" style="width: 80px;"/>
             <h5>Silver sponsor</h5>
-            <ul>
+            <ul style="text-align: left">
                 <li><b>Passes:</b> 2 conference passes for all conference days</li>
                 <li><b>Logo:</b> Website sponsors page and opening and closing slides</li>
                 <li><b>Registration desk:</b> Logo in the registration desk roller banner</li>
@@ -133,9 +140,9 @@ Other sponsorship levels:
             </ul>
         </td>
         <td style="width: 33%;">
-            <img src="../static/2020/sponsors/levels/bronze.jpg" style="width: 80px;"/>
-            <h5>Bronze sponsor</h5>
-            <ul>
+            <img src="../static/2020/bronze.jpg" style="width: 80px;"/>
+            <h4>Bronze sponsor</h4>
+            <ul style="text-align: left">
                 <li><b>Passes:</b> 1 conference pass for all conference days</li>
                 <li><b>Logo:</b> Website sponsors page and opening and closing slides</li>
                 <li><b>Registration desk:</b> Logo in the registration desk roller banner</li>
@@ -151,6 +158,8 @@ Other sponsorship levels:
 
 - Alexandre Savio
 - Oswald Yinyeh
+
+</br>
 
 If you want your company to become a sponsor, [sign up](https://forms.gle/1FHPEqybSgJjakbp8)
 or contact us at <a href=mailto:sponsoring@euroscipy.org>sponsoring@euroscipy.org</a>.
