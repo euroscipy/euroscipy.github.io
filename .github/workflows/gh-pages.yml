@@ -38,4 +38,4 @@ jobs:
       env:
         SITEURL: euroscipy.github.io
         RELATIVE: 1
-        GITHUB_TOKEN: ${{ secrets. GITHUB_BOT_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_BOT_TOKEN }}
