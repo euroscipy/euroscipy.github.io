@@ -5,8 +5,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-# SITEURL = os.environ.get('SITEURL', '//www.euroscipy.org')
-SITEURL = '//euroscipy.github.io'
+SITEURL = os.environ.get('SITEURL', 'www.euroscipy.org')
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
