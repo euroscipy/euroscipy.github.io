@@ -61,7 +61,7 @@ From EuroSciPy 2019:
 <table style="table-layout:fixed">
     <tr>
         <td style="width: 25%;">
-            <img src="../static/2020/diamond.jpg">
+            <img src="../static/2020/sponsors/levels/diamond.jpg">
         </td>
         <td style="width: 75%;">
             <h4>Diamond sponsor</h4>
@@ -79,7 +79,7 @@ From EuroSciPy 2019:
     </tr>
     <tr style="background: none;">
         <td style="width: 25%;">
-            <img src="../static/2020/platinum.jpg">
+            <img src="../static/2020/sponsors/levels/platinum.jpg">
         </td>
         <td style="width: 75%;">
             <h4>Platinum sponsor</h4>
@@ -95,7 +95,7 @@ From EuroSciPy 2019:
     </tr>
     <tr>
         <td style="width: 25%;">
-            <img src="../static/2020/maintainers.jpg">
+            <img src="../static/2020/sponsors/levels/maintainers.jpg">
         </td>
         <td style="width: 75%;">
             <h4>Maintainers sponsor</h4>
@@ -120,7 +120,7 @@ Other sponsorship levels:
 <table style="table-layout:fixed">
     <tr>
         <td style="width: 33%;">
-            <img src="../static/2020/gold.jpg" style="width: 80px;"/>
+            <img src="../static/2020/sponsors/levels/gold.jpg" style="width: 80px;"/>
             <h4>Gold sponsor</h4>
             <ul style="text-align: left">
                 <li><b>Passes:</b> 3 conference passes for all conference days</li>
@@ -130,7 +130,7 @@ Other sponsorship levels:
             </ul>
         </td>
         <td style="width: 33%;">
-            <img src="../static/2020/silver.jpg" style="width: 80px;"/>
+            <img src="../static/2020/sponsors/levels/silver.jpg" style="width: 80px;"/>
             <h5>Silver sponsor</h5>
             <ul style="text-align: left">
                 <li><b>Passes:</b> 2 conference passes for all conference days</li>
@@ -140,7 +140,7 @@ Other sponsorship levels:
             </ul>
         </td>
         <td style="width: 33%;">
-            <img src="../static/2020/bronze.jpg" style="width: 80px;"/>
+            <img src="../static/2020/sponsors/levels/bronze.jpg" style="width: 80px;"/>
             <h4>Bronze sponsor</h4>
             <ul style="text-align: left">
                 <li><b>Passes:</b> 1 conference pass for all conference days</li>
