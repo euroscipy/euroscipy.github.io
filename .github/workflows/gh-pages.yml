@@ -27,16 +27,17 @@ jobs:
     - name: Install dependencies
       run: make install
 
-    - name: Render
+    - name: Checkout target branch for publication
+      shell: bash
+      run: git fetch origin master
+
+    - name: Publish
       run: |
-        pipenv run make html
+        git remote rm origin
+        git remote add origin https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git
+        pipenv run pip install ghp-import
+        pipenv run make github
       env:
         SITEURL: euroscipy.github.io
         RELATIVE: 1
-
-    - name: Publish
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_BOT_TOKEN }}
-        BRANCH: master
-        FOLDER: output
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
