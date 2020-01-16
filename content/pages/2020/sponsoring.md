@@ -56,7 +56,9 @@ From EuroSciPy 2019:
 - **Maintainers** of most of the top scientific open source Python projects
 - **Excellent food** (according to attendees survey answers)
 
-#### Sponsorship levels
+</br>
+
+## Main sponsorship levels
 
 <table style="table-layout:fixed">
     <tr>
@@ -115,7 +117,99 @@ From EuroSciPy 2019:
     </tr>
 </table>
 
-Other sponsorship levels:
+## More sponsorship levels
+<div class="row">
+						<div class="tg-packages">
+             <!-- BRONZE SPONSORSHIP LEVEL -->
+							<div class="tg-package">
+								<div class="tg-packagehead">
+                  </br>
+                  <img src="../static/2020/sponsors/levels/bronze.jpg" style="width: 80px;"/>
+								</div>
+								<span class="tg-price">
+                  <sup>750€ + VAT</sup>
+									<!--<h3>750</h3>-->
+									<!--<sub>+ VAT</sub>-->
+								</span>
+								<ul class="tg-packageinfo">
+									<li>
+										<span><b>Passes</b></span>
+										<p>1 conference pass for all conference days</p>
+									</li>
+									<li>
+										<span><b>Logo</b></span>
+										<p>Website sponsors page and opening and closing slides</p>
+									</li>
+									<li>
+										<span><b>Registration desk</b></span>
+										<p>Logo in the registration desk roller banner</p>
+									</li>
+								</ul>
+								<!--<a class="tg-btn" href="#">Select Plan</a>-->
+							</div>
+              <!-- SILVER SPONSORSHIP LEVEL -->
+							<div class="tg-package">
+								<div class="tg-packagehead">								
+									<img src="../static/2020/sponsors/levels/silver.jpg" style="width: 80px;"/>
+								</div>
+								<span class="tg-price">
+									<sup>1200€ + VAT</sup>
+									<!--<h3>1200</h3>
+									<sub>+ VAT</sub>-->
+								</span>
+								<ul class="tg-packageinfo">
+									<li>
+										<span><b>Passes</b></span>
+										<p>2 conference passes for all conference days</p>
+									</li>
+									<li>
+										<span><b>Logo</b></span>
+										<p>Website sponsors page and opening and closing slides</p>
+									</li>
+									<li>
+										<span><b>Registration desk</b></span>
+										<p>Logo in the registration desk roller banner</p>
+									</li>
+								</ul>
+								<!--<a class="tg-btn" href="#">Select Plan</a>-->
+							</div>
+              <!-- GOLD SPONSORSHIP LEVEL -->
+							<div class="tg-package">
+								<div class="tg-packagehead">
+                  <span class="tg-badge">most selected</span>
+                  </br>
+                  <img src="../static/2020/sponsors/levels/gold.jpg" style="width: 80px;"/>
+								</div>
+								<span class="tg-price">
+									<sup>2000€ + VAT</sup>
+									<!--<h3>2000</h3>
+                  <sub>+ VAT </sub>-->
+								</span>
+								<ul class="tg-packageinfo">
+									<li>
+										<span><b>Passes</b></span>
+										<p>3 conference passes for all conference days</p>
+									</li>
+									<li>
+										<span><b>Logo</b></span>
+										<p>Website sponsors page and opening and closing slides</p>
+									</li>
+									<li>
+										<span><b>Registration desk</b></span>
+										<p>Logo in the registration desk roller banner</p>
+									</li>
+								</ul>
+								<!--<a class="tg-btn" href="#">Select Plan</a>-->
+							</div>
+						</div>
+					</div>
+
+<div align="center">
+  <a class="tg-btn" href="https://forms.gle/1FHPEqybSgJjakbp8" align="centre">Sponsor EuroSciPy</a>
+</div>
+
+<!--
+## Other sponsorship levels:
 
 <table style="table-layout:fixed">
     <tr>
@@ -151,10 +245,16 @@ Other sponsorship levels:
         </td>
     </tr>
 </table>
+-->
 
+
+</br>
+
+## Other sponsorship packages
 **Do you have an innovative sponsorship idea?** We are open to custom sponsorship proposals.
 
-#### Sponsors committee members
+
+## Sponsors committee members
 
 - Alexandre Savio
 - Oswald Yinyeh
