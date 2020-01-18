@@ -26,6 +26,7 @@ DIRECT_TEMPLATES = []
 THEME = os.path.join(os.getcwd(), "theme", "beevibrant")
 EXTRA_TEMPLATES_PATH = os.path.join(THEME, "templates")
 THEME_STATIC_DIR = 'theme_2020'
+ASSET_URL = THEME_STATIC_DIR
 
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
