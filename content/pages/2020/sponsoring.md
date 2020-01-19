@@ -6,12 +6,13 @@ section: euroscipy_2020
 template: page
 slug: sponsoring_2020
 ---
+
 ## Sponsorship information EuroSciPy 2020
 
-If you want your company to become a sponsor, [sign up](https://forms.gle/1FHPEqybSgJjakbp8)
+If you want your company to become a sponsor, [sign up](https://forms.gle/cpetJVzku8rJdoTe9)
 or contact us at <a href=mailto:sponsoring@euroscipy.org>sponsoring@euroscipy.org</a>.
 
-#### Important dates
+### Important dates
 
 |            |                                                                                   |
 |------------|-----------------------------------------------------------------------------------|
@@ -44,12 +45,11 @@ The conference brings together many of Europe's most talented individuals, among
 > **EuroSciPy is a non-for-profit conference organised by volunteers.** Your contribution will be
 > fully used for conference expenses, and to help the development of scientific open source software.
 
-
 ## Key facts
 
 From EuroSciPy 2019:
 
-- **280** atendees
+- **310** atendees
 - **30** talks
 - **12** tutorials
 - Academics from the **top universities** and research institutions in Europe
@@ -75,7 +75,7 @@ From EuroSciPy 2019:
                 <li><b>Logo:</b> Website home page and opening and closing slides (single slide)</li>
                 <li><b>Main stage:</b> Biggest logo in the main stage roller banner</li>
                 <li><b>Registration desk:</b> Biggest logo in the registration desk roller banner</li>
-                <li><b>Price:</b> 12,000 € + VAT</li>
+                <li><b>Price:</b> 12000 € + VAT</li>
             </ul>
         </td>
     </tr>
@@ -91,7 +91,7 @@ From EuroSciPy 2019:
                 <li><b>Logo:</b> Website sponsors page and opening and closing slides</li>
                 <li><b>Main stage:</b> Logo in the main stage roller banner</li>
                 <li><b>Registration desk:</b> Logo in the registration desk roller banner</li>
-                <li><b>Price:</b> 3,000 € + VAT</li>
+                <li><b>Price:</b> 3000 € + VAT</li>
             </ul>
         </td>
     </tr>
@@ -111,155 +111,107 @@ From EuroSciPy 2019:
                 <li><b>Roller banner:</b> Roller banner in the maintainers track (provided by you)</li>
                 <li><b>Registration desk:</b> Logo in the registration desk roller banner</li>
                 <li><b>Email:</b> Email in your behalf to the maintainers who benefited from your contribution</li>
-                <li><b>Price:</b> 2,000 € + VAT</li>
+                <li><b>Price:</b> 2000 € + VAT</li>
             </ul>
         </td>
     </tr>
 </table>
 
 ## More sponsorship levels
+
 <div class="row">
-						<div class="tg-packages">
-             <!-- BRONZE SPONSORSHIP LEVEL -->
-							<div class="tg-package">
-								<div class="tg-packagehead">
-                  </br>
-                  <img src="../static/2020/sponsors/levels/bronze.jpg" style="width: 80px;"/>
-								</div>
-								<span class="tg-price">
-                  <sup>750€ + VAT</sup>
-									<!--<h3>750</h3>-->
-									<!--<sub>+ VAT</sub>-->
-								</span>
-								<ul class="tg-packageinfo">
-									<li>
-										<span><b>Passes</b></span>
-										<p>1 conference pass for all conference days</p>
-									</li>
-									<li>
-										<span><b>Logo</b></span>
-										<p>Website sponsors page and opening and closing slides</p>
-									</li>
-									<li>
-										<span><b>Registration desk</b></span>
-										<p>Logo in the registration desk roller banner</p>
-									</li>
-								</ul>
-								<!--<a class="tg-btn" href="#">Select Plan</a>-->
-							</div>
-              <!-- SILVER SPONSORSHIP LEVEL -->
-							<div class="tg-package">
-								<div class="tg-packagehead">								
-									<img src="../static/2020/sponsors/levels/silver.jpg" style="width: 80px;"/>
-								</div>
-								<span class="tg-price">
-									<sup>1200€ + VAT</sup>
-									<!--<h3>1200</h3>
-									<sub>+ VAT</sub>-->
-								</span>
-								<ul class="tg-packageinfo">
-									<li>
-										<span><b>Passes</b></span>
-										<p>2 conference passes for all conference days</p>
-									</li>
-									<li>
-										<span><b>Logo</b></span>
-										<p>Website sponsors page and opening and closing slides</p>
-									</li>
-									<li>
-										<span><b>Registration desk</b></span>
-										<p>Logo in the registration desk roller banner</p>
-									</li>
-								</ul>
-								<!--<a class="tg-btn" href="#">Select Plan</a>-->
-							</div>
-              <!-- GOLD SPONSORSHIP LEVEL -->
-							<div class="tg-package">
-								<div class="tg-packagehead">
-                  <span class="tg-badge">most selected</span>
-                  </br>
-                  <img src="../static/2020/sponsors/levels/gold.jpg" style="width: 80px;"/>
-								</div>
-								<span class="tg-price">
-									<sup>2000€ + VAT</sup>
-									<!--<h3>2000</h3>
-                  <sub>+ VAT </sub>-->
-								</span>
-								<ul class="tg-packageinfo">
-									<li>
-										<span><b>Passes</b></span>
-										<p>3 conference passes for all conference days</p>
-									</li>
-									<li>
-										<span><b>Logo</b></span>
-										<p>Website sponsors page and opening and closing slides</p>
-									</li>
-									<li>
-										<span><b>Registration desk</b></span>
-										<p>Logo in the registration desk roller banner</p>
-									</li>
-								</ul>
-								<!--<a class="tg-btn" href="#">Select Plan</a>-->
-							</div>
-						</div>
-					</div>
+    <div class="tg-packages">
+        <!-- BRONZE SPONSORSHIP LEVEL -->
+        <div class="tg-package">
+            <div class="tg-packagehead">
+                </br>
+                <img src="../static/2020/sponsors/levels/bronze.jpg" style="width: 80px;"/>
+            </div>
+            <span class="tg-price">
+                <sup>750€ + VAT</sup>
+            </span>
+            <ul class="tg-packageinfo">
+                <li>
+                    <span><b>Passes</b></span>
+                    <p>1 conference pass for all conference days</p>
+                </li>
+                <li>
+                    <span><b>Logo</b></span>
+                    <p>Website sponsors page and opening and closing slides</p>
+                </li>
+                <li>
+                    <span><b>Registration desk</b></span>
+                    <p>Logo in the registration desk roller banner</p>
+                </li>
+            </ul>
+            <!--<a class="tg-btn" href="#">Select Plan</a>-->
+        </div>
+        <!-- SILVER SPONSORSHIP LEVEL -->
+        <div class="tg-package">
+            <div class="tg-packagehead">
+                <img src="../static/2020/sponsors/levels/silver.jpg" style="width: 80px;"/>
+            </div>
+            <span class="tg-price">
+                <sup>1200€ + VAT</sup>
+            </span>
+            <ul class="tg-packageinfo">
+                <li>
+                    <span><b>Passes</b></span>
+                    <p>2 conference passes for all conference days</p>
+                </li>
+                <li>
+                    <span><b>Logo</b></span>
+                    <p>Website sponsors page and opening and closing slides</p>
+                </li>
+                <li>
+                    <span><b>Registration desk</b></span>
+                    <p>Logo in the registration desk roller banner</p>
+                </li>
+            </ul>
+        </div>
+            <!-- GOLD SPONSORSHIP LEVEL -->
+            <div class="tg-package">
+                <div class="tg-packagehead">
+                    <span class="tg-badge">most selected</span>
+                    </br>
+                    <img src="../static/2020/sponsors/levels/gold.jpg" style="width: 80px;"/>
+                </div>
+                <span class="tg-price">
+                    <sup>2000€ + VAT</sup>
+                </span>
+                <ul class="tg-packageinfo">
+                    <li>
+                        <span><b>Passes</b></span>
+                        <p>3 conference passes for all conference days</p>
+                    </li>
+                    <li>
+                        <span><b>Logo</b></span>
+                        <p>Website sponsors page and opening and closing slides</p>
+                    </li>
+                    <li>
+                        <span><b>Registration desk</b></span>
+                        <p>Logo in the registration desk roller banner</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
 <div align="center">
-  <a class="tg-btn" href="https://forms.gle/1FHPEqybSgJjakbp8" align="centre">Sponsor EuroSciPy</a>
+    <a class="tg-btn" href="https://forms.gle/cpetJVzku8rJdoTe9" align="centre">Sponsor EuroSciPy</a>
 </div>
-
-<!--
-## Other sponsorship levels:
-
-<table style="table-layout:fixed">
-    <tr>
-        <td style="width: 33%;">
-            <img src="../static/2020/sponsors/levels/gold.jpg" style="width: 80px;"/>
-            <h4>Gold sponsor</h4>
-            <ul style="text-align: left">
-                <li><b>Passes:</b> 3 conference passes for all conference days</li>
-                <li><b>Logo:</b> Website sponsors page and opening and closing slides</li>
-                <li><b>Registration desk:</b> Logo in the registration desk roller banner</li>
-                <li><b>Price:</b> 2,000 € + VAT</li>
-            </ul>
-        </td>
-        <td style="width: 33%;">
-            <img src="../static/2020/sponsors/levels/silver.jpg" style="width: 80px;"/>
-            <h5>Silver sponsor</h5>
-            <ul style="text-align: left">
-                <li><b>Passes:</b> 2 conference passes for all conference days</li>
-                <li><b>Logo:</b> Website sponsors page and opening and closing slides</li>
-                <li><b>Registration desk:</b> Logo in the registration desk roller banner</li>
-                <li><b>Price:</b> 1,200 € + VAT</li>
-            </ul>
-        </td>
-        <td style="width: 33%;">
-            <img src="../static/2020/sponsors/levels/bronze.jpg" style="width: 80px;"/>
-            <h4>Bronze sponsor</h4>
-            <ul style="text-align: left">
-                <li><b>Passes:</b> 1 conference pass for all conference days</li>
-                <li><b>Logo:</b> Website sponsors page and opening and closing slides</li>
-                <li><b>Registration desk:</b> Logo in the registration desk roller banner</li>
-                <li><b>Price:</b> 750 € + VAT</li>
-            </ul>
-        </td>
-    </tr>
-</table>
--->
-
 
 </br>
 
 ## Other sponsorship packages
-**Do you have an innovative sponsorship idea?** We are open to custom sponsorship proposals.
 
+**Do you have an innovative sponsorship idea?** We are open to custom sponsorship proposals.
 
 ## Sponsors committee members
 
 - Alexandre Savio
-- Oswald Yinyeh
 
 </br>
 
-If you want your company to become a sponsor, [sign up](https://forms.gle/1FHPEqybSgJjakbp8)
+If you want your company to become a sponsor, [sign up](https://forms.gle/cpetJVzku8rJdoTe9)
 or contact us at <a href=mailto:sponsoring@euroscipy.org>sponsoring@euroscipy.org</a>.
