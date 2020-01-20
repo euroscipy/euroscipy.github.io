@@ -25,7 +25,7 @@ jobs:
       run: |
         python3 write_key.py
         wc -l id_ssh
-        ls -lh id_ssh
         chmod og-rwx id_ssh
+        ls -lh id_ssh
         ssh -vv -i id_ssh gh_euroscipy@euroscipy.g-node.org ls
 
