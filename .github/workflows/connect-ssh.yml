@@ -21,7 +21,7 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
-        echo $SSH_KEY > id_ssh
+        echo ${{ secrets.SSH_KEY }} > id_ssh
         chmod og-rwx id_ssh
         ssh -vv -i id_ssh gh_euroscipy@euroscipy.g-node.org ls
 
