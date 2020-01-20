@@ -25,8 +25,8 @@ jobs:
       run: |
         mkdir ~/.ssh
         python3 write_key.py
-        wc -l id_ssh .ssh/known_host
-        chmod og-rwx id_ssh .ssh/known_host
-        ls -lh id_ssh .ssh/known_host
+        wc -l id_ssh ~/.ssh/known_host
+        chmod og-rwx id_ssh ~/.ssh/known_host
+        ls -lh id_ssh ~/.ssh/known_host
         ssh -vv -i id_ssh gh_euroscipy@euroscipy.g-node.org ls
 
