@@ -22,5 +22,5 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo ${SSH_KEY} > id_ssh
-        ssh -i id_ssh ${SSH_USER}@euroscipy.g-node.org ls
+        ssh -i id_ssh gh_euroscipy@euroscipy.g-node.org ls
 
