@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SSH_KEY: ${{ secrets.SSH_KEY }}
-      KNOWN_HOST: ${{ secrets.KNOWN_HOST }}
+      SSH_KNOWN_HOST: ${{ secrets.SSH_KNOWN_HOST }}
 
     steps:
     - uses: actions/checkout@v1
