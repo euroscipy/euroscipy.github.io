@@ -1,0 +1,26 @@
+name: connect via ssh
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    env:
+      SSH_KEY: ${{ secrets.SSH_KEY }}
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo ${SSH_KEY} > id_ssh
+        ssh -i id_ssh ${SSH_USER}@euroscipy.g-node.org ls
+
