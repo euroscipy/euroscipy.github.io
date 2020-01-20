@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - develop
+      - ssh_test
   pull_request:
     branches:
       - develop
+      - ssh_test
 
 jobs:
   build:
