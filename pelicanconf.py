@@ -25,6 +25,8 @@ DELETE_OUTPUT_DIRECTORY = True
 DIRECT_TEMPLATES = []
 THEME = os.path.join(os.getcwd(), "theme", "beevibrant")
 EXTRA_TEMPLATES_PATH = os.path.join(THEME, "templates")
+THEME_STATIC_DIR = 'theme_2020'
+ASSET_URL = THEME_STATIC_DIR
 
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
@@ -38,7 +40,6 @@ PATH = 'content'
 STATIC_URL = '../static'
 STATIC_PATHS = ['static', 'extra']
 ARTICLE_EXCLUDES = STATIC_PATHS
-ASSET_URL = 'theme'
 METADATA = os.path.join(PATH, 'metadata')
 EXTRA_PATH_METADATA = {
     # 'extra/CNAME': {'path': 'CNAME'},
