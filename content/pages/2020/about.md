@@ -26,18 +26,21 @@ slug: about_2020
 
 #### Tutorials chair
 
-- Giovanni De Gasperis, Ph.D (University of L'Aquila, IT)
+- TBD
 </br>
 </br>
 
 #### Organizing committee
 
-- Pierre de Buyl, Ph.D (KU Leuven, BE)
-- Mike Müller (Python Academy, DE)
 - Alessia Marcolini (Fondazione Bruno Kessler, IT)
-- Valerio Maggio, Ph.D (Fondazione Bruno Kessler, IT)
-- Oswald Yinyeh (Nordcloud Deutschland GmbH, DE)
+- Andrew Want (Nencki Institute, Warsaw, PL)
+- Joanna Jędrzejewska-Szmek (Nencki Institute, Warsaw, PL)
 - Marc Garcia
+- Martin Christen
+- Mike Müller (Python Academy, DE)
+- Pierre de Buyl (KU Leuven, BE)
+- Valerio Maggio (University of Bristol, UK)
+- Valeria Pettorino (CEA Paris-Saclay, CosmoStat, FR)
 </br>
 </br>
 
