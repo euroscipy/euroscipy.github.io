@@ -68,8 +68,7 @@ Python language, including but not limited to:
 - Web applications and portals for science and engineering
 - 3D Printing
 
-
-### What can I do to support?
+### What is the general layout of the conference schedule?
 
 The layout of the conference will be:
 2 days with 3 parallel tracks of tutorials,
@@ -95,11 +94,11 @@ Any speaker not having given a LT at the conference is ahead of anyone who has g
 
 ### How can I speak at the conference?
 
-The Call for Proposals has been closed already. Please check the [program](program.html).
+Submit a proposal to the Call for Proposals (CfP). Please check the [program](program.html).
 
 ### When will I get notified?
 
-All speakers have been notified. If in doubt please also see the [program](program.html).
+All speakers are notified around 2 weeks once the CfP is closed. If in doubt please also see the [program](program.html).
 
 ### How can I edit my speaker profile?
 
@@ -146,8 +145,8 @@ The size of the panel is: **100x250 cm**.
 
 #### What is the correct ticket to buy?
 
-Company and freelancers must buy company tickets.
-Simple rule: If you do make any money from using Python in a business fashion: buy a company ticket.
+Company and freelancers must buy business tickets.
+Simple rule: If you do make any money from using Python in a business fashion: buy a business ticket.
 Student tickets are available for students, post-docs, academic researchers, hobbyists, enthusiasts, and people just learning the language.
 
 ### What about student tickets?
@@ -222,14 +221,14 @@ We will use the information you provide via Tito for the conference badges.
 To change information you may only do this via Tito (just follow the links in the emails with your ticket).
 This includes
 
-* attendee's name
-* company name
+- attendee's name
+- company name
 
 If you buy multiple tickets, please make sure the people you purchase the tickets for will enter all information timely.
 This includes
 
-* dietary restrictions
-* agreement to Code of Conduct
+- dietary restrictions
+- agreement to Code of Conduct
 
 Conference badges will be printed upfront, please make sure all information is in place by 3 weeks before the conference.
 Any changes after this date will probably not reflect on the badges.
