@@ -14,7 +14,7 @@ venue_picture: ../static/2020/bizkaia_aretoa_index.png
 background_poster_counter: ../static/2020/euroscipy_volunteers.jpg
 background_poster_sponsors: ../static/2020/euroscipy_coffee.jpg
 
-short_description: 12th European Conference on Python in Science
+short_description: 13th European Conference on Python in Science
 long_description: <p>The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.</p> <p>This event strives to bring together both users and developers of scientific tools, as well as academic research and state of the art industry.</p>
 
 stats:
