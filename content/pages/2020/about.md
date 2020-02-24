@@ -26,7 +26,7 @@ slug: about_2020
 
 #### Tutorials chair
 
-- TBD
+- Valerio Maggio (University of Bristol, UK)
 </br>
 </br>
 
@@ -39,7 +39,6 @@ slug: about_2020
 - Martin Christen
 - Mike Müller (Python Academy, DE)
 - Pierre de Buyl (KU Leuven, BE)
-- Valerio Maggio (University of Bristol, UK)
 - Valeria Pettorino (CEA Paris-Saclay, CosmoStat, FR)
 </br>
 </br>
