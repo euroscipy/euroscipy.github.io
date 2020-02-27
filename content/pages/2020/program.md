@@ -9,7 +9,7 @@ slug: program_2020
 
 # The call for proposals is open!
 
-Submit a talk or tutorial [here](https://pretalx.com/euroscipy-2020/submit/).
+Submit a talk or tutorial [here](https://pretalx.com/euroscipy-2020/cfp).
 
 EuroSciPy 2020 takes place from Monday, July 27 2 to Friday, July 30 in Bilbao, Spain.
 
