@@ -3,6 +3,8 @@
   url:  index.html
 - name: Programme
   submenu:
+  - name: Call for Proposals
+    url: program.html
   # - name: Maintainers' Track
   #   url: maintainers_track.html
   - name: GeoPython 2020
