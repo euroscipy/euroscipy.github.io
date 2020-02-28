@@ -15,7 +15,21 @@ background_poster_counter: ../static/2020/euroscipy_volunteers.jpg
 background_poster_sponsors: ../static/2020/euroscipy_coffee.jpg
 
 short_description: 13th European Conference on Python in Science
-long_description: <p>The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.</p> <p>This event strives to bring together both users and developers of scientific tools, as well as academic research and state of the art industry.</p>
+long_description: |
+  <p>The EuroSciPy meeting is a cross-disciplinary gathering
+  focused on the use and development of the Python language in scientific research.
+  </p>
+  <p>
+  This event strives to bring together both users and developers of scientific tools,
+  as well as academic research and state of the art industry.
+  </p>
+  <p>
+  We are happy to announce that this edition we will celebrate it with
+  <a href="http://2020.geopython.net/">GeoPython 2020</a>.
+  </p>
+
+announcements: |
+ The Call for Proposals is open! Check it <a href="https://pretalx.com/euroscipy-2020/cfp">here</a>!
 
 stats:
   expected_number_of_speakers: 80
