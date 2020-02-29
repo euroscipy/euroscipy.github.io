@@ -9,10 +9,11 @@ slug: finaid2020
 
 Would you really love to join EuroSciPy but can't afford it? We can help you!
 
-Thanks to the support of the [Python Software Foundation](https://www.python.org/psf/), the [EuroPython Society](https://www.europython-society.org/) and [NumFOCUS](https://numfocus.org/)
-we are glad to give financial support to everyone who may need it in order to join the conference..
+Thanks to the support of the [Python Software Foundation](https://www.python.org/psf/), 
+the [EuroPython Society](https://www.europython-society.org/),
+and [NumFOCUS](https://numfocus.org/)
+we are glad to give financial support to everyone who may need it in order to join the conference.
 
-We offer two types of financial aid grants:
 
 We offer three types of Financial Aid  grants:
 - **Free ticket.** The ticket includes access to 2 days of trainings + 2 days of talks + 1 day of sprints + social event
@@ -20,7 +21,6 @@ We offer three types of Financial Aid  grants:
 - **Travel costs.** We will partially cover the travel costs (transportation)
 
 **Note**: the total grant (accommodation + travelling) will not exceed 300€ per person. 
-
 
 
 #### Grant Eligibility
@@ -68,4 +68,4 @@ Reimbursements before the conference, or via other means such as cash are not po
 
 ##### Privacy Policy
 
-The data we collect on this form will exclusively be used by EuroSciPy finaid committee for the selection of grant recipients and the processing of financial aid refunds. No data is passed on to third parties, except to our accountants and the bank in order to process the refunds. We use Google Forms for the processing and Google Drive for storing the relevant information. 
+The data we collect on this form will exclusively be used by EuroSciPy finaid committee for the selection of grant recipients and the processing of financial aid refunds. No data is passed on to third parties, except to our accountants and the bank in order to process the refunds. We use Google Forms for processing and Google Drive for storing the relevant information. 
