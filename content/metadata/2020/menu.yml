@@ -23,8 +23,8 @@
   url: 'index.html#sponsors'
 - name: About
   submenu:
-  # - name: Financial Aid
-  #   url: finaid.html
+  - name: Financial Aid
+    url: finaid.html
   - name: Code of Conduct
     url: code_of_conduct.html
   - name: Privacy
