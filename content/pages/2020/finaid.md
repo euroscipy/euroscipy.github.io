@@ -40,7 +40,7 @@ Please, fill in the [form](https://forms.gle/aJ65RUrbpL59fPiP6).
 
 |            |                                                                                   |
 |------------|-----------------------------------------------------------------------------------|
-| February 29    | Open the grant program                                                            |
+| March 01    | Open the grant program                                                            |
 | April 16      | **Deadline for submitting the applications**                                      |
 | April 24 | Notification of grants awarded                                                    |
 | April 30    | Deadline for applicants to accept / decline financial aid                         |
