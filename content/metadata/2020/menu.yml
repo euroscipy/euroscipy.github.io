@@ -5,8 +5,8 @@
   submenu:
   - name: Call for Proposals
     url: program.html
-  # - name: Maintainers' Track
-  #   url: maintainers_track.html
+  - name: EuroSciPy and COVID-19
+    url: program.html
   - name: GeoPython 2020
     url: http://2020.geopython.net/
   # - name: Keynote Speakers
@@ -31,5 +31,3 @@
     url: privacy.html
   - name: Organizers
     url: about.html
-- name: Buy Tickets
-  url: https://ti.to/acpyss/euroscipy-2020/
