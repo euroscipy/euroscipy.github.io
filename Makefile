@@ -53,15 +53,16 @@ help:
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
 
-install:
-	pip install -U pip setuptools pipenv
-	pipenv install
+install-base:
+	python -m pip install -U pip setuptools
+	python -m pip install -r requirements.txt
 
-install-ci:
-	pip install -U pip setuptools pipenv
-	pipenv install --dev
+install: install-base
 
-install-dev: install-ci
+install-dev: install-base
+	python -m pip install -r dev-requirements.txt
+
+install-ci: install-dev
 
 sync-plugins:
 	auth_header="$(git config --local --get http.https://github.com/.extraheader)"
@@ -76,13 +77,8 @@ clean-build:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
 clean-pyc:
-	pyclean .
-	find . -name '__pycache__' -exec rm -rf {} +
-	find . -name '*~' -exec rm -f {} +
 	find . -name '*.log*' -delete
-	find . -name '*_cache' -exec rm -rf {} +
 	find . -name '*.egg-info' -exec rm -rf {} +
-
 
 validate: publish
 	html5validator --root $(OUTPUTDIR)
