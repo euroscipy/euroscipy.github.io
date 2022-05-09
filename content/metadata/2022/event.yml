@@ -14,7 +14,7 @@ venue_picture: ../static/2020/bizkaia_aretoa_index.png
 background_poster_counter: ../static/2020/euroscipy_volunteers.jpg
 background_poster_sponsors: ../static/2020/euroscipy_coffee.jpg
 
-short_description: 13th European Conference on Python in Science
+short_description: 14th European Conference on Python in Science
 long_description: |
   <p>The EuroSciPy meeting is a cross-disciplinary gathering
   focused on the use and development of the Python language in scientific research.
@@ -23,13 +23,9 @@ long_description: |
   This event strives to bring together both users and developers of scientific tools,
   as well as academic research and state of the art industry.
   </p>
-  <p>
-  We are happy to announce that this edition we will celebrate it with
-  <a href="http://2020.geopython.net/">GeoPython 2020</a>.
-  </p>
 
 announcements: |
- The 2020 conference has been cancelled due to the health crisis, more details <a href="https://www.euroscipy.org/2020/program.html">here</a>!
+ The Call for Proposal (CfP) for EuroSciPy 2022 is open. More details <a href="xxx">here</a>!
 
 stats:
   expected_number_of_speakers: 80
