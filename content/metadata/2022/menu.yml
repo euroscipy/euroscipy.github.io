@@ -19,15 +19,15 @@
 #   url: faqs.html
 # - name: Venue
 #   url: venue.html
-# - name: Sponsors
-#   url: 'index.html#sponsors'
-# - name: About
-#   submenu:
+- name: Sponsors
+  url: 'sponsoring.html'
+- name: About
+  submenu:
 #   - name: Financial Aid
 #     url: finaid.html
-#   - name: Code of Conduct
-#     url: code_of_conduct.html
-#   - name: Privacy
-#     url: privacy.html
-#   - name: Organizers
-#     url: about.html
+  - name: Code of Conduct
+    url: code_of_conduct.html
+  # - name: Privacy
+  #   url: privacy.html
+  - name: Organizers
+    url: about.html
