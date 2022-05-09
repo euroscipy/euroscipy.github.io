@@ -70,16 +70,20 @@ TWITTER_FOLLOW_URL = 'https://twitter.com/intent/follow?original_referer=https%3
 TELEGRAM_URL = 'https://t.me/euroscipy'
 SPECTRUM_URL = 'https://spectrum.chat/euroscipy'
 
-CURRENT_EDITION = '2020'
+CURRENT_EDITION = '2022'
 
 EVENT = {}
 EVENT['euroscipy_2020'] = yaml.load(open(os.path.join(METADATA, '2020', 'event.yml')))
+EVENT['euroscipy_2022'] = yaml.load(open(os.path.join(METADATA, '2022', 'event.yml')))
 
 SUBMENU = {}
 SUBMENU['euroscipy_2020'] = yaml.load(open(os.path.join(METADATA, '2020', 'menu.yml')))
+SUBMENU['euroscipy_2022'] = yaml.load(open(os.path.join(METADATA, '2022', 'menu.yml')))
 
 KEYNOTES = {}
 KEYNOTES['euroscipy_2020'] = yaml.load(open(os.path.join(METADATA, '2020', 'keynotes.yml'))) or []
+KEYNOTES['euroscipy_2022'] = yaml.load(open(os.path.join(METADATA, '2022', 'keynotes.yml'))) or []
 
 SPONSORS = {}
 SPONSORS['euroscipy_2020'] = yaml.load(open(os.path.join(METADATA, '2020', 'sponsors.yml'))) or []
+SPONSORS['euroscipy_2022'] = yaml.load(open(os.path.join(METADATA, '2022', 'sponsors.yml'))) or []
