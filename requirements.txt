@@ -11,4 +11,4 @@ Pygments==2.7.4
 Unidecode==1.0.22
 webassets
 typogrify
-pyyaml
+pyyaml == 5.4.1
