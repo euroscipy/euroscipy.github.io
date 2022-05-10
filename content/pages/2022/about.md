@@ -18,14 +18,14 @@ slug: about_2022
 #### Program chairs
 
 - Dr. Darya Chyzhyk (ACPySS)
-- Guillaume Lemaitre (Inria, FR)
+- Dr. Guillaume Lemaitre (Inria, FR)
 - Dr. Valerio Maggio (University of Bristol, UK)
 </br>
 </br>
 
 #### Tutorials chairs
 
-- Guillaume Lemaitre (Inria, FR)
+- Dr. Guillaume Lemaitre (Inria, FR)
 - Dr. Valerio Maggio (University of Bristol, UK)
 </br>
 </br>
@@ -38,14 +38,14 @@ slug: about_2022
 
 #### Sprints chair
 
-- Guillaume Lemaitre (Inria, FR)
+- Dr. Guillaume Lemaitre (Inria, FR)
 - Marc Garcia
 </br>
 </br>
 
 #### Diversity chair
 
-- Adrin Jalali (HuggingFace, DE)
+- Dr. Adrin Jalali (HuggingFace, DE)
 - Alessia Marcolini
 - Dr. Darya Chyzhyk (ACPySS)
 </br>
@@ -53,7 +53,7 @@ slug: about_2022
 
 #### Video chair
 
-- Martin Christen
+- Dr. Martin Christen
 </br>
 </br>
 
@@ -77,7 +77,7 @@ slug: about_2022
 
 #### Organizing committee
 
-- Geir Arne
+- Dr. Geir Arne
 </br>
 </br>
 
