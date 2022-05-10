@@ -6,6 +6,7 @@ section: euroscipy_2022
 template: page
 slug: code_of_conduct_2022
 ---
+
 ## Code of conduct
 
 The EuroSciPy conference benefits from a diverse community, which has grown

@@ -22,22 +22,11 @@ EuroSciPy 2022 takes place from **Monday, August 29 to Friday, September 2 in Ba
 
 ### Conference layout:
 
-Mon, August 29 Trainings
-Tue, August 30 Trainings
-Wed, August 31 Talks
-Thu, September 1 Talks
-Fri, September 2 Sprints
-
-### Program chairs:
-
-- Darya Chyzhyk, Ph.D (ACPySS)
-- Guillaume Lemaitre (Inria, FR)
-- Valerio Maggio (University of Bristol, UK)
-
-### Tutorials chairs
-
-- Guillaume Lemaitre (Inria, FR)
-- Valerio Maggio (University of Bristol, UK)
+- Mon, August 29 Tutorials
+- Tue, August 30 Tutorials
+- Wed, August 31 Talks
+- Thu, September Talks
+- Fri, September Sprints
 
 ### Tracks
 
@@ -68,6 +57,6 @@ including but not limited to:
 
 ### Call for Proposal (CfP)
 
-The CfP will close XX XXX 2022 23:59:59 AoE (Anywhere on Earth)
+The CfP will close 30.05.2022 23:59:59 AoE (Anywhere on Earth)
 
 TODO: add link to submit proposals

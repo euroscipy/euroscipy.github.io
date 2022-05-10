@@ -17,16 +17,22 @@ slug: about_2022
 
 #### Program chairs
 
-- Darya Chyzhyk, Ph.D (ACPySS)
+- Dr. Darya Chyzhyk (ACPySS)
 - Guillaume Lemaitre (Inria, FR)
-- Valerio Maggio (University of Bristol, UK)
+- Dr. Valerio Maggio (University of Bristol, UK)
 </br>
 </br>
 
 #### Tutorials chairs
 
 - Guillaume Lemaitre (Inria, FR)
-- Valerio Maggio (University of Bristol, UK)
+- Dr. Valerio Maggio (University of Bristol, UK)
+</br>
+</br>
+
+#### On site chair
+
+- Dr. Sepideh Alassi (University of Basel, CH)
 </br>
 </br>
 
@@ -37,17 +43,11 @@ slug: about_2022
 </br>
 </br>
 
-#### On site chair
-
-- Sepideh Alassi (University of Basel, CH)
-</br>
-</br>
-
 #### Diversity chair
 
 - Adrin Jalali (HuggingFace, DE)
 - Alessia Marcolini
-- Darya Chyzhyk, Ph.D (ACPySS)
+- Dr. Darya Chyzhyk (ACPySS)
 </br>
 </br>
 
