@@ -9,9 +9,9 @@ slug: about_2022
 
 ### Organising team
 
-#### Conference chairs
+#### On site chair
 
-- All of the persons below
+- Dr. Sepideh Alassi (University of Basel, CH)
 </br>
 </br>
 
@@ -30,20 +30,14 @@ slug: about_2022
 </br>
 </br>
 
-#### On site chair
-
-- Dr. Sepideh Alassi (University of Basel, CH)
-</br>
-</br>
-
-#### Sprints chair
+#### Sprints chairs
 
 - Guillaume Lemaitre (Inria, FR)
 - Marc Garcia
 </br>
 </br>
 
-#### Diversity chair
+#### Diversity chairs
 
 - Adrin Jalali (HuggingFace, DE)
 - Alessia Marcolini

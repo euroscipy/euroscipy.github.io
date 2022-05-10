@@ -20,7 +20,11 @@
 # - name: Venue
 #   url: venue.html
 - name: Sponsors
-  url: 'sponsoring.html'
+  submenu:
+    - name: Become a Sponsor
+      url: sponsoring.html
+    - name: Current Sponsors
+      url: current_sponsors.html
 - name: About
   submenu:
 #   - name: Financial Aid
