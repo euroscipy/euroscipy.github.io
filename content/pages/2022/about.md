@@ -15,7 +15,7 @@ slug: about_2022
 </br>
 </br>
 
-#### Talks & poster chairs
+#### Program chairs
 
 - Darya Chyzhyk, Ph.D (ACPySS)
 - Guillaume Lemaitre (Inria, FR)
