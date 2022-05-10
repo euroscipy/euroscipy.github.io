@@ -1,0 +1,35 @@
+---
+
+name: EuroSciPy 2022
+dates: Aug. 29 - Sep. 2, 2022
+first_day: 2022-08-29
+address: Kollegienhaus, University of Basel, Basel, Switzerland
+calendar_url:
+# ticket_purchase_url: https://www.ti.to
+sponsorship_url: sponsoring.html
+
+conference_logo: ../static/2022/logo.png
+background_poster: ../static/2022/background.jpg
+venue_picture: ../static/2022/kollegienhaus.jpg
+background_poster_counter: ../static/2022/euroscipy_volunteers.jpg
+background_poster_sponsors: ../static/2022/euroscipy_coffee.jpg
+
+short_description: 14th European Conference on Python in Science
+long_description: |
+  <p>The EuroSciPy meeting is a cross-disciplinary gathering
+  focused on the use and development of the Python language in scientific research.
+  </p>
+  <p>
+  This event strives to bring together both users and developers of scientific tools,
+  as well as academic research and state of the art industry.
+  </p>
+
+announcements: |
+ The Call for Proposal (CfP) for EuroSciPy 2022 is open. More details
+ <a href="program.html" style="color: #FFFFFF;"><b><u>HERE</u></b></a>!
+
+stats:
+  expected_number_of_speakers: 80
+  expected_number_of_participants: 350
+  number_of_workshops: 24
+  days_of_event: 5

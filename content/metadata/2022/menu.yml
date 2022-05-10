@@ -1,0 +1,37 @@
+---
+- name: Home
+  url:  index.html
+- name: Programme
+  submenu:
+  - name: Call for Proposals
+    url: program.html
+  # - name: EuroSciPy and COVID-19
+  #   url: program.html
+  # - name: GeoPython 2020
+  #   url: http://2020.geopython.net/
+  # - name: Keynote Speakers
+  #   url: '#speakers'
+  # - name: Sprints
+  #   url: sprints.html
+  # - name: Social Event
+  #   url: social_event.html
+# - name: FAQ
+#   url: faqs.html
+# - name: Venue
+#   url: venue.html
+- name: Sponsors
+  submenu:
+    - name: Become a Sponsor
+      url: sponsoring.html
+    - name: Current Sponsors
+      url: current_sponsors.html
+- name: About
+  submenu:
+#   - name: Financial Aid
+#     url: finaid.html
+  - name: Code of Conduct
+    url: code_of_conduct.html
+  # - name: Privacy
+  #   url: privacy.html
+  - name: Organizers
+    url: about.html

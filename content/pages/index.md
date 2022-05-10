@@ -6,12 +6,13 @@ template: landing
 ---
 
 Welcome to the website of EuroSciPy!
-The next edition of EuroSciPy is [EuroSciPy 2020](/2020).
+The next edition of EuroSciPy is [EuroSciPy 2022](/2022).
 
 News come on twitter: [@EuroSciPy](https://twitter.com/EuroSciPy).
 
 All editions of EuroSciPy can be found below:
 
+* [EuroSciPy 2022](/2022/)
 * [EuroSciPy 2020](/2020/)
 * [EuroSciPy 2019](/2019/)
 * [EuroSciPy 2018](https://www.euroscipy.org/2018/)
