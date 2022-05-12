@@ -59,4 +59,4 @@ including but not limited to:
 
 The CfP will close 30.05.2022 23:59:59 AoE (Anywhere on Earth)
 
-TODO: add link to submit proposals
+[Make your proposal for EuroSciPy 2022](https://pretalx.com/euroscipy-2022/cfp)
