@@ -19,6 +19,7 @@ academic research and state of the art industry.
 EuroSciPy 2022 takes place from **Monday, August 29 to Friday, September 2 in Basel, Switzerland**.
 
 **Please scroll down to submit a proposal**
+<br>
 
 ### Conference layout:
 
@@ -27,6 +28,8 @@ EuroSciPy 2022 takes place from **Monday, August 29 to Friday, September 2 in Ba
 - Wed, August 31 Talks
 - Thu, September Talks
 - Fri, September Sprints
+<br>
+<br>
 
 ### Tracks
 
@@ -54,9 +57,11 @@ including but not limited to:
 - Vector and array manipulation
 - Web applications and portals for science and engineering
 - 3D Printing
+<br>
+<br>
 
 ### Call for Proposal (CfP)
 
 The CfP will close 30.05.2022 23:59:59 AoE (Anywhere on Earth)
 
-[Make your proposal for EuroSciPy 2022](https://pretalx.com/euroscipy-2022/cfp)
+<a href="https://pretalx.com/euroscipy-2022/cfp" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Send a proposal</a>
