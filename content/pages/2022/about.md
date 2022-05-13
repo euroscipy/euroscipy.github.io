@@ -53,7 +53,7 @@ slug: about_2022
 
 #### Sponsoring chair
 
-- Mike Müller (Python Academy, DE)
+- Dr. Mike Müller (Python Academy, DE)
 </br>
 </br>
 
