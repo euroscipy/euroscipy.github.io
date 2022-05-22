@@ -1,5 +1,5 @@
 ---
-title: EuroSciPy 2022 - Sponsoring Terms & Conditions
+title: EuroSciPy 2022 - Sponsoring Terms and Conditions
 url: 2022/sponsoring-terms.html
 save_as: 2022/sponsoring-terms.html
 section: euroscipy_2022
