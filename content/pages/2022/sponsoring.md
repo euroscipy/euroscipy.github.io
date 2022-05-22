@@ -11,6 +11,8 @@ slug: sponsoring_2022
 
 If you want your company to become a sponsor, contact us at
 <a href=mailto:sponsoring@euroscipy.org>sponsoring@euroscipy.org</a>.
+The [Terms & Conditions](sponsoring-terms.html) apply to all sponsoring
+packages.
 
 ### Important dates
 
@@ -42,14 +44,14 @@ The conference brings together many of Europe's most talented individuals, among
 
 </br>
 
-> **EuroSciPy is a non-for-profit conference organised by volunteers.** Your contribution will be
+> **EuroSciPy is a non-for-profit conference organized by volunteers.** Your contribution will be
 > fully used for conference expenses, and to help the development of scientific open source software.
 
 ## Key facts
 
 From EuroSciPy 2019:
 
-- **310** atendees
+- **310** attendees
 - **30** talks
 - **12** tutorials
 - Academics from the **top universities** and research institutions in Europe
@@ -205,5 +207,9 @@ From EuroSciPy 2019:
 
 ## Sponsors committee members
 
-- Mike Müller (Python Academy, DE)
+- Dr. Mike Müller (Python Academy, DE)
 
+## Sponsoring Terms & Conditions
+
+The [Terms & Conditions](sponsoring-terms.html) apply to all sponsoring
+packages.

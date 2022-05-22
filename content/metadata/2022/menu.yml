@@ -25,6 +25,8 @@
       url: sponsoring.html
     - name: Current Sponsors
       url: current_sponsors.html
+    - name: Terms & Conditions
+      url: sponsoring-terms.html
 - name: About
   submenu:
 #   - name: Financial Aid
