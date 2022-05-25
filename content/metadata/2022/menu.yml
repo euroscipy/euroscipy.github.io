@@ -1,10 +1,14 @@
 ---
 - name: Home
   url:  index.html
-- name: Programme
+- name: Event
   submenu:
   - name: Call for Proposals
     url: program.html
+  - name: Tickets
+    url: tickets.html
+  - name: Schedule
+    url: schedule.html
   # - name: EuroSciPy and COVID-19
   #   url: program.html
   # - name: GeoPython 2020

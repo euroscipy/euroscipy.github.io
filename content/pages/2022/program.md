@@ -26,8 +26,8 @@ EuroSciPy 2022 takes place from **Monday, August 29 to Friday, September 2 in Ba
 - Mon, August 29 Tutorials
 - Tue, August 30 Tutorials
 - Wed, August 31 Talks
-- Thu, September Talks
-- Fri, September Sprints
+- Thu, September 1 Talks
+- Fri, September 2 Sprints
 <br>
 <br>
 
@@ -62,6 +62,6 @@ including but not limited to:
 
 ### Call for Proposal (CfP)
 
-The CfP will close 30.05.2022 23:59:59 AoE (Anywhere on Earth)
+The CfP will close 06.06.2022 23:59:59 AoE (Anywhere on Earth)
 
 <a href="https://pretalx.com/euroscipy-2022/cfp" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Send a proposal</a>
