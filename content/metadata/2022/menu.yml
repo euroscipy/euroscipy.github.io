@@ -1,7 +1,7 @@
 ---
 - name: Home
   url:  index.html
-- name: Event
+- name: The Event
   submenu:
   - name: Call for Proposals
     url: program.html
