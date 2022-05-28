@@ -16,14 +16,9 @@ of information as we know up-to-now.
 
 ### Tutorial
 
-From the 24 tutorial sessions, we will organize 8 introduction sessions that
-will cover the following topics:
-
-- Introduction to Python
-- Introduction to numerical Python using NumPy
-- Introduction to scientific Python using SciPy
-- Introduction to data wrangling using pandas
-- Introduction to machine-learning using scikit-learn
+From the 24 tutorial sessions, we will reserve specific slots for some tutorial
+giving introduction to the following packages/tools: Python, NumPy, PyTorch,
+SciPy, matplotlib, pandas, scikit-learn, scikit-image.
 
 <br>
 
