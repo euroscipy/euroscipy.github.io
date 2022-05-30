@@ -56,11 +56,11 @@ attend EuroSciPy:
 |                  | Student (*) | Academic/Individual | Business |
 |------------------|-------------|---------------------|----------|
 | Tutorial only    | 125 €       | 150 €               | 300 €    |
-| Conference only  | 150 €       | 150 €               | 250 €    |
+| Conference only  | 125 €       | 150 €               | 250 €    |
 | Combined ticket  | 200 €       | 250 €               | 500 €    |
 | Streaming access | 50 €        | 50 €                | 50 €     |
 
-(*) After registration, please send your student qualifying proof at
+(*) After registration, please send your student qualifying proof to
 <a href="mailto:students@euroscipy.org">students@euroscipy.org</a>
 
 *Prices include VAT.*
