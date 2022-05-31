@@ -35,9 +35,7 @@ they are proposed. If you want to propose a sprint, please send us a message to
 
 Currently, the following projects already opt-in for the day:
 
+- NetworkX
 - scikit-learn
-
-
-
 
 <br>
