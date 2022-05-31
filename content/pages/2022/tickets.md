@@ -44,8 +44,6 @@ attend EuroSciPy:
 - Academic/Individual tickets: for anyone involved in the academic sector
   (teachers, researchers, etc.) as well as Python hobbyist or working as
   freelancer.
-- Education tickets: for students, and teachers working in the education sector
-  (your main employment is at a school, college or university).
 - Student tickets: for students that can provide a proof to be send to
   <a href="mailto:students@euroscipy.org">students@euroscipy.org</a>
 
