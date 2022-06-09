@@ -62,6 +62,6 @@ including but not limited to:
 
 ### Call for Proposal (CfP)
 
-The CfP will close 06.06.2022 23:59:59 AoE (Anywhere on Earth)
+The CfP will close 13.06.2022 23:59:59 AoE (Anywhere on Earth)
 
 <a href="https://pretalx.com/euroscipy-2022/cfp" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Send a proposal</a>
