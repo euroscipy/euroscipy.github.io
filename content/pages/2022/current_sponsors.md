@@ -29,6 +29,26 @@ slug: sponsors_2022
 
 </table>
 
+## Gold Sponsors
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2022/sponsors/sponsor_logos/DRS_Logo.png">
+        </td>
+        <td style="text-align: left">
+            <a href="https://studios.disneyresearch.com/">DisneyResearch|Studios</a>
+            in Zurich, Switzerland, focuses on exploring the scientific frontiers
+            in a variety of domains in service to the technical and creative filmmaking process.
+            Our world-class research talent in visual computing, machine learning, and artificial
+            intelligence shapes early-stage ideas into technological innovations that revolutionize the way we produce movies and create media content.
+        </td>
+    </tr>
+<tr>
+
+</table>
+
+
 
 ## Institutional Sponsors
 
