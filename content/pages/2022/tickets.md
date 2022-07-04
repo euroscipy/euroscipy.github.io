@@ -63,4 +63,4 @@ attend EuroSciPy:
 
 *Prices include VAT.*
 
-<a href="" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Ticket will be available for purchase at the beginning of June</a>
+<a href="https://ti.to/pysv/euroscipy-2022" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Get your ticket</a>
