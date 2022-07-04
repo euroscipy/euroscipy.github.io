@@ -31,10 +31,10 @@
       url: current_sponsors.html
     - name: Terms & Conditions
       url: sponsoring-terms.html
-- name: About
+- name: Info & Support
   submenu:
-#   - name: Financial Aid
-#     url: finaid.html
+  - name: Financial Aid
+    url: finaid.html
   - name: Code of Conduct
     url: code_of_conduct.html
   # - name: Privacy
