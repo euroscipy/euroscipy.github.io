@@ -39,10 +39,10 @@ Please fill in the [form](https://forms.gle/RRcttd2buEd9Pznc9) before July 7th.
 
 |            |                                                                                   |
 |------------|-----------------------------------------------------------------------------------|
-| June 29    | Open the grant program                                                            |
-| July 7     | **Deadline for submitting the applications**                                      |
-| July 14    | Notification of grants awarded                                                    |
-| July 21    | Deadline for applicants to accept/decline financial aid                           |
+| July 6     | Open the grant program                                                            |
+| July 13    | **Deadline for submitting the applications**                                      |
+| July 20    | Notification of grants awarded                                                    |
+| July 27    | Deadline for applicants to accept/decline financial aid                           |
 | Sep 9      | Deadline to upload receipts                                                       |
 
 ##### Refunds
@@ -53,7 +53,7 @@ used for purchasing the ticket.
 - **Accommodation and Travel grant**: all grants involving reimbursements will be
 reimbursed by bank transfer after the conference. Please, upload your receipts
 (hotel invoice, plane/bus/train tickets) via the Google Form we’ll send you
-after the grant acceptance notice.
+after the grant acceptance notice. The reimbursement can either be made by bank transfer or PayPal payment after the conference.
 
 **IMPORTANT:** We will do bank transfers only via SEPA transfer. Please, check
 it with your bank, some information you can find
