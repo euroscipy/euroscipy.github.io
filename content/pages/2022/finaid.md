@@ -49,6 +49,7 @@ Please fill in the [form](https://forms.gle/RRcttd2buEd9Pznc9) before July 13th.
 | July 20    | Notification of grants awarded                                                    |
 | July 27    | Deadline for applicants to accept/decline financial aid                           |
 | Sep 9      | Deadline to upload receipts                                                       |
+
 <br>
 <br>
 
