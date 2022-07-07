@@ -20,8 +20,10 @@ We offer two types of financial aid grants:
 
 - **Free ticket**: The ticket includes access to 2 days of tutorials + 2 days of talks + 1 day of sprints
 - **Travel and accommodation costs**: We will partially cover the travel costs (hotel/transportation)
+<br>
+<br>
 
-#### Grant Eligibility
+### Grant Eligibility
 
 Our program is open to all people with lack of budget. We can give limited numbers of subsidies, that's why we will focus on the next criteria for evaluation:
 
@@ -29,13 +31,16 @@ Our program is open to all people with lack of budget. We can give limited numbe
 - **Contributors**: Speakers/trainers of EuroSciPy, active people from small Python
 communities, and contributors to community projects.
 - **Economic factors**: Students, unemployed, or people with difficult economic situations.
+<br>
+<br>
 
-#### How to apply
+### How to apply
 
-Please fill in the [form](https://forms.gle/RRcttd2buEd9Pznc9) before July 7th.
+Please fill in the [form](https://forms.gle/RRcttd2buEd9Pznc9) before July 13th.
+<br>
+<br>
 
-
-##### Timeline
+#### Timeline
 
 |            |                                                                                   |
 |------------|-----------------------------------------------------------------------------------|
@@ -44,8 +49,10 @@ Please fill in the [form](https://forms.gle/RRcttd2buEd9Pznc9) before July 7th.
 | July 20    | Notification of grants awarded                                                    |
 | July 27    | Deadline for applicants to accept/decline financial aid                           |
 | Sep 9      | Deadline to upload receipts                                                       |
+<br>
+<br>
 
-##### Refunds
+#### Refunds
 
 - **Free ticket**: we will send you an individual coupon for registration. In case you
 have already bought the ticket, we will refund you on the same account that you
@@ -58,8 +65,10 @@ after the grant acceptance notice. The reimbursement can either be made by bank 
 **IMPORTANT:** We will do bank transfers only via SEPA transfer. Please, check
 it with your bank, some information you can find
 [here](https://en.wikipedia.org/wiki/Single_Euro_Payments_Area).
+<br>
+<br>
 
-##### Guideline
+#### Guideline
 
 - The financial aid grants will only be made available to registered attendees
 actually attending the conference
@@ -73,11 +82,15 @@ be considered rejected by the applicant
 hotels) and itinerary
 - Reimbursements before the conference, or via other means such as cash
 are not possible.
+<br>
+<br>
 
-##### Contacts
+#### Contacts
 Please send an email to [grants@euroscipy.org](mailto: grants@euroscipy.org) if you have any questions.
+<br>
+<br>
 
-##### Privacy Policy
+#### Privacy Policy
 
 The data we collect on this form will exclusively be used by EuroSciPy finaid
 committee for the selection of grant recipients and the processing of financial
