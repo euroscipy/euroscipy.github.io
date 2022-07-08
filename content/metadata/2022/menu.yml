@@ -7,6 +7,8 @@
     url: program.html
   - name: Schedule
     url: schedule.html
+- name: Maintainers
+  url: maintainers.html
 - name: Registration
   url: tickets.html
   # - name: EuroSciPy and COVID-19
