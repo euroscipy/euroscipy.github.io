@@ -35,6 +35,8 @@
       url: sponsoring-terms.html
 - name: Info & Support
   submenu:
+  - name: Venue
+    url: venue.html
   - name: Financial Aid
     url: finaid.html
   - name: Code of Conduct
