@@ -10,7 +10,7 @@ slug: venue2022
 EuroSciPy 2022 takes place in Basel, Switzerland from Monday,
 August 29th until Friday, September 2nd.
 
-To get info about Basel city, its restaurants, tours, etc., see [city's webpage](https://www.basel.com/en).
+To get info about Basel city, its restaurants, tours, etc., see the [city's webpage](https://www.basel.com/en).
 ### Location
 #### Main Venue (Conference and Tutorials)
 
@@ -24,7 +24,7 @@ Petersplatz. 1,
 CH-4051 Basel, Switzerland
 
 The venue is very close to the Basel old city and city center. It is also 
-walking distance to the Rhine river.
+walking distance from the Rhine river.
 
 #### Sprints Location
 
@@ -55,7 +55,7 @@ To get to the conference venue from the SBB, take the tram 8, or tram 11, or bus
 
 2. Basel Badischer Bahnhof (Basel Bad Bhf), all long-distance and regional trains of Deutsche 
 Bahn (DB) and Swiss Federal Railways between Germany and Switzerland stop here. 
-To get to the venue from the Bad Bhf you can easily take tram 6 or bus 30. 
+To get to the venue from the Bad Bhf, you can easily take tram 6 or bus 30. 
 
 #### By Bus
 There is a bus terminal right beside the Basel SBB train station for long-distance 
@@ -72,17 +72,17 @@ The venue is right in the city center, you can walk around easily. Most places i
 Basel city can be reached by foot. 
 
 #### Bus and Trams
-There are many bus connections to reach any part of the city, as well as to the 
+There are many bus and tram connections to reach any part of the city, as well as to the 
 bordering German and French towns. 
 Check the regional transportation within three countries corner [here](https://www.bvb.ch/en/). 
 
 #### Rent an e-bike or e-Scooter
-Basel can best be explored on two wheels. City is built on multiple hills, its is 
+Basel can best be explored on two wheels. City is built on multiple hills, so its is 
 a wise decision to rent an e-bike. There are multiple organizations offering e-bike 
 rentals, one is [pickebike](https://basel.pickebike.ch/en/).
 
-You can also rent an electronic scooter to explore the city easily and in a fun way.
-See info [here](https://whimapp.com/switzerland/en/e-scooters/).
+You can also rent an electronic scooter to explore the city easily and in a fun 
+way, see info [here](https://whimapp.com/switzerland/en/e-scooters/).
 
 ### Hotels
 Since Basel is a border city, you can book hotels either in the Basel city center 
@@ -118,7 +118,7 @@ connection to the Basel city center. It has the cheapest hotel options.
 
 Once in Basel, be like locals, try floating in the Rhine. [Swimming in the Rhine](https://www.basel.com/en/activities-excursions/swimming-rhine) 
 is the most popular sport in summer. Bring your swimming suite, buy a Wickelfisch to 
-put your belongings and float on. 
+put your belongings in and float on. 
 
 Like locals, try a relaxing mini picnic on the stairs by the Rhine river in the evenings.
 
