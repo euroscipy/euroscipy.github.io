@@ -12,3 +12,4 @@ slug: info_2022
 - [Financial Aid](finaid.html)
 - [Code of Conduct](code_of_conduct.html)
 - [Organizers](about.html)
+- [Venue](venue.html)
