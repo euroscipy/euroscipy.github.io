@@ -2,6 +2,7 @@
 - name: Home
   url:  index.html
 - name: Program
+  url: program_menu.html
   submenu:
   - name: Call for Proposals
     url: program.html
@@ -26,6 +27,7 @@
 # - name: Venue
 #   url: venue.html
 - name: Sponsors
+  url: sponsors.html
   submenu:
     - name: Become a Sponsor
       url: sponsoring.html
@@ -34,6 +36,7 @@
     - name: Terms & Conditions
       url: sponsoring-terms.html
 - name: Info & Support
+  url: info.html
   submenu:
   - name: Venue
     url: venue.html
