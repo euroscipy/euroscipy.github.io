@@ -58,7 +58,7 @@ MARKDOWN = {
 PLUGIN_PATHS = ['plugins']
 PLUGINS = [
     'assets',
-    'md-metayaml',
+   # 'md-metayaml',
     # 'sitemap',
 ]
 TYPOGRIFY = True
