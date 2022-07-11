@@ -38,6 +38,8 @@
 - name: Info & Support
   url: info.html
   submenu:
+  - name: Venue
+    url: venue.html
   - name: Financial Aid
     url: finaid.html
   - name: Code of Conduct
