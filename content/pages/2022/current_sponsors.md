@@ -48,8 +48,6 @@ slug: sponsors_2022
 
 </table>
 
-
-
 ## Institutional Sponsors
 
 <table style="table-layout:fixed">
@@ -87,6 +85,20 @@ migrate to Python and develop high-quality Python software often in combination
 with training. The special expertise of the academy is scientific and technical
 software development with Python.
 </td>
+    </tr>
+</table>
+
+## Media Partners
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2022/sponsors/sponsor_logos/Packt_Logo.png">
+        </td>
+        <td style="text-align: left">
+<a href="https://packt.com">Packt's</a>
+ mission is to help the world put software to work in new ways, through the delivery of effective learning and information services to IT professionals. Working towards that vision, Packt has published over 7,500 books and videos so far, providing IT professionals with the actionable knowledge they need to get the job done. Packt has also donated over $1,000,000 to Open-Source Projects, helping numerous projects become household names along the way.
+        </td>
     </tr>
 </table>
 
