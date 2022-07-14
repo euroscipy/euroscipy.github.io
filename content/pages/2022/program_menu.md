@@ -11,3 +11,4 @@ slug: program_2022
 
 - [Call for Proposals](program.html)
 - [Schedule](schedule.html)
+- [List of Accepted Proposals](accepted_talks.html)
