@@ -16,10 +16,10 @@ packages.
 
 ### Important dates
 
-|            |                                                                                   |
-|------------|-----------------------------------------------------------------------------------|
-| June 30    | Deadline for Diamond and Platinum sponsoring                                      |
-| July 6     | Deadline for all sponsoring packages                                              |
+|          |                                                                                   |
+|----------|-----------------------------------------------------------------------------------|
+| July 31  | Deadline for Diamond and Platinum sponsoring                                      |
+| August 7 | Deadline for all sponsoring packages                                              |
 
 ## European meeting for users of scientific Python software
 
@@ -208,6 +208,7 @@ From EuroSciPy 2019:
 ## Sponsors committee members
 
 - Dr. Mike Müller (Python Academy, DE)
+- Dr. Sepideh Alassi (University of Basel, CH)
 
 ## Sponsoring Terms & Conditions
 

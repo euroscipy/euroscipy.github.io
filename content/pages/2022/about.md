@@ -9,7 +9,7 @@ slug: about_2022
 
 ### Organising team
 
-#### On site chair
+#### On-site chair
 
 - Dr. Sepideh Alassi (University of Basel, CH)
 </br>
@@ -51,9 +51,10 @@ slug: about_2022
 </br>
 </br>
 
-#### Sponsoring chair
+#### Sponsoring chairs
 
 - Dr. Mike Müller (Python Academy, DE)
+- Dr. Sepideh Alassi (University of Basel, CH)
 </br>
 </br>
 
