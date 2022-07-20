@@ -48,5 +48,7 @@
     url: code_of_conduct.html
   # - name: Privacy
   #   url: privacy.html
+  - name: Contact Us
+    url: contact_us.html
   - name: Organizers
     url: about.html

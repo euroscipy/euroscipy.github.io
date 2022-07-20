@@ -14,7 +14,8 @@ For general enquiries, you can contact us at:
 
 ### Links
 
+- [Venue](venue.html)
 - [Financial Aid](finaid.html)
 - [Code of Conduct](code_of_conduct.html)
+- [Contact Us](contact_us.html)
 - [Organizers](about.html)
-- [Venue](venue.html)
