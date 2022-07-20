@@ -1,5 +1,5 @@
 ---
-title: EuroSciPy 2022 - Info & Support
+title: EuroSciPy 2022 - Info and Support
 url: 2022/info.html
 save_as: 2022/info.html
 section: euroscipy_2022
@@ -19,3 +19,4 @@ For general enquiries, you can contact us at:
 - [Code of Conduct](code_of_conduct.html)
 - [Contact Us](contact_us.html)
 - [Organizers](about.html)
+- [COVID Policy](covid_policy.html)

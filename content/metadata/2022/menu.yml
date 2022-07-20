@@ -52,3 +52,5 @@
     url: contact_us.html
   - name: Organizers
     url: about.html
+  - name: COVID Policy
+    url: covid_policy.html
