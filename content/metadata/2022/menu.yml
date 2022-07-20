@@ -37,7 +37,7 @@
       url: current_sponsors.html
     - name: Terms & Conditions
       url: sponsoring-terms.html
-- name: Info & Support
+- name: Info and Support
   url: info.html
   submenu:
   - name: Venue
