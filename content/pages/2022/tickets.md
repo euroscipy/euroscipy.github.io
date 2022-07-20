@@ -64,3 +64,5 @@ attend EuroSciPy:
 *Prices include VAT.*
 
 <a href="https://ti.to/pysv/euroscipy-2022" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Get your ticket</a>
+
+In case that you have additional queries, please contact us at: <a href="mailto:info@euroscipy.org">info@euroscipy.org</a>.

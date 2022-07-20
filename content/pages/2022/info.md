@@ -7,6 +7,11 @@ template: page
 slug: info_2022
 ---
 
+# Info & Support
+
+For general enquiries, you can contact us at:
+<a href="mailto:info@euroscipy.org">info@euroscipy.org</a>.
+
 ### Links
 
 - [Financial Aid](finaid.html)

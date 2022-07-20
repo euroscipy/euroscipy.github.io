@@ -22,6 +22,12 @@ SciPy, matplotlib, pandas, scikit-learn, scikit-image.
 
 <br>
 
+### Talks
+
+The list of accepted talks is already available [here]({filename}accepted_talks.md).
+
+<br>
+
 ### Sprint
 
 A one-day sprint is organized on September 2. Open source sprints are session
