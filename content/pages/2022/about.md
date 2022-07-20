@@ -79,7 +79,6 @@ slug: about_2022
 #### Contact and Helpdesk
 
 - info at the domain euroscipy.org
-- Spectrum: [Spectrum Forum group](https://spectrum.chat/euroscipy)
 - Telegram: [Telegram chat group](https://t.me/euroscipy)
 
 </br>
