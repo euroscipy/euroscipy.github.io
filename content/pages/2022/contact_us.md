@@ -1,5 +1,5 @@
 ---
-title: EuroSciPy 2020 - Contact Us
+title: EuroSciPy 2022 - Contact Us
 url: 2022/contact_us.html
 save_as: 2022/contact_us.html
 section: euroscipy_2022
