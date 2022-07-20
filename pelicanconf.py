@@ -69,6 +69,7 @@ RELATIVE_URLS = True
 TWITTER_FOLLOW_URL = 'https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton'
 TELEGRAM_URL = 'https://t.me/euroscipy'
 SPECTRUM_URL = 'https://spectrum.chat/euroscipy'
+INFO_MAIL_URL = 'mailto:info@euroscipy.org'
 
 CURRENT_EDITION = '2022'
 
