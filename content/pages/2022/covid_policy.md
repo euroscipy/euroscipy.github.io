@@ -1,5 +1,5 @@
 ---
-title: EuroSciPy 2022 - COVID Policy
+title: EuroSciPy 2022 - Covid Policy
 url: 2022/covid_policy.html
 save_as: 2022/covid_policy.html
 section: euroscipy_2022
