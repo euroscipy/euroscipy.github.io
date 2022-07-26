@@ -44,6 +44,8 @@
     url: venue.html
   - name: Financial Aid
     url: finaid.html
+  - name: Child Care
+    url: childcare.html
   - name: Code of Conduct
     url: code_of_conduct.html
   # - name: Privacy
