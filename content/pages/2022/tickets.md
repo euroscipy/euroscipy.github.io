@@ -51,12 +51,26 @@ attend EuroSciPy:
 
 ### Ticket prices
 
+**Normal Bird Tickets - Booking by August 14**
+
 |                  | Student (*) | Academic/Individual | Business |
 |------------------|-------------|---------------------|----------|
 | Tutorial only    | 125 €       | 150 €               | 300 €    |
 | Conference only  | 125 €       | 150 €               | 250 €    |
 | Combined ticket  | 200 €       | 250 €               | 500 €    |
 | Streaming access | 50 €        | 50 €                | 50 €     |
+
+**Late Bird Tickets - Booking after August 14**
+
+Due to organization burden, we will apply a late bird when tickets are booked
+after August 14.
+
+|                  | Student (*) | Academic/Individual | Business |
+|------------------|-------------|---------------------|----------|
+| Tutorial only    | 175 €       | 200 €               | 350 €    |
+| Conference only  | 175 €       | 200 €               | 300 €    |
+| Combined ticket  | 300 €       | 350 €               | 600 €    |
+| Streaming access | 100 €       | 100 €               | 100 €    |
 
 (*) After registration, please send your student qualifying proof to
 <a href="mailto:students@euroscipy.org">students@euroscipy.org</a>
