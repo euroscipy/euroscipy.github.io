@@ -15,11 +15,15 @@ babies older than two months can be accommodated.
 ### Registration
 
 In order to organize this service, we need to get an accurate estimate of the
-number of children by **August 14th**. We therefore require you to get a free
+number of children by **August 14**. We therefore require you to get a free
 ticket for this service. It is available at the bottom of the registration
 page.
 
 <a href="https://ti.to/pysv/euroscipy-2022" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Get on-site child care ticket</a>
+
+Be aware that ticket booking allow us to plan the number of slots to be
+reserved. In case of a no-show or a cancellation of after August 14, we will
+request the payment the service.
 
 ### On-site organization
 
