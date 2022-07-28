@@ -23,4 +23,11 @@ page.
 
 ### On-site organization
 
-Soon, we will provide information regarding the exact on-site organization.
+Parents can drop-off and get kids between 8.30 am to 5 pm.
+We will soon provide more details regarding the location at University.
+
+General information regarding the University's childcare service is available
+[here](https://www.unibas.ch/en/Studies/Advice/Social-Services-Healthcare/Childcare.html)
+
+For any enquiry, please contact us at
+<a href="mailto:info@euroscipy.org">info@euroscipy.org</a>.
