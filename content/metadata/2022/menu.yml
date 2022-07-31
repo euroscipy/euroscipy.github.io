@@ -10,6 +10,8 @@
     url: schedule.html
   - name: List of Accepted Talks
     url: accepted_talks.html
+  - name: Sprint
+    url: sprint.html
 - name: Maintainers
   url: maintainers.html
 - name: Registration
