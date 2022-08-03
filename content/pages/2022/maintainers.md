@@ -23,6 +23,45 @@ All the sessions will take place in the <TBA> room.
 
 ### Schedule
 
+#### Scientific Python / SPECs
+**Chair: Jarrod Millman**
+**Time: <TBA>**
+
+The [Scientific Python](https://scientific-python.org/) project aims to better
+coordinate the ecosystem and grow the community. This session focuses on our
+efforts to better coordinate project development, and to improve shared
+infrastructure. In this session together we will discuss project goals and
+recent technical work.
+
+The Scientific Python project's vision is to help pave the way towards a
+unified, expanded scientific Python community. It focuses its efforts along two
+primary axes: _(i)_ to create a joint community around all scientific projects
+and _(ii)_ to support maintainers by building cross-cutting technical
+infrastructure and tools. In this session we mostly focus on the second aspect.
+
+The project has already launched a process whereby projects can, voluntarily,
+adopt reference guidelines; these are known as
+[SPECs](https://scientific-python.org/specs/) or Scientific Python Ecosystem
+Coordination documents. SPECs are similar to projects specific guidelines like
+PEPs, NEPs, SLEPs, and SKIPs, to name a few. The distinction being that SPECs
+have a broader scope, targeted at all (or most) projects from the scientific
+Python ecosystem.
+
+The project also provides and maintains tools to help maintainers. This
+includes a theme for the project websites (currently used on, e.g., numpy.org
+and scipy.org), a self-hosted privacy-friendly web analytics platform, a
+community discussions forum, a technical blog, and project development
+statistics.
+
+We present all these tools, discuss various upcoming SPECs, and highlight the
+project's future potential.
+
+The Scientific Python project is already supported by eight core projects:
+IPython, Matplotlib, NetworkX, NumPy, pandas, scikit-image, scikit-learn, and
+SciPy. The organization has spent the last several months working on the
+infrastructure, and is now ready to engage more widely to help grow and support
+the community.
+
 #### Education - Materials, methods, tools
 **Chair: Mx Chiin-Rui Tan (She/Her, They/Them)**
 **Time: <TBA>**
