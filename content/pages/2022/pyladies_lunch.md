@@ -17,6 +17,8 @@ social gatherings.
 
 ## PyLadies Lunch @ EuroSciPy
 
+![PyLadies Logo]({attach}../../static/2022/pylady_geek_wordmark_rainbow.png)
+
 Thanks to the supports of EuroSciPy organizers, our PyLadies Lunch will take
 place on Wednesday 31st of August.
 
@@ -25,8 +27,6 @@ friends, and share experiences in a relaxing environment. So if you identify
 yourself as a woman, we would like to invite you to join us and make new
 friends or catch up with old friends.
 
-* Who: Anyone who identifies as a woman who is attending EuroSciPy 2022
-
-* When: Wednesday 31st August, 2022
-
-* Where: TBD
+* **Who**: Anyone who identifies as a woman who is attending EuroSciPy 2022
+* **When**: Wednesday 31st August, 2022
+* **Where**: TBD
