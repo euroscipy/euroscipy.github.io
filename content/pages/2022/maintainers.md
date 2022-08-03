@@ -22,7 +22,21 @@ a maintainers session.
 All the sessions will take place in the <TBA> room.
 
 ### Schedule
-<TBA>
+
+#### Education - Materials, methods, tools
+**Chair: Mx Chiin-Rui Tan (She/Her, They/Them)**
+**Time: <TBA>**
+
+This session focuses on issues related to education in the ecosystem, from
+three different aspects, and during the session we focus on recent advances and
+existing and upcoming challenges.
+
+- Materials: how are projects dealing with documentation and education
+  materials
+- Methods: What should we do to make our materials more accessible to
+  underrepresented groups? How can they be more accessible?
+- Tools: What are the existing tools in the ecosystem helping us achieve the
+  above goals, and what do we need to develop?
 
 ## Participating Projects
 There is at least one confirmed maintainer from the following projects at the
