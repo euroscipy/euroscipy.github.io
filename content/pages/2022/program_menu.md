@@ -11,5 +11,6 @@ slug: program_2022
 
 - [Call for Proposals](program.html)
 - [Schedule](schedule.html)
+- [PyLadies Lunch](pyladies_lunch.html)
 - [List of Accepted Proposals](accepted_talks.html)
 - [Sprint](sprint.html)
