@@ -60,9 +60,25 @@ slug: sponsors_2022
             intelligence shapes early-stage ideas into technological innovations that revolutionize the way we produce movies and create media content.
         </td>
     </tr>
-<tr>
-
 </table>
+
+## Financial Aid Sponsors
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2022/sponsors/sponsor_logos/eps_logo.svg">
+        </td>
+        <td style="text-align: left">
+            The <a href="https://www.europython-society.org/">EuroPython Society (EPS)</a>
+            is a Swedish non-profit organization which organizes EuroPython conferences,
+            supports the Python community in Europe and holds the rights to the EuroPython
+            conference series and trademarks.        </td>
+    </tr>
+</table>
+
+
+
 
 ## Institutional Sponsors
 
