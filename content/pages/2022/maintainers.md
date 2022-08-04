@@ -73,7 +73,7 @@ existing and upcoming challenges.
 - Materials: how are projects dealing with documentation and education
   materials
 - Methods: What should we do to make our materials more accessible to
-  underrepresented groups? How can they be more accessible?
+  underrepresented and/or historically marginalised groups?
 - Tools: What are the existing tools in the ecosystem helping us achieve the
   above goals, and what do we need to develop?
 
