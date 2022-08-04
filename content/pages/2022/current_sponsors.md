@@ -25,7 +25,23 @@ slug: sponsors_2022
             more profitable, sustainable business decisions. Blue Yonder - Fulfill your Potential™
         </td>
     </tr>
-<tr>
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2022/sponsors/sponsor_logos/zeiss_logo.png">
+        </td>
+        <td style="text-align: left">
+            <a href="https://www.zeiss.de">ZEISS</a> is technology.
+            ZEISS is optics and innovation.
+            Our over 35,000 colleagues develop, manufacture and sell highly innovative
+            products and solutions for our customers in a variety of business fields,
+            generating revenue of over €7.5 billion.
+
+            As one of the world’s top technology companies,
+            ZEISS has with a portfolio aligned with future growth areas like digitalization,
+            healthcare and Smart Production, and a strong brand to boot,
+            ZEISS is shaping the future far beyond the optics and optoelectronics industries.
+        </td>
+    </tr>
 
 </table>
 
