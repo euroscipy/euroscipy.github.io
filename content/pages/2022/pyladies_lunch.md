@@ -27,6 +27,8 @@ friends, and share experiences in a relaxing environment. So if you identify
 yourself as a woman, we would like to invite you to join us and make new
 friends or catch up with old friends.
 
-* **Who**: Anyone who identifies as a woman who is attending EuroSciPy 2022. If you don't identify as a woman but want to learn more about Pyladies you are also welcome to join.
+* **Who**: Anyone who identifies as a woman who is attending EuroSciPy 2022.
+If you don't identify as a woman but want to learn more about Pyladies you are
+also welcome to join.
 * **When**: Wednesday 31st August, 2022
 * **Where**: TBD
