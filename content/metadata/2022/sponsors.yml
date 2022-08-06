@@ -1,10 +1,41 @@
 ---
-# - name: FullOnScience
-#   url: https://www.FullOnScience.com
-#   logo: ../theme/images/sponser/img-10.jpg
-#   description: Full on Science
+- name: BlueYonder
+  url: https://blueyonder.com/
+  logo: ../static/2022/sponsors/sponsor_logos/blue_yonder.svg
+  description: Blue Yonder
 
-# - name: WeOnlyDoScience
-#   url: https://www.WeOnlyDoScience.com
-#   logo: ../theme/images/sponser/img-10.jpg
-#   description: WeOnlyDoScience
+- name: Zeiss
+  url: https://www.zeiss.de/corporate/home.html
+  logo: ../static/2022/sponsors/sponsor_logos/zeiss_logo.png
+  description: Zeiss
+
+- name: DisneyResearchStudios
+  url: https://studios.disneyresearch.com/
+  logo: ../static/2022/sponsors/sponsor_logos/DRS_Logo.png
+  description: Disney Research Studios
+
+- name: EuroPythonSociety
+  url: https://www.europython-society.org/
+  logo: ../static/2022/sponsors/sponsor_logos/eps_logo.svg
+  description: EuroPython Society
+
+- name: UniversityofBasel
+  url: https://www.unibas.ch/en.html
+  logo: ../static/2022/sponsors/sponsor_logos/UniBas_Logo_EN_Schwarz_RGB_55.jpg
+  description: University of Basel
+
+- name: PythonSoftwareVerband
+  url: https://python-verband.org/
+  logo: ../static/2022/sponsors/sponsor_logos/python_software_verband.png
+  description: Python Software Verband
+
+- name: PythonAcademy
+  url: https://www.python-academy.com/
+  logo: ../static/2022/sponsors/sponsor_logos/python_academy.png
+  description: Python Academy
+
+- name: Packt
+  url: https://packt.com
+  logo: ../static/2022/sponsors/sponsor_logos/Packt_Logo.png
+  description: Packt
+
