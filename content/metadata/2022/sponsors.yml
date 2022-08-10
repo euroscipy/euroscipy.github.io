@@ -14,6 +14,11 @@
   logo: ../static/2022/sponsors/sponsor_logos/DRS_Logo.png
   description: Disney Research Studios
 
+- name: Roche
+  url: https://www.roche.com/
+  logo: ../static/2022/sponsors/sponsor_logos/Roche_Logo.svg
+  description: Roche
+
 - name: EuroPythonSociety
   url: https://www.europython-society.org/
   logo: ../static/2022/sponsors/sponsor_logos/eps_logo.svg
