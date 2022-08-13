@@ -22,3 +22,4 @@ Currently, the following projects already opt-in for the day:
 
 - NetworkX
 - scikit-learn
+- Bokeh
