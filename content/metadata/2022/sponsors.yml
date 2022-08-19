@@ -1,4 +1,9 @@
 ---
+- name: QuantStack
+  url: https://quantstack.net/
+  logo: ../static/2022/sponsors/sponsor_logos/quantstack.svg
+  description: QuantStack
+
 - name: BlueYonder
   url: https://blueyonder.com/
   logo: ../static/2022/sponsors/sponsor_logos/blue_yonder.svg
@@ -43,4 +48,3 @@
   url: https://packt.com
   logo: ../static/2022/sponsors/sponsor_logos/Packt_Logo.png
   description: Packt
-
