@@ -16,6 +16,13 @@ We believed that they will be of interest to the EuroSciPy community.
 
 *Andreas Steiner - Google*
 
+**Bio:**
+
+After his original studies in medicine, an MSc in bio-electronics, and MD with 
+the Swiss Tropical Health Institute, Andreas has been working at Google since 2015. 
+His main focus there has been on machine learning using Tensorflow and data 
+mining, development of internal tools for data analysis.
+
 **Abstract:**
 
 Modern accelerators (graphics processing units and tensor processing units)
@@ -33,6 +40,24 @@ compiling functions, or vectorizing computation. It then proceeds to cover
 other parts of the JAX ecosystem commonly used for neural network programming,
 such as basic building blocks and optimizers.
 
-### Keynote 2
+### Privacy Enhancing Technologies for Data Science
 
-To be announced soon.
+*Katharine Jarmul - Thoughtworks*
+
+**Bio:**
+
+Katharine Jarmul is a Principal Data Scientist at Thoughtworks Germany focusing 
+on privacy, ethics and security for data science workflows. Previously, she has 
+held numerous roles at large companies and startups in the US and Germany, 
+implementing data processing and machine learning systems with a focus on 
+reliability, testability, privacy and security.
+She is a passionate and internationally recognized data scientist, programmer, and lecturer.
+
+**Abstract:**
+
+Privacy is becoming an increasingly pressing topic in data collection and data science. 
+Thankfully, Privacy Enhancing Technologies (or PETs) are maturing alongside the 
+growing demand and concern. In this keynote, we'll explore what possibilities 
+emerge when using Privacy Enhancing Technology like differential privacy, 
+encrypted computation and federated learning and investigate how these 
+technologies could change the face of data science today.

@@ -2,13 +2,12 @@
 
 - full_name: Andreas Steiner
   job_position: Researcher
-  affiliation: google
+  affiliation: Google
   profile_picture: ../static/2022/andreas_steiner.jpg
   twitter: andreaspsteiner
 
-# - full_name: Tess Tickles
-#   job_position: Professor
-#   affiliation: University of Atlantis
-#   profile_picture: ../theme/images/speakers/img-01.jpg
-#   twitter: testis
-
+- full_name: Katharine Jarmul
+  job_position: Principal Data Scientist
+  affiliation: Thoughtworks
+  profile_picture: ../static/2022/kj.jpg
+  twitter: kjam
