@@ -10,7 +10,6 @@ slug: keynotes2022
 # Keynotes
 
 We are pleased to announce the following keynotes at EuroSciPy this year.
-We believed that they will be of interest to the EuroSciPy community.
 
 ### JAX and Flax: Function Transformations and Neural Networks
 
