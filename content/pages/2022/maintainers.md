@@ -77,6 +77,18 @@ existing and upcoming challenges.
 - Tools: What are the existing tools in the ecosystem helping us achieve the
   above goals, and what do we need to develop?
 
+#### Python in the browser
+**Chair: Roman Yurchak, Sylvain Corlay**
+**Time: <TBA>**
+
+A nice and concise abstract.
+
+#### Packaging in Python
+**Chair: Wolf Vollprecht, Sylvain Corlay**
+**Time: <TBA>**
+
+A nice and concise abstract.
+
 ## Participating Projects
 There is at least one confirmed maintainer from the following projects at the
 conference:
