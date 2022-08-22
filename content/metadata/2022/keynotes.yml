@@ -4,10 +4,12 @@
   job_position: Researcher
   affiliation: Google
   profile_picture: ../static/2022/andreas_steiner.jpg
+  abstract: https://www.euroscipy.org/2022/keynotes.html#jax-and-flex
   twitter: andreaspsteiner
 
 - full_name: Katharine Jarmul
   job_position: Principal Data Scientist
   affiliation: Thoughtworks
   profile_picture: ../static/2022/kj.png
+  abstract: https://www.euroscipy.org/2022/keynotes.html#privacy_enhancing
   twitter: kjam
