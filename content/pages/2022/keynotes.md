@@ -11,7 +11,7 @@ slug: keynotes2022
 
 We are pleased to announce the following keynotes at EuroSciPy this year.
 
-## JAX and Flax: Function Transformations and Neural Networks
+##JAX and Flax: Function Transformations and Neural Networks {#jax-and-flex}
 
 *Andreas Steiner - Google*
 
@@ -39,7 +39,7 @@ compiling functions, or vectorizing computation. It then proceeds to cover
 other parts of the JAX ecosystem commonly used for neural network programming,
 such as basic building blocks and optimizers.
 
-## Privacy Enhancing Technologies for Data Science
+## Privacy Enhancing Technologies for Data Science {#privacy-enhancing}
 
 *Katharine Jarmul - Thoughtworks*
 
