@@ -17,12 +17,12 @@ To get info about Basel city, its restaurants, tours, etc., see the [city's webp
 #### Main Venue (Conference and Tutorials)
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2692.475725848447!2d7.581680515706475!3d47.558531699290405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b9a96c23a4cf%3A0xe24a26479470fedd!2sUniversity%20of%20Basel%20%2F%20Kollegienhaus!5e0!3m2!1sen!2suk!4v1657383591006!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<br/>
-<br/>
+&nbsp;
 
-##### Address
+####Address
 
 Petersplatz. 1,
+
 CH-4051 Basel, Switzerland
 
 The venue is very close to Basel old city and city center. It is also
@@ -31,10 +31,12 @@ walking distance from the Rhine river.
 #### Sprints Location
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2692.534226190979!2d7.58297061570638!3d47.55739329936902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b9abfe2d63a7%3A0xb44b4a31a53b38fe!2sRosshofgasse%202%2C%204051%20Basel%2C%20Switzerland!5e0!3m2!1sen!2suk!4v1657383709427!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<br/>
-<br/>
-##### Address
+&nbsp;
+
+####Address
+
 Roshoffgasse 2,
+
 CH-4051 Basel, Switzerland
 
 ### How to come to Basel?
