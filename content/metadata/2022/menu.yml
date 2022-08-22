@@ -10,12 +10,14 @@
     url: https://pretalx.com/euroscipy-2022/schedule/
   - name: Keynotes
     url: 'keynotes.html'
+  - name: Social Event
+    url: 'social_event.html'
+  - name: Sprint
+    url: sprint.html
   - name: PyLadies Lunch
     url: pyladies_lunch.html
   - name: List of Accepted Talks
     url: accepted_talks.html
-  - name: Sprint
-    url: sprint.html
 - name: Maintainers
   url: maintainers.html
 - name: Registration
