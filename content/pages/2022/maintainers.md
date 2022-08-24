@@ -77,6 +77,12 @@ existing and upcoming challenges.
 - Tools: What are the existing tools in the ecosystem helping us achieve the
   above goals, and what do we need to develop?
 
+#### DataFrame API & PyArrow Update
+**Chair: Joris Van den Bossche**
+**Time: <TBA>**
+
+A small and short abstract.
+
 ## Participating Projects
 There is at least one confirmed maintainer from the following projects at the
 conference:
