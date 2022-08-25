@@ -77,11 +77,11 @@ existing and upcoming challenges.
 - Tools: What are the existing tools in the ecosystem helping us achieve the
   above goals, and what do we need to develop?
 
-#### DataFrame API & PyArrow Update
+#### Interoperability in the DataFrame landscape: DataFrame API & PyArrow Update
 **Chair: Joris Van den Bossche**
 **Time: <TBA>**
 
-A small and short abstract.
+In this session, we want to share some updates on the DataFrame ecosystem, the DataFrame interchange protocol and Arrow interface, and the integration with different libraries. 
 
 ## Participating Projects
 There is at least one confirmed maintainer from the following projects at the
