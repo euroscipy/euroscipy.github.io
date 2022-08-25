@@ -77,6 +77,31 @@ existing and upcoming challenges.
 - Tools: What are the existing tools in the ecosystem helping us achieve the
   above goals, and what do we need to develop?
 
+#### Contributor Experience & Diversity
+**Chair: Noa Tamir (She/Her, They/Them)**
+**Time: <TBA>**
+
+Most of us have been hearing about Diversity Equity and Inclusion (DEI) for some
+years now, and even had access to many resources by now.
+Our projects have codes of conduct, and some have been doing sprints and 
+mentorships. But how much has fundamentally changed?
+
+Let’s meet for an honest conversation about the challenges of DEI actions, and 
+culture change. How do we achieve long-term impact? What are low-hanging fruit? 
+We can share hard-to-ask questions, effective tools, experiences that shaped our 
+approach, and see if we can all nudge each other forward a little.
+
+Inclusion happens at the community level, also when we want to address DEI 
+itself. So, we will need to create a safe space for hard questions and leave 
+judgment at the door.
+
+Thanks to our grant to [advance an inclusive culture in the scientific Python 
+ecosystem](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063), we have created the contributor experience lead role. We have been 
+working with NumPy, SciPy, Matplotlib, and pandas to learn how to integrate this 
+new role to a project, and how to introduce contributor hospitality techniques. 
+We are working on creating widely available resources, and we would benefit from 
+hearing from maintainers from the wider community.
+
 ## Participating Projects
 There is at least one confirmed maintainer from the following projects at the
 conference:
