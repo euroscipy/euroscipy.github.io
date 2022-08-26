@@ -22,9 +22,10 @@ they are proposed. If you want to propose a sprint, please send us a message to
 
 Currently, the following projects already opt-in for the day:
 
-- Bokeh
-- NetworkX
-- scikit-learn
+- [Bokeh](https://docs.bokeh.org/en/latest/)
+- [NetworkX](https://networkx.org/)
+- [Scikit-learn](https://scikit-learn.org/stable/)
+- [The Mission Support System](https://mss.readthedocs.io/en/stable/)
 
 <br>
 
