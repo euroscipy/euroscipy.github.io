@@ -81,8 +81,12 @@ existing and upcoming challenges.
 **Chair: Joris Van den Bossche**
 **Time: <TBA>**
 
-In this session, we want to share some updates on the DataFrame ecosystem, the DataFrame
-interchange protocol and Arrow interface, and the integration with different libraries. 
+In this session, we want to share some updates on the DataFrame ecosystem: the DataFrame
+interchange protocol (https://data-apis.org/dataframe-protocol/latest/purpose_and_scope.html)
+and Arrow C Data interface (https://arrow.apache.org/docs/format/CDataInterface.html),
+and the integration of those interoperability protocols with different libraries. Further, we
+want to have an open conversation about challenges and requirements related to DataFrame
+interoperability and supporting multiple DataFrame libraries in projects.
 
 #### Contributor Experience & Diversity
 **Chair: Noa Tamir (She/Her, They/Them)**
