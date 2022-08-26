@@ -117,6 +117,18 @@ hearing from maintainers from the wider community.
 There is at least one confirmed maintainer from the following projects at the
 conference:
 
+- Pandas: [Joris Van den Bossche](https://github.com/jorisvandenbossche)
+- Apache Arrow: [Joris Van den Bossche](https://github.com/jorisvandenbossche)
+- Pyodide: [Roman Yurchak](https://github.com/rth)
+- scikit-learn: [Guillaume Lemaitre](https://github.com/glemaitre), [Julien Jerphanion](https://github.com/jjerphan), [Adrin Jalali](https://github.com/adrinjalali/), [Jérémie du Boisberranger](https://github.com/jeremiedbb), [Olivier Grisel](https://github.com/ogrisel), [Loïc Estève](https://github.com/lesteve), [Gaël Varoquaux](https://github.com/GaelVaroquaux), [Roman Yurchak](https://github.com/rth)
+- Project Jupyter: [Sylvain Corlay (QuantStack)](https://github.com/SylvainCorlay), [Jeremy Tuloup](https://github.com/jtpio)
+- mamba: [Sylvain Corlay (QuantStack)](https://github.com/SylvainCorlay), [Wolf Vollprecht](https://github.com/wolfv)
+- fairlearn: [Adrin Jalali](https://github.com/adrinjalali/)
+- networkx: [Mridul Seth](https://github.com/MridulS)
+- bokeh: [Mateusz Paprocki](https://github.com/mattpap)
+- scikit-image: [Emmanuelle Gouillart](https://github.com/emmanuelle)
+- Jax - Flax: [Andreas Steiner](https://github.com/andsteing) 
+
 ## Supporters
 
 If your organization is covering the expenses of an open source maintainer to
