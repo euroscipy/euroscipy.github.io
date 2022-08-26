@@ -110,10 +110,28 @@ Pharma Research & Early Development (pRED) in Basel</a>, it has
             supports the Python community in Europe and holds the rights to the EuroPython
             conference series and trademarks.        </td>
     </tr>
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2022/sponsors/sponsor_logos/psf_logo.svg">
+        </td>
+        <td style="text-align: left">
+            The mission of the
+             <a href="https://www.python.org/">Python Software Foundation</a>
+            is to promote, protect, and advance the Python programming language,
+            and to support and facilitate the growth of a diverse and international
+            community of Python programmers.
+            The majority of the PSF's work is focused on empowering and supporting
+            people within the Python community. The PSF has active grant programs
+            that support sprints, conferences, meet ups, user groups, and Python
+            development efforts all over the world.
+            In addition, the PSF underwrites and runs PyCon US,
+            the primary Python community conference.
+            Being part of the PSF means being part of the Python community.
+            Recently we changed the PSF to an open membership organization,
+            so that everyone who uses and supports Python can join.
+            To learn more, visit https://www.python.org/psf/membership.
+    </tr>
 </table>
-
-
-
 
 ## Institutional Sponsors
 
