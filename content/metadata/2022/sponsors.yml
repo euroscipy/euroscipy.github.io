@@ -29,6 +29,11 @@
   logo: ../static/2022/sponsors/sponsor_logos/eps_logo.svg
   description: EuroPython Society
 
+- name: Python Software Foundation
+  url: https://www.python.org/
+  logo: ../static/2022/sponsors/sponsor_logos/psf_logo.svg
+  description: Python Software Foundation
+
 - name: UniversityofBasel
   url: https://www.unibas.ch/en.html
   logo: ../static/2022/sponsors/sponsor_logos/UniBas_Logo_EN_Schwarz_RGB_55.jpg
