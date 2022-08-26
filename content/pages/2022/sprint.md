@@ -9,6 +9,8 @@ slug: sprint_2022
 
 # Sprint
 
+### Project sprint
+
 A one-day sprint is organized on September 2. Open source sprints are session
 where maintainers and contributors (including first time contributors) meet,
 and work together in improving the open source projects. This can include bug
@@ -20,6 +22,17 @@ they are proposed. If you want to propose a sprint, please send us a message to
 
 Currently, the following projects already opt-in for the day:
 
+- Bokeh
 - NetworkX
 - scikit-learn
-- Bokeh
+
+<br>
+
+### Hackathon
+
+The same day than other project sprints, folks from 🤗 HuggingFace 🤗 organize
+an **hybrid hackathon** to build demo using Gradio. The hackathon takes place
+in-person at the sprint location and online.
+
+You can find more information at following
+[link](https://huggingface.co/EuroSciPy2022).
