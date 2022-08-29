@@ -23,17 +23,28 @@ All the sessions will take place in the <TBA> room.
 
 ### Schedule
 
+<br>
+
 Wednesday morning:
-- 10:30 am - 11:30 am : [Education - Materials, methods, tools - Mx Chiin-Rui Tan](#edu)
-- 11:30 am - 12:30 pm : [Interoperability in the DataFrame landscape: DataFrame API & PyArrow Update - Joris Van den Bossche](#df)
+
+* 10:30 am - 11:30 am: [Education - Materials, methods, tools - Mx Chiin-Rui Tan](#edu)
+* 11:30 am - 12:30 pm: [Interoperability in the DataFrame landscape: DataFrame API & PyArrow Update - Joris Van den Bossche](#df)
+
+<br>
 
 Wednesday afternoon:
-- 1:30 pm - 2:30 pm : [Contributor Experience & Diversity - Noa Tamir](#divers)
-- 2:30 pm - 3:30 pm : Roman Yurchack & Sylvain Corlay
+
+* 1:30 pm - 2:30 pm: [Contributor Experience & Diversity - Noa Tamir](#divers)
+* 2:30 pm - 3:30 pm: Python in the Browser - Roman Yurchack & Sylvain Corlay
+
+<br>
 
 Thursday morning:
-- 10:30 am - 11:30 am : [Scientific Python / SPECs  - Jarrod Millman](#specs)
-- 11:30 am - 12:30 pm : Sylvain Corlay & Wolf
+
+* 10:30 am - 11:30 am : [Scientific Python / SPECs  - Jarrod Millman](#specs)
+* 11:30 am - 12:30 pm : Packaging in Python - Sylvain Corlay & Wolf Vollprecht
+
+<br>
 
 #### <a name="specs"></a> Scientific Python / SPECs
 **Chair: Jarrod Millman**
