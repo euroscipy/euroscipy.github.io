@@ -34,14 +34,14 @@ Wednesday morning:
 
 Wednesday afternoon:
 
-* 1:30 pm - 2:30 pm: [Contributor Experience & Diversity - Noa Tamir](#divers)
+* 1:30 pm - 2:30 pm: [Scientific Python / SPECs  - Jarrod Millman](#specs)
 * 2:30 pm - 3:30 pm: Python in the Browser - Roman Yurchack & Sylvain Corlay
 
 <br>
 
 Thursday morning:
 
-* 10:30 am - 11:30 am : [Scientific Python / SPECs  - Jarrod Millman](#specs)
+* 10:30 am - 11:30 am : [Contributor Experience & Diversity - Noa Tamir](#divers)
 * 11:30 am - 12:30 pm : Packaging in Python - Sylvain Corlay & Wolf Vollprecht
 
 <br>
