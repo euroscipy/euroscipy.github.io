@@ -22,10 +22,21 @@ a maintainers session.
 All the sessions will take place in the <TBA> room.
 
 ### Schedule
+  
+Wednesday morning:
+- 10:30 am - 11:30 am : [Education - Materials, methods, tools - Mx Chiin-Rui Tan](#edu)
+- 11:30 am - 12:30 pm : [Interoperability in the DataFrame landscape: DataFrame API & PyArrow Update - Joris Van den Bossche](#df)
 
-#### Scientific Python / SPECs
+Wednesday afternoon:
+- 1:30 pm - 2:30 pm : [Contributor Experience & Diversity - Noa Tamir](#divers)
+- 2:30 pm - 3:30 pm : Roman Yurchack & Sylvain Corlay
+
+Thursday morning:
+- 10:30 am - 11:30 am : [Scientific Python / SPECs  - Jarrod Millman](#specs)
+- 11:30 am - 12:30 pm : Sylvain Corlay & Wolf
+
+#### <a name="specs"></a> Scientific Python / SPECs 
 **Chair: Jarrod Millman**
-**Time: <TBA>**
 
 The [Scientific Python](https://scientific-python.org/) project aims to better
 coordinate the ecosystem and grow the community. This session focuses on our
@@ -62,9 +73,8 @@ SciPy. The organization has spent the last several months working on the
 infrastructure, and is now ready to engage more widely to help grow and support
 the community.
 
-#### Education - Materials, methods, tools
+#### <a name="edu"></a> Education - Materials, methods, tools
 **Chair: Mx Chiin-Rui Tan (She/Her, They/Them)**
-**Time: <TBA>**
 
 This session focuses on issues related to education in the ecosystem, from
 three different aspects, and during the session we focus on recent advances and
@@ -77,9 +87,8 @@ existing and upcoming challenges.
 - Tools: What are the existing tools in the ecosystem helping us achieve the
   above goals, and what do we need to develop?
 
-#### Interoperability in the DataFrame landscape: DataFrame API & PyArrow Update
+#### <a name="df"></a> Interoperability in the DataFrame landscape: DataFrame API & PyArrow Update
 **Chair: Joris Van den Bossche**
-**Time: <TBA>**
 
 In this session, we want to share some updates on the DataFrame ecosystem: the DataFrame
 interchange protocol (https://data-apis.org/dataframe-protocol/latest/purpose_and_scope.html)
@@ -88,9 +97,8 @@ and the integration of those interoperability protocols with different libraries
 want to have an open conversation about challenges and requirements related to DataFrame
 interoperability and supporting multiple DataFrame libraries in projects.
 
-#### Contributor Experience & Diversity
+#### <a name="divers"></a> Contributor Experience & Diversity
 **Chair: Noa Tamir (She/Her, They/Them)**
-**Time: <TBA>**
 
 Most of us have been hearing about Diversity Equity and Inclusion (DEI) for some
 years now, and even had access to many resources by now.
