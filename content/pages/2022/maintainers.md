@@ -150,7 +150,7 @@ conference:
 - scikit-image: [Emmanuelle Gouillart](https://github.com/emmanuelle)
 - Jax - Flax: [Andreas Steiner](https://github.com/andsteing)
 - Matplotlib: [Tim Hoffmann](https://github.com/timhoffm)
-- conda-forge: [Jannis Leidel](https://github.com/jezdez)
+- conda-forge: [Jannis Leidel](https://github.com/jezdez), [Jaime Rodríguez-Guerra ](https://github.com/jaimergp)
 
 ## Supporters
 
