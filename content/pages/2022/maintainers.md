@@ -22,7 +22,7 @@ a maintainers session.
 All the sessions will take place in the <TBA> room.
 
 ### Schedule
-  
+
 Wednesday morning:
 - 10:30 am - 11:30 am : [Education - Materials, methods, tools - Mx Chiin-Rui Tan](#edu)
 - 11:30 am - 12:30 pm : [Interoperability in the DataFrame landscape: DataFrame API & PyArrow Update - Joris Van den Bossche](#df)
@@ -35,7 +35,7 @@ Thursday morning:
 - 10:30 am - 11:30 am : [Scientific Python / SPECs  - Jarrod Millman](#specs)
 - 11:30 am - 12:30 pm : Sylvain Corlay & Wolf
 
-#### <a name="specs"></a> Scientific Python / SPECs 
+#### <a name="specs"></a> Scientific Python / SPECs
 **Chair: Jarrod Millman**
 
 The [Scientific Python](https://scientific-python.org/) project aims to better
@@ -102,23 +102,23 @@ interoperability and supporting multiple DataFrame libraries in projects.
 
 Most of us have been hearing about Diversity Equity and Inclusion (DEI) for some
 years now, and even had access to many resources by now.
-Our projects have codes of conduct, and some have been doing sprints and 
+Our projects have codes of conduct, and some have been doing sprints and
 mentorships. But how much has fundamentally changed?
 
-Let’s meet for an honest conversation about the challenges of DEI actions, and 
-culture change. How do we achieve long-term impact? What are low-hanging fruit? 
-We can share hard-to-ask questions, effective tools, experiences that shaped our 
+Let’s meet for an honest conversation about the challenges of DEI actions, and
+culture change. How do we achieve long-term impact? What are low-hanging fruit?
+We can share hard-to-ask questions, effective tools, experiences that shaped our
 approach, and see if we can all nudge each other forward a little.
 
-Inclusion happens at the community level, also when we want to address DEI 
-itself. So, we will need to create a safe space for hard questions and leave 
+Inclusion happens at the community level, also when we want to address DEI
+itself. So, we will need to create a safe space for hard questions and leave
 judgment at the door.
 
-Thanks to our grant to [advance an inclusive culture in the scientific Python 
-ecosystem](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063), we have created the contributor experience lead role. We have been 
-working with NumPy, SciPy, Matplotlib, and pandas to learn how to integrate this 
-new role to a project, and how to introduce contributor hospitality techniques. 
-We are working on creating widely available resources, and we would benefit from 
+Thanks to our grant to [advance an inclusive culture in the scientific Python
+ecosystem](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063), we have created the contributor experience lead role. We have been
+working with NumPy, SciPy, Matplotlib, and pandas to learn how to integrate this
+new role to a project, and how to introduce contributor hospitality techniques.
+We are working on creating widely available resources, and we would benefit from
 hearing from maintainers from the wider community.
 
 ## Participating Projects
@@ -129,13 +129,13 @@ conference:
 - Apache Arrow: [Joris Van den Bossche](https://github.com/jorisvandenbossche)
 - Pyodide: [Roman Yurchak](https://github.com/rth)
 - scikit-learn: [Guillaume Lemaitre](https://github.com/glemaitre), [Julien Jerphanion](https://github.com/jjerphan), [Adrin Jalali](https://github.com/adrinjalali/), [Jérémie du Boisberranger](https://github.com/jeremiedbb), [Olivier Grisel](https://github.com/ogrisel), [Loïc Estève](https://github.com/lesteve), [Gaël Varoquaux](https://github.com/GaelVaroquaux), [Roman Yurchak](https://github.com/rth)
-- Project Jupyter: [Sylvain Corlay (QuantStack)](https://github.com/SylvainCorlay), [Jeremy Tuloup](https://github.com/jtpio)
-- mamba: [Sylvain Corlay (QuantStack)](https://github.com/SylvainCorlay), [Wolf Vollprecht](https://github.com/wolfv)
+- Project Jupyter: [Sylvain Corlay](https://github.com/SylvainCorlay), [Jeremy Tuloup](https://github.com/jtpio)
+- mamba: [Sylvain Corlay](https://github.com/SylvainCorlay), [Wolf Vollprecht](https://github.com/wolfv)
 - fairlearn: [Adrin Jalali](https://github.com/adrinjalali/)
 - networkx: [Mridul Seth](https://github.com/MridulS)
 - bokeh: [Mateusz Paprocki](https://github.com/mattpap)
 - scikit-image: [Emmanuelle Gouillart](https://github.com/emmanuelle)
-- Jax - Flax: [Andreas Steiner](https://github.com/andsteing) 
+- Jax - Flax: [Andreas Steiner](https://github.com/andsteing)
 
 ## Supporters
 
