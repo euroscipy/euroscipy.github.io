@@ -39,7 +39,7 @@ compiling functions, or vectorizing computation. It then proceeds to cover
 other parts of the JAX ecosystem commonly used for neural network programming,
 such as basic building blocks and optimizers.
 
-## Privacy Enhancing Technologies for Data Science {#privacy-enhancing}
+## Supercharging Open Data with Open Privacy {#privacy-enhancing}
 
 *Katharine Jarmul - Thoughtworks*
 
