@@ -34,7 +34,6 @@ Wednesday morning:
 
 Wednesday afternoon:
 
-* 1:30 pm - 2:30 pm: Packaging in Python - Sylvain Corlay & Wolf Vollprecht
 * 2:30 pm - 3:30 pm: [Python in the Browser - Roman Yurchack & Sylvain Corlay](#browser)
 
 <br>
