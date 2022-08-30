@@ -34,15 +34,15 @@ Wednesday morning:
 
 Wednesday afternoon:
 
-* 1:30 pm - 2:30 pm: [Contributor Experience & Diversity - Noa Tamir](#divers)
-* 2:30 pm - 3:30 pm: Python in the Browser - Roman Yurchack & Sylvain Corlay
+* 1:30 pm - 2:30 pm: Packaging in Python - Sylvain Corlay & Wolf Vollprecht
+* 2:30 pm - 3:30 pm: [Python in the Browser - Roman Yurchack & Sylvain Corlay](#browser)
 
 <br>
 
 Thursday morning:
 
 * 10:30 am - 11:30 am : [Scientific Python / SPECs  - Jarrod Millman](#specs)
-* 11:30 am - 12:30 pm : Packaging in Python - Sylvain Corlay & Wolf Vollprecht
+* 11:30 am - 12:30 pm : [Contributor Experience & Diversity - Noa Tamir](#divers)
 
 <br>
 
@@ -133,6 +133,23 @@ working with NumPy, SciPy, Matplotlib, and pandas to learn how to integrate this
 new role to a project, and how to introduce contributor hospitality techniques.
 We are working on creating widely available resources, and we would benefit from
 hearing from maintainers from the wider community.
+
+#### <a name="browser"></a> Python in the browser
+**Chair: Roman Yurchak, Sylvain Corlay**
+
+Recently it bacame possible to run Python and the scientific Python packages in
+the browser thanks to WebAssembly and [Emscripten](https://emscripten.org/).
+This is done in particular in the [Pyodide](https://github.com/pyodide/pyodide)
+and [emscripten-forge](https://github.com/emscripten-forge/recipes) projects.
+It allows for a scientific Python application, or a compute environement such
+as [JupyterLite](https://github.com/jupyterlite/jupyterlite), to be seamlessly
+accessible to large number of users with very little effort or infrastructure
+requirements.
+
+At the same time, the scientific Python ecosystem did not evolved with the web
+in mind. We will discuss some of the challenges package maintainers may face
+when trying to run their package in the browser, and what could  be done to
+overcome these.
 
 ## Participating Projects
 There is at least one confirmed maintainer from the following projects at the
