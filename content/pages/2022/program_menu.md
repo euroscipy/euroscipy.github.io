@@ -15,5 +15,4 @@ slug: program_2022
 - [Social Event](social_event.html)
 - [Sprint](sprint.html)
 - [PyLadies Lunch](pyladies_lunch.html)
-- [List of Accepted Proposals](accepted_talks.html)
 

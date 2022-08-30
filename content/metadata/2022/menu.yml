@@ -16,8 +16,8 @@
     url: sprint.html
   - name: PyLadies Lunch
     url: pyladies_lunch.html
-  - name: List of Accepted Talks
-    url: accepted_talks.html
+  # - name: List of Accepted Talks
+  #   url: accepted_talks.html
 - name: Maintainers
   url: maintainers.html
 - name: Registration
