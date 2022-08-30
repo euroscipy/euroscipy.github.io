@@ -46,6 +46,49 @@ Thursday morning:
 
 <br>
 
+#### <a name="edu"></a> Education - Materials, methods, tools
+**Chair: Mx Chiin-Rui Tan (She/Her, They/Them)**
+
+This session focuses on issues related to education in the ecosystem, from
+three different aspects, and during the session we focus on recent advances and
+existing and upcoming challenges.
+
+- Materials: how are projects dealing with documentation and education
+  materials
+- Methods: What should we do to make our materials more accessible to
+  underrepresented and/or historically marginalised groups?
+- Tools: What are the existing tools in the ecosystem helping us achieve the
+  above goals, and what do we need to develop?
+
+We will give an overview of these different aspects.
+
+#### <a name="df"></a> Interoperability in the DataFrame landscape: DataFrame API & PyArrow Update
+**Chair: Joris Van den Bossche**
+
+In this session, we want to share some updates on the DataFrame ecosystem: the DataFrame
+interchange protocol (https://data-apis.org/dataframe-protocol/latest/purpose_and_scope.html)
+and Arrow C Data interface (https://arrow.apache.org/docs/format/CDataInterface.html),
+and the integration of those interoperability protocols with different libraries. Further, we
+want to have an open conversation about challenges and requirements related to DataFrame
+interoperability and supporting multiple DataFrame libraries in projects.
+
+#### <a name="browser"></a> Python in the browser
+**Chair: Roman Yurchak, Sylvain Corlay**
+
+Recently it bacame possible to run Python and the scientific Python packages in
+the browser thanks to WebAssembly and [Emscripten](https://emscripten.org/).
+This is done in particular in the [Pyodide](https://github.com/pyodide/pyodide)
+and [emscripten-forge](https://github.com/emscripten-forge/recipes) projects.
+It allows for a scientific Python application, or a compute environement such
+as [JupyterLite](https://github.com/jupyterlite/jupyterlite), to be seamlessly
+accessible to large number of users with very little effort or infrastructure
+requirements.
+
+At the same time, the scientific Python ecosystem did not evolved with the web
+in mind. We will discuss some of the challenges package maintainers may face
+when trying to run their package in the browser, and what could  be done to
+overcome these.
+
 #### <a name="specs"></a> Scientific Python / SPECs
 **Chair: Jarrod Millman**
 
@@ -84,32 +127,6 @@ SciPy. The organization has spent the last several months working on the
 infrastructure, and is now ready to engage more widely to help grow and support
 the community.
 
-#### <a name="edu"></a> Education - Materials, methods, tools
-**Chair: Mx Chiin-Rui Tan (She/Her, They/Them)**
-
-This session focuses on issues related to education in the ecosystem, from
-three different aspects, and during the session we focus on recent advances and
-existing and upcoming challenges.
-
-- Materials: how are projects dealing with documentation and education
-  materials
-- Methods: What should we do to make our materials more accessible to
-  underrepresented and/or historically marginalised groups?
-- Tools: What are the existing tools in the ecosystem helping us achieve the
-  above goals, and what do we need to develop?
-
-We will give an overview of these different aspects.
-
-#### <a name="df"></a> Interoperability in the DataFrame landscape: DataFrame API & PyArrow Update
-**Chair: Joris Van den Bossche**
-
-In this session, we want to share some updates on the DataFrame ecosystem: the DataFrame
-interchange protocol (https://data-apis.org/dataframe-protocol/latest/purpose_and_scope.html)
-and Arrow C Data interface (https://arrow.apache.org/docs/format/CDataInterface.html),
-and the integration of those interoperability protocols with different libraries. Further, we
-want to have an open conversation about challenges and requirements related to DataFrame
-interoperability and supporting multiple DataFrame libraries in projects.
-
 #### <a name="divers"></a> Contributor Experience & Diversity
 **Chair: Noa Tamir (She/Her, They/Them)**
 
@@ -133,23 +150,6 @@ working with NumPy, SciPy, Matplotlib, and pandas to learn how to integrate this
 new role to a project, and how to introduce contributor hospitality techniques.
 We are working on creating widely available resources, and we would benefit from
 hearing from maintainers from the wider community.
-
-#### <a name="browser"></a> Python in the browser
-**Chair: Roman Yurchak, Sylvain Corlay**
-
-Recently it bacame possible to run Python and the scientific Python packages in
-the browser thanks to WebAssembly and [Emscripten](https://emscripten.org/).
-This is done in particular in the [Pyodide](https://github.com/pyodide/pyodide)
-and [emscripten-forge](https://github.com/emscripten-forge/recipes) projects.
-It allows for a scientific Python application, or a compute environement such
-as [JupyterLite](https://github.com/jupyterlite/jupyterlite), to be seamlessly
-accessible to large number of users with very little effort or infrastructure
-requirements.
-
-At the same time, the scientific Python ecosystem did not evolved with the web
-in mind. We will discuss some of the challenges package maintainers may face
-when trying to run their package in the browser, and what could  be done to
-overcome these.
 
 ## Participating Projects
 There is at least one confirmed maintainer from the following projects at the
