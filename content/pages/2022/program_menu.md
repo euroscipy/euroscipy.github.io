@@ -12,6 +12,7 @@ slug: program_2022
 - [Call for Proposals](program.html)
 - [Schedule](https://pretalx.com/euroscipy-2022/schedule/)
 - [Keynotes](keynotes.html)
+- [Spotlight and Poster Session](poster_session.html)
 - [Social Event](social_event.html)
 - [Sprint](sprint.html)
 - [PyLadies Lunch](pyladies_lunch.html)

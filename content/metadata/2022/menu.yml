@@ -10,6 +10,8 @@
     url: https://pretalx.com/euroscipy-2022/schedule/
   - name: Keynotes
     url: 'keynotes.html'
+  - name: Spotlights and Posters
+    url: 'poster_session.html'
   - name: Social Event
     url: 'social_event.html'
   - name: Sprint
