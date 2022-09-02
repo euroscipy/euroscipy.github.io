@@ -25,7 +25,7 @@ Currently, the following projects already opt-in for the day:
 - [Bokeh](https://docs.bokeh.org/en/latest/)
 - [NetworkX](https://networkx.org/)
 - [Pandas](https://pandas.pydata.org/) - [GeoPandas](https://geopandas.org/en/stable/)
-- [Scikit-learn](https://scikit-learn.org/stable/)
+- [Scikit-learn](https://scikit-learn.org/stable/) - [Repository for the sprint](https://github.com/scikit-learn-inria-fondation/EuroSciPy22)
 - [The Mission Support System](https://mss.readthedocs.io/en/stable/)
 
 <br>
