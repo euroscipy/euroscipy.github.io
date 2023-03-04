@@ -62,4 +62,4 @@ including but not limited to:
 
 ### Call for Proposal (CfP)
 
-TBA
+The call for proposals will be opened on **20.3.2023**, more details will follow.
