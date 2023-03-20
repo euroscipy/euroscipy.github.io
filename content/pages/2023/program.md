@@ -36,7 +36,46 @@ EuroSciPy 2023 takes place from **Monday, August 14 to Friday, August 18 in Base
 Presentations of scientific tools and libraries using the Python language,
 including but not limited to:
 
-- Algorithms implemented or exposed in Python
+- General-purpose Python tools/Algorithms that can be of special interest to the scientific community
+    - Data Visualization
+    - Scientific Visualization
+    - Image Processing
+    - Statistics
+    - Data Analysis and Engineering
+    - Scientific Data Flow and Persistence
+    - Reproducibility
+    - Deployment
+    - Scaling
+    - Web Application
+    - Project Jupyter
+
+- High Performance Computing
+    - Parallel Computing
+    - Vector and Array Manipulation
+
+- Scientific Applications
+    - Astronomy
+    - Earth and Ocean Sciences
+    - Geo Sciences
+    - Simulations (e.g., Physics, CFD, ESMs)
+    - Political Sciences
+    - Social Sciences
+    - Material Sciences
+    - Robotics & IoT
+
+- Machine/Deep Learning & AI
+    - Natural Language Processing
+    - Drug Discovery
+    - AI-based Emulators
+    - Event Forecasting
+
+- Communications and Outreach
+    - Learning and Teaching Scientific Python
+    - Science and Engineering Portals
+    - Reports on the Use of Python in Scientific achievements or ongoing projects
+    - Diversity and Inclusion
+
+<!-- - Algorithms implemented or exposed in Python
 - Astronomy
 - Data Visualisation
 - Machine/Deep Learning & AI
@@ -56,7 +95,7 @@ including but not limited to:
 - Statistics
 - Vector and array manipulation
 - Web applications and portals for science and engineering
-- 3D Printing
+- 3D Printing -->
 <br>
 <br>
 
