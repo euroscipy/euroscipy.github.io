@@ -18,7 +18,6 @@ academic research and state-of-the-art industry.
 
 EuroSciPy 2023 takes place from **Monday, August 14 to Friday, August 18 in Basel, Switzerland**.
 
-**Call for proposal will be announced soon, stay tuned!**
 <br>
 
 ### Conference layout:
@@ -106,4 +105,4 @@ including but not limited to:
 
 ### Call for Proposal (CfP)
 
-The call for proposals will be opened on **20.3.2023**, more details will follow.
+The call for proposals will be opened on **March 23, 2023**, more details will follow.
