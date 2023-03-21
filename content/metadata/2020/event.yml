@@ -1,0 +1,38 @@
+---
+
+name: EuroSciPy 2020
+dates: July 27-31, 2020
+first_day: 2020-07-27
+address: Bizkaia Aretoa, Avda. Abandoibarra 3, Bilbao, Spain
+calendar_url:
+ticket_purchase_url: https://www.ti.to
+sponsorship_url: sponsoring.html
+
+conference_logo: ../static/2020/logo.png
+background_poster: ../static/2020/background-1.jpg
+venue_picture: ../static/2020/bizkaia_aretoa_index.png
+background_poster_counter: ../static/2020/euroscipy_volunteers.jpg
+background_poster_sponsors: ../static/2020/euroscipy_coffee.jpg
+
+short_description: 13th European Conference on Python in Science
+long_description: |
+  <p>The EuroSciPy meeting is a cross-disciplinary gathering
+  focused on the use and development of the Python language in scientific research.
+  </p>
+  <p>
+  This event strives to bring together both users and developers of scientific tools,
+  as well as academic research and state of the art industry.
+  </p>
+  <p>
+  We are happy to announce that this edition we will celebrate it with
+  <a href="http://2020.geopython.net/">GeoPython 2020</a>.
+  </p>
+
+announcements: |
+ The 2020 conference has been cancelled due to the health crisis, more details <a href="https://www.euroscipy.org/2020/program.html">here</a>!
+
+stats:
+  expected_number_of_speakers: 80
+  expected_number_of_participants: 350
+  number_of_workshops: 24
+  days_of_event: 5

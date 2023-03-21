@@ -1,0 +1,81 @@
+<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-GB"> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang="en-GB"> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang="en-GB"> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang="en-GB"> <!--<![endif]-->
+<head>
+	{% block head %}
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+	<link rel="shortcut icon" type="image/png" href="{{ SITEURL }}/{{ ASSET_URL }}/images/favicon.ico"/>
+	{% if page %}
+	<meta name="title" content="{{ page.title }}">
+	{% endif %}
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/normalize.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/icomoon.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/customScrollbar.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/animate.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/owl.carousel.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/prettyPhoto.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/jquery.fullpage.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/transitions.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/main.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/color.css">
+	<link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}/css/responsive.css">
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	<script src="https://pretalx.com/euroscipy-2022/schedule/widget/v2.en.js"></script>
+	{% endblock %}
+	<style>
+		html,
+		body{height: auto;}
+	</style>
+</head>
+<body class="tg-home tg-homeone">
+	<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!--************************************
+			Wrapper Start
+	*************************************-->
+	<div id="tg-wrapper" class="tg-wrapper tg-haslayout">
+		{% block header %}{% endblock %}
+
+		<!--************************************
+				Main Start
+		*************************************-->
+		<main id="tg-main" class="tg-main tg-haslayout">
+		{% block content %}{% endblock %}
+		</main>
+		<!--************************************
+				Main End
+		*************************************-->
+
+		{% block footer %}{% endblock %}
+	</div>
+	<!--************************************
+			Wrapper End
+	*************************************-->
+	{% block extra_scripts %}{%endblock%}
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/vendor/jquery-library.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/vendor/bootstrap.min.js"></script>
+	<script src="https://maps.google.com/maps/api/js?key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus&language=en"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/customScrollbar.min.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/packery.pkgd.min.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/owl.carousel.min.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/jquery.hoverdir.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/jquery.vide.min.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/jquery.fullpage.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/isotope.pkgd.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/prettyPhoto.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/countdown.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/countTo.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/appear.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/gmap3.js"></script>
+	<script src="{{ SITEURL }}/{{ ASSET_URL }}/js/main.js"></script>
+</body>
+</html>
