@@ -13,7 +13,7 @@ SSH_PORT=22
 SSH_USER = gh_euroscipy
 SSH_TARGET_DIR=/web/static/
 
-GITHUB_PAGES_BRANCH=master
+GITHUB_PAGES_BRANCH=develop
 
 DEBUG ?= 1
 ifeq ($(DEBUG), 1)
