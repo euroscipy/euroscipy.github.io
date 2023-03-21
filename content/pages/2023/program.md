@@ -37,6 +37,7 @@ Presentations of scientific tools and libraries using the Python language,
 including but not limited to:
 
 **General-purpose Python tools/Algorithms that can be of special interest to the scientific community**
+
 - Data Visualization
 - Scientific Visualization
 - Image Processing
@@ -50,10 +51,12 @@ including but not limited to:
 - Project Jupyter
 
 **High Performance Computing**
+
 - Parallel Computing
 - Vector and Array Manipulation
 
 **Scientific Applications**
+
 - Astronomy
 - Earth and Ocean Sciences
 - Geo Sciences
@@ -64,12 +67,14 @@ including but not limited to:
 - Robotics & IoT
 
 **Machine/Deep Learning & AI**
+
 - Natural Language Processing
 - Drug Discovery
 - AI-based Emulators
 - Event Forecasting
 
 **Communications and Outreach**
+
 - Learning and Teaching Scientific Python
 - Science and Engineering Portals
 - Reports on the Use of Python in Scientific achievements or ongoing projects
