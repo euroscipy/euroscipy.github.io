@@ -18,7 +18,6 @@ academic research and state-of-the-art industry.
 
 EuroSciPy 2023 takes place from **Monday, August 14 to Friday, August 18 in Basel, Switzerland**.
 
-**Call for proposal will be announced soon, stay tuned!**
 <br>
 
 ### Conference layout:
@@ -36,74 +35,74 @@ EuroSciPy 2023 takes place from **Monday, August 14 to Friday, August 18 in Base
 Presentations of scientific tools and libraries using the Python language,
 including but not limited to:
 
-**General-purpose Python tools/Algorithms that can be of special interest to the scientific community**
+- [Data Science and Visualization](#data-science-and-visualization)
+- [High Performance Computing](#high-performance-computing)
+- [Scientific Applications](#scientific-applications)
+- [Machine/Deep Learning and AI](#machine-and-deep-learning)
+- [Community, Education and Outreach](#community-education-and-outreach)
+​​
+<br>
+<br>
 
+#### Data Science and Visualization
+
+- Data Analysis and Data Engineering
 - Data Visualization
-- Scientific Visualization
 - Image Processing
 - Statistics
-- Data Analysis and Engineering
-- Scientific Data Flow and Persistence
 - Reproducibility
-- Deployment
-- Scaling
+- Model Deployment
 - Web Application
-- Project Jupyter
 
-**High Performance Computing**
+​<br>
+
+#### High Performance Computing
 
 - Parallel Computing
 - Vector and Array Manipulation
+- Scalability
 
-**Scientific Applications**
+<br>
+
+#### Scientific Applications
 
 - Astronomy
+- Drug Discovery
+- Healthcare and Biomedicine
 - Earth and Ocean Sciences
 - Geo Sciences
 - Simulations (e.g., Physics, CFD, ESMs)
 - Political Sciences
 - Social Sciences
 - Material Sciences
+- Physics
 - Robotics & IoT
-
-**Machine/Deep Learning & AI**
-
-- Natural Language Processing
-- Drug Discovery
-- AI-based Emulators
 - Event Forecasting
 
-**Communications and Outreach**
+<br>
+
+#### Machine and Deep Learning
+
+- Supervised Learning
+- Unsupervised Learning
+- Reinforcement Learning
+- Generative Models
+- Reproducible Machine Learning
+- Algorithmic bias and Trustworthy AI
+- ML Applications (e.g. NLP, CV)
+
+<br>
+
+#### Community, Education and Outreach
 
 - Learning and Teaching Scientific Python
 - Science and Engineering Portals
 - Reports on the Use of Python in Scientific achievements or ongoing projects
 - Diversity and Inclusion
 
-<!-- - Algorithms implemented or exposed in Python
-- Astronomy
-- Data Visualisation
-- Machine/Deep Learning & AI
-- Earth and Ocean Sciences
-- Geo Science
-- General-purpose Python tools that can be of special interest to the scientific community.
-- Image Processing
-- Materials Science
-- Parallel computing
-- Political and Social Sciences
-- Project Jupyter
-- Reports on the use of Python in scientific achievements or ongoing projects.
-- Robotics & IoT
-- Scientific data flow and persistence
-- Scientific visualization
-- Simulation
-- Statistics
-- Vector and array manipulation
-- Web applications and portals for science and engineering
-- 3D Printing -->
 <br>
 <br>
 
 ### Call for Proposal (CfP)
 
-The call for proposals will be opened on **20.3.2023**, more details will follow.
+The call for proposals will be opened on **March 23, 2023**, more details will follow.
