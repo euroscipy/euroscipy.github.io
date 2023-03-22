@@ -18,6 +18,7 @@ academic research and state-of-the-art industry.
 
 EuroSciPy 2023 takes place from **Monday, August 14 to Friday, August 18 in Basel, Switzerland**.
 
+**Please scroll down to submit a proposal**
 <br>
 
 ### Conference layout:
@@ -35,12 +36,11 @@ EuroSciPy 2023 takes place from **Monday, August 14 to Friday, August 18 in Base
 Presentations of scientific tools and libraries using the Python language,
 including but not limited to:
 
-- [Data Science and Visualization](#data-science-and-visualization)
 - [High Performance Computing](#high-performance-computing)
 - [Scientific Applications](#scientific-applications)
-- [Machine/Deep Learning and AI](#machine-and-deep-learning)
-- [Community, Education and Outreach](#community-education-and-outreach)
-​​
+- [Machine and Deep Learning](#machine-and-deep-learning)
+- [Community, Education, and Outreach](#community-education-and-outreach)
+
 <br>
 <br>
 
@@ -54,7 +54,7 @@ including but not limited to:
 - Model Deployment
 - Web Application
 
-​<br>
+<br>
 
 #### High Performance Computing
 
@@ -93,7 +93,7 @@ including but not limited to:
 
 <br>
 
-#### Community, Education and Outreach
+#### Community, Education, and Outreach
 
 - Learning and Teaching Scientific Python
 - Science and Engineering Portals
@@ -103,6 +103,9 @@ including but not limited to:
 <br>
 <br>
 
-### Call for Proposal (CfP)
+### Call for Proposals (CfP)
 
-The call for proposals will be opened on **March 23, 2023**, more details will follow.
+EuroSciPy 2023 Call for Proposals is open from **Thursday, March 23** until
+**Sunday, April 30**, 2023 ([Anywhere on Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth)).
+
+<a href="https://pretalx.com/euroscipy-2023/cfp" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Submit your proposal now 🐍 </a>
