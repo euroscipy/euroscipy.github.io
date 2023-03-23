@@ -32,7 +32,7 @@ Any complaint will remain confidential and will be investigated. The EuroSciPy
 organisers will do their best to resolve any conflict and preserve the
 welcoming character of the conference. As a last resort, a participant
 may be requested to leave the venue of the conference, without
-reimbursment.
+reimbursement.
 
 The members of the code of conduct workgroup are:
 
