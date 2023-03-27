@@ -129,6 +129,16 @@ For more details see the [Sponsors page](current_sponsors.html).
 We raffled out a bunch of good Python books.
 A big thanks to Packt for providing them.
 
+### Volunteers
+
+Volunteers are essential for this conference.
+They make up the core of the on-site team that is so important for a smooth
+event.
+Therefore, a big thanks to the volunteers who diligently worked long hours on
+the conference days.
+We wouldn't hav a conference without you.
+
+![Python Academy](../static/2022/report/volunteers.png){width=450}
 
 
 ### Next Edition
