@@ -152,4 +152,4 @@ will be Basel again.
 Reserve the week August 14 to 18, 2023 for this event.
 Basel is a great city.
 
-![EuroSciPy picture 1](../static/2022/report/talk_inria.jpeg){width=450}
+![EuroSciPy picture 1](../static/2022/report/euroscipy_2023.png)
