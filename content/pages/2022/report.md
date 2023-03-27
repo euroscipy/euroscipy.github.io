@@ -28,6 +28,9 @@ We counted *210 attendees* including people joining via 17 streaming access.
 Beginners and advanced users learned in new topics in *16 tutorials*.
 The latest research topics were presented in *30 talks*.
 
+
+![EuroSciPy numbers](../static/2022/report/numbers.png)
+
 ### Poster Session
 
 Talk slots are limited.
