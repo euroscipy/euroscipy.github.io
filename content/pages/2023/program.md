@@ -106,7 +106,7 @@ including but not limited to:
 
 ### Call for Proposals (CfP)
 
-EuroSciPy 2023 Call for Proposals is open from **Thursday, March 23** until
-**Sunday, April 30**, 2023 (Europe/Berlin).
+EuroSciPy 2023 Call for Proposals is extended until
+**Sunday, May 14**, 2023 (Europe/Berlin).
 
 <a href="https://pretalx.com/euroscipy-2023/cfp" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Submit your proposal now 🐍 </a>
