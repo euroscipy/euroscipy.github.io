@@ -83,6 +83,7 @@ img {
 	max-width: 100%;
 }
 strong { color: #414141; }
+
 iframe {
 	border: none;
 	float: left;
@@ -4856,3 +4857,15 @@ body.tg-comingsoonpage .tg-foorterbar .tg-socialicons{padding:0;}
 #euroscipy-page {
     margin-top: 100px;
 }
+
+img[src*="#logo_large"] {
+    width:450px;
+ }
+
+img[src*="#logo_medium"] {
+    width:150px;
+ }
+
+ img[src*="#logo_small"] {
+    width:50px;
+ }
