@@ -25,10 +25,9 @@ long_description: |
   </p>
 
 announcements: |
-  <p>EuroSciPy 2023 Call for Proposals is extended until
-  Sunday, May 14, 2023 (Europe/Berlin).
-  </p>
-  <a href="https://pretalx.com/euroscipy-2023/cfp" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Submit your proposal now 🐍 </a>
+  <p>EuroSciPy 2023 Tickets Now Available!</p>
+  <p>Don't miss out on our early bird ticket offer, valid until July 28, 2023.</p>
+  <a href="https://ti.to/pysv/euroscipy-2023" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Get your ticket 🐍</a>
 
 stats:
   expected_number_of_speakers: 50
