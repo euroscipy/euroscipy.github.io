@@ -36,7 +36,7 @@ communities, and contributors to community projects.
 
 ### How to apply
 
-Please fill in the [form](TBD) before June 18th.
+Please fill in the [form](https://forms.gle/QisUS8Y6z3EzeFbz6) before June 18th.
 <br>
 <br>
 
