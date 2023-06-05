@@ -36,7 +36,7 @@ communities, and contributors to community projects.
 
 ### How to apply
 
-Please fill in the [form](https://forms.gle/QisUS8Y6z3EzeFbz6) before June 18th.
+Please fill in the [form](https://forms.gle/QisUS8Y6z3EzeFbz6) before June 24th.
 <br>
 <br>
 
@@ -44,10 +44,10 @@ Please fill in the [form](https://forms.gle/QisUS8Y6z3EzeFbz6) before June 18th.
 
 |            |                                                                                   |
 |------------|-----------------------------------------------------------------------------------|
-| June 1     | Open the grant program                                                            |
-| June 18    | **Deadline for submitting the applications**                                      |
-| July 2    | Notification of grants awarded                                                    |
-| July 9    | Deadline for applicants to accept/decline financial aid                           |
+| June 5     | Open the grant program                                                            |
+| June 24    | **Deadline for submitting the applications**                                      |
+| July 8    | Notification of grants awarded                                                    |
+| July 15    | Deadline for applicants to accept/decline financial aid                           |
 | August 25     | Deadline to upload receipts                                                       |
 
 <br>
