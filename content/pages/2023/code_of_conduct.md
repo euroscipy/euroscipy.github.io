@@ -27,16 +27,18 @@ that all delegates may expect to
 </br>
 
 If problems covered by this code of conduct arise, please contact a
-EuroSciPy organiser directly or send an email to [info@euroscipy.org](mailto:info@euroscipy.org).
+EuroSciPy organiser directly or send an email to one or all members of the
+CoC committee listed bellow.
 Any complaint will remain confidential and will be investigated. The EuroSciPy
 organisers will do their best to resolve any conflict and preserve the
 welcoming character of the conference. As a last resort, a participant
 may be requested to leave the venue of the conference, without
 reimbursement.
 
-The members of the code of conduct workgroup are:
+The members of the code of conduct committee are:
 
-- TBD
+- Alessia Marcolini [alessia@euroscipy.org](mailto:alessia@euroscipy.org)
+- Maren Westermann [maren.westermann@gmail.com](mailto:maren.westermann@gmail.com)
 
 </br>
 
@@ -47,3 +49,4 @@ reported to the police.
 
 This document is based on the PyCon UK Code of Conduct and released under
 a [creative commons license](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+
