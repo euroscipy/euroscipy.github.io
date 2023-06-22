@@ -28,7 +28,11 @@ to propose a sprint, please send us a message to
 List of confirmed sprints:
 
 - [scikit-learn](https://scikit-learn.org/stable/)
-	- GPU programming for scikit-learn with [sklearn-numba-dpex](https://github.com/soda-inria/sklearn-numba-dpex) and [Array API](https://data-apis.org/array-api/).
-	- Addressing issues from the [GitHub issue tracker](https://github.com/scikit-learn/scikit-learn/issues)
+    - GPU programming for scikit-learn with [sklearn-numba-dpex](https://github.com/soda-inria/sklearn-numba-dpex) and [Array API](https://data-apis.org/array-api/).
+    - Addressing issues from the [GitHub issue tracker](https://github.com/scikit-learn/scikit-learn/issues)
 - [pandas](https://pandas.pydata.org/)
 - [VizPy](https://vispy.org/)
+- [braindecode](https://braindecode.org/)
+  - restructuring the documentation to make it more accessible for new users.
+  - re-implement and optimization the DataLoaders.
+  - re-implement the cropped training.
