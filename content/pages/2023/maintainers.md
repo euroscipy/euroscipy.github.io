@@ -8,6 +8,7 @@ slug: maintainers2023
 ---
 
 ## Maintainers
+
 EuroSciPy aims to be the meeting point of maintainers of scientific open source
 projects, with other contributors and their users.
 
@@ -23,4 +24,21 @@ All the sessions will take place in the <TBA> room.
 
 ### Schedule
 
-TBA
+The final schedule will be anonunced in the [Program](/2023/program_menu.html)
+section of the website once the [Call for Proposals](https://pretalx.com/euroscipy-2023/cfp)
+is closed and proposals have been reviewed and selected.
+
+If you are a maintainer of a popular scientific Python project and you are considering
+joining EuroSciPy after the CFP is close, please do get in touch at our
+[maintainers email address](mailto:maintainers@euroscipy.org) to see if we still
+have a slot available for you to talk at the conference.
+
+### Sprints
+
+Open source projects will be sprinting at EuroSciPy on August 18th.
+
+You can find more information about sprints in the [Sprint](/2023/sprint.html)
+page.
+
+Please [email](mailto:maintainers@euroscipy.org) us if you have a proposal for
+a maintainers session.

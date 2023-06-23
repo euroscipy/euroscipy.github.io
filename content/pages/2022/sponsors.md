@@ -12,3 +12,4 @@ slug: sponsoring_2022
 - [Become a Sponsor](sponsoring.html)
 - [Current Sponsors](current_sponsors.html)
 - [Terms & Conditions](sponsoring-terms.html)
+- [Report](report.html)

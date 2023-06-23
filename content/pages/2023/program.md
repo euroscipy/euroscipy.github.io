@@ -18,7 +18,7 @@ academic research and state-of-the-art industry.
 
 EuroSciPy 2023 takes place from **Monday, August 14 to Friday, August 18 in Basel, Switzerland**.
 
-**Call for proposal will be announced soon, stay tuned!**
+**Please scroll down to submit a proposal**
 <br>
 
 ### Conference layout:
@@ -36,30 +36,75 @@ EuroSciPy 2023 takes place from **Monday, August 14 to Friday, August 18 in Base
 Presentations of scientific tools and libraries using the Python language,
 including but not limited to:
 
-- Algorithms implemented or exposed in Python
-- Astronomy
-- Data Visualisation
-- Machine/Deep Learning & AI
-- Earth and Ocean Sciences
-- Geo Science
-- General-purpose Python tools that can be of special interest to the scientific community.
+- [Data Science and Visualization](#data-science-and-visualization)
+- [High Performance Computing](#high-performance-computing)
+- [Scientific Applications](#scientific-applications)
+- [Machine and Deep Learning](#machine-and-deep-learning)
+- [Community, Education, and Outreach](#community-education-and-outreach)
+
+<br>
+<br>
+
+#### Data Science and Visualization
+
+- Data Analysis and Data Engineering
+- Data Visualization
 - Image Processing
-- Materials Science
-- Parallel computing
-- Political and Social Sciences
-- Project Jupyter
-- Reports on the use of Python in scientific achievements or ongoing projects.
-- Robotics & IoT
-- Scientific data flow and persistence
-- Scientific visualization
-- Simulation
 - Statistics
-- Vector and array manipulation
-- Web applications and portals for science and engineering
-- 3D Printing
+- Reproducibility
+- Model Deployment
+- Web Application
+
+<br>
+
+#### High Performance Computing
+
+- Parallel Computing
+- Vector and Array Manipulation
+- Scalability
+
+<br>
+
+#### Scientific Applications
+
+- Astronomy
+- Drug Discovery
+- Healthcare and Biomedicine
+- Earth and Ocean Sciences
+- Geo Sciences
+- Simulations (e.g., Physics, CFD, ESMs)
+- Political Sciences
+- Social Sciences
+- Material Sciences
+- Physics
+- Robotics & IoT
+- Event Forecasting
+
+<br>
+
+#### Machine and Deep Learning
+
+- Supervised Learning
+- Unsupervised Learning
+- Reinforcement Learning
+- Generative Models
+- Reproducible Machine Learning
+- Algorithmic bias and Trustworthy AI
+- ML Applications (e.g. NLP, CV)
+
+<br>
+
+#### Community, Education, and Outreach
+
+- Learning and Teaching Scientific Python
+- Science and Engineering Portals
+- Reports on the Use of Python in Scientific achievements or ongoing projects
+- Diversity and Inclusion
+
 <br>
 <br>
 
-### Call for Proposal (CfP)
+### Call for Proposals (CfP)
 
-The call for proposals will be opened on **20.3.2023**, more details will follow.
+The EuroSciPy 2023 Call for Proposals has concluded. 
+The deadline for submissions was Sunday, May 14, 2023 (Europe/Berlin).
