@@ -10,4 +10,5 @@ slug: sponsoring_2023
 ### Links
 
 - [Become a Sponsor](sponsoring.html)
+- [Current Sponsors](current_sponsors.html)
 - [Terms & Conditions](sponsoring-terms.html)

@@ -1,2 +1,5 @@
 ---
-TBA
+- name: Roche
+  url: https://www.roche.com/
+  logo: ../static/2023/sponsors/sponsor_logos/Roche_Logo.svg
+  description: Roche
