@@ -33,6 +33,6 @@ List of confirmed sprints:
 - [pandas](https://pandas.pydata.org/)
 - [VizPy](https://vispy.org/)
 - [braindecode](https://braindecode.org/)
-  - restructuring the documentation to make it more accessible for new users.
-  - re-implement and optimization the DataLoaders.
-  - re-implement the cropped training.
+    - Restructuring the documentation to make it more accessible for new users.
+    - Re-implement and optimization the DataLoaders.
+    - Re-implement the cropped training.
