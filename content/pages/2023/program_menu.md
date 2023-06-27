@@ -12,5 +12,6 @@ slug: program_2023
 - [Call for Proposals](program.html)
 - [Schedule](https://pretalx.com/euroscipy-2023/schedule/)
 - [Spotlight and Poster Session](poster_session.html)
+- [Social Event](social_event.html)
 - [Sprint](sprint.html)
 
