@@ -10,6 +10,8 @@
     url: https://pretalx.com/euroscipy-2023/schedule/
   - name: Spotlights and Posters
     url: 'poster_session.html'
+  - name: Social Event
+    url: 'social_event.html'
   - name: Sprint
     url: sprint.html
 
