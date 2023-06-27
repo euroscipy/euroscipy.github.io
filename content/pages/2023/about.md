@@ -12,7 +12,7 @@ slug: about_2023
 - Alessia Marcolini (LUMICKS, NL)
 - Alexander CS Hendorf (Königsweg GmbH, DE)
 - Dr. Adrin Jalali (DE)
-- Artem Kislovskiy (Verisign, CH)
+- Artem Kislovskiy (CH)
 - Dr. Geir Arne (RealPython, NO)
 - Dr. Guillaume Lemaitre (Inria, FR)
 - Konstantin Ignatov (SentinelOne, CZ)
