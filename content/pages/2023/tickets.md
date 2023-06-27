@@ -26,11 +26,12 @@ The conference will follow this broad plan of events:
 
 We provide three different types of tickets:
 
-- Tutorial tickets: access to the tutorial days and the one-day sprint but NOT
+- **Tutorial tickets**: access to the tutorial days and the one-day sprint but NOT
   the main conference
-- Conference tickets: access to the main conference days and one-day sprint but
+- **Conference tickets**: access to the main conference days and one-day sprint but
   NOT the tutorials
-- Combined tickets: access to everything during the five-day event
+- **Combined tickets**: access to everything during the five-day event
+- **Streaming access**: XXXXXXX
 
 <br>
 
@@ -39,16 +40,44 @@ We provide three different types of tickets:
 Refer to the following to know which ticket tier you should be choosing to
 attend EuroSciPy:
 
-- Business tickets: for attendees whose company/business is paying for them to
+- **Business tickets**: for attendees whose company/business is paying for them to
   attend, or if you use Python professionally.
-- Academic/Individual tickets: for anyone involved in the academic sector
+- **Academic/Individual tickets**: for anyone involved in the academic sector
   (teachers, researchers, etc.) as well as Python hobbyist or working as
   freelancer.
-- Student tickets: for students that can provide a proof to be send to
+- **Student tickets**: for students that can provide a proof to be send to
   <a href="mailto:students@euroscipy.org">students@euroscipy.org</a>
 
 <br>
 
 ### Ticket prices
 
-TBA
+**Normal Bird Tickets - Booking by July 28**
+
+|                  | Student (*) | Academic/Individual | Business |
+|------------------|-------------|---------------------|----------|
+| Tutorial only    | 125 €       | 150 €               | 300 €    |
+| Conference only  | 125 €       | 150 €               | 250 €    |
+| Combined ticket  | 200 €       | 250 €               | 500 €    |
+| Streaming access | 50 €        | 50 €                | 50 €     |
+
+**Late Bird Tickets - Booking after July 28**
+
+Due to organization burden, we will apply a late bird when tickets are booked
+after August 14.
+
+|                  | Student (*) | Academic/Individual | Business |
+|------------------|-------------|---------------------|----------|
+| Tutorial only    | 175 €       | 200 €               | 350 €    |
+| Conference only  | 175 €       | 200 €               | 300 €    |
+| Combined ticket  | 300 €       | 350 €               | 600 €    |
+| Streaming access | 100 €       | 100 €               | 100 €    |
+
+(*) After registration, please send your student qualifying proof to
+<a href="mailto:students@euroscipy.org">students@euroscipy.org</a>
+
+*Prices include VAT.*
+
+<a href="https://ti.to/pysv/euroscipy-2023" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Get your ticket 🐍</a>
+
+In case that you have additional queries, please contact us at: <a href="mailto:info@euroscipy.org">info@euroscipy.org</a>.
