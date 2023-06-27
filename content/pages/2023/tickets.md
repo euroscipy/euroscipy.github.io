@@ -31,7 +31,8 @@ We provide three different types of tickets:
 - **Conference tickets**: access to the main conference days and one-day sprint but
   NOT the tutorials
 - **Combined tickets**: access to everything during the five-day event
-- **Streaming access**: XXXXXXX
+- **Streaming access**: access to the **main conference** via streaming. This
+  ticket does not include access to the tutorials.
 
 <br>
 
