@@ -31,8 +31,8 @@ slug: about_2023
 
 #### Contact and Helpdesk
 
-- info at the domain euroscipy.org
-- Telegram: [Telegram chat group](https://t.me/euroscipy)
+To contact the organising team, you can check the [Contact Us](contact_us.html) page.
+We can also get in touch via the [Telegram chat group](https://t.me/euroscipy).
 
 </br>
 </br>
