@@ -15,7 +15,8 @@
 
 - name: Maintainers
   url: maintainers.html
-
+- name: Registration
+  url: tickets.html
 - name: Sponsors
   url: sponsors.html
   submenu:
