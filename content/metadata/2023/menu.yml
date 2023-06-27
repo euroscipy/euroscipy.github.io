@@ -6,8 +6,8 @@
   submenu:
   - name: Call for Proposals
     url: program.html
-#  - name: Schedule
-#    url: https://pretalx.com/euroscipy-2023/schedule/
+  - name: Schedule
+    url: https://pretalx.com/euroscipy-2023/schedule/
   - name: Spotlights and Posters
     url: 'poster_session.html'
   - name: Sprint
