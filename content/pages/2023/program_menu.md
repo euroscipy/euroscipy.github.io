@@ -10,6 +10,7 @@ slug: program_2023
 ### Program Items
 
 - [Call for Proposals](program.html)
+- [Keynotes](keynotes.html)
 - [Spotlight and Poster Session](poster_session.html)
 - [Sprint](sprint.html)
 

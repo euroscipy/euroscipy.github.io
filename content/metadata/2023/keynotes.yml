@@ -1,0 +1,15 @@
+---
+
+- full_name: Giada Pistilli
+  job_position: Principal Ethicist
+  affiliation: Hugging Face
+  profile_picture: ../static/2022/andreas_steiner.jpg
+  abstract: https://www.euroscipy.org/2023/keynotes.html#keynote-1
+  twitter: GiadaPistilli
+
+- full_name: Ritchie Vink
+  job_position: TBD
+  affiliation: TBD
+  profile_picture: ../static/2022/kj.png
+  abstract: https://www.euroscipy.org/2023/keynotes.html#keynote-2
+  twitter: RitchieVink

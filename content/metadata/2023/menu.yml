@@ -8,6 +8,8 @@
     url: program.html
 #  - name: Schedule
 #    url: https://pretalx.com/euroscipy-2023/schedule/
+  - name: Keynotes
+    url: 'keynotes.html'
   - name: Spotlights and Posters
     url: 'poster_session.html'
   - name: Sprint
