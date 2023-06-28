@@ -6,18 +6,21 @@
   submenu:
   - name: Call for Proposals
     url: program.html
-#  - name: Schedule
-#    url: https://pretalx.com/euroscipy-2023/schedule/
+  - name: Schedule
+    url: https://pretalx.com/euroscipy-2023/schedule/
   - name: Keynotes
     url: 'keynotes.html'
   - name: Spotlights and Posters
     url: 'poster_session.html'
+  - name: Social Event
+    url: 'social_event.html'
   - name: Sprint
     url: sprint.html
 
 - name: Maintainers
   url: maintainers.html
-
+- name: Registration
+  url: tickets.html
 - name: Sponsors
   url: sponsors.html
   submenu:

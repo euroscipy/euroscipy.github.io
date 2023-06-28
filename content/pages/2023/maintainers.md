@@ -24,7 +24,7 @@ All the sessions will take place in the <TBA> room.
 
 ### Schedule
 
-The final schedule will be anonunced in the [Program](/2023/program_menu.html)
+The final schedule will be announced in the [Program](/2023/program_menu.html)
 section of the website once the [Call for Proposals](https://pretalx.com/euroscipy-2023/cfp)
 is closed and proposals have been reviewed and selected.
 

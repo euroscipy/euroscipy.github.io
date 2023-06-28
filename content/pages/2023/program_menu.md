@@ -10,7 +10,9 @@ slug: program_2023
 ### Program Items
 
 - [Call for Proposals](program.html)
+- [Schedule](https://pretalx.com/euroscipy-2023/schedule/)
 - [Keynotes](keynotes.html)
 - [Spotlight and Poster Session](poster_session.html)
+- [Social Event](social_event.html)
 - [Sprint](sprint.html)
 
