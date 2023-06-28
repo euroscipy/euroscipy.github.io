@@ -49,4 +49,3 @@ reported to the police.
 
 This document is based on the PyCon UK Code of Conduct and released under
 a [creative commons license](http://creativecommons.org/licenses/by-nc-sa/3.0/).
-

@@ -5,8 +5,13 @@ save_as: index.html
 template: landing
 ---
 
-# Welcome to the EuroSciPy conference!
-### The next edition is [EuroSciPy 2023](/2023).
+# Welcome to the EuroSciPy conference
+
+### The next edition is [EuroSciPy 2023](/2023/)
+
+#### [Schedule](/2023/schedule.html)
+
+#### [Tickets](/2023/tickets.html)
 
 News come on Twitter: [@EuroSciPy](https://twitter.com/EuroSciPy).
 
@@ -15,7 +20,7 @@ All editions of EuroSciPy can be found below:
 * [EuroSciPy 2023](/2023/)
 * [EuroSciPy 2022](/2022/)
 * [EuroSciPy 2020](/2020/)
-* [EuroSciPy 2019](/2019/)
+* [EuroSciPy 2019](https://www.euroscipy.org/2019/)
 * [EuroSciPy 2018](https://www.euroscipy.org/2018/)
 * [EuroSciPy 2017](https://www.euroscipy.org/2017/)
 * [EuroSciPy 2016](https://www.euroscipy.org/2016/)

@@ -98,5 +98,3 @@ committee for the selection of grant recipients and the processing of financial
 aid refunds. No data is passed on to third parties, except the necessary information to our accountants
 and the bank in order to process the refunds. We use Google Forms for the
 processing and Google Drive to store relevant information.
-
-

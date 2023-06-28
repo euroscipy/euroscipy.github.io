@@ -7,24 +7,23 @@ template: page
 slug: tickets_2022
 ---
 
-# Tickets for EuroSciPy
+# Tickets for EuroSciPy 2022
 
-EuroSciPy 2022 will be held from August 29th to September 2nd. It will be both
-in person and virtual. In person, it will be held at Kollegienhaus at
-University of Basel, Switzerland. Details of the virtual conference will be
-published soon.
+EuroSciPy 2022 was held from August 29th to September 2nd 2022. It was both
+in person and virtual. In person, it was held at Kollegienhaus at
+University of Basel, Switzerland.
 
-The conference will follow this broad plan of events:
+The conference followed this broad plan of events:
 
 - Two tutorial days (August 29 and 30, Mon-Tue)
 - Two conference days (August 31 - September 1, Wed-Thu)
 - One-day sprint (September 2, Fri)
 
-<br>
+<br />
 
 ### Ticket types
 
-We provide three different types of tickets:
+We provided three different types of tickets:
 
 - Tutorial tickets: access to the tutorial days and the one-day sprint but NOT
   the main conference
@@ -63,7 +62,7 @@ attend EuroSciPy:
 **Late Bird Tickets - Booking after August 14**
 
 Due to organization burden, we will apply a late bird when tickets are booked
-after August 14.
+after August 14 2022.
 
 |                  | Student (*) | Academic/Individual | Business |
 |------------------|-------------|---------------------|----------|

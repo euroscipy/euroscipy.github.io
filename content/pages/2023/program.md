@@ -21,7 +21,7 @@ EuroSciPy 2023 takes place from **Monday, August 14 to Friday, August 18 in Base
 **Please scroll down to submit a proposal**
 <br>
 
-### Conference layout:
+### Conference layout
 
 - Mon, August 14 Tutorials
 - Tue, August 15 Tutorials
@@ -106,5 +106,5 @@ including but not limited to:
 
 ### Call for Proposals (CfP)
 
-The EuroSciPy 2023 Call for Proposals has concluded. 
+The EuroSciPy 2023 Call for Proposals has concluded.
 The deadline for submissions was Sunday, May 14, 2023 (Europe/Berlin).
