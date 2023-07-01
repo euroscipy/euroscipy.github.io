@@ -7,79 +7,32 @@ template: page
 slug: about_2023
 ---
 
-### Organising team
+### Organising team (in alphabetical order)
 
-#### On-site chair
-
-- Dr. Sepideh Alassi (University of Basel, CH)
-</br>
-</br>
-
-#### Program chairs
-
-- Dr. Darya Chyzhyk (ACPySS)
-- Dr. Guillaume Lemaitre (Inria, FR)
-- Dr. Valerio Maggio (University of Bristol, UK)
-</br>
-</br>
-
-#### Tutorials chairs
-
-- Dr. Guillaume Lemaitre (Inria, FR)
-- Dr. Valerio Maggio (University of Bristol, UK)
-</br>
-</br>
-
-#### Sprints chairs
-
-- Dr. Guillaume Lemaitre (Inria, FR)
-- Marc Garcia
-</br>
-</br>
-
-#### Diversity chairs
-
-- Dr. Adrin Jalali (HuggingFace, DE)
-- Alessia Marcolini
-- Dr. Darya Chyzhyk (ACPySS)
-</br>
-</br>
-
-#### Video chair
-
-- Dr. Martin Christen
-</br>
-</br>
-
-#### Sponsoring chairs
-
-- Dr. Mike Müller (Python Academy, DE)
-- Dr. Sepideh Alassi (University of Basel, CH)
-</br>
-</br>
-
-#### Communication chair
-
-- Alessia Marcolini
-</br>
-</br>
-
-#### Admin chair
-
+- Alessia Marcolini (LUMICKS, NL)
 - Alexander CS Hendorf (Königsweg GmbH, DE)
-</br>
-</br>
+- Dr. Adrin Jalali (DE)
+- Artem Kislovskiy (CH)
+- Dr. Geir Arne (RealPython, NO)
+- Dr. Guillaume Lemaitre (Inria, FR)
+- Konstantin Ignatov (SentinelOne, CZ)
+- Lúcia Pedrosa (TUBAF, DE)
+- Marc Garcia (AE)
+- Dr. Martin Christen (University of Applied Sciences and Arts Northwestern Switzerland, CH)
+- Milton Gomez (UNIL, CH)
+- Dr. Mike Müller (Python Academy, DE)
+- Dr Mojdeh Rastgoo (Saint-Gobain, FR)
+- Reimar Bauer (FZ-Jülich GmbH, DE)
+- Dr. Sepideh Alassi (University of Basel, CH)
+- Dr. Valerio Maggio (University of Bristol, UK)
 
-#### Organizing committee
-
-- Dr. Geir Arne
 </br>
 </br>
 
 #### Contact and Helpdesk
 
-- info at the domain euroscipy.org
-- Telegram: [Telegram chat group](https://t.me/euroscipy)
+To contact the organising team, you can check the [Contact Us](contact_us.html) page.
+We can also get in touch via the [Telegram chat group](https://t.me/euroscipy).
 
 </br>
 </br>

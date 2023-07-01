@@ -1,0 +1,13 @@
+---
+
+- full_name: Giada Pistilli
+  job_position: Principal Ethicist at Hugging Face
+  profile_picture: ../static/2023/gpistilli.jpg
+  abstract: https://www.euroscipy.org/2023/keynotes.html#keynote-1
+  twitter: GiadaPistilli
+
+- full_name: Ritchie Vink
+  job_position: Author of Polars DataFrame library
+  profile_picture: ../static/2023/rvink.jpg
+  abstract: https://www.euroscipy.org/2023/keynotes.html#keynote-2
+  twitter: RitchieVink
