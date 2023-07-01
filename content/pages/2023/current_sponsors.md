@@ -40,7 +40,7 @@ slug: sponsors_2023
             as well as a leading provider of in-vitro diagnostics and a global
             supplier of transformative innovative solutions across major disease areas.
             At <a href="https://www.roche.ch/en/ueberuns/pharma-research-and-early-development.htm">
-Pharma Research & Early Development (pRED) in Basel</a>, it has
+            Pharma Research & Early Development (pRED) in Basel</a>, it has
             more than 1800 dedicated scientists, clinicians, engineers and
             technicians from almost 60 nations, sharing the passion for
             developing and bringing new and effective medicines to patients.
@@ -48,6 +48,49 @@ Pharma Research & Early Development (pRED) in Basel</a>, it has
     </tr>
 </table>
 
+
+## Institutional Sponsors
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2023/sponsors/sponsor_logos/UniBas_Logo_EN_Schwarz_RGB_55.jpg">
+        </td>
+        <td style="text-align: left">
+            The <a href="https://www.unibas.ch/en.html">University of Basel</a> has an
+international reputation of outstanding achievements in research and teaching.
+Founded in 1460, the University of Basel is the oldest university in Switzerland
+and has a history of success going back over 550 years.  Today, the University
+of Basel has around 13,000 students from over a hundred nations, including 2,900 PhD students.
+        </td>
+    </tr>
+    <td style="vertical-align: middle;">
+        <img style="padding: 0px 7px 0px 7px;"
+             src="../static/2023/sponsors/sponsor_logos/python_software_verband.png">
+    </td>
+    <td style="text-align: left">
+        The <a href="https://python-verband.org/">Python Software Verband e.V.</a>
+represents the Interests of users of the open-source programming language Python
+in Germany, Austria and German-speaking Switzerland.</td>
+    </tr>
+<tr>
+    <td style="vertical-align: middle;">
+        <img style="padding: 0px 7px 0px 7px;"
+         src="../static/2023/sponsors/sponsor_logos/python_academy.png">
+    </td>
+    <td style="text-align: left">
+        <a href="https://www.python-academy.com/">Python Academy</a>
+        is a specialized Python training company. It offers open
+courses for individuals as well as customized on-site courses for companies and
+institutes. It covers a wide range of Python topics from introductory to
+advanced, Python for scientists and engineers, big data, web development, code
+optimization and many more. In addition to training, it consults companies that
+migrate to Python and develop high-quality Python software often in combination
+with training. The special expertise of the academy is scientific and technical
+software development with Python.
+</td>
+    </tr>
+</table>
 
 ## Become a Sponsor
 See guidelines on how to become a sponsor [here](sponsoring.html).
