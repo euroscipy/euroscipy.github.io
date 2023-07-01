@@ -9,6 +9,24 @@ slug: sponsors_2023
 
 # Current Sponsors
 
+## Platinum Sponsors
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2023/sponsors/sponsor_logos/blue_yonder.svg">
+        </td>
+        <td style="text-align: left">
+            The <a href="https://blueyonder.com/">Blue Yonder</a>
+            is the world leader in digital supply chain transformations and omni-channel commerce fulfillment. Our end-to-end, cognitive business platform enables retailers, manufacturers and logistics
+            providers to best fulfill customer demand from planning through delivery.
+            With Blue Yonder, you’ll unify your data, supply chain and retail commerce operations to
+            unlock new business opportunities and drive automation, control and orchestration to enable
+            more profitable, sustainable business decisions. Blue Yonder - Fulfill your Potential™
+        </td>
+    </tr>
+</table>
+
 ## Gold Sponsors
 
 <table style="table-layout:fixed">
