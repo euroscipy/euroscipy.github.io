@@ -193,32 +193,32 @@
 		<!--************************************
 				Sponsor End
 		*************************************-->
-<!--		<section class="tg-sectionspace tg-haslayout tg-bgparallax tg-bgsponsor" style="background-image: url({{ EVENT[page.section].background_poster_sponsors }});">-->
-<!--			<a id="sponsors"></a>-->
-<!--			<div class="container">-->
-<!--				<div class="row">-->
-<!--					<div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">-->
-<!--						<div class="tg-sectionhead tg-colorwhite">-->
-<!--							<div class="tg-sectionheading">-->
-<!--								<h2>Our Sponsors</h2>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--					</div>-->
-<!--					<ul class="tg-sponsors">-->
-<!--					{% for sponsor in SPONSORS[page.section] %}-->
-<!--						<li>-->
-<!--							<figure class="tg-sponsor">-->
-<!--								<a href="{{ sponsor.url }}">-->
-<!--									<img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">-->
-<!--								</a>-->
-<!--							</figure>-->
-<!--						</li>-->
-<!--					{% endfor %}-->
-<!--					</ul>-->
-<!--					<a class="tg-btn" href="{{ EVENT[page.section].sponsorship_url }}">Become A Sponsor</a>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--		</section>-->
+		<section class="tg-sectionspace tg-haslayout tg-bgparallax tg-bgsponsor" style="background-image: url({{ EVENT[page.section].background_poster_sponsors }});">
+			<a id="sponsors"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+						<div class="tg-sectionhead tg-colorwhite">
+							<div class="tg-sectionheading">
+								<h2>Our Sponsors</h2>
+							</div>
+						</div>
+					</div>
+					<ul class="tg-sponsors">
+					{% for sponsor in SPONSORS[page.section] %}
+						<li>
+							<figure class="tg-sponsor">
+								<a href="{{ sponsor.url }}">
+									<img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+								</a>
+							</figure>
+						</li>
+					{% endfor %}
+					</ul>
+					<a class="tg-btn" href="{{ EVENT[page.section].sponsorship_url }}">Become A Sponsor</a>
+				</div>
+			</div>
+		</section>
 		<!--************************************
 				Sponsor End
 		*************************************-->
