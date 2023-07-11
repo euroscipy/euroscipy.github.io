@@ -48,6 +48,23 @@ slug: sponsors_2023
     </tr>
 </table>
 
+## Financial Aid Sponsors
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2023/sponsors/sponsor_logos/NumFocus.png">
+        </td>
+        <td style="text-align: left">
+            <a href="https://www.numfocus.org/">NumFOCUS</a>
+             is a nonprofit organization providing foundational support to
+             empower the open source scientific computing ecosystem.
+             We envision and work toward an inclusive scientific and research
+             community that utilizes actively supported open source software
+             to make impactful discoveries for a better world.
+        </td>
+    </tr>
+</table>
 
 ## Institutional Sponsors
 
