@@ -7,7 +7,7 @@
   - name: Call for Proposals
     url: program.html
   - name: Schedule
-    url: https://pretalx.com/euroscipy-2023/schedule/
+    url: 'schedule.html'
   - name: Keynotes
     url: 'keynotes.html'
   - name: Spotlights and Posters

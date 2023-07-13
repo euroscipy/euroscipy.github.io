@@ -3,15 +3,9 @@
 {% block content %}
 {{ super() }}
 {% if page %}
-<section class="tg-sectionspace tg-haslayout" id="euroscipy-page">
-	<div class="container">
-		<div class="row">
-			<div class="tg-shortcode tg-aboutusshortcode">
-				<div class="col-xs-8 col-sm-8 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 pull-left">
-					<p>{{ page.content }}</p>
-				</div>
-			</div>
-		</div>
+<section id="euroscipy-page">
+	<div class="container .tg-featuredevent" sytle="max-width: 500px">
+		{{ page.content }}
 	</div>
 </section>
 {% endif %}

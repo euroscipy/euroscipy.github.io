@@ -162,4 +162,4 @@ cd ../.. && make html && make serve
 ## Contact
 
 The site is collaboratively edited by the SciPy Organizers.  Please
-email euroscipy-org@python.org for details.
+email <euroscipy-org@python.org> for details.

@@ -56,12 +56,7 @@ h3 { font-size: 24px;}
 h4 { font-size: 18px;}
 h5 { font-size: 16px;}
 h6 { font-size: 14px;}
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a { color: #444349;}
+
 p a:hover {text-decoration:underline;}
 p {
 	letter-spacing: normal;
@@ -677,7 +672,6 @@ li.tg-rss a{background:#ff6600;}
 .tg-header{
 	z-index:100;
 	padding:34px 0;
-	position:absolute;
 	background-color: #0077B5AA;
 }
 .tg-sectionhead{
@@ -2595,7 +2589,7 @@ body.tg-homeone .tg-themescrollbar{height:265px;}
 }
 .tg-twitterpost i{
 	display:block;
-	font-size:100px;
+	font-size:30px;
 	margin:0 0 20px;
 	line-height:75px;
 }

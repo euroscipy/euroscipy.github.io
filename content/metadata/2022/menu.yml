@@ -1,20 +1,20 @@
 ---
 - name: Home
   url:  index.html
-- name: Program
+- name: Program 2022
   url: program_menu.html
   submenu:
-  - name: Call for Proposals
+  - name: Call for Proposals 2022
     url: program.html
-  - name: Schedule
-    url: https://pretalx.com/euroscipy-2022/schedule/
-  - name: Keynotes
+  - name: Schedule 2022
+    url: 'schedule.html'
+  - name: Keynotes 2022
     url: 'keynotes.html'
   - name: Spotlights and Posters
     url: 'poster_session.html'
-  - name: Social Event
+  - name: Social Event 2022
     url: 'social_event.html'
-  - name: Sprint
+  - name: Sprints 20222
     url: sprint.html
   - name: PyLadies Lunch
     url: pyladies_lunch.html
@@ -38,7 +38,7 @@
 #   url: faqs.html
 # - name: Venue
 #   url: venue.html
-- name: Sponsors
+- name: Sponsors 2022
   url: sponsors.html
   submenu:
     - name: Become a Sponsor
