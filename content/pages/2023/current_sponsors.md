@@ -48,6 +48,37 @@ slug: sponsors_2023
     </tr>
 </table>
 
+## Bronze Sponsors
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2023/sponsors/sponsor_logos/fz_juelich.jpg">
+        </td>
+        <td style="text-align: left">
+            Conducting research for a changing society:
+            This is what drives us at
+            <a href="https://www.fz-juelich.de/">Forschungszentrum Jülich</a>.
+            As a member of the Helmholtz Association,
+            we aim to tackle the grand challenges of our times.
+            How can we make a success of the energy transition and mitigate the
+            effects of climate change?
+            What challenges are emerging due to the increasing digitization of
+            our society? Will we succeed in understanding the human brain?
+            And how can we facilitate the transition to a bio-based sustainable
+            economy?
+            Come and work with us at our scientific institutes,
+            in our technical or administrative infrastructure, or in research
+            management alongside roughly 7,100 colleagues at one of Europe’s
+            biggest research centers and help make a contribution to solving
+            societal challenges.
+            Help us to shape change!
+            For more information on career opportunities, visit
+            <a href="https://www.fz-juelich.de/careers/"> www.fz-juelich.de/careers</a>.
+          </td>
+    </tr>
+</table>
+
 ## Financial Aid Sponsors
 
 <table style="table-layout:fixed">
