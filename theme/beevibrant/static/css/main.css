@@ -975,6 +975,9 @@ li.tg-rss a{background:#ff6600;}
 	width: 100%;
 	float: left;
 }
+.tg-navigation[aria-expanded="true"] {
+	z-index: 2;
+}
 .tg-navigation ul {list-style: none;}
 .tg-navigation > ul{
 	width: 100%;
