@@ -304,11 +304,10 @@ address { font-style: italic; }
 /*==============================================
 			Global Elements
 ==============================================*/
-.tg-haslayout{
-	width:100%;
-	float:left;
+.tg-sectionspace{
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
-.tg-sectionspace{padding: 100px 0;}
 .tg-locationmap{
 	width: 100%;
 	float: left;
@@ -337,30 +336,20 @@ address { font-style: italic; }
 }
 .tg-btn-lg{ width: 100%;}
 .tg-socialicons{
-	width:100%;
-	float:left;
-	list-style: none;
-	text-align:center;
-	line-height: 30px;
+	display: block;
+	text-align: center;
 }
 .tg-socialicons li{
-	float: left;
-	padding: 0 4px;
-	line-height: inherit;
-	list-style-type: none;
+	display: inline-block;
+}
+.tg-bannersocialicons li {
+	display: block;
 }
 .tg-socialicons li a{
-	width:30px;
-	height:30px;
-	color: #fff;
 	display:block;
-	background:#000;
-	overflow:hidden;
-	line-height: 30px;
-	position:relative;
-	text-align: center;
 	border-radius: 30px;
-	text-transform:capitalize;
+	background: #000;
+	color: #fff;
 }
 .tg-inputwithicon.tg-facebook .tg-icon,
 .tg-checkbox.tg-facebook,
@@ -413,12 +402,7 @@ li.tg-flickr a{background:#ff0084;}
 .tg-checkbox.tg-rss,
 li.tg-rss a{background:#ff6600;}
 .tg-socialicons li a i{
-	color: #fff;
 	width: 30px;
-	display:block;
-	font-size:13px;
-	line-height:30px;
-	text-align:center;
 }
 .tg-socialicons li a:hover{color: #fff;}
 .tg-roundicontext .tg-usericonholder{
@@ -935,12 +919,8 @@ li.tg-rss a{background:#ff6600;}
 /*==============================================
 			Header
 ==============================================*/
-.tg-logo{float:left;}
-.tg-logo a,
-.tg-logo a img{display:block;}
 .tg-logo a img{
-	width:33%;
-	height:auto;
+	max-height: 55px;
 }
 .tg-navigationarea {
 	float: right;
@@ -971,17 +951,12 @@ li.tg-rss a{background:#ff6600;}
 	font: 400 14px/14px 'Poppins', Arial, Helvetica, sans-serif;
 }
 .tg-navigation {
-	padding: 0;
-	width: 100%;
-	float: left;
+	padding-left: 0;
+	padding-right: 15px;
+	width: max-content;
 }
-.tg-navigation[aria-expanded="true"] {
-	z-index: 2;
-}
-.tg-navigation ul {list-style: none;}
 .tg-navigation > ul{
-	width: 100%;
-	float: left;
+	width: fit-content;
 }
 .tg-navigation ul li {
 	position: relative;
@@ -1003,7 +978,9 @@ li.tg-rss a{background:#ff6600;}
 	position:absolute;
 }
 .tg-navigation > ul > li:hover > a:after,
-.tg-navigation > ul > li.current-menu-item > a:after{width:100%;}
+.tg-navigation > ul > li.current-menu-item > a:after{
+	width: 100%;
+}
 .tg-navigation ul li a {
 	display: block;
 	text-align: left;
@@ -1036,6 +1013,7 @@ li.tg-rss a{background:#ff6600;}
 	position: absolute;
 	visibility: hidden;
 	font: 400 13px/40px 'Open Sans', Arial, Helvetica, sans-serif;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .sub-menu.tg-darkmenu{background: #444349;}
 .tg-navigation > ul > li >.sub-menu:before{
@@ -1135,8 +1113,8 @@ li.tg-rss a{background:#ff6600;}
 	position:absolute;
 }
 .tg-bannersocialicons li{
-	float:none;
-	padding:5px 0;
+	float: none;
+	padding: 5px 0;
 }
 .tg-bannersocialicons li a{
 	width:38px;
@@ -1355,7 +1333,10 @@ li.tg-rss a{background:#ff6600;}
 	width:100%;
 	float:left;
 }
-.tg-shortcodetext .tg-sectionhead{padding:0;}
+.tg-shortcodetext .tg-sectionhead{
+	margin-top: 30px;
+	padding: 0;
+}
 .tg-btnarea{
 	width:100%;
 	float:left;
@@ -2620,31 +2601,8 @@ body.tg-homeone .tg-themescrollbar{height:265px;}
 	font-weight:bold;
 	font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
-.tg-foorterbar{
-	width:100%;
-	float:left;
-	padding:33px 0;
-	background:#444349;
-}
 .tg-copyrights{
-	margin:0;
-	float:left;
-	color:#fff;
-	padding:19px 0;
-	font-size:14px;
-	line-height:14px;
-}
-.tg-foorterbar .tg-socialicons{
-	width:auto;
-	float:right;
-	padding:11px 0;
-}
-.tg-foorterbar .tg-socialicons li:last-child{padding-right:0;}
-.tg-foorterbar .tg-logo{
-	width:200px;
-	float:none;
-	margin:0 auto;
-	display:block;
+	color: #fff;
 }
 /* ====================================================================================
 			Inner Pages Start
@@ -3667,6 +3625,10 @@ body.tg-comingsoonpage .tg-foorterbar .tg-socialicons{padding:0;}
 ============================================= */
 .tg-homevtwo .tg-footer{display: none;}
 .tg-headervtwo .tg-btnbookseat span{color:#444349;}
+.tg-headervtwo .tg-logo {
+	min-width: 120px;
+	max-width: 150px;
+}
 .tg-homevtwo .tg-wrapper{
 	height: auto;
 	position: static;
@@ -3926,7 +3888,6 @@ body.tg-comingsoonpage .tg-foorterbar .tg-socialicons{padding:0;}
 	-ms-flex-direction: column;
 	flex-direction: column;
 }
-.tg-sponsorbrands li figure a{}
 .tg-sponsorbrands li figure a img{display: block;}
 .tg-footercontent{
 	width: 100%;
@@ -4350,7 +4311,9 @@ body.tg-comingsoonpage .tg-foorterbar .tg-socialicons{padding:0;}
 	width: 100%;
 	float: left;
 }
-.tg-footercolumn.tg-widgetrecentposts ul{font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+.tg-footercolumn.tg-widgetrecentposts ul{
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
 .tg-footercolumn.tg-widgetrecentposts ul li + li{
 	margin: 20px 0 0;
 	padding: 20px 0 0;
@@ -4385,11 +4348,29 @@ body.tg-comingsoonpage .tg-foorterbar .tg-socialicons{padding:0;}
 	font: 400 13px/16px 'Open Sans', Arial, Helvetica, sans-serif;
 }
 .tg-footervthree .tg-foorterbar{
-	padding: 15px 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	background: #444349;
 }
 .tg-footervthree .tg-foorterbar .tg-socialicons{padding: 0;}
-.tg-footervthree .tg-foorterbar .tg-copyrights{padding: 8px 0;}
+.tg-footervthree .tg-foorterbar .tg-copyrights{
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+	vertical-align: middle;
+}
+.tg-footervthree .tg-foorterbar .tg-logo{
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+	max-height: 35px;
+	vertical-align: middle;
+}
+.tg-footervthree .tg-foorterbar .tg-logo img{
+	height: 30px;
+}
+.tg-footervthree .tg-foorterbar .tg-socialicons{
+	max-height: 35px;
+	vertical-align: middle;
+}
 .tg-footervthree .tg-footercolumn,
 .tg-footervthree .tg-footercolumn .tg-description,
 .tg-footervthree .tg-footercolumn.tg-widgetrecentposts ul li h4 a,
@@ -4850,10 +4831,6 @@ body.tg-comingsoonpage .tg-foorterbar .tg-socialicons{padding:0;}
 	text-shadow:none;
 }
 .tg-alertcontent .tg-btn{float:right;}
-
-#euroscipy-page {
-    margin-top: 100px;
-}
 
 img[src*="#logo_large"] {
     width:450px;
