@@ -65,7 +65,7 @@ attend EuroSciPy:
 **Late Bird Tickets - Booking after July 28**
 
 Due to organization burden, we will apply a late bird when tickets are booked
-after August 14.
+after July 28.
 
 |                  | Student (*) | Academic/Individual | Business |
 |------------------|-------------|---------------------|----------|
