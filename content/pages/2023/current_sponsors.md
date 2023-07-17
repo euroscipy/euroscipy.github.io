@@ -74,7 +74,7 @@ slug: sponsors_2023
             societal challenges.
             Help us to shape change!
             For more information on career opportunities, visit
-            <a href="https://www.fz-juelich.de/careers/"> www.fz-juelich.de/careers</a>.
+            <a href="https://www.fz-juelich.de/en/careers"> www.fz-juelich.de/en/careers</a>.
           </td>
     </tr>
 </table>
