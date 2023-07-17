@@ -113,11 +113,9 @@
 	.tg-bannervtwo .tg-bannerimg figcaption {height: 700px;}
 }
 @media (max-width:991px){
-	.tg-logo{
-		float:none;
-		width:200px;
-		display:block;
-		margin:0 auto 15px;
+	.tg-sectionspace{
+		padding-top: 15px;
+		padding-bottom: 10px;
 	}
 	.tg-navigationarea{
 		width:100%;
@@ -207,7 +205,6 @@
 	.tg-attendmember {margin: 0 0 30px;}
 	.tg-joinusoffer {padding: 100px 0 0;}
 	.tg-newsgrid .tg-post {min-height: 480px;}
-	.tg-foorterbar .container{width:100%;}
 	.tg-detailpage .tg-speakerimg{width:250px;}
 	.tg-detailhead h2 {
 		font-size: 20px;
@@ -400,10 +397,16 @@
 		line-height: 18px;
 	}
 }
+@media (max-width:803px){
+	.tg-navigation {
+		padding-right: 0;
+		margin-left: -15px;
+		margin-right: -6px;
+	}
+}
 @media (max-width:767px){
-	.tg-logo {
-		margin: 0;
-		float: left;
+	.tg-header {
+		padding-bottom: 10px;
 	}
 	.tg-navigationarea{
 		width:auto;
@@ -414,19 +417,21 @@
 	.tg-btnbookseat {margin: 0 15px 0 0;}
 	.tg-nav {padding: 0;}
 	.tg-nav .navbar-toggle{
-		margin: 0;
+		margin-top: 0;
+		margin-bottom: 0;
 		border: 0;
 		background: #fff;
 		padding: 13px 10px;
 	}
 	.tg-nav .navbar-toggle .icon-bar{width: 25px;}
 	.tg-navigation{
-		top: 100%;
 		right: 0;
 		border: 0;
-		width: 100%;
+		width: fit-content;
 		background: #fff;
 		position: absolute;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		z-index: 200;
 	}
 	.tg-homevtwo .tg-navigation > ul > li,
 	.tg-headervfour .tg-navigation > ul > li{padding:0;}
@@ -438,9 +443,7 @@
 	.tg-headervfour .tg-navigation > ul > li.menu-item-has-children > a {padding: 2px 28px 2px 10px;}
 	.menu-item-has-children > a:before{display:none;}
 	.tg-navigation > ul > li{
-		margin: 0;
-		float: left;
-		width: 100%;
+		float: none;
 	}
 	.tg-navigation ul li + li{border-top: 1px solid #dbdbdb;}
 	.tg-navigation ul li a,
@@ -536,25 +539,13 @@
 		line-height: 50px;
 	}
 	.tg-foorterbar .tg-logo{
-		top:0;
-		left:50%;
-		position:absolute;
-		margin:0 0 0 -100px;
+		text-align: center;
 	}
 	.tg-copyrights{
-		width:100%;
-		margin:60px 0 0;
-		text-align:center;
+		text-align: center;
 	}
 	.tg-foorterbar .tg-socialicons{
-		width:100%;
-		padding:0;
-		text-align:center;
-	}
-	.tg-foorterbar .tg-socialicons li{
-		float:none;
-		display:inline-block;
-		vertical-align:middle;
+		text-align: center;
 	}
 	.tg-eventhead .tg-rightarea{
 		float:left;
@@ -733,14 +724,7 @@
 	}
 }
 @media (max-width:568px){
-	.tg-logo {
-		float: none;
-		width: 200px;
-		display: block;
-		margin: 0 auto 15px;
-	}
 	.tg-navigationarea{width:100%;}
-	.tg-nav{float:left;}
 	.tg-btnbookseat{
 		margin:0;
 		float:right;

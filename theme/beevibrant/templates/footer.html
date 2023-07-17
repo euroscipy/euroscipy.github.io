@@ -13,22 +13,25 @@
 						</div>
 					</div>
 				</div>
+				col-xs-12 col-sm-12 col-md-12 col-lg-12
 			</div> -->
 
-
-			<div class="tg-foorterbar">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<p class="tg-copyrights">2023 All Rights Reserved © EuroSciPy</p>
-							<ul class="tg-socialicons">
-								<li><a href="{{ TWITTER_FOLLOW_URL }}"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="{{ TELEGRAM_URL }}"><i class="fa fa-telegram"></i></a></li>
-								<li><a href="{{ INFO_MAIL_URL }}"><i class="fa fa-envelope "></i></a></li>
-							</ul>
-							<strong class="tg-logo"><a href="index.html"><img src="{{ EVENT[page.section].conference_logo }}" alt="EuroSciPy Bilbao 2020 logo"></a></strong>
-						</div>
+			<div class="tg-foorterbar container-fluid">
+				<div class="row">
+					<div class="col-sm-5 col-sm-offset-1 tg-copyrights">
+						2023 All Rights Reserved ©&nbsp;EuroSciPy
 					</div>
+					<div class="col-sm-2 tg-logo"><a href="index.html">
+						<img
+							src="{{ EVENT[page.section].conference_logo }}"
+							alt="EuroSciPy logo"
+						/>
+					</a></div>
+					<div class="col-sm-2 col-sm-offset-1 tg-socialicons"><ul>
+						<li><a href="{{ TWITTER_FOLLOW_URL }}"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="{{ TELEGRAM_URL }}"><i class="fa fa-telegram"></i></a></li>
+						<li><a href="{{ INFO_MAIL_URL }}"><i class="fa fa-envelope "></i></a></li>
+					</ul></div>
 				</div>
 			</div>
 		</footer>
