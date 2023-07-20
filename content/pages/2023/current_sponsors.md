@@ -75,7 +75,7 @@ slug: sponsors_2023
         <td style="text-align: left">
             Conducting research for a changing society:
             This is what drives us at
-            <a href="https://www.fz-juelich.de/">Forschungszentrum Jülich</a>.
+            <a href="https://www.fz-juelich.de/en">Forschungszentrum Jülich</a>.
             As a member of the Helmholtz Association,
             we aim to tackle the grand challenges of our times.
             How can we make a success of the energy transition and mitigate the
