@@ -4,10 +4,25 @@
   logo: ../static/2022/sponsors/sponsor_logos/blue_yonder.svg
   description: Blue Yonder
 
+- name: Zeiss
+  url: https://www.zeiss.de/corporate/home.html
+  logo: ../static/2023/sponsors/sponsor_logos/zeiss_logo.png
+  description: Zeiss
+
 - name: Roche
   url: https://www.roche.com/
   logo: ../static/2023/sponsors/sponsor_logos/Roche_Logo.svg
   description: Roche
+
+- name: Forschungszentrum Jülich
+  url: https://www.fz-juelich.de/en
+  logo: ../static/2023/sponsors/sponsor_logos/fz_juelich.jpg
+  description: Forschungszentrum Jülich
+
+- name: NumFocus
+  url: https://numfocus.org/
+  logo: ../static/2023/sponsors/sponsor_logos/NumFocus.png
+  description: NumFocus
 
 - name: UniversityofBasel
   url: https://www.unibas.ch/en.html
