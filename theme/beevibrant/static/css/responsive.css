@@ -406,6 +406,7 @@
 }
 @media (max-width:767px){
 	.tg-header {
+		padding-top: 15px;
 		padding-bottom: 10px;
 	}
 	.tg-navigationarea{

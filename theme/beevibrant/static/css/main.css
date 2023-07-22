@@ -56,6 +56,15 @@ h3 { font-size: 24px;}
 h4 { font-size: 18px;}
 h5 { font-size: 16px;}
 h6 { font-size: 14px;}
+section > h1,
+section > h2,
+section > h3,
+section > h4,
+section > h5,
+section > h6,
+section > p {
+	padding-left: 10px;
+}
 
 p a:hover {text-decoration:underline;}
 p {
@@ -650,7 +659,6 @@ li.tg-rss a{background:#ff6600;}
 ==============================================*/
 .tg-wrapper{
 	height: 100%;
-	overflow-x: hidden;
 	position: relative;
 }
 .tg-header{
@@ -1007,7 +1015,7 @@ li.tg-rss a{background:#ff6600;}
 	right: 0;
 	margin: 0;
 	opacity: 0;
-	z-index:99;
+	z-index: 101;
 	width: 230px;
 	background: #fff;
 	position: absolute;

@@ -1,5 +1,20 @@
 {% extends 'base.html' %}
 
+{% block head %}
+{{ super() }}
+<script src="https://pretalx.com/euroscipy-2023/schedule/widget/v2.en.js"></script>
+<script>
+    window.onload = function() {
+        let body_style = document.body.style
+        body_style['max-width'] = '98%';
+        body_style['padding-right'] = '1%';
+        body_style['margin-right'] = '1%';
+        body_style['overflow-x'] = 'scroll';
+        document.getElementById('tg-header').style.width = '104%';
+    }
+</script>
+{% endblock %}
+
 {% block header %}
 {% include 'header.html' %}
 {% endblock %}

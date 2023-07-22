@@ -12,7 +12,7 @@ slug: schedule_2023
 The schedule is not yet definitive. We are waiting for all accepted talks to
 be confirmed, and the schedule might change accordingly.
 
-<div style="max-width: 100%; overflow: scroll; padding-right: 1%">
+<div style="margin-right: 1%; padding-right: 1%">
     <pretalx-schedule
         event-url="https://pretalx.com/euroscipy-2023/" locale="en" format="grid"
         style="--pretalx-clr-primary: #3aa57c">
