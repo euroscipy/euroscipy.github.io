@@ -44,6 +44,52 @@ slug: sponsors_2023
     </tr>
 </table>
 
+
+## Financial Aid Sponsors
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2023/sponsors/sponsor_logos/NumFocus.png">
+        </td>
+        <td style="text-align: left">
+            <a href="https://www.numfocus.org/">NumFOCUS</a>
+             is a nonprofit organization providing foundational support to
+             empower the open source scientific computing ecosystem.
+             We envision and work toward an inclusive scientific and research
+             community that utilizes actively supported open source software
+             to make impactful discoveries for a better world.
+        </td>
+    </tr>
+</table>
+
+## Maintainers Sponsors
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2023/sponsors/sponsor_logos/dataiku.png">
+        </td>
+        <td style="text-align: left">
+            Headquartered in New York City, Dataiku was founded in Paris in 2013
+            and achieved unicorn status in 2019.
+            Now, more than 1,000+ employees work across the globe in our offices
+            and remotely.
+            Backed by a renowned set of investors and partners, including CapitalG,
+            Tiger Global, and ICONIQ Growth, we’ve set out to build the future of AI.
+            Dataiku is the platform for Everyday AI, systemizing the use of data
+            for exceptional business results.
+            By using data and AI an everyday behavior, Dataiku unlocks the
+            creativity within individual employees to power collective success
+            at companies of all sizes and across all industries.
+            Don't get us wrong: we are a tech company building software.
+            Our culture is even pretty geeky!
+            But our driving force is and will always remain people,
+            starting with ours.
+        </td>
+    </tr>
+</table>
+
 ## Gold Sponsors
 
 <table style="table-layout:fixed">
@@ -96,23 +142,6 @@ slug: sponsors_2023
     </tr>
 </table>
 
-## Financial Aid Sponsors
-
-<table style="table-layout:fixed">
-    <tr>
-        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
-            <img src="../static/2023/sponsors/sponsor_logos/NumFocus.png">
-        </td>
-        <td style="text-align: left">
-            <a href="https://www.numfocus.org/">NumFOCUS</a>
-             is a nonprofit organization providing foundational support to
-             empower the open source scientific computing ecosystem.
-             We envision and work toward an inclusive scientific and research
-             community that utilizes actively supported open source software
-             to make impactful discoveries for a better world.
-        </td>
-    </tr>
-</table>
 
 ## Institutional Sponsors
 

@@ -9,6 +9,16 @@
   logo: ../static/2023/sponsors/sponsor_logos/zeiss_logo.png
   description: Zeiss
 
+- name: NumFocus
+  url: https://numfocus.org/
+  logo: ../static/2023/sponsors/sponsor_logos/NumFocus.png
+  description: NumFocus
+
+- name: Dataiku
+  url: https://www.dataiku.com/
+  logo: ../static/2023/sponsors/sponsor_logos/dataiku.png
+  description: Dataiku
+
 - name: Roche
   url: https://www.roche.com/
   logo: ../static/2023/sponsors/sponsor_logos/Roche_Logo.svg
@@ -19,10 +29,7 @@
   logo: ../static/2023/sponsors/sponsor_logos/fz_juelich.jpg
   description: Forschungszentrum Jülich
 
-- name: NumFocus
-  url: https://numfocus.org/
-  logo: ../static/2023/sponsors/sponsor_logos/NumFocus.png
-  description: NumFocus
+
 
 - name: UniversityofBasel
   url: https://www.unibas.ch/en.html
