@@ -8,23 +8,22 @@ slug: about_2023
 ---
 
 ### Organising team (in alphabetical order)
-
-- Alessia Marcolini (LUMICKS, NL)
+- Dr. Sepideh Alassi (University of Basel, CH)
+- Dr. Geir Arne (RealPython, NO)
+- Reimar Bauer (FZ-Jülich GmbH, DE)
+- Dr. Martin Christen (University of Applied Sciences and Arts Northwestern Switzerland, CH)
+- Marc Garcia (AE)
+- Milton Gomez (UNIL, CH)
 - Alexander CS Hendorf (Königsweg GmbH, DE)
+- Konstantin Ignatov (SentinelOne, CZ)
 - Dr. Adrin Jalali (DE)
 - Artem Kislovskiy (CH)
-- Dr. Geir Arne (RealPython, NO)
 - Dr. Guillaume Lemaitre (Inria, FR)
-- Konstantin Ignatov (SentinelOne, CZ)
-- Lúcia Pedrosa (TUBAF, DE)
-- Marc Garcia (AE)
-- Dr. Martin Christen (University of Applied Sciences and Arts Northwestern Switzerland, CH)
-- Milton Gomez (UNIL, CH)
+- Dr. Valerio Maggio (Anaconda Inc., UK)
+- Alessia Marcolini (LUMICKS, NL)
 - Dr. Mike Müller (Python Academy, DE)
+- Lúcia Pedrosa (TUBAF, DE)
 - Dr Mojdeh Rastgoo (Saint-Gobain, FR)
-- Reimar Bauer (FZ-Jülich GmbH, DE)
-- Dr. Sepideh Alassi (University of Basel, CH)
-- Dr. Valerio Maggio (University of Bristol, UK)
 
 </br>
 </br>
