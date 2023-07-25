@@ -48,6 +48,29 @@ slug: sponsors_2023
 ## Financial Aid Sponsors
 
 <table style="table-layout:fixed">
+
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2022/sponsors/sponsor_logos/psf_logo.svg">
+        </td>
+        <td style="text-align: left">
+            The mission of the
+             <a href="https://www.python.org/">Python Software Foundation</a>
+            is to promote, protect, and advance the Python programming language,
+            and to support and facilitate the growth of a diverse and international
+            community of Python programmers.
+            The majority of the PSF's work is focused on empowering and supporting
+            people within the Python community. The PSF has active grant programs
+            that support sprints, conferences, meet ups, user groups, and Python
+            development efforts all over the world.
+            In addition, the PSF underwrites and runs PyCon US,
+            the primary Python community conference.
+            Being part of the PSF means being part of the Python community.
+            Recently we changed the PSF to an open membership organization,
+            so that everyone who uses and supports Python can join.
+            To learn more, visit https://www.python.org/psf/membership.
+    </tr>
+
     <tr>
         <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
             <img src="../static/2023/sponsors/sponsor_logos/NumFocus.png">
@@ -61,6 +84,18 @@ slug: sponsors_2023
              to make impactful discoveries for a better world.
         </td>
     </tr>
+
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2022/sponsors/sponsor_logos/eps_logo.svg">
+        </td>
+        <td style="text-align: left">
+            The <a href="https://www.europython-society.org/">EuroPython Society (EPS)</a>
+            is a Swedish non-profit organization which organizes EuroPython conferences,
+            supports the Python community in Europe and holds the rights to the EuroPython
+            conference series and trademarks.        </td>
+    </tr>
+
 </table>
 
 ## Maintainers Sponsors

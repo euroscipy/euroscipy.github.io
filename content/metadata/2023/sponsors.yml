@@ -9,10 +9,20 @@
   logo: ../static/2023/sponsors/sponsor_logos/zeiss_logo.png
   description: Zeiss
 
+- name: Python Software Foundation
+  url: https://www.python.org/
+  logo: ../static/2022/sponsors/sponsor_logos/psf_logo.svg
+  description: Python Software Foundation
+
 - name: NumFocus
   url: https://numfocus.org/
   logo: ../static/2023/sponsors/sponsor_logos/NumFocus.png
   description: NumFocus
+
+- name: EuroPythonSociety
+  url: https://www.europython-society.org/
+  logo: ../static/2022/sponsors/sponsor_logos/eps_logo.svg
+  description: EuroPython Society
 
 - name: Dataiku
   url: https://www.dataiku.com/
