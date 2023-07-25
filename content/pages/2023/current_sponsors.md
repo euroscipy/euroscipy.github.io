@@ -68,7 +68,8 @@ slug: sponsors_2023
             Being part of the PSF means being part of the Python community.
             Recently we changed the PSF to an open membership organization,
             so that everyone who uses and supports Python can join.
-            To learn more, visit https://www.python.org/psf/membership.
+            To learn more, visit
+            <a href="https://www.python.org/psf/membership">https://www.python.org/psf/membership</a>.
     </tr>
 
     <tr>
