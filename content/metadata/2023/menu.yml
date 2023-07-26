@@ -33,6 +33,8 @@
 - name: Info and Support
   url: info.html
   submenu:
+  - name: About EuroSciPy
+    url: about.html
   - name: Venue
     url: venue.html
   - name: Financial Aid
@@ -41,7 +43,7 @@
     url: childcare.html
   - name: Code of Conduct
     url: code_of_conduct.html
+  - name: Organizers
+    url: organizers.html
   - name: Contact Us
     url: contact_us.html
-  - name: Organizers
-    url: about.html

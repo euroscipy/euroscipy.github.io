@@ -17,7 +17,7 @@ and work together in improving the open source projects. This can include bug
 fixes, new features, improvements to the documentation and others.
 
 Sprints are a great way to get started in open source development, learn, and
-meet like minded people. All EuroSciPy attendees are welcome and encouraged
+meet like-minded people. All EuroSciPy attendees are welcome and encouraged
 to join the sprints.
 
 The definitive schedule is not yet known and more sprints will be added when
@@ -36,3 +36,15 @@ List of confirmed sprints:
     - Restructuring the documentation to make it more accessible for new users.
     - Re-implement and optimization the DataLoaders.
     - Re-implement the cropped training.
+
+
+#### Sprints Location
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2692.534226190979!2d7.58297061570638!3d47.55739329936902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b9abfe2d63a7%3A0xb44b4a31a53b38fe!2sRosshofgasse%202%2C%204051%20Basel%2C%20Switzerland!5e0!3m2!1sen!2suk!4v1657383709427!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+&nbsp;
+
+####Address
+
+Roshoffgasse 2,
+
+CH-4051 Basel, Switzerland

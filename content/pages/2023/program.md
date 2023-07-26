@@ -9,27 +9,8 @@ slug: program_2023
 
 # EuroSciPy 2023 Call for Proposal
 
-**EuroSciPy is back in 2023!**
-
-The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and
-development of the Python language in scientific research. This event strives
-to bring together both users and developers of scientific tools, as well as
-academic research and state-of-the-art industry.
-
-EuroSciPy 2023 takes place from **Monday, August 14 to Friday, August 18 in Basel, Switzerland**.
-
-**Please scroll down to submit a proposal**
-<br>
-
-### Conference layout
-
-- Mon, August 14 Tutorials
-- Tue, August 15 Tutorials
-- Wed, August 16 Talks
-- Thu, August 17 Talks
-- Fri, August 18 Sprints
-<br>
-<br>
+The EuroSciPy 2023 Call for Proposals is concluded.
+The deadline for submissions was Sunday, May 14, 2023 (Europe/Berlin).
 
 ### Tracks
 
@@ -104,7 +85,3 @@ including but not limited to:
 <br>
 <br>
 
-### Call for Proposals (CfP)
-
-The EuroSciPy 2023 Call for Proposals has concluded.
-The deadline for submissions was Sunday, May 14, 2023 (Europe/Berlin).
