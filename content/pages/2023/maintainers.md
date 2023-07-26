@@ -20,16 +20,15 @@ contributors.
 Please [email](mailto:maintainers@euroscipy.org) us if you have a proposal for
 a maintainers session.
 
-All the sessions will take place in the <TBA> room.
+All the sessions will take place in the room HS119.
 
 ### Schedule
 
-The final schedule will be announced in the [Program](/2023/program_menu.html)
-section of the website once the [Call for Proposals](https://pretalx.com/euroscipy-2023/cfp)
-is closed and proposals have been reviewed and selected.
+The final schedule is announced in the [Program](/2023/program_menu.html)
+section of the website.
 
-If you are a maintainer of a popular scientific Python project and you are considering
-joining EuroSciPy after the CFP is close, please do get in touch at our
+If you are a maintainer of a popular scientific Python project, and you are considering
+joining EuroSciPy after the CFP is closed, please do get in touch at our
 [maintainers email address](mailto:maintainers@euroscipy.org) to see if we still
 have a slot available for you to talk at the conference.
 
