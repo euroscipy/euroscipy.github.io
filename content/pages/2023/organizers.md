@@ -52,7 +52,6 @@ Dr. Mike Müller (Python Academy, DE)
 
 ### Supporting Institution
 [Python Software Verband e.V.](https://python-verband.org/)
-
 </br>
 </br>
 
