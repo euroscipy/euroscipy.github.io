@@ -105,14 +105,14 @@ You can also consider booking accommodation in the bordering towns all of which
 have public transportation directly to the Basel city center and the venue. The
 border towns are connected to Basel city.
 
-- **Grenzach-Wyhlen:** a small town by the Rhine river with plenty of hotels. There is
+- **Grenzach-Wyhlen:** a small German town by the Rhine river with plenty of hotels. There is
 a direct bus connection to the conference venue (bus 38), duration of less than 20 min.
 There is also a train station, one stop away from Basel Badischer Bahnhof.
 We recommend [Hotel Eckert](https://www.eckert-grenzach.de/e/de.html) with a
 fantastic Michelin Star restaurant. There are a few other good hotels in this town.
 - **St Louis:** a small French town on the border with cheap apartments and hotels.
 You can get to the venue directly by tram (tram 8) or bus (bus 604).
-- **Lörrach:** the closest German city on the border. It has direct bus and train
+- **Lörrach:** the closest German city to the border. It has direct bus and train
 connections to Basel. This city has many hotels and other accommodation types.
 - **Weil am Rhine:** a small German town on the border to France with a direct tram
 connection to the Basel city center. It has the cheapest hotel options.  
