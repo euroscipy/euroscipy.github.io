@@ -12,6 +12,9 @@ development of the Python language in scientific research. This event strives
 to bring together both users and developers of scientific tools, as well as
 academic research and state-of-the-art industry.
 
+[Python Software Verband e.V.](https://python-verband.org/) 
+supports EuroSciPy with the financial administration.
+
 EuroSciPy 2023 takes place from **Monday, August 14 to Friday, August 18 in 
 Basel, Switzerland**. See more information on the location [here](venue.html).
 </br>
