@@ -39,6 +39,7 @@ The members of the code of conduct committee are:
 
 - Alessia Marcolini [alessia@euroscipy.org](mailto:alessia@euroscipy.org)
 - Maren Westermann [maren.westermann@gmail.com](mailto:maren.westermann@gmail.com)
+- Mojdeh Rastgoo [mojdeh.rastgoo@gmail.com](mailto:mojdeh.rastgoo@gmail.com)
 
 </br>
 
