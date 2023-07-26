@@ -117,7 +117,8 @@ connections to Basel. This city has many hotels and other accommodation types.
 - **Weil am Rhine:** a small German town on the border to France with a direct tram
 connection to the Basel city center. It has the cheapest hotel options.  
 
-
+</br>
+</br>
 ### Activities  
 
 Once in Basel, be like locals, try floating in the Rhine. [Swimming in the Rhine](https://www.basel.com/en/activities-excursions/swimming-rhine)
