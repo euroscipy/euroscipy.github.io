@@ -9,8 +9,11 @@ slug: schedule_2023
 
 # Schedule
 
-The schedule is not yet definitive. We are waiting for all accepted talks to
-be confirmed, and the schedule might change accordingly.
+The schedule belows shows the **tutorial** and **conference** days held from August 14
+to August 17.
+<br>
+Find more information about the **sprints** on August 18
+[here](sprint.html).
 
 <div style="margin-right: 1%; padding-right: 1%">
     <pretalx-schedule
