@@ -33,6 +33,13 @@ Dr. Sepideh Alassi (University of Basel, CH)
 </br>
 </br>
 
+### Code of Conduct Committee
+- Alessia Marcolini (LUMICKS, NL)
+- Maren Westermann (Deutsche Bahn, DE)
+- Dr. Mojdeh Rastgoo (Saint-Gobain, FR)
+</br>
+</br>
+
 ### Sponsoring
 Dr. Mike Müller (Python Academy, DE)
 </br>
