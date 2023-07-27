@@ -31,8 +31,6 @@ We provide three different types of tickets:
 - **Conference tickets**: access to the main conference days and one-day sprint but
   NOT the tutorials
 - **Combined tickets**: access to everything during the five-day event
-- **Streaming access**: access to the **main conference** via streaming. This
-  ticket does not include access to the tutorials.
 
 <br>
 
@@ -60,7 +58,6 @@ attend EuroSciPy:
 | Tutorial only    | 125 €       | 150 €               | 300 €    |
 | Conference only  | 125 €       | 150 €               | 250 €    |
 | Combined ticket  | 200 €       | 250 €               | 500 €    |
-| Streaming access | 50 €        | 50 €                | 50 €     |
 
 **Late Bird Tickets - Booking after July 28**
 
@@ -72,10 +69,11 @@ after July 28.
 | Tutorial only    | 175 €       | 200 €               | 350 €    |
 | Conference only  | 175 €       | 200 €               | 300 €    |
 | Combined ticket  | 300 €       | 350 €               | 600 €    |
-| Streaming access | 100 €       | 100 €               | 100 €    |
 
 (*) After registration, please send your student qualifying proof to
 <a href="mailto:students@euroscipy.org">students@euroscipy.org</a>
+
+(**) Streaming access tickets have been discontinued due to low demand.
 
 *Prices include VAT.*
 
