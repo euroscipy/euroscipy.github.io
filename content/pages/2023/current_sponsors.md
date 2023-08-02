@@ -30,7 +30,8 @@ slug: sponsors_2023
             <img src="../static/2022/sponsors/sponsor_logos/zeiss_logo.png">
         </td>
         <td style="text-align: left">
-            <a href="https://www.zeiss.de">ZEISS</a> is technology.
+            <a href="https://www.zeiss.de/corporate/karriere.html?vaURL=www.zeiss.de/karriere">ZEISS</a>
+            is technology.
             ZEISS is optics and innovation.
             Our over 35,000 colleagues develop, manufacture and sell highly innovative
             products and solutions for our customers in a variety of business fields,
