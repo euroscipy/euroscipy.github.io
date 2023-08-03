@@ -33,9 +33,9 @@ slug: sponsors_2023
             <a href="https://www.zeiss.de/corporate/karriere.html?vaURL=www.zeiss.de/karriere">ZEISS</a>
             is technology.
             ZEISS is optics and innovation.
-            Our over 35,000 colleagues develop, manufacture and sell highly innovative
+            Our over 38,000 colleagues develop, manufacture and sell highly innovative
             products and solutions for our customers in a variety of business fields,
-            generating revenue of over €7.5 billion.
+            generating revenue of over €8.8 billion.
 
             As one of the world’s top technology companies,
             ZEISS has with a portfolio aligned with future growth areas like digitalization,
