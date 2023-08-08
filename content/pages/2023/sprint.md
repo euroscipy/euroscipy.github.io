@@ -36,6 +36,7 @@ List of confirmed sprints:
     - Restructuring the documentation to make it more accessible for new users.
     - Re-implement and optimization the DataLoaders.
     - Re-implement the cropped training.
+- [The Mission Support System](https://mss.readthedocs.io/en/stable/)
 
 <br>
 
