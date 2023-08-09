@@ -29,7 +29,14 @@ that all delegates may expect to
 If problems covered by this code of conduct arise, please contact
 EuroSciPy2023 code of conduct team or organizers directly or send an email to coc@euroscipy.org.
 
-And in case of a conflict you can send an email to coi@python-verband.org.
+
+If your report involves any members of the committee, or if they feel they
+have a conflict of interest in handling it, then they will recuse themselves
+from considering your report.
+Alternatively, if, for any reason, you feel uncomfortable making
+a report to the committee, then you can also contact
+[Python Software Verband e.V](https://python-verband.org/#) board via
+coi@python-verband.org.
 
 Any complaint will remain confidential and will be investigated. The EuroSciPy
 CoC team will do their best to resolve any conflict and preserve the
