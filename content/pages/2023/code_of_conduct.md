@@ -26,20 +26,23 @@ that all delegates may expect to
 
 </br>
 
-If problems covered by this code of conduct arise, please contact a
-EuroSciPy organiser directly or send an email to one or all members of the
-CoC committee listed bellow.
+If problems covered by this code of conduct arise, please contact
+EuroSciPy2023 code of conduct team or organizers directly or send an email to coc@euroscipy.org.
+
+And in case of a conflict you can send an email to coi@python-verband.org.
+
 Any complaint will remain confidential and will be investigated. The EuroSciPy
-organisers will do their best to resolve any conflict and preserve the
+CoC team will do their best to resolve any conflict and preserve the
 welcoming character of the conference. As a last resort, a participant
 may be requested to leave the venue of the conference, without
 reimbursement.
 
-The members of the code of conduct committee are:
+The members of the code of conduct team are:
 
-- Alessia Marcolini [alessia@euroscipy.org](mailto:alessia@euroscipy.org)
-- Maren Westermann [maren.westermann@gmail.com](mailto:maren.westermann@gmail.com)
-- Mojdeh Rastgoo [mojdeh.rastgoo@gmail.com](mailto:mojdeh.rastgoo@gmail.com)
+- Alessia Marcolini
+- Maren Westermann
+- Mojdeh Rastgoo
+- Konstantin Ignatov
 
 </br>
 
