@@ -29,3 +29,9 @@ Find more information about the **sprints** on August 18
         </div>
     </noscript>
 </div>
+
+# Sprints: Friday, August 18th, 9:00–17:00
+
+Sprints are happening in a different place: Roshoffgasse 2, CH-4051 Basel.
+
+For more information and the map see [this link](sprint.html).
