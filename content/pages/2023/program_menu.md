@@ -13,5 +13,6 @@ slug: program_2023
 - [Schedule](schedule.html)
 - [Keynotes](keynotes.html)
 - [Spotlight and Poster Session](poster_session.html)
-- [Social Event](social_event.html)
 - [Sprint](sprint.html)
+- [Social Event](social_event.html)
+- [Walking Tours](walking_tours.html)

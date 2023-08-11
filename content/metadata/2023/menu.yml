@@ -12,11 +12,12 @@
     url: 'keynotes.html'
   - name: Spotlights and Posters
     url: 'poster_session.html'
-  - name: Social Event
-    url: 'social_event.html'
   - name: Sprint
     url: sprint.html
-
+  - name: Social Event
+    url: 'social_event.html'
+  - name: Walking Tours
+    url: 'walking_tours.html'
 - name: Maintainers
   url: maintainers.html
 - name: Registration

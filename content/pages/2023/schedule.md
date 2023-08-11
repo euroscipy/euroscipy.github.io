@@ -12,7 +12,7 @@ slug: schedule_2023
 The schedule belows shows the **tutorial** and **conference** days held from August 14
 to August 17.
 <br>
-Find more information about the **sprints** on August 18
+Find more information about the **sprint** on August 18
 [here](sprint.html).
 
 <div style="margin-right: 1%; padding-right: 1%">
@@ -30,8 +30,8 @@ Find more information about the **sprints** on August 18
     </noscript>
 </div>
 
-# Sprints: Friday, August 18th, 9:00–17:00
+# Sprint: Friday, August 18th, 9:00–17:00
 
-Sprints are happening in a different place: Roshoffgasse 2, CH-4051 Basel.
+The sprint is happening in a different place: Roshoffgasse 2, CH-4051 Basel.
 
 For more information and the map see [this link](sprint.html).

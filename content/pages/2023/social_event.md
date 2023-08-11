@@ -31,10 +31,10 @@ additional tickets to bring along partners and friends. Please bring your badge
 to the event.
 
 Please note that there are a limited number of places available. The ticket
-sale starts on August 7 and the price includes a meal of your choice
+sale started on August 7 and the price includes a meal of your choice
 and a drink.
 
-You will be able to purchase your social event ticket soon.
+You can purchase your social event ticket through the link sent to you per Email.
 
 We're looking forward to a wonderful evening with you!
 
