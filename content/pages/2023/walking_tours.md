@@ -16,6 +16,7 @@ We're happy to announce that this year, we have organized guided walking tours o
 the historical city center of Basel for the attendees. The tours will be in English.
 
 Following two tours are schedules for EuroSciPy2023 attendees:
+
 1. On 15.08 from 18:00 to 19:30 
 2. On 17.08 from 18:00 to 19:30    
 
@@ -30,14 +31,17 @@ Marktplatz Basel
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2692.4899711701123!2d7.5849302774144824!3d47.55825449131329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b9ae94837945%3A0x7ccfa7595fdd43b3!2sMarktpl.%2C%204001%20Basel!5e0!3m2!1sde!2sch!4v1691751401786!5m2!1sde!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 &nbsp;
 
-Walking tours are for the EuroSciPy 2023 attendees only. Please wear your badge 
-during the tour.
+Walking tours are for the EuroSciPy 2023 attendees only. 
+Please wear your badge during the tour.
 
 Please note that there are only 20 places available for each tour.
-The tour costs are covered by the conference, the ticket is only 
+The tour costs are covered by the conference; the ticket is only 
 necessary to reserve your spot.
 
-You can get your walking tour ticket soon.
+Secure your spot in a guided walking tour by getting a free ticket:
+
+<a href="https://ti.to/pysv/euroscipy-2023" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Get your ticket 🐍</a>
+
 
 ## Augmented Reality Art Tour
 

@@ -7,9 +7,11 @@ template: page
 slug: venue2023
 ---
 
+# Venue and Location
+
 EuroSciPy 2023 takes place in Basel, Switzerland from Monday August 14th until Friday August 18th.
 
-Basel lies in the heart of Europe, on both banks of the Rhine. The city is the center of the idyllic border triangle of France, Germany, and Switzerland – lying between the Swiss Jura, Germany’s Black Forest, and the Vosges in Alsace.
+Basel lies in the heart of Europe, on both banks of the river Rhine. The city is the center of the idyllic border triangle of France, Germany, and Switzerland – lying between the Swiss Jura, Germany’s Black Forest, and the Vosges in Alsace.
 To get info about Basel city, its restaurants, tours, etc., see the [city's webpage](https://www.basel.com/en).
 
 ### Location
@@ -121,6 +123,9 @@ connection to the Basel city center. It has the cheapest hotel options.
 </br>
 ### Activities  
 
+The conference has organized a guided walking tour of the historical old town, 
+book your spot on a tour, see more info [here](walking_tours.html).
+
 Once in Basel, be like locals, try floating in the Rhine. [Swimming in the Rhine](https://www.basel.com/en/activities-excursions/swimming-rhine)
 is the most popular sport in summer. Bring your swimming suit, buy a Wickelfisch to
 put your belongings in, and float on.
@@ -128,12 +133,12 @@ put your belongings in, and float on.
 Like locals, try a relaxing mini picnic on the stairs by the Rhine river in the evenings.
 
 Basel is known as the capital of art in Switzerland, it has many galleries and
-museums. 
+museums. You can find a list of the most popular sights [here](https://www.basel.com/en/places-of-interest).
 
 
 ### Restaurant, Café, Bar  
 
-We recommend the following restaurant, cafes, and bars in Basel:
+We recommend the following restaurant, cafés, and bars in Basel:
 
 - Vegetarian/Vegan:
     - [Zaza](https://zazaa.ch), a Lebanese restaurant very close to the venue.
