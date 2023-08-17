@@ -127,6 +127,25 @@ slug: sponsors_2023
     </tr>
 </table>
 
+## Software Sponsor
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2023/sponsors/sponsor_logos/jetbrains.jpg">
+        </td>
+        <td style="text-align: left">
+
+        At <a href="https://www.jetbrains.com/">JetBrains</a>,
+        code is our passion. Ever since we started, back in 2000,
+        we have strived to make the strongest, most effective developer tools
+        on earth.
+        By automating routine checks and corrections, our tools speed up
+        production, freeing developers to grow, discover and create.
+        </td>
+    </tr>
+</table>
+
 ## Gold Sponsors
 
 <table style="table-layout:fixed">
