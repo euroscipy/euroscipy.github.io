@@ -37,6 +37,7 @@ List of confirmed sprints:
     - Re-implement and optimization the DataLoaders.
     - Re-implement the cropped training.
 - [The Mission Support System](https://mss.readthedocs.io/en/stable/)
+- [skrub](https://skrub-data.org/stable/)
 
 <br>
 
