@@ -31,6 +31,7 @@ List of confirmed sprints:
     - GPU programming for scikit-learn with [sklearn-numba-dpex](https://github.com/soda-inria/sklearn-numba-dpex) and [Array API](https://data-apis.org/array-api/).
     - Addressing issues from the [GitHub issue tracker](https://github.com/scikit-learn/scikit-learn/issues).
 - [pandas](https://pandas.pydata.org/)
+- [geopandas](https://geopandas.org/en/stable/)
 - [VizPy](https://vispy.org/)
 - [braindecode](https://braindecode.org/)
     - Restructuring the documentation to make it more accessible for new users.
