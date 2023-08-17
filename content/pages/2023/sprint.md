@@ -39,6 +39,9 @@ List of confirmed sprints:
     - Re-implement the cropped training.
 - [The Mission Support System](https://mss.readthedocs.io/en/stable/)
 - [skrub](https://skrub-data.org/stable/)
+- [NumPy](numpy.org/) / [SciPy](https://scipy.org/)
+    - Available issues labelled as "good first issue"
+    - Your own picked issue
 
 <br>
 
