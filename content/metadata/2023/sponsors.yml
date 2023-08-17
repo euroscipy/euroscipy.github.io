@@ -29,6 +29,11 @@
   logo: ../static/2023/sponsors/sponsor_logos/dataiku.png
   description: Dataiku
 
+- name: JetBrains
+  url: https://www.jetbrains.com
+  logo: ../static/2023/sponsors/sponsor_logos/jetbrains.jpg
+  description: JetBrains
+
 - name: Roche
   url: https://www.roche.com/
   logo: ../static/2023/sponsors/sponsor_logos/Roche_Logo.svg
