@@ -7,16 +7,17 @@ template: landing
 
 # Welcome to the EuroSciPy conference
 
-### The next edition is [EuroSciPy 2023](/2023/)
+### The next edition is [EuroSciPy 2024](/2024/)
 
-#### [Schedule](/2023/schedule.html)
+#### [Schedule](/2024/schedule.html)
 
-#### [Tickets](/2023/tickets.html)
+#### [Tickets](/2024/tickets.html)
 
 News come on Twitter: [@EuroSciPy](https://twitter.com/EuroSciPy).
 
 All editions of EuroSciPy can be found below:
 
+* [EuroSciPy 2024](/2024/)
 * [EuroSciPy 2023](/2023/)
 * [EuroSciPy 2022](/2022/)
 * [EuroSciPy 2020](/2020/)

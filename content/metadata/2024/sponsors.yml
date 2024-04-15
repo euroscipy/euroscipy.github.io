@@ -1,0 +1,15 @@
+---
+- name: MaritimeUniversity
+  url: https://www.pm.szczecin.pl/en/
+  logo: ../static/2024/university_logo.png
+  description: Maritime University of Szczecin
+
+- name: PythonSoftwareVerband
+  url: https://python-verband.org/
+  logo: ../static/2022/sponsors/sponsor_logos/python_software_verband.png
+  description: Python Software Verband
+
+- name: PythonAcademy
+  url: https://www.python-academy.com/
+  logo: ../static/2022/sponsors/sponsor_logos/python_academy.png
+  description: Python Academy
