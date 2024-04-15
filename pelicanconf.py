@@ -72,7 +72,7 @@ TELEGRAM_URL = 'https://t.me/euroscipy'
 SPECTRUM_URL = 'https://spectrum.chat/euroscipy'
 INFO_MAIL_URL = 'mailto:info@euroscipy.org'
 
-CURRENT_EDITION = '2023'
+CURRENT_EDITION = '2024'
 
 EVENT = {}
 EVENT['euroscipy_2020'] = yaml.safe_load(open(os.path.join(METADATA, '2020', 'event.yml')))
