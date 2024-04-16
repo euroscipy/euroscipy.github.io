@@ -65,7 +65,7 @@ From EuroSciPy 2023:
 <table style="table-layout:fixed">
     <tr>
         <td style="width: 25%;">
-            <img src="../../static/2023/sponsors/levels/diamond.jpg">
+            <img src="../../static/2024/sponsors/levels/diamond.jpg">
         </td>
         <td style="width: 75%;">
             <h4>Diamond sponsor</h4>
@@ -83,7 +83,7 @@ From EuroSciPy 2023:
     </tr>
     <tr style="background: none;">
         <td style="width: 25%;">
-            <img src="../../static/2023/sponsors/levels/platinum.jpg">
+            <img src="../../static/2024/sponsors/levels/platinum.jpg">
         </td>
         <td style="width: 75%;">
             <h4>Platinum sponsor</h4>
@@ -99,7 +99,7 @@ From EuroSciPy 2023:
     </tr>
     <tr>
         <td style="width: 25%;">
-            <img src="../../static/2023/sponsors/levels/maintainers.jpg">
+            <img src="../../static/2024/sponsors/levels/maintainers.jpg">
         </td>
         <td style="width: 75%;">
             <h4>Maintainers sponsor</h4>
@@ -127,7 +127,7 @@ From EuroSciPy 2023:
         <div class="tg-package">
             <div class="tg-packagehead">
                 </br>
-                <img src="../../static/2023/sponsors/levels/bronze.jpg" style="width: 80px;"/>
+                <img src="../../static/2024/sponsors/levels/bronze.jpg" style="width: 80px;"/>
             </div>
             <span class="tg-price">
                 <sup>750€ + VAT</sup>
@@ -151,7 +151,7 @@ From EuroSciPy 2023:
         <!-- SILVER SPONSORSHIP LEVEL -->
         <div class="tg-package">
             <div class="tg-packagehead">
-                <img src="../../static/2023/sponsors/levels/silver.jpg" style="width: 80px;"/>
+                <img src="../../static/2024/sponsors/levels/silver.jpg" style="width: 80px;"/>
             </div>
             <span class="tg-price">
                 <sup>1200€ + VAT</sup>
@@ -176,7 +176,7 @@ From EuroSciPy 2023:
                 <div class="tg-packagehead">
                     <span class="tg-badge">most selected</span>
                     </br>
-                    <img src="../../static/2023/sponsors/levels/gold.jpg" style="width: 80px;"/>
+                    <img src="../../static/2024/sponsors/levels/gold.jpg" style="width: 80px;"/>
                 </div>
                 <span class="tg-price">
                     <sup>2000€ + VAT</sup>
