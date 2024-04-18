@@ -11,8 +11,7 @@ slug: tickets_2024
 
 EuroSciPy 2024 will be held from August 26th to August 30th. It will be both
 in person and virtual. In person, it will be held at Maritime University of 
-Szczecin, Szczecin, Poland. Details of the virtual conference will be
-published soon.
+Szczecin, Szczecin, Poland.
 
 The conference will follow this broad plan of events:
 
