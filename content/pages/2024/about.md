@@ -13,7 +13,7 @@ development of the Python language in scientific research. This event strives
 to bring together both users and developers of scientific tools, as well as
 academic research and state-of-the-art industry.
 
-EuroSciPy 2023 takes place from **Monday, August 26 to Friday, August 30 in 
+EuroSciPy 2024 takes place from **Monday, August 26 to Friday, August 30 in 
 Szczecin, Poland**. See more information on the location [here](venue.html).
 </br>
 </br>
