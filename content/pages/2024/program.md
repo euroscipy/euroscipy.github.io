@@ -9,7 +9,8 @@ slug: program_2024
 
 # EuroSciPy 2024 Call for Proposal
 
-The EuroSciPy 2024 Call for Proposals will open on 1st of May 2024 .
+The EuroSciPy 2024 Call for Proposals will **open on 1st of May 2024** and 
+will **close on 26th of May 2024 at 23:59:00 CET**.
 
 ### Tracks
 

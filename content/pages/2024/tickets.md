@@ -19,6 +19,7 @@ The conference will follow this broad plan of events:
 - Two conference days (August 28 - August 29, Wed-Thu)
 - One-day sprint (August 30, Fri)
 
+The ticket sale will start after the review of the proposals is completed.
 <br>
 
 ### Ticket types
