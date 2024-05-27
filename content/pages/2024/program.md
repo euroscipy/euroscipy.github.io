@@ -7,10 +7,10 @@ template: page
 slug: program_2024
 ---
 
-# EuroSciPy 2024 Call for Proposal
+# Call for Proposal
 
-The EuroSciPy 2024 Call for Proposals is open from 1st of May 2024 and will
-**close on 26th of May 2024 at 23:59:00 CET**.
+The EuroSciPy 2024 Call for Proposals is extended until the
+**2nd of June 2024 at 23:59:00 CET**.
 
 <a href="https://pretalx.com/euroscipy-2024/cfp" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Submit Abstract</a>
 ### Tracks
