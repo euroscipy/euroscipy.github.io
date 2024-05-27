@@ -10,9 +10,9 @@ sponsorship_url: sponsoring.html
 
 conference_logo: ../static/2024/logo.png
 background_poster: ../static/2024/background.jpg
-venue_picture: ../static/2024/venue.jpeg
+venue_picture: ../static/2024/university_pic.png
 background_poster_counter: ../static/2024/volunteers.jpg
-background_poster_sponsors: ../static/2023/euroscipy_coffee.jpg
+background_poster_sponsors: ../static/2024/Akademia-Nawigator-XXI--Dormitory-from-above.png
 
 short_description: 16th European Conference on Python in Science
 long_description: |

@@ -20,3 +20,5 @@ contributors.
 Please [email](mailto:maintainers@euroscipy.org) us if you have a proposal for
 a maintainers session.
 
+**Note:** Maintainer's track speakers will receive free conference tickets 
+(valid from 28th to 30th of August) 

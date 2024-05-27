@@ -10,8 +10,17 @@ slug: program_2024
 # Call for Proposal
 
 The EuroSciPy 2024 Call for Proposals is extended until the
-**2nd of June 2024 at 23:59:00 CET**.
+__**2nd of June 2024 at 23:59:00 CET**__.
 
+__**Note:**__  We offer our speakers followings:
+
+- Speakers of the accepted tutorials will receive free ticket for the entire conference 
+(i.e. 26th to 30th of August)
+&nbsp;
+- One speaker per accepted talk will receive a free ticket for the conference days
+  (i.e. 28th to 30th of August)
+
+&nbsp;
 <a href="https://pretalx.com/euroscipy-2024/cfp" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Submit Abstract</a>
 ### Tracks
 

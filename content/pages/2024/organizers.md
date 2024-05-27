@@ -8,12 +8,17 @@ slug: organizers_2024
 ---
 
 ## Organising team
+Local Organizers: Open Education and Development Group
+
 EuroSciPy Organization Team
 
 Detailed list will be announced soon.
 
 ### Supporting Institution
+[Open Education and Development Group](https://openedg.org/)
+
 [Maritime University](https://www.pm.szczecin.pl/en/)
+
 [Python Software Verband e.V.](https://python-verband.org/)
 
 </br>
