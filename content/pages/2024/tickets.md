@@ -33,7 +33,30 @@ We provide three different types of tickets:
 - **Combined tickets**: access to everything during the five-day event
 
 <br>
+### Ticket prices
 
+
+**Normal Bird Tickets - Booking by July 31st**
+
+|                  | Student (*) | Academic/Individual | Business |
+|------------------|-------------|---------------------|----------|
+| Tutorial only    | 75 €        | 150 €               | 250 €    |
+| Conference only  | 75 €        | 150 €               | 250 €    |
+| Combined ticket  | 125 €       | 200 €               | 400 €    |
+
+**Late Bird Tickets - Booking after August 1st**
+
+
+|                  | Student (*) | Academic/Individual | Business |
+|------------------|-------------|---------------------|----------|
+| Tutorial only    | 100 €       | 200 €               | 350 €    |
+| Conference only  | 100 €       | 200 €               | 350 €    |
+| Combined ticket  | 150 €       | 300 €               | 550 €    |
+
+(*) After registration, please send your student qualifying proof to
+<a href="mailto:students@euroscipy.org">students@euroscipy.org</a>
+
+<br>
 ### Which ticket tier should I buy?
 
 Refer to the following to know which ticket tier you should be choosing to
