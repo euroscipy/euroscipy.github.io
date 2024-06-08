@@ -99,3 +99,6 @@ In case that you have additional queries, please contact us at: <a href="mailto:
 
 
 In case that you have additional queries, please contact us at: <a href="mailto:info@euroscipy.org">info@euroscipy.org</a>.
+
+(*) After registration, please send your student qualifying proof to
+<a href="mailto:students@euroscipy.org">students@euroscipy.org</a>
