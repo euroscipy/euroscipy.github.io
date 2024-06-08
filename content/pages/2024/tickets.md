@@ -19,42 +19,16 @@ The conference will follow this broad plan of events:
 - Two conference days (August 28 - August 29, Wed-Thu)
 - One-day sprint (August 30, Fri)
 
-The ticket sale will start after the review of the proposals is completed.
 <br>
-
 ### Ticket types
 
 We provide three different types of tickets:
 
-- **Tutorial tickets**: access to the tutorial days and the one-day sprint but NOT
+- **Tutorial tickets**: access to the tutorial days and the one-day sprint but **NOT**
   the main conference
 - **Conference tickets**: access to the main conference days and one-day sprint but
-  NOT the tutorials
-- **Combined tickets**: access to everything during the five-day event
-
-<br>
-### Ticket prices
-
-
-**Normal Bird Tickets - Booking by July 31st**
-
-|                  | Student (*) | Academic/Individual | Business |
-|------------------|-------------|---------------------|----------|
-| Tutorial only    | 75 €        | 150 €               | 250 €    |
-| Conference only  | 75 €        | 150 €               | 250 €    |
-| Combined ticket  | 125 €       | 200 €               | 400 €    |
-
-**Late Bird Tickets - Booking after August 1st**
-
-
-|                  | Student (*) | Academic/Individual | Business |
-|------------------|-------------|---------------------|----------|
-| Tutorial only    | 100 €       | 200 €               | 350 €    |
-| Conference only  | 100 €       | 200 €               | 350 €    |
-| Combined ticket  | 150 €       | 300 €               | 550 €    |
-
-(*) After registration, please send your student qualifying proof to
-<a href="mailto:students@euroscipy.org">students@euroscipy.org</a>
+  **NOT** the tutorials
+- **Combined tickets**: access to **everything** during the five-day event
 
 <br>
 ### Which ticket tier should I buy?
@@ -71,9 +45,6 @@ attend EuroSciPy:
   <a href="mailto:students@euroscipy.org">students@euroscipy.org</a>
 
 <br>
-
-
-
 ### Get your ticket
 
 <html>
@@ -87,7 +58,8 @@ attend EuroSciPy:
   </body>
 </html>
 
-**Booking after August 1st, ticket prices will increase as follow:**
+The ticket prices will increase from **August 1st, 2024**. The late bird prices
+will be as follows:
 
 |                  | Student (*) | Academic/Individual | Business |
 |------------------|-------------|---------------------|----------|
@@ -95,10 +67,8 @@ attend EuroSciPy:
 | Conference only  | 100 €       | 200 €               | 350 €    |
 | Combined ticket  | 150 €       | 300 €               | 550 €    |
 
-In case that you have additional queries, please contact us at: <a href="mailto:info@euroscipy.org">info@euroscipy.org</a>.
-
-
-In case that you have additional queries, please contact us at: <a href="mailto:info@euroscipy.org">info@euroscipy.org</a>.
-
 (*) After registration, please send your student qualifying proof to
 <a href="mailto:students@euroscipy.org">students@euroscipy.org</a>
+
+In case that you have additional queries, please contact us at:
+<a href="mailto:info@euroscipy.org">info@euroscipy.org</a>.
