@@ -87,5 +87,15 @@ attend EuroSciPy:
   </body>
 </html>
 
+**Booking after August 1st, ticket prices will increase as follow:**
+
+|                  | Student (*) | Academic/Individual | Business |
+|------------------|-------------|---------------------|----------|
+| Tutorial only    | 100 €       | 200 €               | 350 €    |
+| Conference only  | 100 €       | 200 €               | 350 €    |
+| Combined ticket  | 150 €       | 300 €               | 550 €    |
+
+In case that you have additional queries, please contact us at: <a href="mailto:info@euroscipy.org">info@euroscipy.org</a>.
+
 
 In case that you have additional queries, please contact us at: <a href="mailto:info@euroscipy.org">info@euroscipy.org</a>.
