@@ -7,7 +7,7 @@ template: page
 slug: tickets_2024
 ---
 
-# Tickets for EuroSciPy
+## Tickets for EuroSciPy
 
 EuroSciPy 2024 will be held from August 26th to August 30th. It will be both
 in person and virtual. In person, it will be held at Maritime University of 
@@ -72,5 +72,20 @@ attend EuroSciPy:
 
 <br>
 
-### Ticket prices
-TBA
+
+
+### Get your ticket
+
+<html>
+  <head>
+    <script src="https://js.tito.io/v2" async></script>
+  </head>
+  <body>
+    <tito-widget
+      event="euroscipy/2024"
+    ></tito-widget>
+  </body>
+</html>
+
+
+In case that you have additional queries, please contact us at: <a href="mailto:info@euroscipy.org">info@euroscipy.org</a>.
