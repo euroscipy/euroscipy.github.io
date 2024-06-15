@@ -25,6 +25,10 @@ long_description: |
   </p>
 
 announcements:
+  <p>EuroSciPy 2024 Tickets Now Available!</p>
+  <p>Don't miss out on our early bird ticket offer, valid until the 1st of August, 2024.</p>
+  <a href="https://www.euroscipy.org/2024/tickets.html" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Get your ticket 🐍</a>
+
 stats:
   expected_number_of_speakers: 50
   expected_number_of_participants: 350
