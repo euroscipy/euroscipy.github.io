@@ -38,7 +38,7 @@ communities, and contributors to community projects.
 
 ### How to apply
 
-Please fill in the [form](https://forms.gle/2fRJDtxjqf1s69jn6) before **July 12th**.
+Please fill in the [form](https://forms.gle/zZ96Cj7QwxLNVs299) before **July 12th**.
 <br>
 <br>
 
