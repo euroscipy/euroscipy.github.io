@@ -27,15 +27,13 @@ jobs:
     - name: Install dependencies
       run: make install-ci
 
-    - name: sync website with rsync
-      env:
-        SSH_KEY: ${{ secrets.SSH_KEY }}
-        SSH_KNOWN_HOST: ${{ secrets.SSH_KNOWN_HOST }}
-      run: |
-        mkdir -p ~/.ssh
-        python3 write_key.py
-        chmod og-rwx ~/.ssh/id_rsa ~/.ssh/known_hosts
-        wc -l ~/.ssh/id_rsa ~/.ssh/known_hosts
-        ls -lh ~/.ssh
-        make rsync_upload
+    - name: Build website
+      run: make html
 
+    - name: Update the main gh-page website
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./output
+        commit_message: "[ci skip] ${{ github.event.head_commit.message }}"
