@@ -28,7 +28,9 @@ jobs:
       run: make install-ci
 
     - name: Build website
-      run: make html
+      run: |
+        make html
+        echo "euroscipy.org" > ./output/CNAME
 
     - name: Update the main gh-page website
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/develop' }}
