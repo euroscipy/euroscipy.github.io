@@ -20,6 +20,14 @@ The conference will follow this broad plan of events:
 - One-day sprint (August 30, Fri)
 
 <br>
+### Speaker Registration
+
+We offer our speakers followings:
+
+- Speakers of the accepted tutorials will receive free ticket for the entire conference (i.e. 26th to 30th of August)
+- One speaker per accepted talk will receive a free ticket for the conference days (i.e. 28th to 30th of August)
+
+<br>
 ### Ticket types
 
 We provide three different types of tickets:
