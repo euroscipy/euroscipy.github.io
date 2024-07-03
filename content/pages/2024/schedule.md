@@ -8,5 +8,4 @@ slug: schedule_2024
 ---
 
 # Schedule
-
 TBA
