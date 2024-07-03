@@ -6,6 +6,8 @@
   submenu:
   - name: Call for Proposals
     url: program.html
+  - name: Featured Talks
+    url: featured_talks.html
   - name: Schedule
     url: 'schedule.html'
   - name: Keynotes

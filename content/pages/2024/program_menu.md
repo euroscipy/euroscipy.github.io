@@ -10,6 +10,7 @@ slug: program_2024
 ### Program Items
 
 - [Call for Proposals](program.html)
+- [Featured Talks](featured_talks.html)
 - [Keynotes](keynotes.html)
 - [Spotlight and Poster Session](poster_session.html)
 - [Sprint](sprint.html)
