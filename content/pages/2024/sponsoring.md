@@ -16,10 +16,10 @@ packages.
 
 ### Important dates
 
-|         |                                                                                   |
-|---------|-----------------------------------------------------------------------------------|
-| July 01 | Deadline for Diamond and Platinum sponsoring                                      |
-| July 15 | Deadline for all sponsoring packages                                              |
+|           |                                                                                   |
+|-----------|-----------------------------------------------------------------------------------|
+| August 01 | Deadline for Diamond and Platinum sponsoring                                      |
+| August 15 | Deadline for all sponsoring packages                                              |
 
 ## European meeting for users of scientific Python software
 
