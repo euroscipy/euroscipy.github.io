@@ -13,7 +13,9 @@ We are pleased to announce the following keynotes at EuroSciPy this year.
 
 ## 10 Years of Open Source: Navigating the Next AI Revolution
 
-*Ines Montani - Explosion*
+<div style="text-align:center"><img src="../../static/2024/ines_montani.jpeg" width="200" height="200" /> <br/> <i>Ines Montani - Explosion</i> </div>
+
+
 
 ### Abstract:
 
