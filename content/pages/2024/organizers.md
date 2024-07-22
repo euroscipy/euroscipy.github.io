@@ -24,7 +24,7 @@ Open Education and Development Group (PL)
 - Lúcia Pedrosa (TUBAF, DE)
 - Dr. Mojdeh Rastgoo (Saint-Gobain, FR)
 - Milton Gomez (UNIL, CH)
-- Dr. Valerii Chirkov (Science of Inteligence, DE)
+- Valerii Chirkov (Science of Inteligence, DE)
 </br>
 </br>
 
