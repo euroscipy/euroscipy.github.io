@@ -25,12 +25,7 @@ Open Education and Development Group (PL)
 - Dr. Mojdeh Rastgoo (Saint-Gobain, FR)
 - Milton Gomez (UNIL, CH)
 - Dr. Valerii Chirkov (Science of Inteligence, DE)
-</br>
-</br>
-
-### Sprints
 - Dr. Guillaume Lemaitre (Inria, FR)
-- Lúcia Pedrosa (TUBAF, DE)
 </br>
 </br>
 
