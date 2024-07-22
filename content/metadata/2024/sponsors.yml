@@ -11,10 +11,20 @@
 
 - name: PythonSoftwareVerband
   url: https://python-verband.org/
-  logo: ../static/2022/sponsors/sponsor_logos/python_software_verband.png
+  logo: ../static/2024/sponsors/sponsor_logos/python_software_verband.png
   description: Python Software Verband
 
 - name: PythonAcademy
   url: https://www.python-academy.com/
-  logo: ../static/2022/sponsors/sponsor_logos/python_academy.png
+  logo: ../static/2024/sponsors/sponsor_logos/python_academy.png
   description: Python Academy
+
+- name: NumFocus
+  url: https://numfocus.org/
+  logo: ../static/2024/sponsors/sponsor_logos/NumFocus.png
+  description: NumFocus
+
+- name: Forschungszentrum Jülich
+  url: https://www.fz-juelich.de/en
+  logo: ../static/2024/sponsors/sponsor_logos/fz_juelich.jpg
+  description: Forschungszentrum Jülich
