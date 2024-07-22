@@ -7,7 +7,7 @@ template: page
 slug: sponsoring_2024
 ---
 
-## Sponsorship information EuroSciPy 2024
+## Sponsorship for EuroSciPy 2024
 
 If you want your company to become a sponsor, contact us at
 <a href=mailto:sponsoring@euroscipy.org>sponsoring@euroscipy.org</a>.

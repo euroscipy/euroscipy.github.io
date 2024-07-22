@@ -9,9 +9,10 @@ slug: program_2024
 
 ### Program Items
 
-- [Call for Proposals](program.html)
-- [Featured Talks](featured_talks.html)
+- [Schedule](schedule.html)
 - [Keynotes](keynotes.html)
+- [Featured Talks](featured_talks.html)
 - [Spotlight and Poster Session](poster_session.html)
 - [Sprint](sprint.html)
 - [Social Event](social_event.html)
+- [Call for Proposals](program.html)

@@ -7,12 +7,56 @@ template: page
 slug: organizers_2024
 ---
 
-## Organising team
-Local Organizers: Open Education and Development Group
+## Organizing Team
+EuroSciPy2024 organizational team consists of the following devoted volunteers:
 
-EuroSciPy Organization Team
+### Local Organizers
+Open Education and Development Group (PL)
 
-Detailed list will be announced soon.
+- Urszula Sajkowska
+</br>
+</br>
+
+### Program Committee
+- Dr. Sepideh Alassi (University of Basel, CH)
+- Konstantin Ignatov (SentinelOne, CZ)
+- Reimar Bauer (FZ-Jülich GmbH, DE)
+- Lúcia Pedrosa (TUBAF, DE)
+- Dr. Mojdeh Rastgoo (Saint-Gobain, FR)
+- Milton Gomez (UNIL, CH)
+- Dr. Valerii Chirkov (Science of Inteligence, DE)
+</br>
+</br>
+
+### Sprints
+- Dr. Guillaume Lemaitre (Inria, FR)
+- Lúcia Pedrosa (TUBAF, DE)
+</br>
+</br>
+
+### Sponsoring
+Dr. Mike Müller (Python Academy, DE)
+</br>
+</br>
+
+### Administration
+- Alexander CS Hendorf (Königsweg GmbH, DE)
+</br>
+</br>
+
+### Financial Aid and Diversity
+- Dr. Mojdeh Rastgoo (Saint-Gobain, FR)
+- Lúcia Pedrosa (TUBAF, DE)
+</br>
+</br>
+
+### Communication
+- Dr. Sepideh Alassi (University of Basel, CH)
+- Nefta Umut Kanilmaz (University of Salzburg, AU)
+- Konstantin Ignatov (SentinelOne, CZ)
+- Reimar Bauer (FZ-Jülich GmbH, DE)
+</br>
+</br>
 
 ### Supporting Institution
 [Open Education and Development Group](https://openedg.org/)
@@ -22,9 +66,9 @@ Detailed list will be announced soon.
 [Python Software Verband e.V.](https://python-verband.org/)
 
 </br>
+</br>
 
-#### Contact and Helpdesk
-
+### Contact and Helpdesk
 To contact the organising team, you can check the [Contact Us](contact_us.html) page.
 
 </br>
