@@ -44,13 +44,13 @@ Please fill in the [form](https://forms.gle/zZ96Cj7QwxLNVs299) before **July 12t
 
 #### Timeline
 
-|            |                                                                                   |
-|------------|-----------------------------------------------------------------------------------|
-| June 24     | Open the grant program                                                            |
-| July 12    | **Deadline for submitting the applications**                                      |
-| July 21    | Notification of grants awarded                                                    |
-| July 24    | Deadline for applicants to accept/decline financial aid                           |
-| September 4     | Deadline to upload receipts                                                       |
+|                            |                                                                                   |
+|----------------------------|-----------------------------------------------------------------------------------|
+| June 24                    | Open the grant program                                                            |
+| July 12                    | **Deadline for submitting the applications**                                      |
+| <s>July 21</s> **July 23** | Notification of grants awarded                                                    |
+| <s>July 24</s> **July 27** | Deadline for applicants to accept/decline financial aid                           |
+| September 4                | Deadline to upload receipts                                                       |
 
 <br>
 <br>
