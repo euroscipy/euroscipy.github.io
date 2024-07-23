@@ -28,6 +28,6 @@ to propose a sprint, please send us a message to
 List of confirmed sprints:
 
 - [scikit-learn](https://scikit-learn.org/stable/): Machine Learning in Python
-- [skrub](https://skrub-data.org/stable/)
+- [skrub](https://skrub-data.org/stable/): Prepping tables for machine learning
 - [narwhals](https://github.com/narwhals-dev/narwhals): Lightweight and extensible compatibility layer between dataframe libraries
 - [SBI](https://github.com/sbi-dev/sbi): Simulation-based inference toolkit
