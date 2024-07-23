@@ -22,3 +22,12 @@ The definitive schedule is not yet known and more project sprints will be added 
 they are proposed, and some will be improvised in the same day. If you want
 to propose a sprint, please send us a message to
 <a href="mailto:maintainers@euroscipy.org">maintainers@euroscipy.org</a> .
+
+### Known Project Sprints
+
+List of confirmed sprints:
+
+- [scikit-learn](https://scikit-learn.org/stable/): Machine Learning in Python
+- [skrub](https://skrub-data.org/stable/)
+- [narwhals](https://github.com/narwhals-dev/narwhals): Lightweight and extensible compatibility layer between dataframe libraries
+- [SBI](https://github.com/sbi-dev/sbi): Simulation-based inference toolkit
