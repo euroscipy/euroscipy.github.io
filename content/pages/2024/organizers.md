@@ -17,15 +17,15 @@ Open Education and Development Group (PL)
 </br>
 </br>
 
-### Program Committee
+### Program Committee (Alphabetical Order)
 - Dr. Sepideh Alassi (University of Basel, CH)
-- Konstantin Ignatov (SentinelOne, CZ)
 - Reimar Bauer (FZ-Jülich GmbH, DE)
+- Dr. Valerii Chirkov (Science of Inteligence, DE)
+- Milton Gomez (UNIL, CH)
+- Konstantin Ignatov (SentinelOne, CZ)
+- Dr. Guillaume Lemaitre (Inria, FR)
 - Lúcia Pedrosa (TUBAF, DE)
 - Dr. Mojdeh Rastgoo (Saint-Gobain, FR)
-- Milton Gomez (UNIL, CH)
-- Dr. Valerii Chirkov (Science of Inteligence, DE)
-- Dr. Guillaume Lemaitre (Inria, FR)
 </br>
 </br>
 
