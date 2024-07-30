@@ -1,18 +1,3 @@
----
-title: EuroSciPy 2024 - Spotlight and Poster Session
-url: 2024/poster_session.html
-save_as: 2024/poster_session.html
-section: euroscipy_2024
-template: page
-slug: poster_session_2024
----
-
-# Spotlight and Poster Session
-
-On Wednesday 28th, a poster session is organized from 4.30 pm to 18:00 pm.
-It will be preceded by a spotlight session taking place at 3:30 pm in room 7.
-
-You can find the list of the posters below.
 
 ## Validation of Association - implementation in Python library
 
@@ -139,3 +124,4 @@ Built in the context of High Density Electromyography processing, this interface
 **Abstract:** The analysis of logging messages is a big challenge because of their massive number, different origins and unspecify formats. These challenges can be partially address with NLP techniques and ultimately detect, predict or even maybe avoid incidents. What we demonstrate is complete monitoring solution. That includes clustering and uncovering warning-incident correlation with a Hawkes model. This model was previously successfully applied for earthquake predictions based on aftershocks. The Hawkes process model is well-defined mathematically and can process a large volume of data.
 
 <a href="https://pretalx.com/euroscipy-2024/talk/ZKS8WX/"><button type="button" class="btn btn-primary">All details</button></a>
+
