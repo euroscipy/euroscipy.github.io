@@ -11,7 +11,7 @@ slug: organizers_2024
 EuroSciPy2024 organizational team consists of the following devoted volunteers:
 
 ### Local Organizers
-Open Education and Development Group (PL)
+Open Education and Development Group Python Institute
 
 - Urszula Sajkowska
 </br>
@@ -54,7 +54,7 @@ Dr. Mike Müller (Python Academy, DE)
 </br>
 
 ### Supporting Institution
-[Open Education and Development Group](https://openedg.org/)
+[OpenEDG Python Institute](https://openedg.org/)
 
 [Maritime University](https://www.pm.szczecin.pl/en/)
 
