@@ -14,5 +14,6 @@ slug: program_2024
 - [Featured Talks](featured_talks.html)
 - [Spotlight and Poster Session](poster_session.html)
 - [Sprint](sprint.html)
+- [Boat Tour](boat_tour.html)
 - [Social Event](social_event.html)
 - [Call for Proposals](program.html)
