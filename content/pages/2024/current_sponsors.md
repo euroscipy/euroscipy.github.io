@@ -61,6 +61,23 @@ slug: sponsors_2024
 ## Institutional Sponsors
 
 <table style="table-layout:fixed">
+<tr>
+    <td style="vertical-align: middle;">
+        <img style="padding: 0px 7px 0px 7px;"
+             src="../static/2024/sponsors/sponsor_logos/python-institute-mono-dark.png">
+    </td>
+    <td style="text-align: left">
+        The <a href="https://pythoninstitute.org/">OpenEDG Python Institute</a>
+ is an independent non-profit project venture set up, run, and managed by OpenEDG, 
+the Open Education and Development Group, to promote the Python programming language, 
+train a new generation of Python programmers, and support professional careers in 
+programming in Python and related technologies. In line with the strategic goals 
+associated with the enhancement and development of careers in Python programming, 
+OpenEDG Python Institute provides an independent global framework for curriculum 
+development, skills assessment, and Python programming high-stakes examinations.
+</td>
+    </tr>
+<tr>
     <tr>
     <td style="vertical-align: middle;">
         <img style="padding: 0px 7px 0px 7px;"

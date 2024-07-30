@@ -1,8 +1,8 @@
 ---
 - name: OpenEducation
   url: https://openedg.org/
-  logo: ../static/2024/sponsors/sponsor_logos/oedg-regular.png
-  description: Open Education and Development Group
+  logo: ../static/2024/sponsors/sponsor_logos/python-institute-mono-dark.png
+  description: OpenEDG Python Institute
 
 - name: MaritimeUniversity
   url: https://www.pm.szczecin.pl/en/
