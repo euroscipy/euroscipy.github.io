@@ -7,7 +7,7 @@ template: page
 slug: childcare2024
 ---
 
-# On-Site Child Care
+# Child Care Services
 
 We are pleased to announce that this year again we will be offering free childcare
 service. We collaborate with an experienced and professional 
@@ -27,7 +27,7 @@ Be aware that ticket booking allows us to plan the number of slots to be
 reserved. In case of a no-show or a cancellation after August 16, we will charge 
 you with the full cost of the booked service.
 
-### On-site organization
+### Organization
 
 Parents can drop off and fetch their kids between 8.00 am and 5:30 pm.
 
