@@ -12,7 +12,7 @@ slug: program_2024
 The EuroSciPy 2024 Call for Proposals is concluded. 
 The deadline for submissions was the __**2nd of June 2024 at 23:59:00 CET**__.
 
-__**Note:**__  We offer our speakers followings:
+__**Note:**__  We offer our speakers the following:
 
 - Speakers of the accepted tutorials will receive free ticket for the entire conference 
 (i.e. 26th to 30th of August)
