@@ -50,6 +50,18 @@ slug: sponsors_2024
              to make impactful discoveries for a better world.
         </td>
     </tr>
+
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2024/sponsors/sponsor_logos/eps_logo.svg">
+        </td>
+        <td style="text-align: left">
+            The <a href="https://www.europython-society.org/">EuroPython Society (EPS)</a>
+            is a Swedish non-profit organization which organizes EuroPython conferences,
+            supports the Python community in Europe and holds the rights to the EuroPython
+            conference series and trademarks.        </td>
+    </tr>
+
 </table>
 
 

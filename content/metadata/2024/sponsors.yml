@@ -36,5 +36,10 @@
 
 - name: Python Software Foundation
   url: https://www.python.org/
-  logo: ../static/2022/sponsors/sponsor_logos/psf_logo.svg
+  logo: ../static/2024/sponsors/sponsor_logos/psf_logo.svg
   description: Python Software Foundation
+
+- name: EuroPythonSociety
+  url: https://www.europython-society.org/
+  logo: ../static/20224/sponsors/sponsor_logos/eps_logo.svg
+  description: EuroPython Society
