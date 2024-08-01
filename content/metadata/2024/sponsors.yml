@@ -33,3 +33,8 @@
   url: https://probabl.ai
   logo: ../static/2024/sponsors/sponsor_logos/probabl.png
   description: Probabl SAS
+
+- name: Python Software Foundation
+  url: https://www.python.org/
+  logo: ../static/2022/sponsors/sponsor_logos/psf_logo.svg
+  description: Python Software Foundation
