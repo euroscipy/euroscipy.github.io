@@ -28,3 +28,8 @@
   url: https://www.fz-juelich.de/en
   logo: ../static/2024/sponsors/sponsor_logos/fz_juelich.jpg
   description: Forschungszentrum Jülich
+
+- name: Probabl
+  url: https://probabl.ai
+  logo: ../static/2024/sponsors/sponsor_logos/probabl.png
+  description: Probabl SAS

@@ -28,6 +28,32 @@ slug: sponsors_2024
     </tr>
 </table>
 
+
+## Gold Sponsors
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2024/sponsors/sponsor_logos/probabl.png">
+        </td>
+        <td style="text-align: left">
+            <a href="https://probabl.ai">Probabilities are at the core of every decision we make</a>
+            We believe that data science and machine learning are enablers of
+            our modern society.
+            Data rich processes are better informed, more efficient and
+            ultimately lead to better decisions. This is increasingly true as
+            we face new challenges in our society, across and between nations,
+            but also as a species.
+            Probabl was created with a purpose.
+            Its mission is to develop, maintain at the state of art, sustain,
+            and disseminate a complete suite of open source tools for data
+            science.
+            Our commercial activities will unfold to support the long term
+            mission.
+          </td>
+    </tr>
+</table>
+
 ## Bronze Sponsors
 
 <table style="table-layout:fixed">
@@ -68,12 +94,12 @@ slug: sponsors_2024
     </td>
     <td style="text-align: left">
         The <a href="https://pythoninstitute.org/">OpenEDG Python Institute</a>
- is an independent non-profit project venture set up, run, and managed by OpenEDG, 
-the Open Education and Development Group, to promote the Python programming language, 
-train a new generation of Python programmers, and support professional careers in 
-programming in Python and related technologies. In line with the strategic goals 
-associated with the enhancement and development of careers in Python programming, 
-OpenEDG Python Institute provides an independent global framework for curriculum 
+ is an independent non-profit project venture set up, run, and managed by OpenEDG,
+the Open Education and Development Group, to promote the Python programming language,
+train a new generation of Python programmers, and support professional careers in
+programming in Python and related technologies. In line with the strategic goals
+associated with the enhancement and development of careers in Python programming,
+OpenEDG Python Institute provides an independent global framework for curriculum
 development, skills assessment, and Python programming high-stakes examinations.
 </td>
     </tr>
