@@ -28,3 +28,18 @@
   url: https://www.fz-juelich.de/en
   logo: ../static/2024/sponsors/sponsor_logos/fz_juelich.jpg
   description: Forschungszentrum Jülich
+
+- name: Probabl
+  url: https://probabl.ai
+  logo: ../static/2024/sponsors/sponsor_logos/probabl.png
+  description: Probabl SAS
+
+- name: Python Software Foundation
+  url: https://www.python.org/
+  logo: ../static/2024/sponsors/sponsor_logos/psf_logo.svg
+  description: Python Software Foundation
+
+- name: EuroPythonSociety
+  url: https://www.europython-society.org/
+  logo: ../static/2024/sponsors/sponsor_logos/eps_logo.svg
+  description: EuroPython Society
