@@ -1,10 +1,10 @@
 ---
-title: EuroSciPy 2024 - Venue
-url: 2024/venue.html
-save_as: 2024/venue.html
+title: EuroSciPy 2024 - Speaker Briefing
+url: 2024/speaker_briefing.html
+save_as: 2024/speaker_briefing.html
 section: euroscipy_2024
 template: page
-slug: venue2024
+slug: euroscipy-speaker-briefing
 ---
 
 # Speaker Briefing
