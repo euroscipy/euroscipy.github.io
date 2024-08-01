@@ -7,7 +7,7 @@ template: page
 slug: sponsoring_2024
 ---
 
-## Sponsorship information EuroSciPy 2024
+## Sponsorship for EuroSciPy 2024
 
 If you want your company to become a sponsor, contact us at
 <a href=mailto:sponsoring@euroscipy.org>sponsoring@euroscipy.org</a>.
@@ -16,10 +16,10 @@ packages.
 
 ### Important dates
 
-|         |                                                                                   |
-|---------|-----------------------------------------------------------------------------------|
-| July 01 | Deadline for Diamond and Platinum sponsoring                                      |
-| July 15 | Deadline for all sponsoring packages                                              |
+|           |                                                                                   |
+|-----------|-----------------------------------------------------------------------------------|
+| August 01 | Deadline for Diamond and Platinum sponsoring                                      |
+| August 15 | Deadline for all sponsoring packages                                              |
 
 ## European meeting for users of scientific Python software
 

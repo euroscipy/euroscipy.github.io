@@ -4,18 +4,23 @@
 - name: Program
   url: program_menu.html
   submenu:
-  - name: Call for Proposals
-    url: program.html
+
   - name: Schedule
     url: 'schedule.html'
   - name: Keynotes
     url: 'keynotes.html'
+  - name: Featured Talks
+    url: featured_talks.html
   - name: Spotlights and Posters
     url: 'poster_session.html'
   - name: Sprint
     url: sprint.html
+  - name: Boat Tour
+    url: boat_tour.html
   - name: Social Event
     url: 'social_event.html'
+  - name: Call for Proposals
+    url: program.html
 - name: Maintainers
   url: maintainers.html
 - name: Registration

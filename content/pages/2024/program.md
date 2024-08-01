@@ -9,8 +9,8 @@ slug: program_2024
 
 # Call for Proposal
 
-The EuroSciPy 2024 Call for Proposals is extended until the
-__**2nd of June 2024 at 23:59:00 CET**__.
+The EuroSciPy 2024 Call for Proposals is concluded. 
+The deadline for submissions was the __**2nd of June 2024 at 23:59:00 CET**__.
 
 __**Note:**__  We offer our speakers the following:
 
