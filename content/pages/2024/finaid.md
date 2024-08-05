@@ -76,7 +76,7 @@ it with your bank, some information you can find
 - The financial aid grants will only be made available to registered attendees
 actually attending the conference
 - If you find that you cannot attend the conference for some reason, please send
-us an email to [grants@euroscipy.org](mailto: grants@euroscipy.org), so we can
+us an email to [grants@euroscipy.org](mailto:grants@euroscipy.org), so we can
 reallocate the grant
 - If the applicant does not accept the grant before the deadline, the grant will
 be considered rejected by the applicant
@@ -89,7 +89,7 @@ are not possible.
 <br>
 
 #### Contacts
-Please send an email to [grants@euroscipy.org](mailto: grants@euroscipy.org) if you have any questions.
+Please send an email to [grants@euroscipy.org](mailto:grants@euroscipy.org) if you have any questions.
 <br>
 <br>
 
