@@ -8,6 +8,12 @@ slug: social_event2024
 ---
 # Social Event
 
+## Ticket
+
+You have to have a EuroSciPy 2024 ticket and need to buy an extra [dinner ticket](https://euroscipy.org/2024/tickets.html) for this social event. Please bring your conference badge. You may bring another person, i.e. non-participant, who also needs to buy a dinner ticket.
+
+## Restaurant
+
 We are excited to invite you to this year's social dinner, which will be held on Wednesday, August 28th from 6:30 PM to 8:30 PM at [Dzika Gęś](https://dzikages.szczecin.pl/). This charming venue, located in the heart of Szczecin, offers a delightful terrace with views of the picturesque Orła Białego square and the 14th-century cathedral.
 
 ![socialevent-venue](../../static/2024/socialevent-venue.jpg)
