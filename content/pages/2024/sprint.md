@@ -29,5 +29,19 @@ List of confirmed sprints:
 
 - [scikit-learn](https://scikit-learn.org/stable/): Machine Learning in Python
 - [skrub](https://skrub-data.org/stable/): Prepping tables for machine learning
+- [pandas](https://pandas.pydata.org/): Data analysis and manipulation tool
+- [pyarrow](https://arrow.apache.org/docs/python/): Columnar in-memory analytics
 - [narwhals](https://github.com/narwhals-dev/narwhals): Lightweight and extensible compatibility layer between dataframe libraries
+- [geopandas](https://geopandas.org/en/stable/): Geospatial data analysis extending `pandas`
+- [scikit-image](https://scikit-image.org/): Image processing in Python
 - [SBI](https://github.com/sbi-dev/sbi): Simulation-based inference toolkit
+
+### Sprints Location
+
+#### Address
+
+Wały Chrobrego 1/2,<br> 70-500 Szczecin,<br> Poland,<br><br>Rooms: 265, 216, 176
+
+#### Map
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.2146008373884!2d14.5636405!3d53.428871099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aa090e9e7293fb%3A0xd198bf94a72963e1!2sMaritime%20University%20of%20Szczecin!5e0!3m2!1sen!2sfr!4v1723537225374!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

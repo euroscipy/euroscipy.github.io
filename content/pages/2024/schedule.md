@@ -8,7 +8,7 @@ slug: schedule_2024
 ---
 
 # Schedule
-This first draft of the schedule shows the **tutorial** and **conference** days 
+This first draft of the schedule shows the **tutorial** and **conference** days
 held from August 26 to August 29.
 <br>
 Find more information about the **sprint** on August 30
@@ -28,3 +28,9 @@ Find more information about the **sprint** on August 30
         </div>
     </noscript>
 </div>
+
+# Sprint: Friday, August 30th, 9:00–17:00
+
+The sprint is happening in a different place: Wały Chrobrego 1/2,<br> 70-500 Szczecin.
+
+For more information and the map see [this link](sprint.html).
