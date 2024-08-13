@@ -40,7 +40,7 @@ List of confirmed sprints:
 
 #### Address
 
-Wały Chrobrego 1/2,<br> 70-500 Szczecin,<br> Poland,<br><br>Rooms: 265, 216, 176
+Wały Chrobrego 1/2,<br> 70-500 Szczecin,<br> Poland<br><br>**Rooms**: 265, 216, 176
 
 #### Map
 
