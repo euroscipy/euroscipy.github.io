@@ -28,6 +28,7 @@ to propose a sprint, please send us a message to
 List of confirmed sprints:
 
 - [scikit-learn](https://scikit-learn.org/stable/): Machine Learning in Python
+- [sktime](https://www.sktime.net/en/stable/): A unified framework for machine learning with time series
 - [skrub](https://skrub-data.org/stable/): Prepping tables for machine learning
 - [pandas](https://pandas.pydata.org/): Data analysis and manipulation tool
 - [pyarrow](https://arrow.apache.org/docs/python/): Columnar in-memory analytics
@@ -35,6 +36,7 @@ List of confirmed sprints:
 - [geopandas](https://geopandas.org/en/stable/): Geospatial data analysis extending `pandas`
 - [scikit-image](https://scikit-image.org/): Image processing in Python
 - [SBI](https://github.com/sbi-dev/sbi): Simulation-based inference toolkit
+- [The Mission Support System](https://mss.readthedocs.io/en/stable/)
 
 ### Sprints Location
 
