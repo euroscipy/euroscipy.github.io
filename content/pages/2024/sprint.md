@@ -27,6 +27,8 @@ to propose a sprint, please send us a message to
 
 List of confirmed sprints:
 
+- [NumPy](numpy.org/): The fundamental package for scientific computing with Python
+- [SciPy](https://scipy.org/): Fundamental algorithms for scientific computing in Python
 - [scikit-learn](https://scikit-learn.org/stable/): Machine Learning in Python
 - [sktime](https://www.sktime.net/en/stable/): A unified framework for machine learning with time series
 - [skrub](https://skrub-data.org/stable/): Prepping tables for machine learning
