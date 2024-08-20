@@ -90,6 +90,23 @@ slug: sponsors_2024
     </tr>
 </table>
 
+
+## Maintainers Sponsors
+
+<table style="table-layout:fixed">
+    <tr>
+        <td style="vertical-align: middle; width: 30%; padding-right:10px; padding-left:10px;">
+            <img src="../static/2024/sponsors/sponsor_logos/prefix.svg">
+        </td>
+        <td style="text-align: left">
+            <a href="https://prefix.dev/">prefix.dev</a>
+            develops software to make software package management easy and painless.
+            We are the lead developers behind the mamba package manager and collaborate
+            closely with the conda-forge team.
+        </td>
+    </tr>
+</table>
+
 ## Bronze Sponsors
 
 <table style="table-layout:fixed">

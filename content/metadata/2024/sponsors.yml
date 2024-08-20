@@ -43,3 +43,8 @@
   url: https://www.europython-society.org/
   logo: ../static/2024/sponsors/sponsor_logos/eps_logo.svg
   description: EuroPython Society
+
+- name: prefix.dev
+  url: https://prefix.dev/
+  logo: ../static/2024/sponsors/sponsor_logos/prefix.svg
+  description: prefix.dev
