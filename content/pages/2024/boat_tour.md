@@ -31,3 +31,10 @@ a memorable evening on the water.
 The number of tickets for this event is limited, get your ticket for this
 exclusive cruise at the [registration
 page](https://euroscipy.org/2024/tickets.html).
+
+**See you on Thursday, August 29th at the boat dock at Jana z Kolna 7 at bit
+before 18:30.** The boat dock looks like this:
+
+![boat_dock1](../../static/2024/boat_dock1.png)
+
+![boat_dock2](../../static/2024/boat_dock2.png)
