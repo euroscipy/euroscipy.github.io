@@ -13,6 +13,8 @@
     url: featured_talks.html
   - name: Spotlights and Posters
     url: 'poster_session.html'
+  - name: Lightning Talks
+    url: 'lightning_talks.html'
   - name: Sprint
     url: sprint.html
   - name: Boat Tour
