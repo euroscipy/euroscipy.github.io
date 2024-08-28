@@ -12,6 +12,7 @@ slug: program_2024
 - [Schedule](schedule.html)
 - [Keynotes](keynotes.html)
 - [Featured Talks](featured_talks.html)
+- [Lightning Talks](lightning_talks.html)
 - [Spotlight and Poster Session](poster_session.html)
 - [Sprint](sprint.html)
 - [Boat Tour](boat_tour.html)
