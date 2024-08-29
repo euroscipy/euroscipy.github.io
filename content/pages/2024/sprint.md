@@ -37,7 +37,7 @@ List of confirmed sprints:
 - [narwhals](https://github.com/narwhals-dev/narwhals): Lightweight and extensible compatibility layer between dataframe libraries
 - [geopandas](https://geopandas.org/en/stable/): Geospatial data analysis extending `pandas`
 - [scikit-image](https://scikit-image.org/): Image processing in Python
-- [https://github.com/fastplotlib/fastplotlib](https://github.com/fastplotlib/fastplotlib) Next-gen fast plotting library running on WGPU using the pygfx rendering engine
+- [fastplotlib](https://github.com/fastplotlib/fastplotlib) Next-gen fast plotting library running on WGPU using the pygfx rendering engine
 - [pygfx](https://github.com/pygfx/pygfx) Powerful and versatile visualization for Python
 - [SBI](https://github.com/sbi-dev/sbi): Simulation-based inference toolkit
 - [The Mission Support System](https://mss.readthedocs.io/en/stable/)
