@@ -7,11 +7,11 @@ template: landing
 
 # Welcome to the EuroSciPy conference
 
-### The next edition is [EuroSciPy 2024](/2024/)
+### The next edition is [EuroSciPy 2025](/2025/)
 
-#### [Schedule](/2024/schedule.html)
+<!-- #### [Schedule](/2024/schedule.html)
 
-#### [Tickets](/2024/tickets.html)
+#### [Tickets](/2024/tickets.html) -->
 
 News come on Twitter: [@EuroSciPy](https://twitter.com/EuroSciPy).
 
