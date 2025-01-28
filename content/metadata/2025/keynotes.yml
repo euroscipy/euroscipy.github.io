@@ -1,0 +1,13 @@
+---
+
+- full_name: Ines Montani
+  job_position: Co-founder and CEO of Explosion and a core developer of spaCy, and Prodigy
+  profile_picture: ../static/2024/ines_montani.jpeg
+  abstract: https://www.euroscipy.org/2024/keynotes.html#keynote-1
+  twitter: _inesmontani
+
+- full_name: Wolf Vollprecht
+  job_position: Founder & CEO of prefix.dev GmbH
+  profile_picture: ../static/2024/photo_wolf_V2aSSVN.jpg
+  abstract: https://www.euroscipy.org/2024/keynotes.html#keynote-2
+  twitter: wuoulf
