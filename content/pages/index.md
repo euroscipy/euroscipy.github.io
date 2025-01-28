@@ -17,6 +17,7 @@ News come on Twitter: [@EuroSciPy](https://twitter.com/EuroSciPy).
 
 All editions of EuroSciPy can be found below:
 
+* [EuroSciPy 2025](/2025/)
 * [EuroSciPy 2024](/2024/)
 * [EuroSciPy 2023](/2023/)
 * [EuroSciPy 2022](/2022/)
