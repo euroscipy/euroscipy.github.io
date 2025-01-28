@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+
+{% block header %}
+{% include 'header.html' %}
+{% endblock %}
+
+{% block footer %}
+{% include 'footer.html' %}
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+		<!--************************************
+				Home Slider Start
+		*************************************-->
+		<section class="tg-sectioncontent">
+			<div class="tg-bannerholder">
+				<ul class="tg-socialicons tg-bannersocialicons">
+					<li><a href="{{ TWITTER_FOLLOW_URL }}"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="{{ TELEGRAM_URL }}"><i class="fa fa-telegram"></i></a></li>
+					<li><a href="{{ INFO_MAIL_URL }}"><i class="fa fa-envelope"></i></a></li>
+				</ul>
+				<a class="tg-btnscroll tg-floating tg-btnsectionscroll" href="javascript:void(0);">
+					<img src="{{ SITEURL }}/{{ ASSET_URL }}/images/btn-scroll.png" alt="scroll down">
+					<span>Scroll For Details</span>
+					<i class="fa fa-angle-double-down"></i>
+				</a>
+				<div id="tg-homeslider" class="tg-homeslider tg-haslayout owl-carousel">
+					<figure class="item tg-bannerimg" data-vide-bg="poster: {{ EVENT[page.section].background_poster }}" data-vide-options="posterType: jpg, loop: false, muted: false, position: 0% 50%">
+						<figcaption>
+							<div class="container">
+								<div class="tg-slidercontent">
+									<span>{{ EVENT[page.section].dates }}</span>
+									<h1>{{ EVENT[page.section].name }}</h1>
+										<ul class="tg-metadata tg-eventmetadata">
+											<li>
+												<i class="fa fa-calendar-check-o"></i>
+												<time datetime="{{ EVENT[page.section].first_day }}">{{ EVENT[page.section].first_day }}</time>
+											</li>
+											<li style="max-width: 50%">
+												<i class="fa fa-location-arrow"></i>
+												<span>{{ EVENT[page.section].address }}</span>
+											</li>
+										</ul>
+										{% if EVENT[page.section].announcements %}
+										<ul class="tg-metadata tg-eventmetadata">
+											<li>
+												<i class="fa fa-bullhorn"></i>
+												<span>{{ EVENT[page.section].announcements }}</span>
+											</li>
+										</ul>
+										{% endif %}
+									</div>
+								</div>
+							</figcaption>
+					</figure>
+				</div>
+			</div>
+			<a href="https://commons.wikimedia.org/wiki/File:Wa%C5%82y_Chrobrego_in_Szczecin,_winter_2021.jpg">Szczecinolog</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+		</section>
+		<!--************************************
+				Home Slider End
+		*************************************-->
+		<!--************************************
+				About Us Start
+		*************************************-->
+		<section id="tg-aboutus" class="tg-sectionspace tg-haslayout">
+			<div class="container">
+				<div class="row">
+					<div class="tg-shortcode tg-aboutusshortcode">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-left">
+							<div class="tg-shortcodetext">
+								<div class="tg-sectionhead tg-textalignleft">
+									<div class="tg-sectionheading">
+										<h2>{{ EVENT[page.section].name }}</h2>
+										<h3>{{ EVENT[page.section].short_description }}</h3>
+									</div>
+									<div class="tg-description">
+										{{ EVENT[page.section].long_description }}
+									</div>
+								</div>
+								<!-- <div class="tg-btnarea">
+									<a class="tg-btn" href="schedule.html">View Schedule</a>
+									<a class="tg-btn" href="#speakers">View Keynote Speakers</a>
+								</div>-->
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right">
+							<figure class="tg-shortcodeimg tg-shadow">
+								<img src="{{ EVENT[page.section].venue_picture }}" alt="{{ EVENT[page.section].address }}">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--************************************
+				About Us End
+		*************************************-->
+		<!--************************************
+				Statistics Start
+		*************************************-->
+		<section class="tg-haslayout tg-bgparallax tg-bgcounter" style="background-image: url({{ EVENT[page.section].background_poster_counter }});">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div id="tg-statisticscounters" class="tg-statisticscounters">
+							<div class="tg-counterholder">
+								<div class="tg-counter">
+									<h2>
+										<span data-from="0" data-to="{{ EVENT[page.section].stats.expected_number_of_speakers }}" data-speed="2000" data-refresh-interval="50">{{ EVENT[page.section].stats.expected_number_of_speakers }}</span>
+									</h2>
+									<h3>Speakers</h3>
+									<span class="tg-statisticicon icon-user"></span>
+
+								</div>
+							</div>
+							<div class="tg-counterholder">
+								<div class="tg-counter">
+									<h2><span data-from="0" data-to="{{ EVENT[page.section].stats.days_of_event }}" data-speed="2000" data-refresh-interval="50">{{ EVENT[page.section].stats.days_of_event }}</span></h2>
+									<h3>Days Event</h3>
+									<span class="tg-statisticicon icon-calendar-full"></span>
+								</div>
+							</div>
+							<div class="tg-counterholder">
+								<div class="tg-counter">
+									<h2><span data-from="0" data-to="{{ EVENT[page.section].stats.number_of_workshops }}" data-speed="2000" data-refresh-interval="50">{{ EVENT[page.section].stats.number_of_workshops }}</span></h2>
+									<h3>Workshops</h3>
+									<span class="tg-statisticicon icon-briefcase"></span>
+								</div>
+							</div>
+							<div class="tg-counterholder">
+								<div class="tg-counter">
+									<h2><span data-from="0" data-to="{{ EVENT[page.section].stats.expected_number_of_participants }}" data-speed="2000" data-refresh-interval="50">{{ EVENT[page.section].stats.expected_number_of_participants }}</span></h2>
+									<h3>Participants</h3>
+									<span class="tg-statisticicon icon-enter"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--************************************
+				Statistics End
+		*************************************-->
+{% endblock %}

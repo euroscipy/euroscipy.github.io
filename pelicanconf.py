@@ -72,28 +72,32 @@ TELEGRAM_URL = 'https://t.me/euroscipy'
 SPECTRUM_URL = 'https://spectrum.chat/euroscipy'
 INFO_MAIL_URL = 'mailto:info@euroscipy.org'
 
-CURRENT_EDITION = '2024'
+CURRENT_EDITION = '2025'
 
 EVENT = {}
 EVENT['euroscipy_2020'] = yaml.safe_load(open(os.path.join(METADATA, '2020', 'event.yml')))
 EVENT['euroscipy_2022'] = yaml.safe_load(open(os.path.join(METADATA, '2022', 'event.yml')))
 EVENT['euroscipy_2023'] = yaml.safe_load(open(os.path.join(METADATA, '2023', 'event.yml')))
 EVENT['euroscipy_2024'] = yaml.safe_load(open(os.path.join(METADATA, '2024', 'event.yml')))
+EVENT['euroscipy_2025'] = yaml.safe_load(open(os.path.join(METADATA, '2025', 'event.yml')))
 
 SUBMENU = {}
 SUBMENU['euroscipy_2020'] = yaml.safe_load(open(os.path.join(METADATA, '2020', 'menu.yml')))
 SUBMENU['euroscipy_2022'] = yaml.safe_load(open(os.path.join(METADATA, '2022', 'menu.yml')))
 SUBMENU['euroscipy_2023'] = yaml.safe_load(open(os.path.join(METADATA, '2023', 'menu.yml')))
 SUBMENU['euroscipy_2024'] = yaml.safe_load(open(os.path.join(METADATA, '2024', 'menu.yml')))
+# SUBMENU['euroscipy_2025'] = yaml.safe_load(open(os.path.join(METADATA, '2025', 'menu.yml')))
 
 KEYNOTES = {}
 KEYNOTES['euroscipy_2020'] = yaml.safe_load(open(os.path.join(METADATA, '2020', 'keynotes.yml'))) or []
 KEYNOTES['euroscipy_2022'] = yaml.safe_load(open(os.path.join(METADATA, '2022', 'keynotes.yml'))) or []
 KEYNOTES['euroscipy_2023'] = yaml.safe_load(open(os.path.join(METADATA, '2023', 'keynotes.yml'))) or []
 KEYNOTES['euroscipy_2024'] = yaml.safe_load(open(os.path.join(METADATA, '2024', 'keynotes.yml'))) or []
+# KEYNOTES['euroscipy_2025'] = yaml.safe_load(open(os.path.join(METADATA, '2025', 'keynotes.yml'))) or []
 
 SPONSORS = {}
 SPONSORS['euroscipy_2020'] = yaml.safe_load(open(os.path.join(METADATA, '2020', 'sponsors.yml'))) or []
 SPONSORS['euroscipy_2022'] = yaml.safe_load(open(os.path.join(METADATA, '2022', 'sponsors.yml'))) or []
 SPONSORS['euroscipy_2023'] = yaml.safe_load(open(os.path.join(METADATA, '2023', 'sponsors.yml'))) or []
 SPONSORS['euroscipy_2024'] = yaml.safe_load(open(os.path.join(METADATA, '2024', 'sponsors.yml'))) or []
+# SPONSORS['euroscipy_2025'] = yaml.safe_load(open(os.path.join(METADATA, '2025', 'sponsors.yml'))) or []

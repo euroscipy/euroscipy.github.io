@@ -1,0 +1,55 @@
+---
+- name: Home
+  url:  index.html
+# - name: Program
+#   url: program_menu.html
+#   submenu:
+
+#   - name: Schedule
+#     url: 'schedule.html'
+#   - name: Keynotes
+#     url: 'keynotes.html'
+#   - name: Featured Talks
+#     url: featured_talks.html
+#   - name: Spotlights and Posters
+#     url: 'poster_session.html'
+#   - name: Lightning Talks
+#     url: 'lightning_talks.html'
+#   - name: Sprint
+#     url: sprint.html
+#   - name: Boat Tour
+#     url: boat_tour.html
+#   - name: Social Event
+#     url: 'social_event.html'
+#   - name: Call for Proposals
+#     url: program.html
+# - name: Maintainers
+#   url: maintainers.html
+# - name: Registration
+#   url: tickets.html
+# - name: Sponsors
+#   url: sponsors.html
+#   submenu:
+#     - name: Become a Sponsor
+#       url: sponsoring.html
+#     - name: Current Sponsors
+#       url: current_sponsors.html
+#     - name: Terms & Conditions
+#       url: sponsoring-terms.html
+# - name: Info and Support
+#   url: info.html
+#   submenu:
+#   - name: About EuroSciPy
+#     url: about.html
+#   - name: Venue
+#     url: venue.html
+#   - name: Financial Aid
+#     url: finaid.html
+#   - name: Child Care
+#     url: childcare.html
+#   - name: Code of Conduct
+#     url: code_of_conduct.html
+#   - name: Organizers
+#     url: organizers.html
+#   - name: Contact Us
+#     url: contact_us.html

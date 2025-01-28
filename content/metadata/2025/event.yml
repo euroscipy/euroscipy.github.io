@@ -1,0 +1,35 @@
+---
+
+name: EuroSciPy 2025
+dates: Aug. 18 - Aug. 22, 2025
+first_day: 2025-08-18
+address: AGH University of Krakow, Krakow, Poland.
+calendar_url:
+#ticket_purchase_url: https://ti.to/pysv/euroscipy-2023
+sponsorship_url: sponsoring.html
+
+conference_logo: ../static/2025/logo.png
+background_poster: ../static/2025/background.jpg
+venue_picture: ../static/2025/background.jpg
+# venue_picture: ../static/2025/university_pic.png
+# background_poster_counter: ../static/2024/volunteers.jpg
+# background_poster_sponsors: ../static/2024/Akademia-Nawigator-XXI--Dormitory-from-above.png
+
+short_description: 17th European Conference on Python in Science
+long_description: |
+  <p>The EuroSciPy meeting is a cross-disciplinary gathering
+  focused on the use and development of the Python language in scientific research.
+  </p>
+  <p>
+  This event strives to bring together both users and developers of scientific tools,
+  as well as academic research and state of the art industry.
+  </p>
+
+announcements:
+  <p>EuroSciPy 2025 will take in Krakow</p>
+
+stats:
+  expected_number_of_speakers: 50
+  expected_number_of_participants: 350
+  number_of_workshops: 24
+  days_of_event: 5
