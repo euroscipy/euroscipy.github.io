@@ -338,15 +338,13 @@ supported optimizers. Advanced users can use optional arguments to configure eve
 <p><em>Erik Welch, Aditi Juneja</em>,  <em>Talk (25 mins + Q&amp;A)</em>, <em>Community, Education, and&nbsp;Outreach</em></p>
 <p><strong>Abstract:</strong> Hi! Have you ever wished your pure Python libraries were faster? Or wanted to fundamentally improve a Python library by rewriting everything in a faster language like C or Rust? Well, wish no more&#8230; NetworkX&#8217;s backend dispatching mechanism redirects your plain old NetworkX function calls to a <span class="caps">FASTER</span> implementation present in a separate backend package by leveraging the Python&#8217;s <a href="https://packaging.python.org/en/latest/specifications/entry-points"><code>entry_point</code></a>&nbsp;specification!</p>
 <p>NetworkX is a popular, pure Python library used for graph(aka network) analysis. But when the graph size increases (like a network of everyone in the world), then NetworkX algorithms could take days to solve a simple graph analysis problem. So, to address these performance issues this backend dispatching mechanism was recently developed. In this talk, we will unveil this dispatching mechanism and its implementation details, and how we can use it just by specifying a <code>backend</code> kwarg like&nbsp;this:</p>
-<div class="highlight"><pre><span></span><span class="err">&gt;&gt;&gt; nx.betweenness_centrality(G, backend=“parallel”)</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; nx.betweenness_centrality(G, backend=“parallel”)
+</code></pre></div>
 
 <p>or by passing the backend graph object(type-based&nbsp;dispatching):</p>
-<div class="highlight"><pre><span></span><span class="err">&gt;&gt;&gt; H = nxp.ParallelGraph(G)</span>
-<span class="err">&gt;&gt;&gt; nx.betweenness_centrality(H)</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; H = nxp.ParallelGraph(G)
+&gt;&gt;&gt; nx.betweenness_centrality(H)
+</code></pre></div>
 
 <p>We&#8217;ll also go over the limitations of this dispatch mechanism. Then we’ll use the example of nx-parallel as a guide to building our own custom NetworkX backend. And then, using NetworkX&#8217;s existing test suite, we&#8217;ll test this backend that we build. Ending with a quick dive into the details of the nx-parallel&nbsp;backend.</p>
 <p><a href="https://pretalx.com/euroscipy-2024/talk/QLVBYY/"><button type="button" class="btn btn-primary">All details</button></a></p>
@@ -465,7 +463,7 @@ You will learn how to manipulate NumPy arrays, understand how they store data an
 			<div class="tg-foorterbar container-fluid">
 				<div class="row">
 					<div class="col-sm-5 col-sm-offset-1 tg-copyrights">
-						2024 All Rights Reserved ©&nbsp;EuroSciPy
+						2025 All Rights Reserved ©&nbsp;EuroSciPy
 					</div>
 					<div class="col-sm-2 tg-logo"><a href="index.html">
 						<img
