@@ -27,20 +27,20 @@
 #   url: maintainers.html
 # - name: Registration
 #   url: tickets.html
-# - name: Sponsors
-#   url: sponsors.html
-#   submenu:
-#     - name: Become a Sponsor
-#       url: sponsoring.html
-#     - name: Current Sponsors
-#       url: current_sponsors.html
-#     - name: Terms & Conditions
-#       url: sponsoring-terms.html
-# - name: Info and Support
-#   url: info.html
-#   submenu:
-#   - name: About EuroSciPy
-#     url: about.html
+- name: Sponsors
+  url: sponsors.html
+  submenu:
+    - name: Become a Sponsor
+      url: sponsoring.html
+    # - name: Current Sponsors
+    #   url: current_sponsors.html
+    - name: Terms & Conditions
+      url: sponsoring-terms.html
+- name: Info and Support
+  url: info.html
+  submenu:
+  - name: About EuroSciPy
+    url: about.html
 #   - name: Venue
 #     url: venue.html
 #   - name: Financial Aid
@@ -51,5 +51,5 @@
 #     url: code_of_conduct.html
 #   - name: Organizers
 #     url: organizers.html
-#   - name: Contact Us
-#     url: contact_us.html
+  - name: Contact Us
+    url: contact_us.html
