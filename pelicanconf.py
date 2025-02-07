@@ -86,7 +86,7 @@ SUBMENU['euroscipy_2020'] = yaml.safe_load(open(os.path.join(METADATA, '2020', '
 SUBMENU['euroscipy_2022'] = yaml.safe_load(open(os.path.join(METADATA, '2022', 'menu.yml')))
 SUBMENU['euroscipy_2023'] = yaml.safe_load(open(os.path.join(METADATA, '2023', 'menu.yml')))
 SUBMENU['euroscipy_2024'] = yaml.safe_load(open(os.path.join(METADATA, '2024', 'menu.yml')))
-# SUBMENU['euroscipy_2025'] = yaml.safe_load(open(os.path.join(METADATA, '2025', 'menu.yml')))
+SUBMENU['euroscipy_2025'] = yaml.safe_load(open(os.path.join(METADATA, '2025', 'menu.yml')))
 
 KEYNOTES = {}
 KEYNOTES['euroscipy_2020'] = yaml.safe_load(open(os.path.join(METADATA, '2020', 'keynotes.yml'))) or []
@@ -100,4 +100,4 @@ SPONSORS['euroscipy_2020'] = yaml.safe_load(open(os.path.join(METADATA, '2020', 
 SPONSORS['euroscipy_2022'] = yaml.safe_load(open(os.path.join(METADATA, '2022', 'sponsors.yml'))) or []
 SPONSORS['euroscipy_2023'] = yaml.safe_load(open(os.path.join(METADATA, '2023', 'sponsors.yml'))) or []
 SPONSORS['euroscipy_2024'] = yaml.safe_load(open(os.path.join(METADATA, '2024', 'sponsors.yml'))) or []
-# SPONSORS['euroscipy_2025'] = yaml.safe_load(open(os.path.join(METADATA, '2025', 'sponsors.yml'))) or []
+SPONSORS['euroscipy_2025'] = yaml.safe_load(open(os.path.join(METADATA, '2025', 'sponsors.yml'))) or []
