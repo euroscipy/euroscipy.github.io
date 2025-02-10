@@ -14,7 +14,7 @@ git clone --recursive <git_url>
 ## Create dev environment with Conda
 
 ```bash
-mamba create -n pelican python=3.7
+mamba create -n pelican python=3.12
 conda activate pelican
 conda install pip
 git clone --recursive <git_url> <dest>
