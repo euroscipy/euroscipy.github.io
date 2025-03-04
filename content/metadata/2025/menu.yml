@@ -21,8 +21,8 @@
 #     url: boat_tour.html
 #   - name: Social Event
 #     url: 'social_event.html'
-#   - name: Call for Proposals
-#     url: program.html
+- name: Call for Proposals
+  url: program.html
 # - name: Maintainers
 #   url: maintainers.html
 # - name: Registration
