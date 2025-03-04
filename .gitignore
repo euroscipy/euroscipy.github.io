@@ -101,3 +101,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Local helpers
+nogit_*
