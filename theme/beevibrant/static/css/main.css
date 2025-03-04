@@ -86,7 +86,7 @@ img {
 	height: auto;
 	max-width: 100%;
 }
-strong { color: #414141; }
+strong { color: #414141; font-weight: bold;}
 
 iframe {
 	border: none;
