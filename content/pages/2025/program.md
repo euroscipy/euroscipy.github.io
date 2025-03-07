@@ -10,7 +10,7 @@ slug: program_2025
 # Call for Proposal
 
 The EuroSciPy 2025 Call for Proposals is open.
-The deadline for submissions was the __31st of March 2025 at 23:59:00 CET__.
+The deadline for submissions is the __31st of March 2025 at 23:59:00 CET__.
 
 __Note:__  We offer our speakers the following:
 
@@ -28,70 +28,104 @@ __Note:__  We offer our speakers the following:
 Presentations of scientific tools and libraries using the Python language,
 including but not limited to:
 
-- [Data Science and Visualization](#data-science-and-visualization)
-- [High Performance Computing](#high-performance-computing)
-- [Scientific Applications](#scientific-applications)
-- [Machine and Deep Learning](#machine-and-deep-learning)
-- [Community, Education, and Outreach](#community-education-and-outreach)
+- [Computational Tools and Scientific Python Infrastructure](#computational-tools-and-scientific-python-infrastructure)
+- [Life Sciences and Biomedicine](#life-sciences-and-biomedicine)
+- [Physical Sciences and Engineering](#physical-sciences-and-engineering)
+- [Environmental and Earth Sciences](#environmental-and-earth-sciences)
+- [Large Language Models (LLMs), Neural Networks and AI Development](#large-language-models-llms-neural-networks-and-ai-development)
+- [Applied AI and LLM Technologies and Use Cases](#applied-ai-and-llm-technologies-and-use-cases)
+- [Interdisciplinary Frontiers and other Scientific Python Applications](#interdisciplinary-frontiers-and-other-scientific-python-applications)
 
 <br>
 <br>
 
-#### Data Science and Visualization
+#### Computational Tools and Scientific Python Infrastructure
 
-- Data Analysis and Data Engineering
-- Data Visualization
-- Image Processing
-- Statistics
-- Reproducibility
-- Model Deployment
-- Web Application
-
+- Core Scientific Python Libraries
+- GPU Acceleration for Scientific Computing
+- Distributed Computing & Parallel Processing
+- Just-in-Time Compilation
+- Performance Optimization and Profiling
+- Mathematical and Statistical Computing
+- Visualization and Data Analysis Tools
+- Numerical Simulation and Modeling Frameworks
+<br>
 <br>
 
-#### High Performance Computing
+#### Life Sciences and Biomedicine
 
-- Parallel Computing
-- Vector and Array Manipulation
-- Scalability
-
+- Genomic Technologies and Applications
+- Computational Biology and Bioinformatics
+- Protein Folding Prediction
+- Personalized and Regenerative Medicine
+<br>
 <br>
 
-#### Scientific Applications
+#### Physical Sciences and Engineering
 
-- Astronomy
-- Drug Discovery
-- Healthcare and Biomedicine
-- Earth and Ocean Sciences
-- Geo Sciences
-- Simulations (e.g., Physics, CFD, ESMs)
-- Political Sciences
-- Social Sciences
-- Material Sciences
-- Physics
-- Robotics & IoT
-- Event Forecasting
-
+- Quantum Computing and Quantum Sensors
+- Quantum Machine Learning
+- Physics Simulations
+- Energy Research and Fusion Energy
+- Astrophysics and Cosmology
+- Gravitational Wave Astronomy
+- Dark Matter and Dark Energy Studies
+- Exoplanet Discovery and Characterization
+- Materials Science
+<br>
 <br>
 
-#### Machine and Deep Learning
+#### Environmental and Earth Sciences
 
-- Supervised Learning
-- Unsupervised Learning
-- Reinforcement Learning
-- Generative Models
-- Reproducible Machine Learning
-- Algorithmic bias and Trustworthy AI
-- ML Applications (e.g. NLP, CV)
-
+- Climate Science
+- Biodiversity and Conservation
+- Ocean Acidification Studies
+- Environmental Remediation
+- Soil Science
+- Geophysics
+- Subsurface Fluid Dynamics
+- Geothermal Applications
+<br>
 <br>
 
-#### Community, Education, and Outreach
+#### Large Language Models (LLMs), Neural Networks and AI Development
 
-- Learning and Teaching Scientific Python
-- Science and Engineering Portals
-- Reports on the Use of Python in Scientific achievements or ongoing projects
-- Diversity and Inclusion
+- Neural Network Architecture Design and Optimization
+- Quantization Methods
+- Federated Learning
+- Group Relative Policy Optimization Algorithms
+- Long Chain-of-Thought Reasoning Research
+- LLM Training, Fine-tuning and Inference Frameworks
+- Self-evolution through Reinforcement Learning
+- Explainable AI Systems
+<br>
+<br>
+
+#### Applied AI and LLM Technologies and Use Cases
+
+- Ethical AI Frameworks and Guidelines
+- Sustainable Computation for AI
+- Benchmarking Frameworks and Methodologies
+- Evaluation Metrics and Standards
+- Datasets for LLM Training and Fine-tuning
+- Hybrid System Architectures
+- Retrieval-Augmented Generation System Design and Optimization
+- AI Agents
+- Domain-specific Model Adaptation
+- Prompt Engineering and Interface Design
+- Automatic Local Fine-tuning for RAG
+<br>
+<br>
+
+#### Interdisciplinary Frontiers and other Scientific Python Applications
+
+- Brain-Computer Interfaces
+- Digital Humanities and Computational Social Sciences
+- Reproducible Research and Scientific Workflows
+- Smart Cities
+- Bio-inspired Technologies
+- Space Exploration and Monitoring
+- Computational Archaeology and Historical Reconstruction
 
 <br>
 <br>
