@@ -47,8 +47,8 @@
 #     url: finaid.html
 #   - name: Child Care
 #     url: childcare.html
-#   - name: Code of Conduct
-#     url: code_of_conduct.html
+  - name: Code of Conduct
+    url: code_of_conduct.html
 #   - name: Organizers
 #     url: organizers.html
   - name: Contact Us
