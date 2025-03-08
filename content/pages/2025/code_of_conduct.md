@@ -9,45 +9,154 @@ slug: code_of_conduct_2025
 
 ## Code of conduct
 
-The EuroSciPy conference benefits from a diverse community, which has grown
-as a friendly, welcoming and dynamic group.
+EuroSciPy is composed of members from diverse backgrounds, skills, and experiences, united
+by a shared
+goal of innovation and collaboration. We believe that these differences foster success and growth. This Code of Conduct
+is designed to guide interactions within EuroSciPy, ensuring that it remains a positive,
+inclusive, and
+thriving environment for all.
 
-We trust that attendees will behave towards each other in a way that
-reflects the view widely shared by this community, that diversity and
-civility are strengths to be celebrated and fostered.
+### EuroSciPy Community
 
-Furthermore, we believe that the conference will be more productive and
-enjoyable for everyone if a professional atmosphere prevails, meaning
-that all delegates may expect to
+Members of our community are expected to be **open, considerate, and respectful**. Behaviors that support
+these values contribute to a positive environment and include:
 
-- be treated with courtesy, dignity and respect;
-- be free from any form of discrimination, victimisation, harassment or bullying;
-- enjoy an environment free from unwelcome behaviour, inappropriate language and unsuitable imagery.
+- **Being open.** Community members are encouraged to collaborate on ideas, projects, and discussions with transparency
+  and a willingness to share knowledge.
+- **Focusing on the community's best interests.** We respect established processes and work within them to benefit the
+  collective.
+- **Acknowledging contributions.** We recognize and appreciate the efforts of others, especially considering that many
+  contributions are made voluntarily for the good of the community.
+- **Respecting differing viewpoints and experiences.** Constructive feedback is welcome, as diverse perspectives enhance
+  our collective efforts.
+- **Showing empathy towards others.** We communicate thoughtfully, both online and in person, and approach differing
+  views with tact.
+- **Being considerate.** We consider how our actions and words affect others within the community.
+- **Being respectful.** We respect others' opinions, skills, commitments, and efforts, fostering a culture of mutual
+  respect.
+- **Gracefully accepting constructive criticism.** When disagreements arise, we address them politely and
+  professionally.
+- **Using welcoming and inclusive language.** We create an environment where everyone feels welcome and able to
+  contribute.
 
-</br>
+### Our Standards
 
-If problems covered by this code of conduct arise, please contact
-EuroSciPy2023 code of conduct team or organizers directly or send an email to coc@euroscipy.org.
+Every member of our community deserves to have their identity respected. The EuroSciPy
+community is committed to providing a positive experience for everyone, regardless of age, gender identity and
+expression, sexual orientation, disability, physical appearance, body size, ethnicity, nationality, race, religion (or
+lack thereof), education, or socio-economic status.
 
+#### Inappropriate Behavior
 
-If your report involves any members of the committee, or if they feel they
-have a conflict of interest in handling it, then they will recuse themselves
-from considering your report.
-Alternatively, if, for any reason, you feel uncomfortable making
-a report to the committee, then you can also contact
-[Python Software Verband e.V](https://python-verband.org/#) board via
-coi@python-verband.org.
+Examples of unacceptable behavior include:
 
-Any complaint will remain confidential and will be investigated. The EuroSciPy
-CoC team will do their best to resolve any conflict and preserve the
-welcoming character of the conference. As a last resort, a participant
-may be requested to leave the venue of the conference, without
-reimbursement.
+- Harassment of any participants in any form
+- Deliberate intimidation, stalking, or following
+- Logging or taking screenshots of online activity for harassment purposes
+- Publishing others' private information without explicit permission
+- Violent threats or language directed at another person
+- Incitement of violence or harassment towards any individual
+- Creating additional online accounts to harass or circumvent a ban
+- Sexual language or imagery in online spaces or events
+- Insults, put-downs, or jokes based on stereotypes or exclusionary language
+- Excessive swearing
+- Unwelcome sexual attention or advances
+- Unwelcome physical contact, including simulated contact without consent
+- Inappropriate social contact patterns, such as assuming excessive intimacy
+- Sustained disruption of online discussions or in-person events
+- Continued communication after requests to cease
+- Other behaviors deemed inappropriate for a professional and inclusive community
 
-Furthermore, participants are hereby reminded that they should abide by
-the laws of the country hosting EuroSciPy, with discrimination and
-harassment being against the law. Cases of law-breaking actions shall be
-reported to the police.
+Community members asked to stop any inappropriate behavior are expected to comply immediately.
 
-This document is based on the PyCon UK Code of Conduct and released under
-a [creative commons license](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+#### Consequences
+
+If a participant engages in behavior that violates this Code of Conduct, the EuroSciPy
+team may take any action deemed appropriate, including warnings or expulsion from the community and events, without
+a refund. The full list of consequences for inappropriate behavior is listed in
+the [Enforcement Procedures](enforcement-procedures.md).
+
+Thank you for helping us maintain a welcoming, friendly community for everyone.
+
+### Scope
+
+#### EuroSciPy Events
+
+This Code of Conduct applies to all participants at EuroSciPy events, including:
+
+- Staff
+- Speakers
+- Panelists
+- Workshop leaders
+- Exhibitors
+- Organizers
+- Volunteers
+- All attendees
+
+It covers all event spaces, including:
+
+- Exhibit halls
+- Presentation rooms
+- Workshop rooms
+- Meal areas
+- Social event spaces
+- Online event platforms
+
+Event organizers will enforce this code throughout the event. Each event will provide contact information for a Code of
+Conduct committee responsible for receiving, evaluating, and acting on incident reports.
+
+#### Community Online Spaces
+
+This Code of Conduct applies to the following online spaces:
+
+- EuroSciPy chat servers
+- EuroSciPy social media accounts
+- EuroSciPy official mailing lists
+- Code repositories and issue trackers maintained by EuroSciPy
+- Any other online space administered by EuroSciPy
+
+The Code of Conduct applies to all participants in these spaces, including:
+
+- All community members
+- Board members
+- Suppliers
+- Online space admins
+- Organizers
+- Maintainers
+- Contributors
+
+Each online space must provide contact information for administrators or moderators to our Code of Conduct
+team, which will handle and evaluate incident reports.
+
+#### Contact Information
+
+If you believe someone is violating the Code of Conduct, or have concerns, please contact a member of our
+Code of Conduct team immediately. They can be reached
+at [coc@euroscipy.org](mailto:coc@euroscipy.org).
+
+### License
+
+This Code of Conduct is licensed under
+the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
+
+### Attributions
+
+This Code of Conduct, enforcement and procedures are adapted from
+the [Python Software Foundation Code of Conduct](https://github.com/psf/policies/tree/main/docs/us.pycon.org/code-of-conduct),
+which is based on the example
+policy from the [Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), created by
+the Ada Initiative and other volunteers, under
+a [Creative Commons Zero license](https://creativecommons.org/publicdomain/zero/1.0/).
+
+Additional language and modifications were created by Sage Sharp
+of [Otter Tech](https://otter.technology/code-of-conduct-training/).
+
+Language was also incorporated from:
+
+- [Affect Conf Code of Conduct](https://affectconf.com/coc/)
+- [Citizen Code of Conduct](http://citizencodeofconduct.org/)
+- [Contributor Covenant version 1.4](https://www.contributor-covenant.org/version/1/4/code-of-conduct)
+- [Django Project Code of Conduct](https://www.djangoproject.com/conduct/)
+- [LGBTQ in Tech Slack Code of Conduct](https://lgbtq.technology/coc.html)
+- [PyCon 2018 Code of Conduct](https://us.pycon.org/2018/about/code-of-conduct/)
+- [Rust Code of Conduct](https://www.rust-lang.org/en-US/conduct.html)
