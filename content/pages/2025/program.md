@@ -10,11 +10,12 @@ slug: program_2025
 # Call for Proposal
 
 The EuroSciPy 2025 Call for Proposals is open.
-The deadline for submissions is the __31st of March 2025 at 23:59:00 CET__.
+~~The deadline for submissions is the __31st of March 2025 at 23:59:00 CET__.~~
+We have extended the deadline for submissions to the __28th of April 2025 at 23:59:00__.
 
 __Note:__  We offer our speakers the following:
 
-- Up to two speakers of the accepted __tutorials__ will receive free ticket for the entire conference
+- Up to two speakers of the accepted __tutorials__ will receive free tickets for the entire conference
 (i.e. 18th to 22nd of August)
 &nbsp;
 - One speaker per accepted __talk__ will receive a free ticket for the conference days
@@ -23,6 +24,7 @@ __Note:__  We offer our speakers the following:
 &nbsp;
 <a href="https://pretalx.com/euroscipy-2025/cfp" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Submit Abstract</a>
 
+Accepted speakers will receive an acceptance notification by end of May 2025.
 ### Tracks
 
 Presentations of scientific tools and libraries using the Python language,
