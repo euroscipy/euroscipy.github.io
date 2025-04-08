@@ -16,3 +16,42 @@ New framework for EuroSciPy website, starting in 2025
 ## Deployment/Hosting
 
 The site is deployed as a github page and a workflow will take care of that part automatically. Have a look at `./.github/workflows/gh-pages.yml` if you are interested in the details.
+
+## Content
+
+Here is how you can add content like sponsors or blog posts to the EuroSciPy website.
+
+### Blog Posts
+
+1. Create a new branch
+2. Add a folder for the new blog post under `./content/blog/<blogpost-title>`
+3. Add a `contents.lr` file to this folder.
+
+This file will contain the blog post (as markdown) and some additional metadata. Here is an example on how this could look like:
+
+```
+title: Something exciting just happened!
+---
+pub_date: 2025-05-07
+---
+body:
+
+# The air is thrumming with excitement
+
+Something unbelievable just happened in the **Python** world. Let me tell you all about it:
+```
+
+The `title` field is a simple string.
+
+The `pub_date` field is the date, formatted like this: YYYY-mm-dd.
+
+the `body` is the blog post as markdown.
+
+4. Commit the changes to your new branch
+5. Push the changes
+6. Open a PR
+7. Merge the PR, once it has been approved
+
+The new blog post will automatically be deployed, once it has been merged.
+
+Add any images you might want to use to the same folder you added the `contents.lr` file to, so that all the content is contained in one place.
