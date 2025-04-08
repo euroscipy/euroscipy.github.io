@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block body %}
+
+<div class="content">
+    <div class="intro">
+        {{ this.intro }}
+    </div>
+
+    <div class="cta submit-abstract">
+        {{ this.cta }}
+    </div>
+
+    <div class="cta-details">
+        {{ this.cta_details }}
+    </div>
+
+    <div class="details cfp">
+        {{ this.details }}
+    </div>
+</div>
+
+{% endblock %}

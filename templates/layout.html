@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>{% block title %}{% endblock %}</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="{% if this.meta_title %}{{ this.meta_title }}{% else %}{{ this.title }}{% endif %}">
+
+  {% if this.social_card_image %}{% set turl = this.social_card_image %}
+  <meta name="image" property="og:image:secure_url" content="{{ site.config.PROJECT.url|url }}{{ turl|url }}">
+  <meta name="image" property="og:image" content="{{ site.config.PROJECT.url }}{{ turl|url }}">
+  {% else %}
+  <meta name="image" property="og:image:secure_url"
+    content="{{ site.config.PROJECT.social_card|url }}">
+  <meta name="image" property="og:image"
+    content="{{ site.config.PROJECT.social_card|url }}">
+  {% endif %}
+
+  <meta property="og:description" content="{% if this.description %}{{ this.description }}{% else %}{{ site.config.PROJECT.og_description }}{% endif %}">
+  <meta property="og:url" content="{{ site.config.PROJECT.url }}">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="{{ site.config.PROJECT.url }}">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="{% if this.meta_twitter_title %}{{ this.meta_twitter_title }}{% else %}{{ this.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ this.description }}">
+  {% if this.social_card_image %}
+  <meta name="twitter:image" content="{{ this.social_card_image|url }}">
+  {% else %}
+  <meta name="twitter:image" content="{{ site.config.PROJECT.social_card|url }}">
+  {% endif %}
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        {% for page in bag('links')['pages'] %}
+        <li class="navigation-link"><a href="/{{ page.path|url }}">{{ page.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
+
+  {% block body %}
+  {% endblock %}
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

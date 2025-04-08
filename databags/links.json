@@ -1,0 +1,20 @@
+{
+    "pages": [
+        {
+            "name": "Proposals",
+            "path": "call-for-proposals"
+        },
+        {
+            "name": "Blog",
+            "path": "blog"
+        },
+        {
+            "name": "Sponsoring",
+            "path": "sponsoring"
+        },
+        {
+            "name": "About",
+            "path": "about"
+        }
+    ]
+}

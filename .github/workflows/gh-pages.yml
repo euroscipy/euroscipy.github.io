@@ -1,0 +1,30 @@
+name: Deploy to github pages
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setting up python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: '.python-version'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+
+      - name: Build static page
+        run: make build && echo "euroscipy.org" > ./tmp/CNAME
+
+    - name: Update the main gh-page website
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./tmp
+        commit_message: "[ci skip] ${{ github.event.head_commit.message }}"

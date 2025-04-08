@@ -1,0 +1,113 @@
+_model: call-for-proposals
+---
+title: Call for Proposals
+---
+cta:
+
+[Submit your abstract](https://pretalx.com/euroscipy-2025/cfp)
+---
+cta_details: Accepted speakers will receive an acceptance notice by the end of May 2025.
+---
+intro:
+
+## Call for Proposals
+
+The EuroSciPy 2025 Call for Proposals is open. The deadline for submissions is the **31st of March 2025 at 23:59:00 CET**.
+
+We have extended the deadline for submissions to the **28th of April 2025 at 23:59:00**.
+
+**Note**: We offer our speakers the following:
+
+- Up to two speakers of the accepted **tutorials** will receive free ticket for the entire conference (i.e. 18th to 22nd of August)
+- One speaker per accepted **talk** will receive a free ticket for the conference days (i.e. 20th to 22nd of August 2025)
+---
+details:
+
+### Tracks
+
+Presentations of scientific tools and libraries using the Python language, including but not limited to:
+
+- Computational Tools and Scientific Python Infrastructure
+- Life Sciences and Biomedicine
+- Physical Sciences and Engineering
+- Environmental and Earth Sciences
+- Large Language Models (LLMs), Neural Networks and AI Development
+- Applied AI and LLM Technologies and Use Cases
+- Interdisciplinary Frontiers and other Scientific Python Applications
+
+#### Computational Tools and Scientific Python Infrastructure
+
+- Core Scientific Python Libraries
+- GPU Acceleration for Scientific Computing
+- Distributed Computing & Parallel Processing
+- Just-in-Time Compilation
+- Performance Optimization and Profiling
+- Mathematical and Statistical Computing
+- Visualization and Data Analysis Tools
+- Numerical Simulation and Modeling Frameworks
+
+#### Life Sciences and Biomedicine
+
+- Genomic Technologies and Applications
+- Computational Biology and Bioinformatics
+- Protein Folding Prediction
+- Personalized and Regenerative Medicine
+
+#### Physical Sciences and Engineering
+
+- Quantum Computing and Quantum Sensors
+- Quantum Machine Learning
+- Physics Simulations
+- Energy Research and Fusion Energy
+- Astrophysics and Cosmology
+- Gravitational Wave Astronomy
+- Dark Matter and Dark Energy Studies
+- Exoplanet Discovery and Characterization
+- Materials Science
+
+#### Environmental and Earth Sciences
+
+- Climate Science
+- Biodiversity and Conservation
+- Ocean Acidification Studies
+- Environmental Remediation
+- Soil Science
+- Geophysics
+- Subsurface Fluid Dynamics
+- Geothermal Applications
+
+#### Large Language Models (LLMs), Neural Networks and AI Development
+
+- Neural Network Architecture Design and Optimization
+- Quantization Methods
+- Federated Learning
+- Group Relative Policy Optimization Algorithms
+- Long Chain-of-Thought Reasoning Research
+- LLM Training, Fine-tuning and Inference Frameworks
+- Self-evolution through Reinforcement Learning
+- Explainable AI Systems
+
+#### Applied AI and LLM Technologies and Use Cases
+
+- Ethical AI Frameworks and Guidelines
+- Sustainable Computation for AI
+- Benchmarking Frameworks and Methodologies
+- Evaluation Metrics and Standards
+- Datasets for LLM Training and Fine-tuning
+- Hybrid System Architectures
+- Retrieval-Augmented Generation System Design and Optimization
+- AI Agents
+- Domain-specific Model Adaptation
+- Prompt Engineering and Interface Design
+- Automatic Local Fine-tuning for RAG
+
+#### Interdisciplinary Frontiers and other Scientific Python Applications
+
+- Brain-Computer Interfaces
+- Digital Humanities and Computational Social Sciences
+- Reproducible Research and Scientific Workflows
+- Smart Cities
+- Bio-inspired Technologies
+- Space Exploration and Monitoring
+- Computational Archaeology and Historical Reconstruction
+

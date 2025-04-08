@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block body %}
+
+<section class="content">
+    <div class="hero">
+        <div class="intro">
+            <ul>
+                <li clss="title"><h1>{{ this.title }}</h1></li>
+                <li class="date">{{ this.conference_date }}</li>
+                <li class="location">{{ this.location }}</li>
+            </ul>
+
+            <div class="cta">
+                {{ this.cta }}
+            </div>
+        </div>
+
+        <div class="visuals">
+        </div>
+    </div>
+
+    <div class="about">
+        {{ this.about}}
+    </div>
+
+    <div class="stats">{{ this.stats }}</div>
+</section>
+
+{% endblock %}

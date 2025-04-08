@@ -1,0 +1,33 @@
+name: Upload website
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setting up python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: '.python-version'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+
+      - name: Build static page
+        run: make build
+
+      - name: Upload to s3
+        uses: jakejarvis/s3-sync-action@master
+        env:
+          SOURCE_DIR: tmp
+          AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET }}
+          AWS_REGION: 'eu-central-1'
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
