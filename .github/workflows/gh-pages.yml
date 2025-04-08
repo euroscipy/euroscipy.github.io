@@ -20,7 +20,9 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Build static page
-        run: make build && echo "euroscipy.org" > ./tmp/CNAME
+        run: |
+          make build
+          echo "euroscipy.org" > ./tmp/CNAME
 
     - name: Update the main gh-page website
       uses: peaceiris/actions-gh-pages@v4
