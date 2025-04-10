@@ -408,7 +408,7 @@ p strong {
     color: white;
 }
 
-ol li:first-line {
+.subsite ol li:first-line {
     font-weight: bold;
     color: white;
 }
