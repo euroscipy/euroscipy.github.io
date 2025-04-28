@@ -1,0 +1,5 @@
+_model: redirect
+---
+target: /about
+---
+_discoverable: no
