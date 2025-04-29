@@ -169,3 +169,13 @@ tmp/*
 
 .DS_Store
 .idea/
+pixi.lock
+pixi.toml
+
+
+# generated
+output
+plugins
+
+# internal
+nogit_*

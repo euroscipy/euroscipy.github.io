@@ -1,0 +1,5 @@
+_model: redirect
+---
+target: /sponsoring
+---
+_discoverable: no
