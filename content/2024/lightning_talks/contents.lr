@@ -1,5 +1,5 @@
 _model: redirect
 ---
-target: ../
+target: /
 ---
 _discoverable: no
