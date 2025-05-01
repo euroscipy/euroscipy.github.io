@@ -1,0 +1,5 @@
+_model: redirect
+---
+target: /call-for-proposals
+---
+_discoverable: no
