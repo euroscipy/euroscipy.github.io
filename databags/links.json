@@ -13,6 +13,10 @@
             "path": "sponsoring"
         },
         {
+            "name": "Sponsors",
+            "path": "current-sponsors"
+        },
+        {
             "name": "About",
             "path": "about"
         }
