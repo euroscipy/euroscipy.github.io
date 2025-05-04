@@ -17,6 +17,10 @@
             "path": "current-sponsors"
         },
         {
+            "name": "Financial Aid",
+            "path": "finaid"
+        },
+        {
             "name": "About",
             "path": "about"
         }
