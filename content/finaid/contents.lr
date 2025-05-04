@@ -1,0 +1,64 @@
+_model: finaid
+---
+title: Financial Aid
+---
+body:
+
+## Financial Aid Program
+
+Dreaming of joining EuroSciPy but can't afford it? We have support for you\! Here is some information regarding our financial aid program.
+
+We offer two types of financial aid grants:
+
+* **Free ticket**: The five-day ticket includes in-person access to 2 days of tutorials \+ 2 days of talks \+ 1 day of sprints
+* **Travel and/or accommodation costs**: partially cover the travel costs (hotel/transportation) up to a maximum amount after submitting the receipts after the conference; this maximum amount depends on the country of residence of the applicant:
+  * For Europe and neighbouring countries[^1]: a maximum of EUR 300 per person can be reimbursed.
+  * For all other countries, a maximum of EUR 600 per person can be reimbursed
+
+### Grant Eligibility
+
+Our program warmly welcomes everyone, regardless of their budget constraints. We can offer limited numbers of subsidies, that’s why we focus on the next criteria for evaluation:
+
+* **Diversity**: We are dedicated to fostering the most diverse and inclusive EuroSciPy experience imaginable.
+* **Contributors**: speakers/trainers of EuroSciPy, active people from small Python communities, and contributors to community projects.
+* **Economic factors**: students, unemployed, or people experiencing economic hardships.
+
+### How to apply
+
+#### **Fill in the [form](https://forms.gle/7vUXhuoQmU6Wymtm7) before May 12th.**
+
+#### Key deadlines:
+
+| <div style="width:290px">Date</div>  | Milestone |
+| :---    | :--- |
+| Apr 30, 2025 | Start accepting the financial aid applications |
+| May 19, 2025 | **Deadline for submitting the applications** |
+| Jun 2, 2025 | Announcement of grant recipients |
+| Jun 7, 2025 | Deadline for applicants to accept/decline financial aid |
+| Aug 30, 2025 | Deadline to upload receipts |
+
+#### Refunds
+
+* **Free ticket**: will be served as an individual coupon for registration; in case you have already bought the ticket, we will refund you.
+* **Accommodation and/or Travel grant**: all grants involving reimbursements will be reimbursed **after** the conference. Please, upload your receipts (hotel invoice, plane/bus/train tickets) via the Google Form we’ll send you after the grant acceptance notice. The reimbursement can either be made by bank transfer (via SEPA within EU) or PayPal payment after the conference. The maximum amount eligible for refund is EUR 300 for Europe and neighbouring countries (see footnote) and EUR 600 for other countries.
+
+**IMPORTANT:** We will do bank transfers only via SEPA transfer. Please, check it with your bank, some information you can find [here](https://en.wikipedia.org/wiki/Single_Euro_Payments_Area).
+
+#### Guidelines
+
+* The financial aid grants will only be made available to registered attendees actually attending the conference
+* If you find that you cannot attend the conference for some reason, please send us an email to grants@euroscipy.org, so we can reallocate the grant
+* Failure to accept the grant by the specified deadline will be deemed as a rejection by the applicant
+* Failure to submit receipts within the specified timeframe will result in non-reimbursement of expenses
+* Receipts should contain: your name, amount of expenses (price for the tickets or hotels) and itinerary
+* Reimbursements before the conference, or via other means such as cash are not possible.
+
+#### Contact Us
+
+Please send an email to grants@euroscipy.org if you have any questions.
+
+#### Privacy Policy
+
+The data we collect on this form will exclusively be used by the EuroSciPy Financial Aid committee for the selection of grant recipients and the processing of financial aid refunds. No data is passed on to third parties, except the necessary information to our accountants and the bank in order to process the refunds. We use Google Forms for the processing and Google Drive to store relevant information. Data will be used in accordance with GDPR regulations.
+
+[^1]:  Albania, Algeria, Andorra, Armenia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Czech Republic/Czechia, Denmark, Egypt, Estonia, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Jordan, Kosovo, Latvia, Lebanon, Libya, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, Montenegro, Moldova, Morocco, Netherlands, North Macedonia, Norway, Palestine, Poland, Portugal, Republic of Cyprus, Romania, Russia, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Syria, Tunisia, Turkey, Ukraine, United Kingdom, and Vatican City.
