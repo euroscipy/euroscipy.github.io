@@ -1,10 +1,6 @@
 {
     "pages": [
         {
-            "name": "Proposals",
-            "path": "call-for-proposals"
-        },
-        {
             "name": "Blog",
             "path": "blog"
         },
