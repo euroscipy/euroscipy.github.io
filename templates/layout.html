@@ -21,9 +21,9 @@
   <meta name="image" property="og:image" content="{{ site.config.PROJECT.url }}{{ turl|url }}">
   {% else %}
   <meta name="image" property="og:image:secure_url"
-    content="{{ site.config.PROJECT.social_card|url }}">
+    content="{{ site.config.PROJECT.social_card }}">
   <meta name="image" property="og:image"
-    content="{{ site.config.PROJECT.social_card|url }}">
+    content="{{ site.config.PROJECT.social_card }}">
   {% endif %}
 
   <meta property="og:description" content="{% if this.description %}{{ this.description }}{% else %}{{ site.config.PROJECT.og_description }}{% endif %}">
@@ -44,7 +44,7 @@
   {% if this.social_card_image %}
   <meta name="twitter:image" content="{{ this.social_card_image|url }}">
   {% else %}
-  <meta name="twitter:image" content="{{ site.config.PROJECT.social_card|url }}">
+  <meta name="twitter:image" content="{{ site.config.PROJECT.social_card }}">
   {% endif %}
 </head>
 
