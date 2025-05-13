@@ -412,3 +412,7 @@ p strong {
     font-weight: bold;
     color: white;
 }
+
+.pretix-widget {
+    background-color: black;
+}
