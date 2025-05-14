@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Reimar Bauer <rb.proj@gmail.com>"]
+channels = ["conda-forge"]
+name = "euroscipy.github.io"
+platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"] 
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.3,<3.14"
+
+[pypi-dependencies]
+pyyaml = "==5.3.1"
+lektor = "==3.3.12"
+pytanis = "==0.7.2"
+pillow = "==11.1.0"
