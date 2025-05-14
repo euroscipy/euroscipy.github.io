@@ -423,6 +423,10 @@ p strong {
     text-align: left;
 }
 
+.pretix-widget div.pretix-widget-item-availability-col {
+    text-align: right;
+}
+
 .pretix-widget h3.pretix-widget-category-name {
     font-size: 2em;
     margin-top: 1em;
