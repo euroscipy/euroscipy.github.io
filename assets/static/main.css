@@ -420,6 +420,7 @@ p strong {
 .pretix-widget .pretix-widget-pricebox {
     font-weight: bold;
     color: white;
+    text-align: left;
 }
 
 .pretix-widget h3.pretix-widget-category-name {
