@@ -416,6 +416,11 @@ p strong {
 .pretix-widget {
     background-color: black;
 }
+.pretix-widget .pretix-widget-pricebox-currency,
+.pretix-widget .pretix-widget-pricebox {
+    font-weight: bold;
+    color: white;
+}
 
 .pretix-widget h3.pretix-widget-category-name {
     font-size: 2em;
@@ -440,6 +445,7 @@ p strong {
     background-color: var(--highlight-color);
     border-color: var(--highlight-color);
     font-weight: bold;
+    font-size: 1em;
 }
 
 .pretix-widget .pretix-widget-action button:hover {
