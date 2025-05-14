@@ -416,3 +416,34 @@ p strong {
 .pretix-widget {
     background-color: black;
 }
+
+.pretix-widget h3.pretix-widget-category-name {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.pretix-widget a,
+.pretix-widget .pretix-widget-item-title,
+.pretix-widget .pretix-widget-collapse-indicator,
+.pretix-widget .pretix-widget-attribution a {
+    color: var(--highlight-color);
+}
+
+.pretix-widget a:hover,
+.pretix-widget .pretix-widget-item-title:hover,
+.pretix-widget .pretix-widget-collapse-indicator:hover,
+.pretix-widget .pretix-widget-attribution a:hover {
+    color: white;
+}
+
+.pretix-widget .pretix-widget-action button {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+    font-weight: bold;
+}
+
+.pretix-widget .pretix-widget-action button:hover {
+    color: var(--highlight-color);
+    background-color: white;
+    border-color: white;
+}
