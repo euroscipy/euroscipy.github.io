@@ -10,16 +10,18 @@
 {% block body %}
 
 <div class="content">
-  <pretix-widget event="https://euroscipy.pysv.org/" single-item-select="button">
-  </pretix-widget>
-  <noscript>
-    <div class="pretix-widget">
-      <div class="pretix-widget-info-message">
-        JavaScript ist in Ihrem Browser deaktiviert. Um unseren Ticketshop ohne JavaScript aufzurufen, klicken Sie bitte
-        <a target="_blank" rel="noopener" href="https://euroscipy.pysv.org/">hier</a>.
-      </div>
-    </div>
-  </noscript>
+    {{ this.body }}
+
+    <pretix-widget event="https://euroscipy.pysv.org/" single-item-select="button">
+    </pretix-widget>
+    <noscript>
+        <div class="pretix-widget">
+            <div class="pretix-widget-info-message">
+                JavaScript ist in Ihrem Browser deaktiviert. Um unseren Ticketshop ohne JavaScript aufzurufen, klicken Sie bitte
+                <a target="_blank" rel="noopener" href="https://euroscipy.pysv.org/">hier</a>.
+            </div>
+        </div>
+    </noscript>
 </div>
 
 {% endblock %}
