@@ -5,12 +5,12 @@
             "path": "blog"
         },
         {
-            "name": "Sponsoring",
-            "path": "sponsoring"
+            "name": "Sponsors",
+            "path": "sponsors"
         },
         {
-            "name": "Sponsors",
-            "path": "current-sponsors"
+            "name": "Sponsoring",
+            "path": "sponsoring"
         },
         {
             "name": "Financial Aid",
