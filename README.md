@@ -20,6 +20,14 @@ The site is deployed as a github page and a workflow will take care of that part
 
 Here is how you can add content like sponsors or blog posts to the EuroSciPy website.
 
+### Adding a sponsor
+
+To add a new sponsor, you need to do two things:
+
+1. Copy the svg logo to `./assets/static/sponsors/`
+2. Add the information for the sponsor to `./databags/sponsors.json`
+3. Run `make sponsor-pages`. This will generate the individual sponsor page, based on the data in the databag.
+
 ### Blog Posts
 
 1. Create a new branch

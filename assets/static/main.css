@@ -271,11 +271,11 @@ p strong {
     list-style: none;
     margin: 0;
     padding: 0;
-
 }
 
 .stats {
     margin-top: 6rem;
+    margin-bottom: 6rem;
     font-weight: 200;
 }
 
@@ -481,4 +481,14 @@ p strong {
     color: var(--highlight-color);
     background-color: white;
     border-color: white;
+}
+
+/* Sponsors */
+.sponsors {
+    list-style-type: none;
+    margin: 0;
+}
+
+.sponsor {
+    margin-bottom: 4em;
 }

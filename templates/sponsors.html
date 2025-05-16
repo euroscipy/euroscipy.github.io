@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% from "macros/sponsor.html" import render_sponsors_list %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block body %}
+
+<div class="content">
+  <h2>{{ this.title }}</h2>
+  {{ render_sponsors_list() }}
+</div>
+
+{% endblock %}

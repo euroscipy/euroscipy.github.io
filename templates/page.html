@@ -1,4 +1,6 @@
 {% extends "layout.html" %}
+{% from "macros/sponsor.html" import render_sponsors_list %}
+
 {% block title %}{{ this.title }}{% endblock %}
 
 {% block body %}
@@ -27,7 +29,9 @@
 
     <div class="stats">{{ this.stats }}</div>
 
-    <div class="sponsors">{{ this.sponsors }}</div>
+    {{ this.sponsors }}
+    {{ render_sponsors_list() }}
+    <div><a href="/sponsoring" alt="How to become a sponsor link">How to become a sponsor</a>.</div>
 </section>
 
 {% endblock %}
