@@ -1,6 +1,10 @@
 {
     "pages": [
         {
+            "name": "Tickets",
+            "path": "tickets"
+        },
+        {
             "name": "Blog",
             "path": "blog"
         },
