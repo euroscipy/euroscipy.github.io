@@ -4,21 +4,81 @@ pub_date: 2025-05-26
 ---
 body:
 
-### The European In-Person Meeting Point for Maintainers of Scientific Packages
+### The EuroSciPy Maintainers Track – A Cornerstone of the Scientific Software Community
 
-EuroSciPy aims to be a meeting point of maintainers of scientific open source
-projects.
-The maintainers track consists of informal sessions intended for discussions
-among contributors.
-Maintainers, contributors, and users discuss new features, talk about roadmaps,
-and dive into technical details of projects.
+#### Introduction
 
-### Proposals
+EuroSciPy is one of the leading conferences for scientific computing in Europe.
+Alongside exciting talks on new research results and technologies,
+there's an area that’s particularly important: the Maintainers Track.
+This article highlights what exactly happens within the Maintainers Track,
+who participates, and why it’s so valuable for the future of scientific
+software.
 
-If you are a maintainer, please [email](mailto:maintainers@euroscipy.org) us if
-you have a proposal for a maintainers session.
-If you are a contributor or user, please spread the word and point maintainers
-to this post.
+#### What is the Maintainers Track?
 
-**Note:** Maintainer’s track speakers will receive free conference tickets
-(valid from 18th to 22nd of August).
+The Maintainers Track is aimed at the colleagues working behind the scenes –
+the maintainers of open-source software packages widely used in scientific
+research.
+These are often developers who, alongside their primary research work,
+also invest time keeping libraries like NumPy, SciPy, Matplotlib, or Pandas
+running, fixing bugs, developing new features, and supporting the community.
+
+The Track is a special part of the EuroSciPy conference dedicated exclusively
+to the challenges and opportunities of software maintenance.
+It provides a platform for maintainers to:
+
+*   **Share experiences:** Exchange knowledge, best practices, and lessons learned.
+*   **Collaborate:** Work on common problems and develop solutions.
+*   **Learn:** Discover new tools and techniques that can simplify software maintenance.
+*   **Network:** Make contacts and build a strong community.
+
+#### What happens in the Maintainers Track?
+
+The program of the Maintainers Track is diverse and practical:
+
+*   **Discussion rounds:** Open conversations about current challenges and
+    future trends in software maintenance.
+*   **Talks:** Presentations by maintainers about their experiences and
+    successes.
+
+A particular focus lies on promoting sustainable software development and
+creating an inclusive community.
+It’s about how to ensure that important scientific software remains available
+and continues to be developed in the future.
+
+### Who comes together?
+
+The Maintainers Track attracts a diverse group of participants:
+
+*   **Core Maintainers:** The main people responsible for the development and
+    of fundamental software for scientific computing.
+*   **Contributors:** Developers who regularly contribute to open-source
+    projects.
+*   **Research Software Engineers:** Individuals who develop and maintain
+    software in research institutions.
+*   **Interested Parties:** Anyone who wants to learn more about software
+    maintenance and get involved.
+
+Participants come from various countries and disciplines – from physics and
+chemistry to biology and medicine, as well as engineering and computer science.
+
+#### Why is the Maintainers Track important?
+
+Scientific research today relies heavily on open-source software.
+This software is often the result of years of work by dedicated developers who
+voluntarily contribute their time and knowledge.
+The Maintainers Track recognizes this effort and provides maintainers with the
+support they need to continue their vital work.
+
+A well-functioning Maintainers Track contributes to:
+
+*   **Improving the quality and reliability of scientific software.**
+*   **Driving innovation in research.**
+*   **Ensuring the reproducibility of research results.**
+*   **Building a strong and sustainable community.**
+
+**Call to Action:**
+
+Please [email](maintainers@euroscipy.org) us if you have a proposal for a
+maintainers session.
