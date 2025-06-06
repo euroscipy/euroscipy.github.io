@@ -21,6 +21,10 @@
             "path": "finaid"
         },
         {
+            "name": "FAQ",
+            "path": "faq"
+        },
+        {
             "name": "About",
             "path": "about"
         }
