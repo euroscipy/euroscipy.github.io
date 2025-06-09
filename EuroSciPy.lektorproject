@@ -4,3 +4,6 @@ url = https://euroscipy.org
 url_style = relative
 social_card = /static/social_card.png
 og_description = "The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research."
+
+[packages]
+lektor-markdown-header-anchors = 0.3.1
