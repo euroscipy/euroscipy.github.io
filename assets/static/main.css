@@ -105,7 +105,7 @@ a {
     position: absolute;
     top: 2rem;
     left: var(--hamburger-margin);
-    z-index: 5;
+    z-index: 1000;
     cursor: pointer;
 }
 
@@ -160,7 +160,7 @@ a {
     min-height: 100vh;
     width: 100%;
     padding-left: var(--hamburger-margin);
-    z-index: 4;
+    z-index: 999;
     font-size: 3em;
     overscroll-behavior: contain;
     overflow: hidden;
