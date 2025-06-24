@@ -8,6 +8,13 @@ New framework for EuroSciPy website, starting 2025.
 2. Create a virtual environment and activate it, so that the dependencies for this project won't clash with other, locally installed libraries: `python -m venv ./venv && source venv/bin/activate`.
 3. Install the dependencies: `pip install -r requirements.txt`.
 
+
+## Alternative Setup Instructions
+
+1. **Install Pixi:** Visit [https://pixi.sh/latest/#installation](https://pixi.sh/latest/#installation) to download and install the appropriate version of Pixi for your operating system.
+2. **Activate the Pixi Environment:**  After installing Pixi, open a terminal in your local clone of the project repository and run the command `pixi shell` to activate the development environment.
+
+
 ### Run locally
 
 `make run`
