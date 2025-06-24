@@ -9,6 +9,10 @@
             "path": "tickets"
         },
         {
+            "name": "Financial Aid",
+            "path": "finaid"
+        },
+        {
             "name": "Blog",
             "path": "blog"
         },
@@ -19,10 +23,6 @@
         {
             "name": "Sponsoring",
             "path": "sponsoring"
-        },
-        {
-            "name": "Financial Aid",
-            "path": "finaid"
         },
         {
             "name": "FAQ",
