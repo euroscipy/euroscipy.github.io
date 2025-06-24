@@ -10,17 +10,17 @@
 
 <div class="content">
     {{ this.body }}
-
-    <pretalx-schedule event-url="https://pretalx.com/euroscipy-2025/" locale="en" format="grid"
-        style="--pretalx-clr-primary: #0056aa"></pretalx-schedule>
-    <noscript>
-        <div class="pretalx-widget">
-            <div class="pretalx-widget-info-message">
-                JavaScript is disabled in your browser. To access our schedule without JavaScript,
-                please <a target="_blank" href="https://pretalx.com/euroscipy-2025/schedule/">click here</a>.
-            </div>
-        </div>
-    </noscript>
 </div>
+
+<pretalx-schedule event-url="https://pretalx.com/euroscipy-2025/" locale="en" format="grid"
+    style="--pretalx-clr-primary: #0056aa"></pretalx-schedule>
+<noscript>
+    <div class="pretalx-widget">
+        <div class="pretalx-widget-info-message">
+            JavaScript is disabled in your browser. To access our schedule without JavaScript,
+            please <a target="_blank" href="https://pretalx.com/euroscipy-2025/schedule/">click here</a>.
+        </div>
+    </div>
+</noscript>
 
 {% endblock %}
