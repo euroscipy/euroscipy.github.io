@@ -1,5 +1,6 @@
 import json
 import os
+from collections import defaultdict
 from string import Template
 
 from pydantic import BaseModel
@@ -8,7 +9,7 @@ from pytanis import PretalxClient
 
 def load_submissions():
     with open("databags/submissions.json") as file:
-        return json.load(file)
+        return json.load(file)["results"]
 
 
 def load_speakers():
@@ -16,8 +17,18 @@ def load_speakers():
         return json.load(file)
 
 
-def merge_speakers_and_submissions(talks, speakers):
-    return []
+def submission_to_talk(sub):
+    t = defaultdict(lambda: "")
+    t["title"] = sub["title"]
+    t["code"] = sub["code"]
+    t["abstract"] = sub["abstract"]
+    t["full_description"] = sub["description"]
+    return t
+
+
+def merge_speakers_and_submissions(submissions, speakers):
+    talks = [submission_to_talk(s) for s in submissions]
+    return talks
 
 
 def talk_to_lektor(talk):
@@ -83,7 +94,8 @@ def main():
     event_name = os.environ.get("PRETALX_EVENT_NAME")
     submissions = load_submissions()
     speakers = load_speakers()
-    talks = merge_speakers_and_submissions(speakers, submissions)
+    talks = merge_speakers_and_submissions(submissions, speakers)
+    print(talks)
     for talk in talks:
         talk_to_lektor_file(talk)
 
