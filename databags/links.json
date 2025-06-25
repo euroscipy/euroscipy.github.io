@@ -13,6 +13,10 @@
             "path": "finaid"
         },
         {
+            "name": "Talks",
+            "path": "talks"
+        },
+        {
             "name": "Blog",
             "path": "blog"
         },
