@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+{{ this.title }}
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h2>{{ this.title }}</h2>
+    <h3>{{ this.speaker_names }}</h3>
+
+    <div class="description">
+        {{ this.full_description }}
+    </div>
+
+    <div class="authors">
+        {{ this.speakers }}
+    </div>
+
+    <img src="{{this.social_card_image}}" alt="">
+</div>
+
+{% endblock %}
