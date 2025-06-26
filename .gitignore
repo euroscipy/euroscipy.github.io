@@ -179,3 +179,6 @@ plugins
 
 # internal
 nogit_*
+
+databags/speakers.json
+databags/submissions.json
