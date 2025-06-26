@@ -28,16 +28,6 @@ def fetch_speakers(api_key, event_name):
     return r.json()["results"]
 
 
-def load_submissions():
-    with open("databags/submissions.json") as file:
-        return json.load(file)["results"]
-
-
-def load_speakers():
-    with open("databags/speakers.json") as file:
-        return json.load(file)
-
-
 def submission_to_talk(sub, all_speakers):
     t = defaultdict(lambda: "")
     t["title"] = sub["title"]
