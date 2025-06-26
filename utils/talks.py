@@ -1,5 +1,5 @@
-import json
 import os
+import shutil
 from collections import defaultdict
 from string import Template
 
@@ -102,7 +102,23 @@ social_card_image: $social_card_image
 
 
 def talk_to_lektor_file(talk):
-    pass
+    content = talk_to_lektor(talk)
+    new_dir = f"content/talks/{talk['code']}"
+    if not os.path.isdir(new_dir):
+        os.mkdir(new_dir)
+
+    with open(new_dir + "/contents.lr", "w") as f:
+        f.write(content)
+
+
+def remove_old_talks():
+    """
+    Removes old talks before regenerating them to avoid having previously on
+    Pretalx removed talks still hanging around on the website. Crude but simple
+    """
+    talk_dirs = [f.path for f in os.scandir("content/talks") if f.is_dir()]
+    for talk_dir in talk_dirs:
+        shutil.rmtree(talk_dir)
 
 
 def configure_pretalx_client():
@@ -126,7 +142,8 @@ def main():
     submissions = fetch_submissions(api_key, event_name)
     speakers = fetch_speakers(api_key, event_name)
     talks = merge_speakers_and_submissions(submissions, speakers)
-    print(talks)
+
+    remove_old_talks()
     for talk in talks:
         talk_to_lektor_file(talk)
 
