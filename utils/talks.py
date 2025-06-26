@@ -3,8 +3,29 @@ import os
 from collections import defaultdict
 from string import Template
 
+import requests
 from pydantic import BaseModel
 from pytanis import PretalxClient
+
+PRETALX_BASE_URL = "https://pretalx.com/api/events/"
+
+
+def fetch_submissions(api_key, event_name):
+    submissions_path = "/submissions?state=confirmed"
+    r = requests.get(
+        f"{PRETALX_BASE_URL}{event_name}{submissions_path}",
+        headers={"Authorization": api_key},
+    )
+    return r.json()["results"]
+
+
+def fetch_speakers(api_key, event_name):
+    speakers_path = "/speakers"
+    r = requests.get(
+        f"{PRETALX_BASE_URL}{event_name}{speakers_path}",
+        headers={"Authorization": api_key},
+    )
+    return r.json()["results"]
 
 
 def load_submissions():
@@ -17,17 +38,22 @@ def load_speakers():
         return json.load(file)
 
 
-def submission_to_talk(sub):
+def submission_to_talk(sub, all_speakers):
     t = defaultdict(lambda: "")
     t["title"] = sub["title"]
     t["code"] = sub["code"]
     t["abstract"] = sub["abstract"]
     t["full_description"] = sub["description"]
+    t["speakers"] = find_speakers(all_speakers, sub["speakers"])
     return t
 
 
+def find_speakers(speakers, speaker_codes):
+    return [speaker for speaker in speakers if speaker["code"] in speaker_codes]
+
+
 def merge_speakers_and_submissions(submissions, speakers):
-    talks = [submission_to_talk(s) for s in submissions]
+    talks = [submission_to_talk(sub, speakers) for sub in submissions]
     return talks
 
 
@@ -92,8 +118,9 @@ def configure_pretalx_client():
 
 def main():
     event_name = os.environ.get("PRETALX_EVENT_NAME")
-    submissions = load_submissions()
-    speakers = load_speakers()
+    api_key = os.environ.get("PRETALX_API_KEY")
+    submissions = fetch_submissions(api_key, event_name)
+    speakers = fetch_speakers(api_key, event_name)
     talks = merge_speakers_and_submissions(submissions, speakers)
     print(talks)
     for talk in talks:
