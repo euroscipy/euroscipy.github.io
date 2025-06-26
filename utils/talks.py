@@ -44,8 +44,22 @@ def submission_to_talk(sub, all_speakers):
     t["code"] = sub["code"]
     t["abstract"] = sub["abstract"]
     t["full_description"] = sub["description"]
-    t["speakers"] = find_speakers(all_speakers, sub["speakers"])
+    speakers = find_speakers(all_speakers, sub["speakers"])
+    t["speaker_names"] = ", ".join([s["name"] for s in speakers])
+    for speaker in speakers:
+        t["speakers"] += speaker_to_markdown(speaker)
     return t
+
+
+def speaker_to_markdown(speaker):
+    s = {"name": speaker["name"]}
+    s["biography"] = speaker["biography"] if speaker["biography"] is not None else ""
+    tmpl = Template("""
+### $name
+
+$biography
+""")
+    return tmpl.substitute(s)
 
 
 def find_speakers(speakers, speaker_codes):
