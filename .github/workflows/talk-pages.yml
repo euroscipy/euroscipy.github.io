@@ -27,7 +27,7 @@ jobs:
         env:
           PRETALX_API_KEY: ${{ secrets.PRETALX_API_KEY }}
           PRETALX_EVENT_NAME: ${{ vars.PRETALX_EVENT_NAME }}
-      - name: Commit changes
+      - name: Commit and Push Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Generates talk pages and social cards
