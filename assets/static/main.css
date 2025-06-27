@@ -12,6 +12,7 @@
     --background-color: #3122C7;
     --foreground-color: #d2d2d2;
     --highlight-color: #ff5366;
+    --shadow-color: #31126F;
 }
 
 /* resets */
@@ -221,10 +222,12 @@ p strong {
     margin-bottom: 0.4em;
     padding: 0.4em;
     background-color: white;
+    box-shadow: 10px 15px 0 var(--highlight-color);
 }
 
 .content-list--entry:hover {
     background-color: var(--highlight-color);
+    box-shadow: 10px 15px var(--shadow-color);
 }
 
 a.content-list--entry {
