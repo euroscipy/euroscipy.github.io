@@ -139,6 +139,8 @@ def configure_pretalx_client():
 def main():
     event_name = os.environ.get("PRETALX_EVENT_NAME")
     api_key = os.environ.get("PRETALX_API_KEY")
+    assert event_name is not None and api_key is not None
+
     submissions = fetch_submissions(api_key, event_name)
     speakers = fetch_speakers(api_key, event_name)
     talks = merge_speakers_and_submissions(submissions, speakers)
