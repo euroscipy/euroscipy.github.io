@@ -8,7 +8,7 @@ dependencies = [
     "pyyaml>=6.0.2",
     "pillow>=11.1.0,<12",
     "lektor>=3.3.12, <4",
-    "pytanis>=0.8",
+    "pytanis>=0.8,<=0.9",
     "lektor-markdown-header-anchors>=0.3.1"
 ]
 

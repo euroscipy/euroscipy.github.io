@@ -9,10 +9,10 @@
 <div class="content">
     <h2>{{ this.title }}</h2>
 
-    <ul>
+    <ul class="content-list">
         {% for talk in this.children %}
         <li>
-            <a href="{{ talk|url }}" class="content talk">
+            <a href="{{ talk|url }}" class="content-list--entry">
                 <h3 class="talk-title">
                     {{ talk['title'] }}
                 </h3>
