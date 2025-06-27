@@ -31,3 +31,14 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Generates talk pages and social cards
+      - name: Build static page
+        run: |
+          make build
+          echo "euroscipy.org" > ./tmp/CNAME
+
+      - name: Update the main gh-page website
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./tmp
+          commit_message: "[ci skip] ${{ github.event.head_commit.message }}"
