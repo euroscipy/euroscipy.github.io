@@ -20,6 +20,10 @@ The site is deployed as a github page and a workflow will take care of that part
 
 Here is how you can add content like sponsors or blog posts to the EuroSciPy website.
 
+### Adding talks
+
+Do not add talks directly in this repository. They are pulled from Pretalx and the talks pages will be automatically generated and deployed every 6 hours.
+
 ### Adding a sponsor
 
 To add a new sponsor, you need to do two things:
