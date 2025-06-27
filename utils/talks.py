@@ -6,6 +6,7 @@ from string import Template
 import requests
 from pydantic import BaseModel
 from pytanis import PretalxClient
+from social_cards import generate_social_card
 
 PRETALX_BASE_URL = "https://pretalx.com/api/events/"
 
@@ -34,6 +35,7 @@ def submission_to_talk(sub, all_speakers):
     t["code"] = sub["code"]
     t["abstract"] = sub["abstract"]
     t["full_description"] = sub["description"]
+    t["social_card_image"] = f"/static/talks/{sub['code']}.png"
     speakers = find_speakers(all_speakers, sub["speakers"])
     t["speaker_names"] = ", ".join([s["name"] for s in speakers])
     for speaker in speakers:
@@ -148,6 +150,7 @@ def main():
     remove_old_talks()
     for talk in talks:
         talk_to_lektor_file(talk)
+        generate_social_card(talk)
 
 
 if __name__ == "__main__":
