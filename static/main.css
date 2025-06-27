@@ -212,6 +212,44 @@ p strong {
     padding: 0 0 8rem 0;
 }
 
+.content-list {
+    list-style-type: none;
+    margin: 0;
+}
+
+.content-list--entry {
+    margin-bottom: 0.4em;
+    padding: 0.4em;
+    background-color: white;
+}
+
+.content-list--entry:hover {
+    background-color: var(--highlight-color);
+}
+
+a.content-list--entry {
+    display: block;
+    text-decoration: none;
+}
+
+.content-list--entry h3,
+.content-list--entry h4,
+.content-list--entry {
+    color: var(--highlight-color);
+}
+
+.content-list--entry:hover h3,
+.content-list--entry:hover h4,
+.content-list--entry:hover {
+    color: white;
+}
+
+.content-list--entry h3,
+.content-list--entry h4 {
+    text-transform: uppercase;
+}
+
+
 .hero {
     display: grid;
     grid-gap: 4rem;
@@ -419,17 +457,6 @@ p strong {
     font-size: 1em;
 }
 
-.blog-posts li h3,
-.blog-posts li h4 {
-    color: var(--highlight-color);
-    text-transform: uppercase;
-}
-
-.blog-posts li:hover h3,
-.blog-posts li:hover h4 {
-    color: white;
-}
-
 .subsite ol li:first-line {
     font-weight: bold;
     color: white;
@@ -492,3 +519,5 @@ p strong {
 .sponsor {
     margin-bottom: 4em;
 }
+
+/* Talks */
