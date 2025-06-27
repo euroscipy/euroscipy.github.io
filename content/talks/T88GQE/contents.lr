@@ -1,0 +1,46 @@
+title: Machine learning for ecotoxicology and bee pesticide toxicity prediction
+---
+created: 
+---
+code: T88GQE
+---
+speaker_names: Jakub Adamczyk
+---
+speakers:
+
+
+### Jakub Adamczyk
+
+I am a PhD candidate in Computer Science at AGH University of Krakow, and a member of Graph ML and Chemoinformatics Lab at Faculty of Computer Science. My research concerns fair evaluation, graph representation learning, graph classification, chemoinformatics, and molecular property prediction. I'm also interested in time series, NLP, and MLOps, and I'm also teaching all of those things at AGH. I also work at Placewise as Data Science Engineer, focusing on various ML problems in tabular learning, CV and NLP, and their end-to-end MLOps. Beside my professional work, I train Historical European Martial Arts (HEMA) with messer and longsword, and like reading and tabletop RPGs.
+
+---
+abstract:
+
+Machine learning (ML) is widely applied in medicinal chemistry and pharmaceutical industry. Chemoinformatics and molecular ML have been used for decades for safer, faster drug design. However, the important area of agrochemistry has been relatively neglected. New regulations, with strong focus on ecotoxicology, necessitate creation of novel, safer pesticides.
+
+In this talk, I will describe how and why we can apply ML in predictive ecotoxicology, and how those models can be applied in agrochemistry. In particular, I will present ApisTox, a novel dataset about pesticide bee toxicity, how we can construct such datasets from publicly available data sources, and what are the challenges.
+
+Then, we will cover predictive ML applications in ecotoxicology, and how to apply data science tools for agrochemical data. Examples include molecular fingerprints, graph kernels, and graph neural networks. We will also discuss quantitative measures for describing differences between medicinal chemistry and agrochemistry, and how it impacts practical results.
+---
+full_description:
+
+Agrochemistry, in contrast to medicinal chemistry, is a relatively unexplored area in terms of rational drug design and molecular ML. Data science techniques and predictive ML models, exemplified by ADMET QSAR models, have long been used in pharmaceutical industry. Pesticides are the largest, and most economically important, group of agrochemicals. They need to pass multiple regulatory requirements in order to be used, showing safety not only to humans (toxicology), but also to a variety of wildlife organisms, such as honey bees, earthworms, birds, and fish (ecotoxicology). This is in many ways much more challenging, due to a wide variety of properties that need to be analyzed and predicted. At the same time, we actually require strong toxicity from pesticides, but highly selective, killing preferably only target organisms, e.g. weeds in case of herbicides.
+
+Recently created ApisTox (https://doi.org/10.1038/s41597-024-04232-w) is the largest dataset in the literature concerning toxicity of pesticides to honey bees (Apis mellifera). It allows broad analyses of agrochemicals and building ML models for predicting toxicity of pesticides to honey bees. This required creating a complex data processing workflow, which utilized freely available data sources, like ECOTOX database. In this talk, we will go over tools and techniques used, so that attendees will understand challenges related to such tasks, and how to create other similar datasets for practical usage.
+
+ApisTox paper was followed up by additional molecular datasets' analyzes and building ML models (currently under review). In this talk, we will also explore initial results of pesticide toxicity classification and how we can approach building molecular ML models for agrochemistry, e.g. molecular fingerprints, graph kernels, and graph neural networks. Results are highly distinct from those on molecular chemistry datasets, indicating a lot of unexplored potential.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

@@ -1,0 +1,54 @@
+title: Automated Chess Analysis: Real-Time Move Detection and Game Narration Using Computer Vision and Large Language Models
+---
+created: 
+---
+code: MLCQQL
+---
+speaker_names: Anuradha KAR, Likhita Yerra, Anuradha Kar, PhD
+---
+speakers:
+
+
+### Anuradha KAR
+
+I am an Associate Professor in AI and Robotics at Aivancity based in Paris, France.  I got my PhD from the University of Galway in Ireland in Electrical and Electronic Engineering. I then worked at ENS Lyon in collaboration with Inria and Inrae on deep learning for 3D biological image analysis, then joined the Paris Brain Institute with Inria on deep learning for data analysis of Alzheimer's patients, and the Pasteur Institute in Paris on applications of deep learning in the field of drug discovery. My research and teaching interests focus on applications of deep learning in computer vision, computational biology and health, as well as human-machine interactions and intelligent systems.
+
+### Likhita Yerra
+
+Likhita Yerra, a Master’s student in AI and Data Science, specializes in Python, computer vision, and large language models. I develop innovative machine learning solutions with PyTorch, TensorFlow, Docker, and Streamlit, passionate about advancing AI and scientific computing for real-world impact.
+
+### Anuradha Kar, PhD
+
+
+
+---
+abstract:
+
+This talk presents a python-Streamlit application which has been developed based on integration of deep learning based automatic chess move detection and LLM-generated chess game commentary and is designed to be a powerful tool for enhancing chess learning and viewer engagement. Automatic move detection based on a high accuracy computer vision model allows chess players, learners and general viewers to accurately track the games, identify mistakes, and review tactics without the need for manual notation. Beginners gain a clearer understanding of gameplay flow, while enthusiasts can easily annotate and revisit key moments. By combining move detection with real-time, LLM-driven commentary, the system provides context-aware explanations that highlight strategic ideas, tactical patterns, and player intentions. This creates an interactive and educational experience that enriches both learning and viewing.
+---
+full_description:
+
+This talk presents the development of a python application for the detection and interpretation of chess moves from video footage, blending deep learning based computer vision, motion tracking, and LLM based sequence analysis. The system is designed to identify all 12 chess piece types—pawn, rook, knight, bishop, queen, and king in both black and white—on an 8×8 board, track their movements across frames. It then converts these actions into standard algebraic notation (e.g., "e4", "Nf3", "Qxd5"). A key feature of this application is the ability to distinguish between valid moves and incidental adjustments, like nudging a piece. In addition, based on the chess moves an LLM is used to generate an educational commentary on the game which adds an engaging narrative dimension for users, making it suitable for learners and casual viewers alike.
+
+The application workflow begins with object detection using a YOLOv8 model trained on a labeled chess dataset, which outputs bounding boxes and class probabilities for each chess piece. The centroids of these detected bounding boxes are then mapped to corresponding chessboard squares (e.g., "a1" to "h8"). By comparing piece positions across consecutive video frames, the system infers potential moves, which are subsequently validated using the python-chess library to ensure legality—such as preventing illegal pawn movements. Once a move is confirmed, it is passed to OpenAI’s GPT-4, which generates educational and context-aware commentary. This commentary is then converted to audio using Google Text-to-Speech (gTTS), creating an engaging and informative user experience.
+Finally this application is packaged within a Streamlit app that provides an interactive platform, allowing users to upload videos, view annotated outputs, and download commentary audio. This pipeline combines YOLOv8’s speed, chess-specific logic, and AI-driven narration into a cohesive system.
+
+The computer vision and LLM based workflow successfully automates move detection in chess games by leveraging a YOLOv8s model to process user-submitted videos, accurately generating legal move sequences and producing annotated output videos. Building on this, the Streamlit application seamlessly combines visual move annotations, structured move lists, and GPT-4-generated audio commentary, delivering a rich and interactive user experience. This integrated pipeline highlights the powerful synergy between computer vision and large language models, demonstrating a practical, real-world application where automated visual recognition and natural language generation come together to create dynamic and educational chess commentary. Furthermore, integrating large language models for commentary generation opens new possibilities for smart chess boards, coaching applications, live-streamed matches with narration, and automated game archiving for tournaments and classrooms. Overall, this fusion of computer vision and natural language generation bridges the gap between physical and digital chess, fostering greater inclusivity, deeper engagement, and accelerated learning across the chess community.
+Advancements in this work may include expanding to multi-player support by incorporating hand tracking or multi-camera systems to accurately detect player turns and interactions, as well as enhancing analysis capabilities to assess move quality, providing detailed feedback on mistakes and exceptional plays. 
+
+This is an open source project and the GitHub repository details and steps for installation/running this application will be shared during the talk.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

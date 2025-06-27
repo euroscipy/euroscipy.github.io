@@ -1,0 +1,73 @@
+title: Beyond Likelihoods: Bayesian Parameter Inference for Black-Box Simulators with sbi
+---
+created: 
+---
+code: MU9HAJ
+---
+speaker_names: Jan Boelts (Teusen), Maternus Herold
+---
+speakers:
+
+
+### Jan Boelts (Teusen)
+
+Jan initially immersed himself in the realms of cognitive science and computational neuroscience. However, he couldn’t resist the siren call of Bayesian machine learning, and his PhD evolved into a mission to enhance the user-friendliness of this complex field. He set out to bridge cutting-edge methods with user-friendly software, making the world of simulation-based inference more accessible for practitioners. In 2024, he joined the TransferLab, ready to continue his journey of making advanced methodologies approachable and transformative.
+
+### Maternus Herold
+
+Applied AI Researcher focussing on uncertainty quantification and Bayesian inference in various industrial settings.
+
+---
+abstract:
+
+Do you spend time tuning parameters for complex scientific simulators? Perhaps you use grid search or optimization to match parameters to data. These find a best-fit set, but often don't reveal your confidence or if other parameters also fit. This uncertainty is crucial for reliable conclusions.
+This tutorial introduces Simulation-Based Inference (SBI), a modern technique tackling this challenge. Unlike traditional Bayesian inference methods (like MCMC) that require mathematical likelihood functions, SBI works directly with your simulator's outputs. Using recent advances in probabilistic ML, it estimates the probability distribution of parameter values consistent with your observations, even for complex "black-box" simulators. It provides not just a single best guess, but full parameter distributions representing parameter uncertainties and potential interactions.
+In this hands-on tutorial using the `sbi` Python package, you'll learn the practical steps: setting up the problem, running SBI for parameter distributions, and checking result reliability. We will cover different SBI techniques and how to apply them.
+If you are a scientist or engineer using Python for simulations, or just interested in probabilistic inference methods, this session is designed for you. Crucially, no prior Bayesian statistics knowledge is required. You will learn to obtain more reliable and interpretable results by quantifying uncertainty and understanding how parameters interact within your model.
+---
+full_description:
+
+Many scientific and engineering fields rely on complex computer simulations – for example, in particle physics, epidemiology, or computational neuroscience – to understand complex phenomena. A common challenge is finding the right input parameter settings for these simulators so that their output matches real-world observations. Determining these parameters accurately can be difficult, especially when the simulator is intricate or stochastic.
+
+Traditional methods like grid search or numerical optimization algorithms can find a single 'best' set of parameters. However, they often struggle when there are many parameters, and more importantly, they usually don't quantify the uncertainty associated with the result. Is this the only good parameter set? How much could the parameters change and still produce similar results? Answering these questions is vital for robust scientific understanding.
+
+Simulation-Based Inference (SBI) is a modern approach, drawing on machine learning, designed specifically for this problem. SBI methods learn a statistical relationship directly from running your simulator multiple times with different inputs. Their key advantage is the ability to estimate the range of parameter values (and their probabilities) that are consistent with your observed data, providing a measure of uncertainty. This works even for complex 'black-box' simulators where the internal equations might be unknown or intractable. For instance, when modeling disease spread like COVID-19, knowing the uncertainty around estimated infection rates is crucial for making informed decisions – SBI provides exactly this, but for any kind of simulator as long as we can simulate enough data.
+
+This tutorial provides a comprehensive, practical introduction to SBI using the `sbi` [Python package](https://sbi.readthedocs.io/en/latest/). `sbi` implements state-of-the-art SBI algorithms, often using neural networks, and is actively developed by a large community (it's a NumFOCUS affiliated project with over 70 contributors and yearly collaborative hackathons). We will guide you through the entire practical workflow:
+
+- A-prior checks: Defining parameter ranges of interest and running initial simulations to check if the model can plausibly generate data similar to observations.
+- Choosing and applying SBI methods: Learning about different SBI strategies (like those that directly estimate parameter probabilities, approximate likelihoods, or work with probability ratios) and selecting one suitable for your specific problem.
+- A-posteriori checks: Evaluating how accurately the underlying machine learning models have learned to infer parameters.
+- Interpretation: understanding and drawing scientific conclusions from SBI results. 
+
+The tutorial combines accessible explanations of the concepts with hands-on coding exercises using `sbi`, enabling you to apply these techniques to your own research problems.
+
+**Target Audience:** This tutorial is aimed at individuals comfortable with Python programming who work with computational simulation models in science or engineering and need to estimate parameters from data. Researchers and practitioners looking for practical methods to quantify parameter uncertainty in complex systems will find this useful.
+
+**Prerequisites:**
+- Proficiency in Python programming.
+- No prior knowledge of Bayesian statistics is required. 
+
+**Learning Objectives:** Upon completion, participants will be able to:
+- Understand the concept of Simulation-Based Inference (SBI) and its advantages for parameter estimation in complex simulators.
+- Apply the `sbi` Python package to estimate parameter ranges and uncertainty from simulation outputs.
+- Become familiar with common neural network-based SBI techniques and their use cases.
+- Evaluate the results of an SBI analysis to ensure reliability.
+- Perform the complete SBI workflow using the `sbi` package on their own problems.
+
+This tutorial will equip participants with the practical skills to effectively use the sbi package for more reliable parameter estimation and uncertainty quantification in their simulation-based models.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

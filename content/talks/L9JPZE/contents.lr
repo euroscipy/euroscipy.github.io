@@ -1,0 +1,55 @@
+title: Accelerate your scientific Python code with Rust
+---
+created: 
+---
+code: L9JPZE
+---
+speaker_names: Juan Luis Cano Rodríguez
+---
+speakers:
+
+
+### Juan Luis Cano Rodríguez
+
+Juan Luis (he/him/él) is an Aerospace Engineer with a passion for tech communities and sustainability. He works at QuantumBlack, AI by McKinsey, as Product Manager for Kedro, an open source Python framework for reproducible, maintainable and modular data science code. He has worked as Developer Advocate at Read the Docs, as software engineer in the space, consulting, and banking industries, and as a Python trainer for several private and public entities.
+
+Apart from being a long-time user and contributor to many projects in the scientific Python stack (NumPy, SciPy, Astropy) he has published several open-source packages, the most important one being poliastro, an open-source Python library for interactive astrodynamics used in academia and industry.
+
+Finally, Juan Luis is the founder and former chair of the Python España association, the point of contact for the Spanish Python community, former organizer of PyCon Spain, and current organizer of the PyData Madrid monthly meetups.
+
+---
+abstract:
+
+Combining Python with compiled languages for speed is far from novel - the scientific Python ecosystem has been doing it for around 25 years! Specifically, Rust has proven to be a particularly solid companion for Python in recent times, thanks in large part to the great tooling available. The impact on scientific Python code can be huge. And yet, the language has a reputation of having a steep learning curve.
+
+Creating your first Rust extension for Python can be done in 5 minutes thanks to uv and maturin (no exaggeration), but of course that's just the beginning. In this talk you will learn everything else you need to make your numerical code blazing fast with Rust.
+---
+full_description:
+
+The outline will be roughly as follows:
+
+1. Python is slow, you say? (3 min)
+2. Python + Rust = 🤜🤛 (5 min)
+3. Gentle introduction to PyO3 (5 min)
+4. Passing NumPy arrays in and out with ndarray (5 min)
+5. Your first Rust extension (live demo) (5 min)
+6. Conclusions (2 min)
+
+The demo will showcase some simple numerical algorithms that benefit from having a Rust implementation. Light performance benchmarks will be shown.
+
+Familiarity with Python is required. No prior exposure to Rust is needed.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

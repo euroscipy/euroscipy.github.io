@@ -1,0 +1,47 @@
+title: GPU Python for the Real World: Practical GPU-Accelerated Python with RAPIDS
+---
+created: 
+---
+code: CBPMEK
+---
+speaker_names: Jacob Tomlinson
+---
+speakers:
+
+
+### Jacob Tomlinson
+
+Jacob Tomlinson is a senior software engineer at NVIDIA. His work involves maintaining open source projects including RAPIDS and Dask. He also tinkers with kr8s in his spare time. He lives in Exeter, UK.
+
+---
+abstract:
+
+NVIDIA GPUs offer unmatched speed and efficiency for data processing and model training, significantly reducing the time and cost associated with these tasks. Using GPUs is even more tempting when you use zero-code-change plugins and libraries. You can use PyData libraries including pandas, polars and networkx without needing to rewrite your code to get the benefits of GPU acceleration. We can also mix in GPU native libraries like Numba, CuPy and pytorch to accelerate our workflows from end-to-end.
+
+However, integrating GPUs into our workflow can be a new challenge where we need to learn about installation, dependency management, and deployment in the Python ecosystem. When writing code, we also need to monitor performance, leverage hardware effectively, and debug when things go wrong
+
+This is where RAPIDS and its tooling ecosystem comes to the rescue. RAPIDS, is a collection of open source software libraries to execute end-to-end data pipelines on NVIDIA GPUs using familiar PyData APIs.
+---
+full_description:
+
+In this tutorial we will cover:
+- Introduction to cuDF, cuML and more that showcases a simple example of data processing and model training on GPUs.
+- Answers to questions like: “Where do I get a GPU?”, “How do I run a container on a VM with a GPU?”, “How do I install GPU packages into an existing environment?”, as well as follow along examples to get a GPU up and running.
+- Troubleshooting and monitoring:  Examples of performance analysis, diagnostics, and debugging.
+
+This is a hands-on tutorial, with multiple examples to get familiarized with the RAPIDS ecosystem. Participants should ideally have some experience using Python, pandas and sci-kit learn. We'll use cloud-based VMs, so familiarity with the cloud and resource creation is helpful but not required. No prior GPU knowledge is needed.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

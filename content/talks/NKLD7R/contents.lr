@@ -1,0 +1,42 @@
+title: Let's rewrite optimagic from scratch in half an hour and see what we can learn
+---
+created: 
+---
+code: NKLD7R
+---
+speaker_names: Janos Gabler
+---
+speakers:
+
+
+### Janos Gabler
+
+Author of optimagic | Head of TransferLab at appliedAI | Expert in numerical optimization | Building Bandsaws, Pizza Ovens and Furniture
+
+---
+abstract:
+
+Optimagic provides a unified interface to optimization algorithms from various packages while adding convenience features like optimizer histories, error handling, and flexible parameter formats — all  in a relatively small code base and without modifying the source code of optimizers. In this talk, we'll build a simplified version of optimagic to demonstrate the core architectural principles that make this possible. By exploring these ideas, we'll show how they can be applied beyond optimization to simplify and enhance other scientific Python projects.
+---
+full_description:
+
+Optimagic provides a unified interface to optimizers from SciPy, NlOpt, Pygmo and many other packages. In a relatively small code base, we add many convenience features to the algorithms we wrap.  Collecting and plotting optimizer histories, error handling, and flexible parameter formats are just a few examples. All of this is done without accessing or modifying the source code of the original optimizers, which makes it very simple to add more optimizers to optimagic. 
+
+This is made possible by a few simple architectural ideas that could also be applied in other scientific packages or research code. In this talk we create a super-simplified educational rewrite of optimagic that illustrates the core ideas and explains how we use them to implement powerful features. We finish by collecting a few examples where the same ideas could be applied to create simple, robust and user-friendly code in other open-source packages or research projects. 
+
+The talk is meant for users and maintainers of scientific packages alike. No previous experience or interest in numerical optimization is required.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

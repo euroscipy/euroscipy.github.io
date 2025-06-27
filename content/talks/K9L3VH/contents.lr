@@ -1,0 +1,57 @@
+title: Units next to your Data: Arrays with Scipp
+---
+created: 
+---
+code: K9L3VH
+---
+speaker_names: Mridul Seth
+---
+speakers:
+
+
+### Mridul Seth
+
+
+
+---
+abstract:
+
+Inspired by xarray, Scipp enriches raw NumPy-like multi-dimensional data arrays by adding named dimensions and associated coordinates. For an even more intuitive and less error-prone user experience, Scipp adds physical units to arrays and their coordinates. There are multiple ways of working with units in the Scientific Python world, and there are even new initiatives like the Units/Quantity API and in this talk we will look at Scipp (which wraps around llnl-units).
+
+But units are just one part of working with scientific data. Scipp also has a powerful non-destructive binning method to sort record-based "tabular"/"event" data into arrays of bins which could be useful if you are dealing with lots of data which needs to analyzed quickly. Scipp can also natively propagate uncertainties through your computations. Stop by this talk if you would like to see how Scipp can power scientific data analysis.
+---
+full_description:
+
+This talk will introduce the Scipp library, originally developed for neutron science experiments, and how it can be useful for record-based "tabular"/"event" data in general.
+
+One of Scipp's key features is the possibility of binning to sort record-based data into arrays of bins. This provides fast and flexible binning, rebinning, and filtering operations, all while preserving the original individual records.
+
+If your use case requires one or several of the items on the following list, using Scipp may be worth considering:
+- Physical units are stored with each data or coord array and are handled in arithmetic operations.
+- Histograms, i.e., bin-edge axes, which are by 1 longer than the data extent.
+- Support for non-regular or scattered data and non-destructive binning.
+- Support for masks stored with data.
+- Propagation of uncertainties.
+- Internals written in C++ for better performance (for certain applications), in combination with Python bindings.
+
+In the talk we will cover:
+- Why units are important? What's the current landscape? (5 mins)
+- Labeled dimensions, Units (in Scipp) and data structures in scipp (5 mins)
+- Bins, Histograms and Uncertainties in Scipp (10 mins)
+- Tips and tricks of multi dimensional data handling (5 mins)
+- Buffer and Q/A (5 mins)
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

@@ -1,0 +1,72 @@
+title: Industrial-Level Documentation for Scientific Projects
+---
+created: 
+---
+code: SNPKGF
+---
+speaker_names: Revathy Venugopal
+---
+speakers:
+
+
+### Revathy Venugopal
+
+
+
+---
+abstract:
+
+**Tools Used:**
+ 
+- Sphinx
+- Sphinx AutoAPI
+- Fuse.js
+- Towncrier
+- Sphinx Design
+- Google Search Console
+ 
+## Abstract
+ 
+Maintaining high-quality documentation in large-scale open-source organizations is a complex and time-consuming challenge, despite significant advancements in documentation tools. This talk presents a collection of strategies, tools, and workflows designed to optimize the documentation process for scientific projects, improving both efficiency and user experience.
+ 
+We will explore techniques for building dynamic, user-friendly documentation using Sphinx, including:
+ 
+- Auto-generating API documentation
+- Implementing fast, client-side search
+- Enhancing SEO for better discoverability
+- Streamlining CI/CD workflows for seamless documentation deployment
+ 
+Attendees will gain insights into evolving existing documentation themes or creating new ones tailored for scalable, modern scientific projects.
+---
+full_description:
+
+This talk focuses on making documentation effortless by centralizing key updates and methodologies, ensuring consistency across multiple libraries. By automating documentation workflows, organizations can reduce manual effort while maintaining high standards of clarity and usability.
+ 
+Key topics covered include:
+ 
+- **Automated API Documentation with AutoAPI:** Using Sphinx AutoAPI, Jinja, and Sphinx Design to create dynamic, auto-generated documentation that communicates all methods, classes, attributes, and imports depending on the module. Proper structuring and a solid table of contents ensure clarity and navigability.
+ 
+- **Changelog Generation with Towncrier:** Implementing automatic changelog generation that creates a dynamic "What's New" section, clearly displaying issues and links in tabs for concise, understandable release notes.
+ 
+- **Real-Time search with Fuse.js:** The importance of real-time search results as users type. We use Fuse.js to integrate live search into the documentation with minimal configuration. The search is browser-based, ensuring it works efficiently, even when servers or third-party libraries are not available.
+ 
+- **SEO for Better Discoverability:** Understanding the key steps to improve SEO for documentation, ensuring that the content is easily discoverable on Google. We will discuss techniques to enhance the visibility of your docs and increase search clicks using Google Search Console (GSC).
+ 
+- **Accessibility and UX Enhancements:** The importance of ensuring documentation is accessible to everyone, regardless of ability. We will explore how to implement dark/light themes, improve visual elements like icons, fonts, and snippets, and ensure the overall UI/UX design promotes inclusivity.
+ 
+These approaches are applicable to organizations of all sizes, offering scalable solutions that not only streamline documentation processes but also enhance the overall user experience.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

@@ -1,0 +1,44 @@
+title: Annotating the dynamic: Type Annotation for DataFrames
+---
+created: 
+---
+code: DASHT7
+---
+speaker_names: Frank Sauerburger
+---
+speakers:
+
+
+### Frank Sauerburger
+
+Frank became a self-employed software developer and consultant while studying Physics in Freiburg, contributing to open-source projects. During his Master's, he specialized in data analysis for particle physics at CERN and obtained a doctoral degree in 2022, working with the ATLAS collaboration. Since 2023, he has been AI Technical Leader and AI Engineer Lead at MDPI, one of the largest open-access publishers.
+
+---
+abstract:
+
+While type annotation has significantly improved the readability and structure of general application code, its applicability to DataFrames—a fundamental component in data science—has yet to be fully realized. The dynamic and runtime-defined nature of DataFrames contrasts the development-time nature of type annotation. As a DataFrame schema is often only known at runtime, e.g., after reading an input file, utilizing type annotations to enhance schema validation and code readability presents a challenge.
+
+The tutorial is intended for hands-on Python enthusiasts who work with DataFrames. The tutorial introduces type annotation and presents its advantages regarding readability, maintainability, tooling, and static code analysis. The tutorial explores libraries and tools to leverage the advantages of type annotation at development-time and libraries to enforce runtime validation. The tutorial dives into the benefits of type annotations of DataFrames and highlights the limitations of type annotations specific to the dynamic nature of DataFrames. Therefore, the tutorial will present best practices for leveraging type annotations with DataFrames.
+---
+full_description:
+
+The introduction of type annotation in Python has sparked debates, but it is now widely accepted as a best practice in modern development. In Python, type annotation is used primarily during development and is typically ignored during runtime. Development tools use type annotation to validate code. Type annotation offers numerous benefits, such as enhancing suggestions provided by Integrated Development Environments (IDEs), improving the maintainability of existing code bases, and enabling features like dependency injection.
+
+While type annotation has significantly improved the readability and structure of general application code, its applicability to DataFrames—a fundamental component in data science—has yet to be fully realized. The dynamic and runtime-defined nature of DataFrames contrasts the development-time nature of type annotation. As a DataFrame schema is often only known at runtime, e.g., after reading an input file, utilizing type annotations to enhance schema validation and code readability presents a challenge.
+
+The tutorial is intended for hands-on Python enthusiasts who work with DataFrames. The tutorial introduces type annotation and presents its advantages regarding readability, maintainability, tooling, and static code analysis. The tutorial explores libraries and tools to leverage the advantages of type annotation at development-time and libraries to enforce runtime validation. The tutorial dives into the benefits of type annotations of DataFrames and highlights the limitations of type annotations specific to the dynamic nature of DataFrames. Therefore, the tutorial will present best practices for leveraging type annotations with DataFrames.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

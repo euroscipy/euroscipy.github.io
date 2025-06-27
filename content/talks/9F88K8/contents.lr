@@ -1,0 +1,49 @@
+title: Python for subsea engineering: A case study on seabed object detection using AI/ML
+---
+created: 
+---
+code: 9F88K8
+---
+speaker_names: Samarth Bachkheti
+---
+speakers:
+
+
+### Samarth Bachkheti
+
+Samarth Bachkheti is a geophysicist and AI practitioner specializing in seismic imaging, quantitative interpretation, and geomechanical assessment for offshore energy projects. With expertise in machine learning applications for geoscience, he leads the development of deep-learning tools for seabed imaging and offshore site assessments. His recent work focuses on deep learning for underwater object detection, integrating AI into geophysical workflows to enhance efficiency and accuracy in offshore engineering. He has presented at industry conferences and actively collaborate with research institutions to advance AI adoption in geoscience.
+
+---
+abstract:
+
+This talk explores the application of deep learning in automating object detection using high-resolution seabed images. I will discuss the challenges of working with seabed datasets, strategies for training AI models with limited labelled data, and key considerations when choosing a deep learning framework for geospatial analysis. Using offshore wind farm site assessments as a case study, I will provide practical insights on image pre-processing, model selection, and workflow integration to enhance efficiency in marine geospatial data analysis.
+---
+full_description:
+
+Recent advancements in artificial intelligence are transforming seabed imaging and geospatial data analysis, enabling more efficient and accurate engineering hazard assessments. Traditionally, seabed object detection relied on manual interpretation of sonar and bathymetric datasets, a time-intensive and subjective process. By leveraging Convolutional Neural Networks (CNNs), we can now automate feature extraction, reducing processing time while improving consistency and scalability in offshore wind farm installations, oil and gas site assessments, and carbon sequestration projects.
+
+Objectives:
+This talk will outline our experience in developing an AI-assisted seabed object detection workflow, addressing the unique challenges of underwater imagery. Unlike terrestrial datasets, subsea images suffer from noise, inconsistent lighting, and varying sensor resolutions, making deep learning adaptation non-trivial. I will share insights on choosing an appropriate deep learning framework,  based on usability, flexibility, and performance. Pre-processing underwater imagery is a critical step, requiring techniques to mitigate noise, distortion, and lighting variations in seabed survey data.
+
+Talk Structure:
+1. Introduction: Importance of seabed object detection and AI's role in offshore wind, marine, and geospatial analysis (3 Minutes)
+2. Data Acquisition & Preprocessing: Handling high-resolution seabed survey data and potential applications across other remote sensing using Python libraries (NumPy, Rasterio, GDAL, OpenCV, Scikit-Image) (5 Minutes)
+3. Deep Learning Approach: Model selection, training process, and feature extraction using TensorFlow, PyTorch, Scikit-learn, and XGBoost (6 Minutes)
+4. Validation & Accuracy Assessment: Comparing AI predictions with expert-labelled datasets (4 Minutes)
+5. Results & Visualization: Mapping classified seabed features with Geopandas and Matplotlib (5 Minutes)
+6. Applications & Future Scope: Expanding AI use in geospatial workflows, including aerial imaging, LiDAR, sonar analysis, and real-time object detection in underwater robotics (2 Minutes)
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

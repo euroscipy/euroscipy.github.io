@@ -1,0 +1,59 @@
+title: A Hitchhiker's Guide to the Array API Standard Ecosystem
+---
+created: 
+---
+code: X9TUZ8
+---
+speaker_names: Lucas Colley
+---
+speakers:
+
+
+### Lucas Colley
+
+I am an undergraduate student studying Computer Science & Philosophy at the University of Oxford. I am also a maintainer of SciPy and array-api-extra, a member of the Consortium for Python Data API Standards, and a founding member of quantity-dev.
+
+---
+abstract:
+
+The array API standard is unifying the ecosystem of Python array computing, facilitating greater interoperability between code written for different array libraries, including NumPy, CuPy, PyTorch, JAX, and Dask.
+
+But what are all of these "array-api-*" libraries for? How can you use these libraries to 'future-proof' *your* libraries, and provide support for GPU and distributed arrays to your users? Find out in this talk, where I'll guide you through every corner of the array API standard ecosystem, explaining how SciPy and scikit-learn are using all of these tools to adopt the standard. I'll also be sharing progress updates from the past year, to give you a clear picture of where we are now, and what the future holds.
+---
+full_description:
+
+Support for alternative array libraries is one of the most common requests put to libraries written on top of NumPy. Users are often interested in boosting their performance by using libraries which can make the most of the hardware available to them, as well as techniques like Just-In-Time compilation. Unfortunately, supporting multiple array libraries is not simple due to API differences, so such support has historically meant heavy duplication of work, with a whole new implementation for each alternative array library. This duplication of work is at best inefficient, and at worst infeasible for maintainers of many libraries.
+
+The Python array API standard aims to standardise functionality which exists in most array libraries. It specifies an API which 'array-consumer' libraries can use to write 'array-agnostic' code, where the same codebase can support many array libraries at once.
+
+In this talk, I give a brief introduction to the standard, before taking you on a tour of the standard's ecosystem, explaining how each library built around the standard fits into the bigger picture. I'll explain what the standard enables for SciPy and scikit-learn, and what else may be needed in the future.
+
+After this talk, you'll be well-acquainted with the following libraries from the data-apis org:
+- array-api
+- array-api-tests
+- array-api-compat
+- array-api-strict
+- array-api-extra
+
+I'll also be mentioning some exciting new tools like MArray.
+
+Rough talk outline:
+- 5 mins — what is the array API standard, and what problem is it addressing?
+- 10 mins — a tour of the ecosystem: what do all of these libraries do, and how can you use them?
+- 10 mins — updates from the past year, status of where we are now, what is coming in the future?
+- Any spare time — try some live coding!
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

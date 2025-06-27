@@ -1,0 +1,55 @@
+title: How to become a software detective and perform security research
+---
+created: 
+---
+code: CHDNML
+---
+speaker_names: Przemek
+---
+speakers:
+
+
+### Przemek
+
+Web & mobile security researcher with a few years of experience. MSc in computer sciences. Currently working on network security, including kubernetes infrastructure. In free time doing hackthebox, sharing knowledge and analysing applications in Apple ecosystem.
+
+---
+abstract:
+
+Security research is crucial amid the rapid evolution of cybercrime, the prevalence of nation-state attacks, and over 40k CVEs reported last year. With plenty of learning resources online, it’s challenging to begin your own research. This talk explores fundamental approaches and techniques to discover existing vulnerabilities in software, focusing on practical aspects and essential tools to perform black box and white box analysis, use static analysis tools to understand application structure, and dynamic tools to analyze its behaviour. Additionally, we will exercise static analysis on a vulnerable Python application to apply new knowledge. The goal is to understand how to perform a security research.
+---
+full_description:
+
+Participants of this tutorial will gain a solid foundation in software analysis, with a strong emphasis on security. We will explore the significance of security research in software development and consider various resources and tools to discover existing and new vulnerabilities - including static and dynamic analysis, signature matching, automated scanning and fuzzing. 
+
+To illustrate these concepts, we’ll perform static analysis with CodeQL, Bandit and Nuclei on a vulnerable Python library as a case study. Additionally, we’ll understand different approaches and techniques to security-oriented analysis. Participants will gain essential knowledge to identify vulnerabilities, find potential targets for analysis, and apply research methodology. 
+
+This tutorial will cover
+* Relevance of security research
+* Manual/dynamic software analysis - approaches, tools, techniques
+* Automated software analysis - SAST, DAST, other tools
+* Outline research methodologies and resources
+* How to perform security research and update your knowledge
+* Practical walkthrough of vulnerable software to test acquired skills
+
+Key takeaways 
+* Basic concepts related to vulnerability research
+* Software analysis fundamentals 
+* Security analysis tools
+
+(edited)
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

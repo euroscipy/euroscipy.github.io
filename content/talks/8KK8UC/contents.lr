@@ -1,0 +1,56 @@
+title: Skrub: machine learning for dataframes
+---
+created: 
+---
+code: 8KK8UC
+---
+speaker_names: Riccardo Cappuzzo, Guillaume Lemaitre, Jérôme Dockès
+---
+speakers:
+
+
+### Riccardo Cappuzzo
+
+
+
+### Guillaume Lemaitre
+
+I'm chief machine learning officer and open source software engineer at :probabl. I'm a core developer of scikit-learn and imbalanced-learn.
+
+### Jérôme Dockès
+
+Jérôme Dockès is a research engineer at Inria and one of the developers of the Skrub and Nilearn python packages.
+
+---
+abstract:
+
+Machine-learning algorithms expect a numeric array with one row per observation. Typically, creating this table requires "wrangling" with Pandas or Polars (aggregations, selections, joins, ...), and to extract numeric features from structured data types such as datetimes. These transformations must be applied consistently when making predictions for unseen inputs, and choices must be informed by performance measured on a validation dataset, while preventing data leakage. This preprocessing is the most difficult and time-consuming part of many data-science projects.
+
+Skrub bridges the gap between complex tabular data stored in Pandas or Polars dataframes, and machine-learning algorithms implemented by scikit-learn estimators. It provides scikit-learn transformers to extract features from datetimes, (fuzzy) categories and text, and to perform data-wrangling such as joins and aggregations in a learning pipeline. Its pre-built, flexible learners offer very robust performance on many tabular datasets without manual tweaking. It can create complex pipelines that handle multiple tables, while easily describing and searching rich hyperparameter spaces. As interactivity and visualization are essential for preprocessing, Skrub also provides an interactive report to explore a dataframe, and its pipelines can be built incrementally while inspecting intermediate results.
+
+We will give an overview of Skrub and demonstrate its features on realistic and challenging tabular learning scenarios
+---
+full_description:
+
+In the tutorial we will teach how to use skrub to easily tackle datasets that would be challenging to analyze using only scikit-learn.
+
+First, we will consider a dataset containing a single table, with information about company employees such as hiring date and role description. While its structure is relatively simple, this dataset would be challenging without skrub due to the richness of the data types it contains, including dates, categories and text. We will show how skrub can create an interactive report to see a sample, data distribution plots, summary statistics and measurements of association between the different columns. We will then show that with one line of code we can already get a very good generalization performance, thanks to skrub's pre-built learner that makes the appropriate modelling choices for the different kinds of columns found in the data. Next, we will dive into the internals of that generic pipeline to show the different encoders it uses for dates, high- and low-cardinality categories, and which can be useful on their own.
+
+In a second part, we will consider a dataset which could not be processed in a scikit-learn pipeline. The task is to detect fraud in e-commerce transactions and there are two tables with a one-to-many relationship: a table of orders and a table of products, where each order can contain multiple products. Even though it is a simple dataset, it would be difficult to handle correctly without skrub due to the need to vectorize the rich, heterogeneous data in the products table before it can be aggregated and joined to the orders (and thus the prediction targets). An upcoming addition to skrub (that will be merged in the next few weeks) allows us to easily build a pipeline that handles multiple tables and contains arbitrary dataframe transformations. Moreover, it allows tuning any of the choices we make with scikit-learn's grid or randomized search, without the need to manually construct a complex hyperparameter grid. We will explain the concepts behind these tools and illustrate them by building an effective learner for this dataset. We will also discuss the modelling choices involved and explore the available options through hyperparameter search.
+
+Finally, we will conclude with a brief summary of ongoing development and future enhancements to skrub.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

@@ -1,0 +1,54 @@
+title: Maintaining People, Not Just Projects: Attracting and Retaining Talent in FOSS
+---
+created: 
+---
+code: QPF9N7
+---
+speaker_names: Kai Striega
+---
+speakers:
+
+
+### Kai Striega
+
+Kai is a senior software engineer and open source contributor with a focus on scientific computing and mathematical optimization. He currently works at Cartesian Software in Sydney, Australia, where he develops high-performance tools for solving large-scale linear programming problems. With a background in both software engineering and applied mathematics, his work bridges the gap between research-grade algorithms and production-ready systems.
+
+He is an active member of the scientific Python ecosystem and a passionate advocate for sustainable open source development. His contributions span core libraries, tooling, and infrastructure that support numerical analysis, data workflows, and optimization.
+
+---
+abstract:
+
+The scientific Python ecosystem powers research, education, and innovation across disciplines from physics and biology to finance and AI. However, the long-term sustainability of this ecosystem depends on the people behind it. While the Scientific Python ecosystem continues to attract new contributors, retaining them remains a challenge with factors such as unclear career pathways, emotional labor, burnout, funding limitations, and project governance can discourage continued involvement. 
+
+This discussion is about the human side of open source: mentorship, collaboration, recognition, and belonging. The discussion will aim to surface practical ideas we can take back to our respective projects, as well as identify shared challenges we may be able to address together across the ecosystem.
+---
+full_description:
+
+The scientific Python ecosystem powers research, education, and innovation across disciplines from physics and biology to finance and AI. But its long-term sustainability doesn’t just depend on code, it depends on people!
+
+As maintainers, we often focus on the technical infrastructure of our projects: CI pipelines, packaging, release cycles. Yet the more enduring challenge is sustaining the human infrastructure that makes open source possible in the first place. While new contributors continue to find their way into the ecosystem, many don’t stay. Unclear career pathways, emotional labor, burnout, limited funding, and governance challenges all play a role in attrition.
+
+This round table is an opportunity for maintainers to step back from triage and talk candidly with peers about the human side of open source: mentorship, collaboration, recognition, and belonging. We’ll explore the shared challenges we face in attracting and retaining contributors and the practical strategies that have helped us build healthier, more resilient communities.
+
+This session is designed as a participatory, peer-to-peer discussion. However some topics that we could explore are:
+
+* Why contributors join—and why they leave
+* Mentorship models that actually scale
+* Recognition and credit (in academia and beyond)
+* Balancing paid and volunteer contributions
+* Avoiding burnout (yours and others’)
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

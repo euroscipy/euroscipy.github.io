@@ -1,0 +1,66 @@
+title: Recent Developments in Pytensor, the Successor Package to Theano
+---
+created: 
+---
+code: LR7S8P
+---
+speaker_names: Ricardo Vieira, Jesse Grabowski
+---
+speakers:
+
+
+### Ricardo Vieira
+
+
+
+### Jesse Grabowski
+
+Doctoral Candidate - University of Paris I: Panthéon-Sorbonne
+Trilingual economist and data scientist with experience in North America, Africa, Europe, and Asia.
+
+---
+abstract:
+
+We present the latest developments in Pytensor, the successor package to Theano. Pytensor is a package for defining, manipulating, optimizing, and compiling static computational graphs. We especially focus on full graph-to-graph transformations relevant to the goals of a Bayesian/ML workflow. These allow the user to define a single computational graph, which can then be reused in multiple contexts. In the Bayesian workflow, we are able to extract exact expressions for probabilistic inference from a generative sampling model, or automatically marginalize discrete random variables. In a deep-learning workflow, we can automatically remove dropout and normalization layers when compiling a prediction function from a training graph, or replace expensive operations, such as transformers, with specialized forms at compile time. Finally, we show how the same machinery leads naturally to transpilation into compiled languages, via packages like Numba, Jax, and Pytorch
+---
+full_description:
+
+After MILA offically stopped development of Theano in 2018, the PyMC project forked the project and continued developing the package under a series of names: Theano-PyMC, Aesara, and now Pytensor. This choice was motivated by Theano's decision to put static computational graphs directly in front of the user.  This choice turned out to be ideal for Bayesian inference, because it allows for powerful graph-to-graph transformations. For example, a graph that defines a data generating process via draws from random variables can be automatically translated into a backwards process describing the log probability of observed data, conditioned on draws from prior distributions. This is precisely the same logic that underpins reverse-mode automatic differentiation. It turns out this idea of graph transformation is extremely powerful, and development of Pytensor has focused on fully leveraging this power.
+
+Recently, new features have been added to Pytensor, making it a powerful tool for workflows in statistics, machine learning, and Bayesian modeling. One of the most powerful features of Theano was it's use of graph rewrites to optimize computation beyond what a compiler is willing or able to do. A canonical example is to rewrite the express `log(1 + x)` to `log1p(x)`, a version of the computation that remains numerically stable for small values of `x`. Pytensor has fully embraced the system of graph rewrites, and has expanded it to include many new cases, including: 
+
+- Op fusion: finding sub-graphs that are re-used multiple times on different inputs. These are fused into a single composite Op, compiled once, and re-used.
+- Aggressive inplacing: identifying all cases where intermediate computations can performed destructively "in-place", alleviated the need for expensive memory allocations
+- Pre-gradient stabilization: maintain a library of mathematically "non-destructive" rewrites that simplify arbitrary user expressions into simpler forms, leading to cleaner gradient graphs after applying autodiff
+- Linear algebra optimization: reason about the types of matrices in a graph, and automatically apply specializations to expensive operations. For example, `det(diag(x))` is rewritten to `prod(diag(x))`, and `inv(kron(a, b))` to `kron(inv(a), inv(b))`.
+
+These rewrites are possible because as a user writes Pytensor code, a static graph is constructed. At any time, the user can inspect the graph, or directly intervene on it. These interventions include extracting sub-graphs, replacing or removing inputs or functions, or applying entire graph-to-graph transformations. The majority of our talk will focus on this last operation, which represents one of the most unique and powerful features of Pytensor. This capability was first used in Theano to perform automatic differentiation. Given a forward graph of a scalar loss function, a gradient graph can be created by walking backwards from the loss in topological order, applying the chain rule. Graph-to-graph transformations can go far beyond this application. We present the following examples:
+
+- *Vectorization*. Pytensor can replace an n-dimensional input with an (n+k) dimensional input, then propagate the consequences through the graph. For example, `dot(matrix, vector)` can be replaced with `dot(tensor3, vector)`, and Pytensor will automatically apply a batched dot product across the left-most dimension of the `tensor3` input. The new output shape will also be propagated to any down-stream computations.
+
+-  *Automatic probability derivation*. The PyMC package uses to Pytensor to transform a user-defined generative graph, which produces samples of data from priors and inputs, to a graph that gives the probability of observing an output sample, given parameters. In this way, a single model declaration is reused for both inference via Bayes' Law, and for pre- and post-estimation tasks that require forward sampling    
+
+- *Automatic marginalization*. Similarly, having access to the full graph lets Pytensor reason about non-trivial graph replacements, such as automatic marginalization of random variables. This can remove nuisance parameters from a model and significantly speed up inference algorithms. In addition, because pytensor can graphically verify that batch dimensions remain independent, the algorithm is bounded by the size of the domain of the random variables, rather than by their actual input size. When marginalizing a hidden markov chain, for example, this means we only have to do `states * steps` computations, instead of `states ^ steps` (this is the celebrated "forward algorithm"). 
+
+We also give several examples where Pytensor offers advantages in deep learning contexts, including:
+
+- *Training to prediction transformation*: A common source of errors when working with deep learning models is forgetting to manually remove training-only Ops like dropout and batch norm. Pytensor can automate these tasks using rewrites, which can be automatically applied by a deep learning API built on top of pytensor
+
+-*Op Specialization*: Certain extremely expensive layers used in deep learning, including convolutions and transformers, have specialized forms that can be used when the right conditions are met. Examples include FFT-convolution and FlashAttention. Pytensor can recognize Op sequences of the form `matmul-mask-softmax-dropout-matmul` and replace them with a single `FlashAttention` Op. Similarly, convolution Ops can be replaced with FFT convolutions when the kernels are sufficiently large. Both of these optimizations can be done automatically, without users necessarily having to know the intricacies of when and how these specialized versions should be used.
+
+We conclude with a short description of planned features for our upcoming Pytensor 3.0 release, and an invitation for interested audience members to try the package and submit issues/PRs.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

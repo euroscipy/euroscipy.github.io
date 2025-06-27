@@ -1,0 +1,55 @@
+title: The BrainGlobe initiative - image analysis in a common coordinate space.
+---
+created: 
+---
+code: JACK7B
+---
+speaker_names: Igor Tatarnikov
+---
+speakers:
+
+
+### Igor Tatarnikov
+
+Igor Tatarnikov is a Research Software Engineer at University College London’s Sainsbury Wellcome Centre, where he aspires to create easy to use software tools for neuroscientists with a focus on image analysis.
+ 
+Igor holds a BSc in Microbiology and Immunology and an MSc in Neuroscience from the University of British Columbia (Vancouver, Canada), as well as a Bachelor in Computer Science from Dalhousie University (Halifax, Canada). For his MSc, Igor explored the electrophysiological characteristics of genetic mouse models of Parkinson’s disease. Igor’s multidisciplinary background is particularly useful for his current work, where he creates open-source tools for neuroanatomical image analysis.
+
+---
+abstract:
+
+The BrainGlobe initiative provides open-source tools for analysis and visualisation of brain microscopy imaging data. Neuroanatomy is key to understanding the brain. However, current tools are often specialised for a single model species or image modality and lack sustained support post-publication. BrainGlobe provides a generalised framework for representing multiple anatomical atlases within and across species, allowing our tools to be uniquely interoperable. Registration tools allow the outputs of BrainGlobe packages to be placed within the broader context of a neuroanatomical atlas. This enables unique downstream analyses that would otherwise be extremely time consuming. Our goal is to empower users with easily accessible analysis and visualisation tools that can be ready for use within minutes on a standard laptop.
+---
+full_description:
+
+The [BrainGlobe](https://brainglobe.info) initiative has three main goals: providing specific tools for analysis and visualisation, cultivating core tools to facilitate development of interoperable tools in Python, and fostering a community of neuroscientists and developers to share knowledge, build software, and engage with the scientific and open source community. The development of BrainGlobe builds upon and relies heavily on established packages from the broader scientific Python ecosystem ensuring compatibility and interoperability with other tools. Our initiative addresses the crucial need for interoperability in neuroscience research by offering a comprehensive suite of tools accessible to users across different platforms. With a focus on ease of installation and usability, our goal is to empower researchers to analyse neuroanatomical data efficiently and introduce them to the broader scientific python ecosystem. 
+
+In this talk I plan to discuss the benefits of working in a common coordinate space for image analysis and visualisation. I will begin by introducing the concept of a BrainGlobe atlas and the associated [brainglobe-atlasapi](https://github.com/brainglobe/brainglobe-atlasapi) package. This standard access point has enabled the emergence of an ecosystem of BrainGlobe tools, developed both internally by the core BrainGlobe team, and externally by outside contributors. Abstracting the concept of an atlas and standardising access allows the downstream tools to be species agnostic, widening the potential user pool. I will then describe [brainreg](https://github.com/brainglobe/brainreg) and [brainglobe-registration](https://github.com/brainglobe/brainglobe-registration), the tools we use to register data into a BrainGlobe atlas. I will provide two examples of how our tools utilise BrainGlobe atlases to provide valuable context, based on the annotations of the atlas. The first example will be [brainmapper](https://github.com/brainglobe/brainglobe-workflows), a pipeline that utilises [brainreg](https://github.com/brainglobe/brainreg) and [cellfinder](https://github.com/brainglobe/cellfinder) to detect cells in large 3D volumes and output counts per anatomical region. The second example involves [brainglobe-segmentation](https://github.com/brainglobe/brainglobe-segmentation) which can be used to segment objects, and transform segmentations into sample or atlas space. Lastly, I will demonstrate visualising registered multi-modal data in 3D using [brainrender](https://github.com/brainglobe/brainrender).
+
+At present, the BrainGlobe team maintains 17 packages which have 100+ code contributors.  The [BrainGlobe Atlas API](https://github.com/brainglobe/brainglobe-atlasapi) serves as a standardised framework for working with anatomical reference atlases, facilitating comparison across samples [1]. Using [brainreg](https://github.com/brainglobe/brainreg), 3D whole-brain imaging data can be registered to any BrainGlobe atlas [2]. [Cellfinder](https://github.com/brainglobe/cellfinder) automates cell detection in large 3D images in a computationally efficient manner [3], while common neuroanatomical segmentation issues are tackled with [brainglobe-segmentation](https://github.com/brainglobe/brainglobe-segmentation) [2]. [Brainrender](https://github.com/brainglobe/brainrender) uses [vedo](https://github.com/marcomusy/vedo) to enable visualisation of 3D neuroanatomical data from both public sources and user-generated data [4, 5].
+
+Our team is continually working on addressing the needs of the community. Currently, efforts are underway to broaden the types of microscopy data registrable into the BrainGlobe ecosystem with [brainglobe-registration](https://github.com/brainglobe/brainglobe-registration), using elastix to register 2D slices, 3D sub-volumes, and whole brain data. Additionally, we are developing [brainglobe-stitch](https://github.com/brainglobe/brainglobe-stitch), a package for fusing large tiled 3D imaging datasets (300+ GB). This package will be available as a napari plugin to allow efficient previewing of the fused dataset. Lastly, we are porting the functionality of brainrender to a napari plugin, [brainrender-napari](https://github.com/brainglobe/brainrender-napari), to provide a cohesive analysis and visualisation environment for all BrainGlobe tools.  
+
+Concurrently, we are streamlining and enhancing the developer experience. This involves consolidating related repositories within the BrainGlobe codebase and extracting duplicated code to [brainglobe-utils](https://github.com/brainglobe/brainglobe-utils), a shared library. We are also intensifying efforts to improve docstring coverage and providing introductory guides for new developers, along with a development roadmap outlining planned future work.
+
+Citations:
+[1]	F. Claudi, L. Petrucco, A. Tyson, T. Branco, T. Margrie, and R. Portugues, ‘BrainGlobe Atlas API: a common interface for neuroanatomical atlases’, J. Open Source Softw., vol. 5, no. 54, p. 2668, Oct. 2020, doi: 10.21105/joss.02668.
+[2]	A. L. Tyson et al., ‘Accurate determination of marker location within whole-brain microscopy images’, Sci. Rep., vol. 12, no. 1, p. 867, Dec. 2022, doi: 10.1038/s41598-021-04676-9.
+[3]	A. L. Tyson et al., ‘A deep learning algorithm for 3D cell detection in whole mouse brain image datasets’, PLOS Comput. Biol., vol. 17, no. 5, p. e1009074, May 2021, doi: 10.1371/journal.pcbi.1009074.
+[4]	F. Claudi, A. L. Tyson, L. Petrucco, T. W. Margrie, R. Portugues, and T. Branco, ‘Visualizing anatomically registered data with brainrender’, eLife, vol. 10, p. e65751, Mar. 2021, doi: 10.7554/eLife.65751.
+[5]	M. Musy et al., "vedo, a python module for scientific analysis and visualization of 3D objects and point clouds", Zenodo, 2021, doi: 10.5281/zenodo.7019968.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

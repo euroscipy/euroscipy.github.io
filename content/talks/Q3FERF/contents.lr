@@ -1,0 +1,68 @@
+title: Guardians of Science: A Python Tutorial on a RAG-Powered Compliance Plug-In and Ethical AI tools
+---
+created: 
+---
+code: Q3FERF
+---
+speaker_names: Anuradha KAR, Likhita Yerra, Anuradha Kar, PhD
+---
+speakers:
+
+
+### Anuradha KAR
+
+I am an Associate Professor in AI and Robotics at Aivancity based in Paris, France.  I got my PhD from the University of Galway in Ireland in Electrical and Electronic Engineering. I then worked at ENS Lyon in collaboration with Inria and Inrae on deep learning for 3D biological image analysis, then joined the Paris Brain Institute with Inria on deep learning for data analysis of Alzheimer's patients, and the Pasteur Institute in Paris on applications of deep learning in the field of drug discovery. My research and teaching interests focus on applications of deep learning in computer vision, computational biology and health, as well as human-machine interactions and intelligent systems.
+
+### Likhita Yerra
+
+Likhita Yerra, a Master’s student in AI and Data Science, specializes in Python, computer vision, and large language models. I develop innovative machine learning solutions with PyTorch, TensorFlow, Docker, and Streamlit, passionate about advancing AI and scientific computing for real-world impact.
+
+### Anuradha Kar, PhD
+
+
+
+---
+abstract:
+
+As AI adoption accelerates across industries, ensuring ethical integrity and reproducibility has become increasingly critical for enterprises and developers. This tutorial presents a Retrieval-Augmented Generation (RAG)-based compliance plug-in designed to promote responsible AI practices. Through a hands-on session, participants will learn how to integrate external compliance knowledge bases with generative models to automate ethical checks, document decision-making processes, and enhance the reproducibility of AI outputs. The session will cover system architecture, implementation using popular frameworks, and practical use cases, equipping attendees with tools to embed trust and accountability into AI workflows from the outset.
+Over the course of 90 minutes, we will introduce the core concepts behind the Python-based plug-in, including RAG architecture and vector-based retrieval techniques. Participants will engage with live demonstrations on querying regulatory standards such as the European Union Artificial Intelligence Act and FAIR (Findable, Accessible, Interoperable, Reusable) principles. The tutorial will also showcase bias auditing and model transparency features, using a healthcare case study to illustrate real-world application and highlight model tracking and reproducibility capabilities.
+---
+full_description:
+
+## Background
+The growing integration of AI in research and everyday applications brings significant challenges related to ethics, compliance, and reproducibility, which are key pillars for maintaining our trust in AI's capabilities.  Compliance challenges in AI applications arise from the need to navigate evolving regulatory standards, ensure fairness and transparency, and maintain data privacy and accountability across diverse and complex systems. Bias related issues , for example bias across demographic groups pose serious risks, while reproducibility issues, such as incomplete experiment documentation or unstable software environments, further erode confidence in AI-driven applications. To tackle these problems, we present a Retrieval-Augmented Generation (RAG) framework that combines vector-based retrieval methods (e.g., FAISS for fast data access) with transformer-based language models (e.g., Mistral) to deliver transparent, standards-compliant recommendations. We also familiarize participants with complementary tools like IBM’s AI Fairness 360. that support bias detection and mitigation through metrics such as disparate impact and reweighing techniques. 
+
+##  Significance
+As AI becomes central to research across disciplines, maintaining ethical standards and reproducibility is essential. Compliance with frameworks like the EU Artificial Intelligence Act and FAIR principles helps prevent biased outcomes and irreproducible results that can damage scientific credibility. In fields such as biomedicine, social sciences, and environmental science, biased or unreliable models can have serious consequences. To address these challenges, this tutorial offers hands-on exercises with a Retrieval-Augmented Generation (RAG) compliance plugin and the IBM AI Fairness 360 toolkit. These tools help researchers detect bias, improve transparency, and ensure reproducibility, supporting the creation of trustworthy, accountable AI systems across diverse domains.
+
+## Objectives
+The tutorial aims to teach participants about the concepts like ethical compliance, RAG capabilities and tools for estimating and mitigating bias in AI workflows. We will have focused demos using the python RAG plug-in and Fairness 360 that will show how these tools solve compliance issues, using a healthcare case study. Participants will gain skills in ethical AI checks and reproducible methods, preparing them to meet global standards in their research.
+
+## Tutorial Breakdown
+* Introduction (5 min): Describe AI research challenges, like bias and reproducibility, introduce RAG, Fairness360, noting links to standards like the European Union Artificial Intelligence Act and FAIR principles.
+
+* Setup and Data Preparation (15 min): Look at setting up a Jupyter environment (Python 3.8+, FAISS, Transformers, Fairness360, MLflow, Docker, Plotly, Gradio) and review a synthetic healthcare dataset (10,000+ records, World Health Organization-aligned, with age, gender, ethnicity, and ICD-10 codes) and a pre-built compliance knowledge base (EU AI Act, FAIR, GDPR). 
+
+* Demonstration 1: Retrieval-Augmented Generation (35 min): Explore RAG’s system, showing vector-based retrieval (e.g., FAISS searching EU AI Act rules on data use) and LLM generation (e.g., Mistral creating compliance tips). Demonstrate the plug-in’s process for finding standards and making checks in the healthcare case study, like ensuring GDPR-compliant data use for diagnostic models, with MLflow tracking results. 
+
+* Demonstration 2:  Fairness360 (35 min): Study Fairness360’s bias-checking tools, calculating measures like disparate impact and statistical parity for the healthcare diagnostic model (e.g., comparing accuracy for gender and ethnicity groups). Show how to fix bias (e.g., reweighing to balance groups), using Plotly to display bias measures (e.g., bar charts of disparity) and Gradio to interact with audit reports, focusing on fair results.  
+
+* Q&A and Wrap-Up (5 min): Talk about uses in biomedicine (e.g., fair diagnostics), social sciences (e.g., unbiased data analysis), and environmental science (e.g., repeatable climate models), and answer questions to clarify concepts.
+
+## Outcomes
+Participants will deeply understand Retrieval-Augmented Generation and Fairness360, and see how they work in a compliance plug-in. They will build skills in ethical AI checks and reproducible methods, ready to use in biomedicine, social sciences, and environmental science, meeting standards like the European Union Artificial Intelligence Act and FAIR principles.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

@@ -1,0 +1,63 @@
+title: Using Cython and C++ kernels to speed up Python libraries
+---
+created: 
+---
+code: D78ZJP
+---
+speaker_names: David Cortes, Anatoly Volkov
+---
+speakers:
+
+
+### David Cortes
+
+
+
+### Anatoly Volkov
+
+I am the developer of the open-source libraries https://github.com/uxlfoundation/oneDAL and https://github.com/uxlfoundation/scikit-learn-intelex , which provide optimized implementations of classical machine learning algorithms.
+
+---
+abstract:
+
+Many high-performance Python frameworks, such as NumPy, scikit-learn, and PyTorch, rely on primitives implemented in Cython and C++ to achieve optimal performance.  
+
+In this tutorial, we will explore how to implement custom kernels in Cython and C++ and integrate them into Python projects. Using Linear Regression model trained with Normal Equations method as an example, we will demonstrate how to accelerate numerical computations by writing efficient kernels in Cython and C++. We will also discuss when implementing custom kernels is beneficial and when existing optimized libraries offer the best performance.  
+
+This tutorial is aimed at intermediate Python users. At the same time C++ knowledge is advantageous but not mandatory.
+---
+full_description:
+
+The main goal of this tutorial is to give a broader audience an overview of how high-performance libraries in Python are developed. Attendees will work with ready-made code templates and fill in missing parts to learn by doing.
+
+### **Session Outline**  
+- **(5 min) Motivation:** Problems with performance in Python and what to do with them  
+- **(10 min) Understanding Linear Regression & Normal Equations:** A brief introduction to the mathematical background, deriving the formulas that would be used for training  
+- **(10 min) Implementing a Python Baseline:** Writing a reference implementation on Python  
+- **(20 min) Optimizing with Cython:** Implementing a fast Cython-based kernel  
+- **(20 min) Example of pybind11 use:** Example of pybind11 usage for integrating kernels implemented in C++ 
+- **(15 min) Performance Comparison:** Benchmarking Python vs. Cython vs. C++ & pybind11 implementations
+- **(10 min) Q&A and Discussion**  
+
+
+By the end of this session, attendees will:
+- Understand how Python libraries achieve high performance using Cython and C++  
+- Learn how to write and integrate custom Cython or C++ kernels  
+- Know when to optimize Python code and when to rely on existing libraries  
+
+We also hope that this tutorial will inspire more people to contribute to open-source high-performance libraries.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

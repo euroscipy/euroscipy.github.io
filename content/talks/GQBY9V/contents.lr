@@ -1,0 +1,42 @@
+title: Voilà Meta-Dashboards for Streamlined Geospatial Data Visualization
+---
+created: 
+---
+code: GQBY9V
+---
+speaker_names: Davide De Marchi
+---
+speakers:
+
+
+### Davide De Marchi
+
+Davide De Marchi is a researcher and software engineer specializing in geospatial big data. He has significant experience in Big Data, Cloud Computing, GIS, Remote Sensing,  and Data Visualization.  His career includes contributions to the design and implementation of interactive visualization tools, notably at the European Commission - Joint Research Centre where he has been a key developer of the BDAP platform.  Earlier in his career, he gained substantial experience in the development of geospatial data processing software and served as an adjunct professor at the University of Urbino
+
+---
+abstract:
+
+The Joint Research Centre has cultivated significant expertise in developing Voilà dashboards using Python for scientific data visualization, resulting in the design and deployment of many real-world web applications. This presentation will highlight our commitment to building a robust Voilà developer community through dedicated training and resource libraries. We will introduce and demonstrate our innovative meta-dashboards, which streamline the creation of complex, multi-page dashboards by automating framework and code generation. A live demonstration will illustrate the ease of building a geospatial application using this tool. We will conclude with a showcase of recently developed Voilà dashboards in areas such as agricultural/biodiversity surveys and air quality monitoring, demonstrating their effectiveness in data exploration and validation.
+---
+full_description:
+
+This presentation delves into the Joint Research Centre's (JRC) extensive experience in leveraging Voilà dashboards, widget libraries, and geospatial web applications for scientific data visualization. Over the past several years, the JRC has cultivated a robust ecosystem around Voilà and Python, resulting in the design and deployment of numerous real-world web applications across diverse scientific domains, including agricultural/biodiversity surveys and air quality monitoring. This effort has been accompanied by a strong commitment to building a thriving developer community, supported by dedicated training and comprehensive resource libraries, like for example the vois Python library, available as open source at https://code.europa.eu/jrc-bdap/vois.
+
+A key focus of this talk is the introduction and demonstration of our innovative meta-dashboards. These are Voilà-powered applications designed to streamline the creation of complex, multi-page dashboards by automating framework and code generation. We will showcase how meta-dashboards, such as the tool accessible at https://vois.azurewebsites.net/, can significantly accelerate the development of complex geospatial web applications. Through a live demonstration, attendees will witness the ease with which a fully functional geospatial application can be built using these visual tools.
+
+The presentation will demonstrate Voilà's efficacy in developing real-world web applications that transform complex datasets into actionable insights. Participants will gain a clear understanding of how Voilà is used at the JRC to create powerful data visualization tools, supporting comprehensive data assessment and informed decision-making across various scientific fields. The applications showcased will highlight the ability of Voilà to handle large and complex datasets, and to create interactive environments that are easy to use and understand (see https://www.daigio.it/EuroSciPy2025/ for some screenshots of the Voilà dashboards that will be presented).
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

@@ -1,0 +1,69 @@
+title: PyPI in the face: running jokes that PyPI download stats can play on you
+---
+created: 
+---
+code: LNU8UV
+---
+speaker_names: Loïc Estève
+---
+speakers:
+
+
+### Loïc Estève
+
+Loïc has a Particle Physics background, which is how he discovered Python towards the end of his PhD.
+
+He is a scikit-learn and joblib core contributor and has been involved in a number of Python open-source projects in the past 10 years, amongst which Pyodide, dask-jobqueue, sphinx-gallery and nilearn.
+
+---
+abstract:
+
+We all love to tell stories with data and we all love to listen to them. Wouldn't it be great if we could also draw actionable insights from these nice stories?
+
+As scikit-learn maintainers, we would love to use PyPI download stats and other proxy metrics (website analytics, github repository statistics, etc ...) to help inform some of our decisions like:
+- how do we increase user awareness of best practices (please use Pipeline and cross-validation)?
+- how do we advertise our recent improvements (use HistGradientBoosting rather than GradientBoosting, TunedThresholdClassifier, PCA and a few other models can run on GPU) ?
+- do users care more about new features from recent releases or consolidation of what already exists?
+- how long should we support older versions of Python, numpy or scipy ?
+
+In this talk we will highlight a number of lessons learned while trying to understand the complex reality behind these seemingly simple metrics.
+
+Telling nice stories is not always hard, trying to grasp the reality behind these metrics is often tricky.
+---
+full_description:
+
+We all love to tell stories with data and we all love to listen to them. Wouldn't it be great if we could also draw actionable insights from these nice stories?
+
+As scikit-learn maintainers, we would love to use PyPI download stats and other proxy metrics (website analytics, github repository statistics, etc ...) to help inform some of our decisions like:
+- how do we increase user awareness of best practices (please use Pipeline and cross-validation)?
+- how do we advertise our recent improvements (use HistGradientBoosting rather than GradientBoosting, TunedThresholdClassifier, PCA and a few other models can run on GPU) ?
+- do users care more about new features from recent releases or consolidation of what already exists?
+- how long should we support older versions of Python, numpy or scipy ?
+
+In the context of scikit-learn, we will present the kind of surprises and caveats we discovered when trying to make sense of the PyPI download stats.
+
+Highlights include:
+- the most downloaded scikit-learn release is from 5 years ago, maybe people actually don't care about our latest developments?
+- how on earth can a package that errors on install be downloaded 50k a day?
+- is there any hope to differentiate "real users" vs "automation users" (e.g. Continuous Integration)?
+
+We will then zoom out a bit and talk about other metrics we looked at, for example scikit-learn.org website analytics, GitHub stars and "Used by" stats. After presenting all the inherent biases of these data, we will see present the kind of insights we gained by combining them.
+
+During the presentation, we will also highlight a few tools and websites we used along the journey to make it easier to look at PyPI download stats numbers in more details.
+
+We will conclude with some thoughts about how to use this kind of metrics to inform some of our decisions, while at the same time not falling in love too much with the stories we tell with them.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

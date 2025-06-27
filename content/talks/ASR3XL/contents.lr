@@ -1,0 +1,50 @@
+title: Predictive Modeling with Imbalanced Datasets Using Scikit-learn
+---
+created: 
+---
+code: ASR3XL
+---
+speaker_names: Guillaume Lemaitre, Olivier Grisel
+---
+speakers:
+
+
+### Guillaume Lemaitre
+
+I'm chief machine learning officer and open source software engineer at :probabl. I'm a core developer of scikit-learn and imbalanced-learn.
+
+### Olivier Grisel
+
+Olivier Grisel is a machine learning engineer at Probabl and a contributor to the scikit-learn library.
+
+---
+abstract:
+
+Real-world applications use machine learning to aid decision-making and planning. Data scientists employ probabilistic models to connect input data with outcome predictions that guide operational decisions. A common challenge is working with "imbalanced" datasets, where the outcome of interest occurs rarely compared to total observations. Examples include disease detection in medical screening, fraud identification in transactions, and discovery of rare physical phenomena like the Higgs boson.
+
+This tutorial examines methodological considerations for handling imbalanced datasets. We focus on resampling techniques that adjust the ratio between positive and negative outcomes. The tutorial explores: (i) how imbalanced data affects probability outcomes and classifier calibration; (ii) resampling's impact on model overfitting/underfitting and its connection to regularization; and (iii) the tradeoffs between computational and statistical performance when implementing resampling strategies.
+
+Hands-on programmatic notebooks provide practical insights into these concepts.
+---
+full_description:
+
+Real-world applications utilize machine learning (or artificial intelligence) to assist in decision-making or planning. In this context, probabilistic models represent the standard approach for data scientists to link input data with probabilistic predictions for possible outcomes, which serve as the foundation for subsequent operational decisions or actions. An additional challenge encountered in real-world applications is that the outcome of interest to be predicted often occurs rarely compared to the total number of observations. This scenario is commonly referred to as an "imbalanced" dataset. Several examples illustrate such applications: (i) medical screening where detecting a specific disease represents a rare outcome compared to the general population, (ii) fraud detection where fraudulent events constitute a small fraction of total transactions, and (iii) detection of physical phenomena such as the Higgs boson where observations confirming its existence represent rare events compared to all observations.
+
+This tutorial addresses this particular problem and examines specific methodological considerations when approaching imbalanced datasets. One important consideration relates to resampling and its various effects: with numerous negative outcomes compared to positive outcomes, existing literature supports reducing the ratio between these event types. With these techniques in mind, we examine and study the following aspects: (i) the impact of imbalanced datasets on probability outcomes and classifier calibration; (ii) the effect of resampling on model overfitting and underfitting and its relationship to model regularization; and (iii) the impact of resampling on computational performance versus statistical performance.
+
+This tutorial provides a hands-on approach through programmatic notebooks to offer insights into each of these concepts.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

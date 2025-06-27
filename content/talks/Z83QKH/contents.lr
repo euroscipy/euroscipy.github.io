@@ -1,0 +1,65 @@
+title: Deploy your Machine Learning model with Fast API
+---
+created: 
+---
+code: Z83QKH
+---
+speaker_names: Cheuk Ting Ho
+---
+speakers:
+
+
+### Cheuk Ting Ho
+
+After having a career as a Data Scientist and Developer Advocate, Cheuk dedicated her work to the open-source community. Currently, she is working as an AI developer advocate for JetBrains. She has co-founded Humble Data, a beginner Python workshop that has been happening around the world. She has served the EuroPython Society board for two years and is now a fellow and director of the Python Software Foundation.
+
+---
+abstract:
+
+One of the challenges for a machine learning project is to deploy it. Fast API provides a fast and easy way to deploy a prototype with less software development expertise and yet allow it to be developed into a professional web service. We will look at how to do it.
+---
+full_description:
+
+In this workshop, we will go deeper into how to prototype a machine-learning project with Fast API. Fast API allows the creation API server with very little effort, it is easy to deploy a pre-trained model, but for models that require re-training, the challenge of when and how to retrain a model and update for a service in use becomes complicated. We will cover the aspect of delivering a pre-trained model and the design of re-training the model. This workshop will also provide suggestions for deploying the machine learning project so it can migrate from a prototype to a functional service in production.
+
+## Goal
+
+The workshop aims to equip a data science team capability to convert their machine learning project into a prototype service using Fast API, at the end of the workshop, they will not just be able to deliver API calls to a pre-trained model, but they will also be able to design when to re-train and update the model and be ready to migrate the prototype into production.
+
+## Target audience
+
+Data scientists who have little or no experience using Fast API or putting a machine learning model into production. This workshop will assume the audience already knows how to build and train a basic machine learning model (e.g. using Sci-kit learn). 
+
+## Outline
+
+Part 1 - Introduction to Fast APi and prediction on demand
+
+- Understand the basics of Fast API
+- Using a pre-trained model for prediction with API calls
+- Validating the query parameters
+
+Part 2 - Re-train and update models
+
+- Problem with updating model: Race conditions
+- Scheduled re-training
+- Re-training on demand with Fast API
+
+Part 3 - Machine learning model in production
+
+- Fast API in docker containers
+- Fast API on the cloud
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

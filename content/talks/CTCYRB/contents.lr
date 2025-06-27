@@ -1,0 +1,50 @@
+title: Efficient and accurate models for peptide function prediction
+---
+created: 
+---
+code: CTCYRB
+---
+speaker_names: Piotr Ludynia
+---
+speakers:
+
+
+### Piotr Ludynia
+
+I am a data science and computer science student at AGH University of Kraków. My primary interests include machine learning and chemoinformatics.
+
+---
+abstract:
+
+Peptides are small proteins, regularing many important biological processes. They have significant therapeutic potential, thanks to their properties, e.g. microbial, antiviral, or anticancer. 
+In particular, they offer a promising alternative to traditional antibiotics, addressing the growing crisis of drug resistance.
+Accurately predicting peptide properties is essential for drug discovery, and recent research has explored deep learning approaches such as graph neural networks, protein language models, and multimodal ensembles.
+However, these methods are often overly complex and lack scalability. They are also brittle and their performance breaks down on new datasets or tasks.
+We propose to use molecular fingerprints for this task. They are established feature extraction algorithms from chemoinformatics, primarily applied on small molecules. 
+We show that they obtain state-of-the-art results on peptide function prediction and can efficiently vectorize larger biomolecules.
+This approach is simple, fast, and accurate. We comprehensively measure its robustness on 6 benchmarks and 126 datasets. This unlocks a novel venue in chemoinformatics-based approaches for peptide-based drug design.
+---
+full_description:
+
+Peptides, as small proteins, play crucial roles in biological processes and offer immense therapeutic potential in areas such as antimicrobial resistance, cancer treatment, and antiviral therapies. While deep learning methods like graph neural networks (GNNs) and protein language models (PLMs) have been widely explored for peptide function prediction, they often face scalability challenges and require significant computational resources.
+
+We present methods and results from our paper (https://arxiv.org/abs/2501.17901), introducing an alternative approach that leverages molecular fingerprints—well-established chemoinformatics techniques primarily used with smaller molecules—to predict peptide properties efficiently and accurately. Our research demonstrates that count-based variants of hashed molecular fingerprints, when paired with tree-based classifiers like LightGBM, outperform deep learning methods. We validate our approach across six benchmarks and 126 datasets, achieving state-of-the-art results in peptide function prediction. Our findings challenge the assumed necessity of long-range dependencies in peptides, showing that short-range molecular substructures capture information sufficient for accurate function prediction.
+
+Additionally, we will present performance optimizations that enhance computational efficiency, including parallel implementation and sparse representations. Our work is encapsulated in an open-source Python library, scikit-fingerprints, providing a practical tool for researchers in machine learning and computational chemistry.
+
+This presentation will offer insights into the broader applications of peptide-based drug discovery and highlight the importance of using molecular fingerprints in chemoinformatics with scalable machine learning frameworks. Attendees will gain an understanding of current chemoinformatics research on peptides and familiarize with graph vectorization methods. They will see how combining domain-specific feature extraction with tree ensembles can yield superior results compared to complex models, all at a fraction of the computational cost.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

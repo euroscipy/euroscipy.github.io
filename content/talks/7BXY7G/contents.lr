@@ -1,0 +1,44 @@
+title: Breaking the Constraints of Linear Notebook Environments
+---
+created: 
+---
+code: 7BXY7G
+---
+speaker_names: Ada Böhm
+---
+speakers:
+
+
+### Ada Böhm
+
+Ada is a Rust and Python developer. She is a tool builder in various areas, including schedulers for clusters, tools to support AI experiments, or a tool to create slides . She is an active contributor to several open source projects. Ada has a PhD in Computer Science.
+
+---
+abstract:
+
+The talk will explore the limitations of current interactive notebook paradigms and introduce [ANONYMIZED TOOL], an experimental alternative to Jupyter that reimagines interactive programming for scientific computing. The talk will explore the design philosophy, technical implementation, and potential impact on scientific computing workflows. [TOOL] is an open source and available at: github.com/[ANONYMIZED].
+---
+full_description:
+
+The talk will explore the limitations of current interactive notebook paradigms and introduce [ANONYMIZED TOOL], an experimental alternative to Jupyter that reimagines interactive programming for scientific computing. The talk will explore the design philosophy, technical implementation, and potential impact on scientific computing workflows.
+
+Unlike linear notebooks, [TOOL] decouples code execution from outputs. This approach preserves execution history, allows multiple kernel instances, and provides a cleaner, more manageable computational environment. Users can also organize code hierarchically, enabling: batch subtree evaluation, hierarchically scoped memory spaces that prevent variable leakage, and more intuitive code structuring for complex scientific workflows. [TOOL] offers visibility into computational states, including detailed variable inspection and chronological output tracking.
+
+[TOOL] also provides Git-friendly notebook formats that minimize collaboration friction. Rust-based backend ensures performance and reliability and clean Python kernel implementation without loading Python modules and starting new Python threads.
+
+[TOOL] is an open source and available at: github.com/[ANONYMIZED].
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

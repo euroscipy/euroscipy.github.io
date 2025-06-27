@@ -1,0 +1,71 @@
+title: Python-Blosc2: Compress Better, Compute Bigger!
+---
+created: 
+---
+code: TP8ZB7
+---
+speaker_names: Francesc Alted, Luke Shaw
+---
+speakers:
+
+
+### Francesc Alted
+
+I am a curious person who studied Physics and Applied Maths. I spent over a year at [CERN](https://home.cern) for my MSc in High Energy Physics. However, I found maths and computer sciences equally fascinating, so I left academia to pursue these fields. Over the years, I developed a passion for handling large datasets and using compression to enable their analysis on commodity hardware accessible to everyone.
+
+I am the CEO of [ironArray SLU](https://ironarray.io) and also leading the [Blosc Development Team](https://blosc.org). I am very excited in working in providing a way for sharing Blosc2 datasets in the network in an easy and effective way via [Caterva2](https://ironarray.io/caterva2-doc/index.html), and [Cat2Cloud](https://ironarray.io/cat2cloud), a software as a service that we are introducing.
+
+As an Open Source believer, I started the [PyTables project more than 20 years ago](https://www.blosc.org/posts/pytables-20years/).  After 25 years in this business, I started several other useful open source projects like Blosc, Caterva2 and [Btune](https://github.com/ironArray/Blosc2-Btune); those efforts won me two prizes that mean a lot to me:
+
+* 2023: [NumFOCUS Project Sustainability Award](https://www.blosc.org/docs/NumFOCUS-Sustainability-Award.jpg)
+* 2017: [Google’s Open Source Peer Bonus](https://opensource.googleblog.com/2017/10/more-open-source-peer-bonus-winners.html)
+
+You can know more on what I am working on by reading my [latest blogs](https://www.blosc.org/authors/francesc-alted).
+
+### Luke Shaw
+
+2019 BS in Physics (Princeton University), cum laude
+2020 MSc in Applied Mathematics (University of Edinburgh), with distinction
+2024 PhD in Applied Mathematics (Universitat Jaume I), sobresaliente cum laude
+
+---
+abstract:
+
+Have you ever experienced the frustration of not being able to analyze a dataset because it's too large to fit in memory? Or perhaps you've encountered the memory wall, where computation is hindered by slow memory access? These are common challenges in data science and high-performance computing.
+
+Python-Blosc2 (https://www.blosc.org/python-blosc2/) is a high-performance, multi-threaded, multi-codec array container, with an integrated compute engine that allows you to compress *and compute* on large datasets efficiently. In this talk, we will explore the latest features of Python-Blosc2, including its seamless integration with NumPy, and the Python Data ecosystem in general, and how it can help you tackle data challenges that exceed the limits of your available RAM, all while maintaining high performance.
+---
+full_description:
+
+Blosc and Blosc2 are well-known and widely used libraries for high-performance data compression. They are particularly effective for compressing large datasets, such as those encountered in data science and high-performance computing. The Blosc library has been around for over a decade, and its design has always prioritized speed, with a focus on achieving compression and decompression speeds that are close to or even exceed memory bandwidth limits.
+
+With the introduction of a new compute engine in Python-Blosc2 3.0, the guiding principle has evolved to "Compress Better, Compute Bigger." This enhancement enables computations on datasets that are over 100 times larger than the available RAM, all while maintaining high performance.
+
+During our talk, we will delve into the latest features of Python-Blosc2, including:
+
+* Seamless integration with NumPy and the Python Data ecosystem
+* High-performance compression and decompression
+* The new compute engine and its capabilities
+* A JIT (Just-In-Time) compiler for Python functions including almost all NumPy functions
+* The ability to perform computations on datasets that exceed available RAM
+
+To illustrate this, we will present an example of using Python-Blosc2 to analyze a dataset that largely exceeds the capacity of the available RAM. We will demonstrate how to leverage the new compute engine to perform computations efficiently, without the need for specialized hardware or infrastructure.
+
+By the end of this talk, attendees will understand how Python-Blosc2 can help overcome memory constraints in their data workflows. Whether you're working with medium-sized datasets on modest hardware or large datasets on high-performance systems, you'll learn practical techniques to compress data while maintaining computational efficiency.
+
+Join us to explore how this powerful library can expand your capabilities for scientific computing and data analysis while reducing memory footprint and improving processing speed.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

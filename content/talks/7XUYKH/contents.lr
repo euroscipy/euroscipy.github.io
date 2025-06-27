@@ -1,0 +1,46 @@
+title: Python Profiling and Optimisation—A Training Course for Researchers
+---
+created: 
+---
+code: 7XUYKH
+---
+speaker_names: Jost Migenda
+---
+speakers:
+
+
+### Jost Migenda
+
+Jost is a Senior Research Software Engineer at King’s College London, where they work on software projects ranging from astrophysics to Trusted Research Environments for analysing medical data. They are a certified Carpentries instructor and regularly develop and deliver training courses.
+Jost received a PhD in astroparticle physics from the University of Sheffield and is a maintainer of several widely used supernova neutrino codes, including [SNEWPY](https://joss.theoj.org/papers/10.21105/joss.03772) and [sntools](https://joss.theoj.org/papers/10.21105/joss.02877).
+
+---
+abstract:
+
+Most researchers writing software are not classically trained programmers. Instead, they learn Python organically, often developing unpythonic habits that negatively impact their software‘s performance.
+
+In this talk, we present a new course on Python profiling and optimisation. We give an overview of the course contents, report on feedback from researchers at multiple universities who attended early versions of the course, and discuss our plans for developing the course further. Finally, we share how you can run the course at your own institution and contribute to it via the Software Carpentry Incubator program.
+---
+full_description:
+
+Most researchers writing software are not classically trained programmers. Instead, they learn Python organically, often developing unpythonic habits that negatively impact their software‘s performance. As research software engineers working with researchers from different areas, we decided to develop training on Python profiling and optimisation to share best practices.
+
+In the first part of that course, we introduce learners to different profiling approaches such as function-level profiling (using `cProfile` and `snakeviz`) or line-level profiling (using `line_profiler`) to identify which parts of a program run slowest. In the second part, we introduce a wide range of optimisations to speed up those sections of the program. Optimisations described in the course include effective usage of language features and the standard library, choosing suitable data structures, using NumPy and other scientific Python packages, and more. Using these optimisations in real-life workloads, we have observed significant performance improvements, sometimes by more than an order of magnitude.
+
+We ran early versions of the course at multiple universities for audiences consisting of students, researchers and research software engineers, using feedback we have received from learners to guide further development of the course.
+All course materials are available online via the [Carpentries Incubator](https://carpentries-incubator.org). We welcome contributions to the course materials and encourage attendees to run the course at their own institutions.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

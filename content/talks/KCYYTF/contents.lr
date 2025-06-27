@@ -1,0 +1,42 @@
+title: Pyro Meets SBI: Unlocking Hierarchical Bayesian Inference for Complex Simulators
+---
+created: 
+---
+code: KCYYTF
+---
+speaker_names: Jan Boelts (Teusen)
+---
+speakers:
+
+
+### Jan Boelts (Teusen)
+
+Jan initially immersed himself in the realms of cognitive science and computational neuroscience. However, he couldn’t resist the siren call of Bayesian machine learning, and his PhD evolved into a mission to enhance the user-friendliness of this complex field. He set out to bridge cutting-edge methods with user-friendly software, making the world of simulation-based inference more accessible for practitioners. In 2024, he joined the TransferLab, ready to continue his journey of making advanced methodologies approachable and transformative.
+
+---
+abstract:
+
+This talk introduces a novel approach that bridges Simulation-Based Inference (SBI) and probabilistic programming languages like Pyro to enable simulation-based hierarchical Bayesian inference. SBI is used to perform parameter inference for intractable simulation models, while Pyro facilitates efficient Bayesian inference with complex hierarchical structures. We demonstrate how to integrate SBI-learned likelihoods into Pyro models, allowing for hierarchical Bayesian analysis of simulation-based models. Using the drift-diffusion model from decision-making research as an example, we showcase the potential of this combined approach for tackling real-world problems with complex simulation models and hierarchical data.
+---
+full_description:
+
+Hierarchical Bayesian inference is a powerful framework for analyzing structured data common in complex experimental settings, like multi-subject decision-making research. Probabilistic programming languages (PPLs) such as [Pyro](https://pyro.ai/) provide excellent tools for defining and inferring these hierarchical models, leveraging features like plate notation for concisely representing repeated structures and managing dependencies.
+However, a significant challenge arises when the underlying scientific model is a complex simulator with an intractable likelihood function, rendering standard PPL-based inference inapplicable. While Simulation-Based Inference (SBI) techniques can handle such simulators by learning likelihood (or posterior) approximations from simulations, they often lack native support for easily specifying and inferring complex hierarchical dependencies.
+This talk introduces a novel approach that bridges the SBI package [sbi](https://sbi.readthedocs.io/en/latest/) and `pyro`, enabling effective simulation-based hierarchical Bayesian inference. We demonstrate how likelihood approximations learned via `sbi` can be seamlessly integrated as custom components within `pyro` models. This synergistic approach combines the strengths of both methodologies: SBI's ability to perform inference on intractable simulators and Pyro's expressive power and efficiency in handling complex hierarchical structures.
+We will illustrate the potential and practicality of this integrated methodology using a key example from cognitive science: fitting a hierarchical drift-diffusion model (DDM) to choice data. The focus will be on how this combined "Pyro meets SBI" approach successfully allows for Bayesian inference over the parameters of the hierarchical model, effectively combining the information across multiple simulated subjects while handling the intractable DDM likelihood.
+This integration significantly expands the scope of rigorous Bayesian inference, opening new possibilities for analyzing complex, simulation-based models across various scientific disciplines. We will also briefly highlight how recent developments in the `sbi` package facilitate this powerful workflow, making advanced hierarchical modeling accessible for simulator-based research.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

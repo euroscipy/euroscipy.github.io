@@ -1,0 +1,42 @@
+title: Standardised Quantity/Unit APIs discussion
+---
+created: 
+---
+code: NHKMDP
+---
+speaker_names: Lucas Colley
+---
+speakers:
+
+
+### Lucas Colley
+
+I am an undergraduate student studying Computer Science & Philosophy at the University of Oxford. I am also a maintainer of SciPy and array-api-extra, a member of the Consortium for Python Data API Standards, and a founding member of quantity-dev.
+
+---
+abstract:
+
+Work with quantities (values with units) in Python? Come and help brainstorm ideas and voice your opinions for standardised APIs!
+
+Discussion session for https://github.com/quantity-dev/metrology-apis and related efforts.
+---
+full_description:
+
+https://github.com/quantity-dev/metrology-apis is a cross-ecosystem effort to standardise APIs for Metrology in Python. The vision is to have libraries like Pint, `astropy.units`, and Unyt all adopt common APIs which consumers can then use in a ‘backend-agnostic’ fashion.
+
+Come along to learn about the current design prototypes and proposals, and voice your ideas for what these APIs should look like!
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

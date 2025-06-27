@@ -1,0 +1,89 @@
+title: Understanding Dispatching Approaches in the Scientific Python Ecosystem
+---
+created: 
+---
+code: 9LAVJW
+---
+speaker_names: Sebastian Berg, Aditi Juneja
+---
+speakers:
+
+
+### Sebastian Berg
+
+Sebastian has been a NumPy developer for about 10 years now.  After a PhD in phsyics he worked at as a postdoc at the Berkeley Institute for Datascience on NumPy as grants byt the Alfred P. Sloan Foundation and the Gordon and Betty Moore Foundation.  Since 2022 he has been a software engineer at NVIDIA where he continues to contribute to NumPy.
+
+### Aditi Juneja
+
+Hi, I am Aditi. I mostly work around API dispatching things in the scientific python ecosystem, mostly in NetworkX, nx-parallel backend and scikit-image.
+
+GitHub: https://github.com/Schefflera-Arboricola
+Previous talks: https://github.com/Schefflera-Arboricola/blogs/tree/main/archive
+
+---
+abstract:
+
+In recent years, many specialised libraries have emerged, implementing optimised subsets of algorithms from larger Scientific Python libraries-- supporting GPUs for acceleration, parallel processing, or distributed computing, or written in a lower-level programming language like Rust or C. These implementations offer significant performance improvements—but integrating them smoothly into existing workflows can be challenging. This talk explores different dispatching approaches that enable seamless integration of these faster implementations without breaking APIs or requiring users to switch libraries. We'll focus on the following two approaches:
+
+- **Backend library-based dispatching** : allowing existing library function calls to be routed to a faster backend implementation present in a separate backend library written for GPUs or in a different language, etc. , as adopted by projects like NetworkX and scikit-image.
+
+- **Array API standardization and adoption** : more specific to dispatching in array libraries. Based on the type of array that is passed into a numpy function, the call is dispatched to the appropriate array library such as Tensorflow, PyTorch, Dask, JAX, CuPy, Xarray, etc. This allows for the array consuming libraries like SciPy and Sklearn to be used in workflows that are using these other array libraries.
+
+Then we will go over how these approaches are different from each other and when to use which approach based on different use cases and requirements.
+---
+full_description:
+
+# Description
+
+In the first few minutes we will go over what dispatching is, why it's needed, what kind of projects may benefit from it, and the kinds of dispatching i.e the user decides which backend to use explicitly or the library implicitly dispatch to the "right" implementation for the user or implicitly dispatch based on the input type(s).
+
+## Array API standard and NumPy predecessors (10-12 mins)
+
+In this section we will start with NumPy's old dispatching, briefly explaining how it works, and also showing what it can do, such as allowing to use a NumPy function with cupy.
+
+We will then continue with the Array API which has momentum as it is being used by libraries such as SciPy and sklearn and with existing support for numpy, pytorch, JAX, CuPy, Xarray, etc.
+We will highlight it's use by briefly show-casing the speed-up when a user switches e.g. from NumPy to pytorch. 
+
+These examples will help us expose key difference in type dispatching approaches both for it's users and for the implementation.
+A main difference being that the Array API is library orientated while the NumPy dispatching was user-orientated.
+
+## Backend-library based dispatching (10-12 mins)
+
+We will then continue with the more general backend-library based dispatching approach that is implemented in libraries like NetworkX and scikit-image.
+
+This approach is more general and opens up additional possibilities as it is based on Python [`entry_point`](https://packaging.python.org/en/latest/specifications/entry-points), which are generally used to extend the functionality of a package. We will understand this `entry-point` based dispatching through a quick demo.
+
+Then we will see a demo of how NetworkX speeds-up with [nx-parallel](https://github.com/networkx/nx-parallel) and [nx-cugraph](https://github.com/rapidsai/nx-cugraph) backends, and the different user APIs in NetworkX to dispatch a call: based on backend-specific graph's type, `backend=` kwarg, environment variables, global configurations, context manager.
+
+Then we will go over some of the learnings gathered while integrating this mechanism in [scikit-image](https://github.com/scikit-image/scikit-image) and challenges faced with dispatching arrays inputs.
+
+## Summary and Comparison
+
+We will end with a summary of how dispatching approaches differ and when to use which ones, both as a developer and a user of a project. In this summary we wish to expand beyond the previous examples and also mention for example [DataFrame API standards](https://data-apis.org/dataframe-api/draft/) and [narwhals](https://github.com/narwhals-dev/narwhals). 
+
+
+## Intended audience:
+
+- Contributors/Maintainers of Python libraries who are interested in providing faster algorithms without changing much of their codebase and user-API
+- People who work with large graph, image and array datasets
+- Anyone interested in API dispatching or any of the above stuff :)
+
+Some basic knowledge of Python is expected; should know what objects and classes are.
+
+
+Thank you :)
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

@@ -1,0 +1,56 @@
+title: Enhancing SymPy Algorithms with MatchPy's Efficient Pattern Matching
+---
+created: 
+---
+code: EAAE9B
+---
+speaker_names: Francesco Bonazzi
+---
+speakers:
+
+
+### Francesco Bonazzi
+
+Highly skilled Software Engineer and Data Scientist at Intesa Sanpaolo Bank, based in Milan, Italy. With a strong foundation in computational subjects, I hold a PhD in Physics with a specialization in computational modelling of biophysical processes. Having transitioned to the banking sector, I have applied my expertise to drive innovation in financial-related projects for numerous years. Additionally, I contribute to the open-source community as a maintainer and developer of the SymPy library, a widely-used computer algebra system.
+
+---
+abstract:
+
+This presentation explores an experimental integration between SymPy (symbolic mathematics) and MatchPy (associative-commutative pattern matching), both open-source Python libraries. By leveraging MatchPy's efficient pattern matching, which allows for multiple matches with a single expression tree visit, the combined system enhances SymPy's ability to solve equations, compute derivatives and integrals, and handle differential equations. An experimental RUBI formula integration algorithm implementation demonstrates the practical benefits.
+---
+full_description:
+
+SymPy and MatchPy are powerful, open-source Python libraries for symbolic mathematics and pattern matching, respectively.
+
+While SymPy excels in symbolic manipulation, its built-in pattern matching can be limiting for complex tasks. MatchPy, designed for associative-commutative (AC) pattern matching, offers a unique advantage: its data structures enable the simultaneous matching of multiple patterns against a symbolic expression with only a single tree traversal, significantly boosting efficiency.
+
+This talk presents an experimental module that integrates these libraries, demonstrating how MatchPy's capabilities can enhance SymPy's algorithms. We will explore practical applications, including improved equation solving, derivative and integral computations, and differential equation solutions. Notably, we will showcase an experimental implementation of the RUBI integration algorithm, illustrating how MatchPy simplifies the application of intricate integration rules.
+
+This work highlights the benefits of combining these tools, fostering the development of more robust and efficient symbolic computation workflows.
+
+SymPy website:
+https://sympy.org/
+
+MatchPy documentation:
+https://matchpy.readthedocs.io/en/latest
+
+SymPy paper:
+https://peerj.com/articles/cs-103/
+
+MatchPy paper:
+https://arxiv.org/abs/1710.06915
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

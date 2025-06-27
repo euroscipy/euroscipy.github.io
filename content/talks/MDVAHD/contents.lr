@@ -1,0 +1,152 @@
+title: ELVA - Local-First Real-Time Collaboration Apps in Your Terminal
+---
+created: 
+---
+code: MDVAHD
+---
+speaker_names: Tiziano Zito, Jakob Zahn
+---
+speakers:
+
+
+### Tiziano Zito
+
+
+
+### Jakob Zahn
+
+I studied Physics at Technische Universität Dresden and Freie Universität Berlin.
+After achieving my master's degree in 2021, I started working at Technische Universität Berlin in the ELVA project as technical lead and software developer.
+
+---
+abstract:
+
+Science evolves and flourishes through close team work and smooth information exchange.
+Despite the plethora of digital collaboration platforms a tool that allows for seamless collaboration does not exist, yet.
+
+We present `ELVA`, a command-line tool and suite of terminal applications which are able to synchronize arbitrary data structures in real-time without conflicts in a peer-to-peer setup.
+From a simple text file to an IDE session, a chat, a directory's content ... All of this can be modeled with a combination of *conflict-free replicating data types* (CRDTs) provided by the [`Yrs`](https://github.com/y-crdt/y-crdt) library and its Python bindings in [`pycrdt`](https://github.com/y-crdt/pycrdt).
+Thereby, merge conflicts as a main pain point of version control systems and file based synchronization services are mitigated or even completely avoided.
+In addition, `ELVA` apps are written to be local-first: they run locally on your machine, also when you are offline, and store your data on your disk.
+The local state is synchronized with remote-peers automatically when you are back online.
+A central server is not needed, but it can work as a relay or broker between peers to overcome restrictive firewalls.
+---
+full_description:
+
+### Our Motivation
+
+As scientists working with distributed groups all over the world, we have high and numerous expectations for a digital collaboration tool:
+
+- platform-independent
+- secure
+- reliable synchronization of any kind of data
+- works seamlessly offline
+- private, no remote cloud services involved
+- no central servers required, peer-to-peer
+- access to the local filesystem
+- easily adaptable and extensible
+- easily accessible
+- stable and lightweight
+- open-source
+
+Several tools already exist that can fulfill a subset of these requirements, but they come with all sort of restrictions.
+
+Some examples:
+
+- Git is great for keeping track of text files, but it requires you to manually save the current state by committing and lacks efficient native support for binary files.
+  Also, the user has to manually deal with merge conflicts when multiple people work on the same files.
+  While powerful extensions such as Git-LFS and git-annex do a great job with binary data, Git is still unsuitable as general purpose collaboration platform.
+- Cloud-based software such as Nextcloud, Seafile or the corresponding commercial alternatives are able to sync any type of data out of the box, but they implement
+  versioning only in a rudimentary fashion, if at all.
+  Furthermore, a central server is a vital part of the architecture.
+  Since their synchronization is file-based, merge conflicts still arise and need to be resolved by hand.
+- Browser-based editors like Visual Studio Code, HedgeDoc or Etherpad feature real-time synchronization of content, but cannot sync binary data, and when they are implemented as in-browser apps, they cannot always access the local filesystem.
+
+`ELVA` aims to close these gaps.
+
+
+### Our Ideas
+
+In short, we want to have the comfortable real-time synchronization of in-browser apps but in a software that runs locally for proper access to the filesystem on every operating system.
+
+Conflict-free replicating data types (CRDTs) are the backbone of `ELVA`.
+They provide the fundamental logic for proper integration of shared data fragments.
+
+The suite shall be written in Python, as it is relatively easy to learn and widely used in scientific research.
+If users of `ELVA` feel the need for special functionality, they should be able to add it by themselves without much effort.
+
+Also, as we intend `ELVA` to be also usable by non-technical people, we need to have a good user interface (UI).
+We decided to settle on text-based terminal apps, which are lightweight and work consistently across platforms, but graphical interfaces are likewise implementable.
+
+Versioning could still be realized with a Git integration and synchronizing bulk storage is a question of app and protocol design.
+
+
+### Our Prototype
+
+We are proud to present our prototype of `ELVA` with a working text editor and a chat app.
+
+Currently, we use the [`pycrdt`](https://github.com/y-crdt/pycrdt) package providing Python bindings to the [`Yrs`](https://github.com/y-crdt/y-crdt) library, which holds the Rust implementation of CRDTs originating from the [`Yjs`](https://github.com/yjs/yjs) library.
+`Yjs` is used in a variety of popular software: [JupyterLab](https://jupyter.org/), Facebook's [Lexical](https://lexical.dev/) editor, [Nextcloud](https://nextcloud.com/) and [many other projects](https://github.com/yjs/yjs?tab=readme-ov-file#who-is-using-yjs).
+
+The text-UI is powered by the [`Textual`](https://github.com/Textualize/textual) framework.
+We intentionally kept the UI minimal to also allow pure keyboard usage.
+A builtin REPL widget provides the needed configuration flexibility.
+
+The project's design concept stands: We provide apps to be directly used and library code for writing own features and apps.
+The configuration specification as well as the synchronization protocol are also defined.
+
+We publish comprehensive documentation under [https://elva.mintgruen.tu-berlin.de](https://elva.mintgruen.tu-berlin.de) alongside a few guides and a blog.
+Code management with versioning and changelog has been properly set up for ease in long-term maintenance. 
+
+The source code of `ELVA` is published under the AGPL-3.0 license on [https://github.com/innocampus/elva](https://github.com/innocampus/elva).
+
+
+### Our Vision
+
+We hope to build up a community around this project by showing it to and improving it with other people.
+As a part of that, we plan to introduce `ELVA` to our students in programming classes.
+
+A dedicated app for bulk synchronization is being developed.
+Additionally, we would like to explore networking without a central server and implement easy to setup peer-to-peer communication protocols to also allow for 
+spontaneous collaboration in meetings or at conferences.
+Other apps and integrations might be written in other languages than Python thanks to `ELVA`'s integrated networking and the `Yrs` bindings available in several other languages.
+
+Another important point is integrating Git into `ELVA` for proper versioning and publishing with services such as [GIN](https://gin.g-node.org/).
+
+
+### Contact Information
+
+Jakob Zahn
+Head of Software Development
+Projekt `ELVA`
+Pronouns: he/his
+Address: Mr.
+
+Technische Universität Berlin
+innoCampus
+Room E116
+Einsteinufer 19
+10587 Berlin
+Germany
+
+Phone: +49 30 314 77006
+Mobile: +49 152 06370569
+E-Mail: [jakob.zahn@tu-berlin.de](mailto:jakob.zahn@tu-berlin.de)
+
+[https://elva.mintgruen.tu-berlin.de](https://elva.mintgruen.tu-berlin.de)
+[https://www.tu.berlin](https://www.tu.berlin)
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+

@@ -1,0 +1,55 @@
+title: Use napari for easier interactive extraction of knowledge from images and other spatial data
+---
+created: 
+---
+code: PTLGMW
+---
+speaker_names: Grzegorz Bokota, Lorenzo
+---
+speakers:
+
+
+### Grzegorz Bokota
+
+I have joined to napari project while working on PhD project, as I understand that great visualization significantly improves data understanding, so improves the quality of research. Now I'm shifting into full-time open-source contributor. I'm mainly focusing now on improving tooling to lower entry level. 
+On university, I teach students about Python.
+
+### Lorenzo
+
+
+
+---
+abstract:
+
+With cameras in everything from microscopes to telescopes to satellites, scientists produce image data in countless formats, shapes, sizes, and dimensions. Python provides a rich ecosystem of libraries to make sense of them. napari is a Python library for interactive multidimensional image visualization, but it does double duty as a standalone application that can be easily extended with GUI tools for analysis, visualization, and annotation. In this tutorial, we'll start with the basics of interacting with the napari interface. Then we will show how to extend napari, from script, with your own functions and widgets. At the end, we will describe how to convert such custom modifications into a plugin that can be easily shared with other people as a Python package.
+---
+full_description:
+
+As we collect more and more images and other spatial information, we need to improve tooling to be able to process all the data that we gather from microscopes, telescopes, satellites, MRI machines and a myriad of other sensors. 
+For the phase of data exploration, we need a tool that allows smooth comparison of results from various knowledge extraction methods, in order to choose the best method of processing our data.
+
+This tutorial is aimed at people who have some experience in scientific computing with Python. To get the most out of it, you should be familiar with NumPy arrays, Jupyter notebooks, and Python scripts. Ideally, you should have some idea of how images can be represented as arrays of numbers, and the types of analyses that might be performed on these arrays, e.g. filtering and segmentation. You don’t necessarily need to be familiar with how these tools and methods work - it’s enough to know that they are out there! 
+
+This tutorial will be split into three parts:
+
+Part 1: Introduction: using napari, exploring the interface, using sample plugins to perform basic data manipulation 
+In this section, we will introduce participants to the napari interface and show how to perform basic operations. It will also ensure that participants have properly created the virtual environment. 
+Part 2: Extending napari with custom functionalities: custom widgets and mouse callbacks, from a Python script or Jupyter notebook. 
+In this section, we will teach: How to allow trigger custom functions from napari GUI. How to create a simple widget from a function and how to prepare a more complex widget to fit better into workflow. How to integrate the napari viewer with an interactive session in jupyter. 
+Part 3: How to convert your custom extension of napari into a plugin, Python package, that can be easily shared with other people. 
+In this section, we will show how to pack custom widgets into plugins and share them as Python packages.
+---
+room: 
+---
+day: 
+---
+start_time: 
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: 
+
