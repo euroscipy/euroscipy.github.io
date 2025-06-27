@@ -6,4 +6,3 @@ sponsor-pages:
 	python utils/sponsors.py
 talk-pages:
 	python utils/talks.py
-	python utils/social_cards.py
