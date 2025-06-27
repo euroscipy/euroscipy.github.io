@@ -521,3 +521,9 @@ a.content-list--entry {
 }
 
 /* Talks */
+.social-card-image {
+    border-bottom: 8px dashed rgba(255, 255, 255, 0.5);
+    border-top: 8px dashed rgba(255, 255, 255, 0.5);
+    margin: 4em 0;
+    padding: 2em 0;
+}
