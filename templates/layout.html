@@ -16,9 +16,9 @@
   <meta property="og:title"
     content="{% if this.meta_title %}{{ this.meta_title }}{% else %}{{ this.title }}{% endif %}">
 
-  {% if this.social_card_image %}{% set turl = this.social_card_image %}
-  <meta name="image" property="og:image:secure_url" content="{{ site.config.PROJECT.url|url }}{{ turl|url }}">
-  <meta name="image" property="og:image" content="{{ site.config.PROJECT.url }}{{ turl|url }}">
+  {% if this.social_card_image %}
+  <meta name="image" property="og:image:secure_url" content="{{ this.social_card_image }}">
+  <meta name="image" property="og:image" content="{{ this.social_card_image }}">
   {% else %}
   <meta name="image" property="og:image:secure_url"
     content="{{ site.config.PROJECT.social_card }}">
@@ -42,7 +42,7 @@
     content="{% if this.meta_twitter_title %}{{ this.meta_twitter_title }}{% else %}{{ this.title }}{% endif %}">
   <meta name="twitter:description" content="{{ this.description }}">
   {% if this.social_card_image %}
-  <meta name="twitter:image" content="{{ this.social_card_image|url }}">
+  <meta name="twitter:image" content="{{ this.social_card_image }}">
   {% else %}
   <meta name="twitter:image" content="{{ site.config.PROJECT.social_card }}">
   {% endif %}
