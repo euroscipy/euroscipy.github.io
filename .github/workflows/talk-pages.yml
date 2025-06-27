@@ -1,0 +1,33 @@
+name: Talk Pages Generation
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: '.python-version'
+          cache: 'pip'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run talk-pages task
+        run: make talk-pages
+        env:
+          PRETALX_API_KEY: ${{ secrets.PRETALX_API_KEY }}
+          PRETALX_EVENT_NAME: ${{ vars.PRETALX_EVENT_NAME }}
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Generates talk pages and social cards
