@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+The BrainGlobe initiative - image analysis in a common coordinate space.
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="The BrainGlobe initiative - image analysis in a common coordinate space.">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="The BrainGlobe initiative - image analysis in a common coordinate space.">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>The BrainGlobe initiative - image analysis in a common coordinate space.</h2>
+    <h3>Igor Tatarnikov</h3>
+
+    <div class="description">
+        <p>The <a href="https://brainglobe.info">BrainGlobe</a> initiative has three main goals: providing specific tools for analysis and visualisation, cultivating core tools to facilitate development of interoperable tools in Python, and fostering a community of neuroscientists and developers to share knowledge, build software, and engage with the scientific and open source community. The development of BrainGlobe builds upon and relies heavily on established packages from the broader scientific Python ecosystem ensuring compatibility and interoperability with other tools. Our initiative addresses the crucial need for interoperability in neuroscience research by offering a comprehensive suite of tools accessible to users across different platforms. With a focus on ease of installation and usability, our goal is to empower researchers to analyse neuroanatomical data efficiently and introduce them to the broader scientific python ecosystem.</p>
+<p>In this talk I plan to discuss the benefits of working in a common coordinate space for image analysis and visualisation. I will begin by introducing the concept of a BrainGlobe atlas and the associated <a href="https://github.com/brainglobe/brainglobe-atlasapi">brainglobe-atlasapi</a> package. This standard access point has enabled the emergence of an ecosystem of BrainGlobe tools, developed both internally by the core BrainGlobe team, and externally by outside contributors. Abstracting the concept of an atlas and standardising access allows the downstream tools to be species agnostic, widening the potential user pool. I will then describe <a href="https://github.com/brainglobe/brainreg">brainreg</a> and <a href="https://github.com/brainglobe/brainglobe-registration">brainglobe-registration</a>, the tools we use to register data into a BrainGlobe atlas. I will provide two examples of how our tools utilise BrainGlobe atlases to provide valuable context, based on the annotations of the atlas. The first example will be <a href="https://github.com/brainglobe/brainglobe-workflows">brainmapper</a>, a pipeline that utilises <a href="https://github.com/brainglobe/brainreg">brainreg</a> and <a href="https://github.com/brainglobe/cellfinder">cellfinder</a> to detect cells in large 3D volumes and output counts per anatomical region. The second example involves <a href="https://github.com/brainglobe/brainglobe-segmentation">brainglobe-segmentation</a> which can be used to segment objects, and transform segmentations into sample or atlas space. Lastly, I will demonstrate visualising registered multi-modal data in 3D using <a href="https://github.com/brainglobe/brainrender">brainrender</a>.</p>
+<p>At present, the BrainGlobe team maintains 17 packages which have 100+ code contributors.  The <a href="https://github.com/brainglobe/brainglobe-atlasapi">BrainGlobe Atlas API</a> serves as a standardised framework for working with anatomical reference atlases, facilitating comparison across samples [1]. Using <a href="https://github.com/brainglobe/brainreg">brainreg</a>, 3D whole-brain imaging data can be registered to any BrainGlobe atlas [2]. <a href="https://github.com/brainglobe/cellfinder">Cellfinder</a> automates cell detection in large 3D images in a computationally efficient manner [3], while common neuroanatomical segmentation issues are tackled with <a href="https://github.com/brainglobe/brainglobe-segmentation">brainglobe-segmentation</a> [2]. <a href="https://github.com/brainglobe/brainrender">Brainrender</a> uses <a href="https://github.com/marcomusy/vedo">vedo</a> to enable visualisation of 3D neuroanatomical data from both public sources and user-generated data [4, 5].</p>
+<p>Our team is continually working on addressing the needs of the community. Currently, efforts are underway to broaden the types of microscopy data registrable into the BrainGlobe ecosystem with <a href="https://github.com/brainglobe/brainglobe-registration">brainglobe-registration</a>, using elastix to register 2D slices, 3D sub-volumes, and whole brain data. Additionally, we are developing <a href="https://github.com/brainglobe/brainglobe-stitch">brainglobe-stitch</a>, a package for fusing large tiled 3D imaging datasets (300+ GB). This package will be available as a napari plugin to allow efficient previewing of the fused dataset. Lastly, we are porting the functionality of brainrender to a napari plugin, <a href="https://github.com/brainglobe/brainrender-napari">brainrender-napari</a>, to provide a cohesive analysis and visualisation environment for all BrainGlobe tools.</p>
+<p>Concurrently, we are streamlining and enhancing the developer experience. This involves consolidating related repositories within the BrainGlobe codebase and extracting duplicated code to <a href="https://github.com/brainglobe/brainglobe-utils">brainglobe-utils</a>, a shared library. We are also intensifying efforts to improve docstring coverage and providing introductory guides for new developers, along with a development roadmap outlining planned future work.</p>
+<p>Citations:
+[1] F. Claudi, L. Petrucco, A. Tyson, T. Branco, T. Margrie, and R. Portugues, ‘BrainGlobe Atlas API: a common interface for neuroanatomical atlases’, J. Open Source Softw., vol. 5, no. 54, p. 2668, Oct. 2020, doi: 10.21105/joss.02668.
+[2] A. L. Tyson et al., ‘Accurate determination of marker location within whole-brain microscopy images’, Sci. Rep., vol. 12, no. 1, p. 867, Dec. 2022, doi: 10.1038/s41598-021-04676-9.
+[3] A. L. Tyson et al., ‘A deep learning algorithm for 3D cell detection in whole mouse brain image datasets’, PLOS Comput. Biol., vol. 17, no. 5, p. e1009074, May 2021, doi: 10.1371/journal.pcbi.1009074.
+[4] F. Claudi, A. L. Tyson, L. Petrucco, T. W. Margrie, R. Portugues, and T. Branco, ‘Visualizing anatomically registered data with brainrender’, eLife, vol. 10, p. e65751, Mar. 2021, doi: 10.7554/eLife.65751.
+[5] M. Musy et al., "vedo, a python module for scientific analysis and visualization of 3D objects and point clouds", Zenodo, 2021, doi: 10.5281/zenodo.7019968.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="igor-tatarnikov">Igor Tatarnikov</h3><p>Igor Tatarnikov is a Research Software Engineer at University College London’s Sainsbury Wellcome Centre, where he aspires to create easy to use software tools for neuroscientists with a focus on image analysis.</p>
+<p>Igor holds a BSc in Microbiology and Immunology and an MSc in Neuroscience from the University of British Columbia (Vancouver, Canada), as well as a Bachelor in Computer Science from Dalhousie University (Halifax, Canada). For his MSc, Igor explored the electrophysiological characteristics of genetic mouse models of Parkinson’s disease. Igor’s multidisciplinary background is particularly useful for his current work, where he creates open-source tools for neuroanatomical image analysis.</p>
+
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

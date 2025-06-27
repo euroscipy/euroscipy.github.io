@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+PyPI in the face: running jokes that PyPI download stats can play on you
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="PyPI in the face: running jokes that PyPI download stats can play on you">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="PyPI in the face: running jokes that PyPI download stats can play on you">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>PyPI in the face: running jokes that PyPI download stats can play on you</h2>
+    <h3>Loïc Estève</h3>
+
+    <div class="description">
+        <p>We all love to tell stories with data and we all love to listen to them. Wouldn't it be great if we could also draw actionable insights from these nice stories?</p>
+<p>As scikit-learn maintainers, we would love to use PyPI download stats and other proxy metrics (website analytics, github repository statistics, etc ...) to help inform some of our decisions like:</p>
+<ul>
+<li>how do we increase user awareness of best practices (please use Pipeline and cross-validation)?</li>
+<li>how do we advertise our recent improvements (use HistGradientBoosting rather than GradientBoosting, TunedThresholdClassifier, PCA and a few other models can run on GPU) ?</li>
+<li>do users care more about new features from recent releases or consolidation of what already exists?</li>
+<li>how long should we support older versions of Python, numpy or scipy ?</li>
+</ul>
+<p>In the context of scikit-learn, we will present the kind of surprises and caveats we discovered when trying to make sense of the PyPI download stats.</p>
+<p>Highlights include:</p>
+<ul>
+<li>the most downloaded scikit-learn release is from 5 years ago, maybe people actually don't care about our latest developments?</li>
+<li>how on earth can a package that errors on install be downloaded 50k a day?</li>
+<li>is there any hope to differentiate "real users" vs "automation users" (e.g. Continuous Integration)?</li>
+</ul>
+<p>We will then zoom out a bit and talk about other metrics we looked at, for example scikit-learn.org website analytics, GitHub stars and "Used by" stats. After presenting all the inherent biases of these data, we will see present the kind of insights we gained by combining them.</p>
+<p>During the presentation, we will also highlight a few tools and websites we used along the journey to make it easier to look at PyPI download stats numbers in more details.</p>
+<p>We will conclude with some thoughts about how to use this kind of metrics to inform some of our decisions, while at the same time not falling in love too much with the stories we tell with them.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="loic-esteve">Loïc Estève</h3><p>Loïc has a Particle Physics background, which is how he discovered Python towards the end of his PhD.</p>
+<p>He is a scikit-learn and joblib core contributor and has been involved in a number of Python open-source projects in the past 10 years, amongst which Pyodide, dask-jobqueue, sphinx-gallery and nilearn.</p>
+
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

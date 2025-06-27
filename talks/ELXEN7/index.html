@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Python Framework for Large-Scale Radar Data Generation and Visualization
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Python Framework for Large-Scale Radar Data Generation and Visualization">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Python Framework for Large-Scale Radar Data Generation and Visualization">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>Python Framework for Large-Scale Radar Data Generation and Visualization</h2>
+    <h3>Manuel Jürgensen</h3>
+
+    <div class="description">
+        <p>The advancement of machine learning in automotive radar systems is significantly impeded by the limited availability of annotated raw radar data, specifically tailored to distinct radar sensor configurations. To overcome these limitations, we present a robust Python-based computational framework specifically designed to facilitate efficient large-scale radar data generation and comprehensive visualization.</p>
+<p>Our framework leverages radar point cloud data, which is stored in the HDF5 format and collected directly from automotive radar sensors deployed in real-world environments. The point cloud data undergoes sophisticated preprocessing where radar detections are accumulated over multiple measurement cycles. This accumulation process is carefully corrected for both ego-vehicle velocity and the velocities of detected objects, ensuring spatial and temporal consistency. Through this preprocessing, our method reliably identifies dominant scatter centers within the radar's operational environment, creating high-quality datasets, termed "pseudo scatter points," that effectively represent persistent environmental features.</p>
+<p>These pseudo scatter points serve as a foundation for generating synthetic raw radar data suitable for virtual radar systems with arbitrary antenna arrangements and configurations within the widely used 77 GHz automotive radar band. The framework implements advanced radar signal processing algorithms including multi-dimensional Fast Fourier Transforms (FFTs), digital beamforming, Constant False Alarm Rate (CFAR) detection algorithms in range-Doppler domains, specialized peak-finding algorithms in azimuth and elevation dimensions, and interpolation methods to enhance angular resolution. Additionally, synthetic clutter generation methods are integrated to further improve the realism of the generated radar datasets.</p>
+<p>A key strength of our framework is its adaptability and flexibility, achieved through the utilization of a specialized and extensible Python data class structure. This structure simplifies the step-by-step management of radar data processing pipelines, facilitating customization, scalability, and straightforward integration of additional processing steps or alternative radar parameter configurations.</p>
+<p>To address the computational demands of generating radar data at scale, the framework employs GPU acceleration via CuPy, a CUDA-enabled implementation of NumPy, enabling significant performance improvements. Currently, it achieves processing rates of approximately 10,000 radar frames per day, depending on radar resolution, thus offering practical scalability for both research and commercial development scenarios.</p>
+<p>Visualization capabilities are seamlessly integrated, leveraging PyQt5 combined with OpenGL to deliver a powerful inbuilt visualization tool. This visualizer provides detailed, interactive representations of radar cubes in real time, significantly aiding debugging, data exploration, and deeper insight into radar signal characteristics and potential anomalies.</p>
+<p>Practical applications of our framework include the generation of extensive radar datasets to support the training and validation of advanced deep neural networks for automotive radar perception tasks, as well as early-stage validation and benchmarking against reference radar sensor systems. Validation experiments, conducted through direct comparison with evaluation radar sensor data collected under identical conditions, have demonstrated the framework's capability to reliably reproduce realistic radar spectra, highlighting its value as a cost-effective alternative or complementary solution to expensive field-testing campaigns or high-fidelity ray tracing methods.</p>
+<p>From a scientific research perspective, our framework directly addresses a critical bottleneck in deep learning-based radar applications—the scalability and availability of data needed to train sophisticated machine learning models. Its flexibility, ease of use, and high computational efficiency make it an attractive tool for researchers and developers aiming to push the boundaries of radar-based perception in automotive safety systems and advanced driver assistance systems (ADAS).</p>
+<p>We welcome feedback and collaboration from the scientific community at EuroSciPy 2025 to further refine and extend the capabilities of our framework, exploring its broader applicability in scientific computing and automotive research domains.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="manuel-jurgensen">Manuel Jürgensen</h3><p>Engineer and PhD student at BMW Group in cooperation with FAU Erlangen-Nuremberg, specializing in radar signal processing and perception with a focus on deep learning. Currently developing a Python framework for large-scale radar data generation.</p>
+
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

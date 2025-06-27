@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Beyond Likelihoods: Bayesian Parameter Inference for Black-Box Simulators with sbi
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Beyond Likelihoods: Bayesian Parameter Inference for Black-Box Simulators with sbi">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Beyond Likelihoods: Bayesian Parameter Inference for Black-Box Simulators with sbi">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>Beyond Likelihoods: Bayesian Parameter Inference for Black-Box Simulators with sbi</h2>
+    <h3>Jan Boelts (Teusen), Maternus Herold</h3>
+
+    <div class="description">
+        <p>Many scientific and engineering fields rely on complex computer simulations – for example, in particle physics, epidemiology, or computational neuroscience – to understand complex phenomena. A common challenge is finding the right input parameter settings for these simulators so that their output matches real-world observations. Determining these parameters accurately can be difficult, especially when the simulator is intricate or stochastic.</p>
+<p>Traditional methods like grid search or numerical optimization algorithms can find a single 'best' set of parameters. However, they often struggle when there are many parameters, and more importantly, they usually don't quantify the uncertainty associated with the result. Is this the only good parameter set? How much could the parameters change and still produce similar results? Answering these questions is vital for robust scientific understanding.</p>
+<p>Simulation-Based Inference (SBI) is a modern approach, drawing on machine learning, designed specifically for this problem. SBI methods learn a statistical relationship directly from running your simulator multiple times with different inputs. Their key advantage is the ability to estimate the range of parameter values (and their probabilities) that are consistent with your observed data, providing a measure of uncertainty. This works even for complex 'black-box' simulators where the internal equations might be unknown or intractable. For instance, when modeling disease spread like COVID-19, knowing the uncertainty around estimated infection rates is crucial for making informed decisions – SBI provides exactly this, but for any kind of simulator as long as we can simulate enough data.</p>
+<p>This tutorial provides a comprehensive, practical introduction to SBI using the <code>sbi</code> <a href="https://sbi.readthedocs.io/en/latest/">Python package</a>. <code>sbi</code> implements state-of-the-art SBI algorithms, often using neural networks, and is actively developed by a large community (it's a NumFOCUS affiliated project with over 70 contributors and yearly collaborative hackathons). We will guide you through the entire practical workflow:</p>
+<ul>
+<li>A-prior checks: Defining parameter ranges of interest and running initial simulations to check if the model can plausibly generate data similar to observations.</li>
+<li>Choosing and applying SBI methods: Learning about different SBI strategies (like those that directly estimate parameter probabilities, approximate likelihoods, or work with probability ratios) and selecting one suitable for your specific problem.</li>
+<li>A-posteriori checks: Evaluating how accurately the underlying machine learning models have learned to infer parameters.</li>
+<li>Interpretation: understanding and drawing scientific conclusions from SBI results. </li>
+</ul>
+<p>The tutorial combines accessible explanations of the concepts with hands-on coding exercises using <code>sbi</code>, enabling you to apply these techniques to your own research problems.</p>
+<p><strong>Target Audience:</strong> This tutorial is aimed at individuals comfortable with Python programming who work with computational simulation models in science or engineering and need to estimate parameters from data. Researchers and practitioners looking for practical methods to quantify parameter uncertainty in complex systems will find this useful.</p>
+<p><strong>Prerequisites:</strong></p>
+<ul>
+<li>Proficiency in Python programming.</li>
+<li>No prior knowledge of Bayesian statistics is required. </li>
+</ul>
+<p><strong>Learning Objectives:</strong> Upon completion, participants will be able to:</p>
+<ul>
+<li>Understand the concept of Simulation-Based Inference (SBI) and its advantages for parameter estimation in complex simulators.</li>
+<li>Apply the <code>sbi</code> Python package to estimate parameter ranges and uncertainty from simulation outputs.</li>
+<li>Become familiar with common neural network-based SBI techniques and their use cases.</li>
+<li>Evaluate the results of an SBI analysis to ensure reliability.</li>
+<li>Perform the complete SBI workflow using the <code>sbi</code> package on their own problems.</li>
+</ul>
+<p>This tutorial will equip participants with the practical skills to effectively use the sbi package for more reliable parameter estimation and uncertainty quantification in their simulation-based models.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="jan-boelts-teusen">Jan Boelts (Teusen)</h3><p>Jan initially immersed himself in the realms of cognitive science and computational neuroscience. However, he couldn’t resist the siren call of Bayesian machine learning, and his PhD evolved into a mission to enhance the user-friendliness of this complex field. He set out to bridge cutting-edge methods with user-friendly software, making the world of simulation-based inference more accessible for practitioners. In 2024, he joined the TransferLab, ready to continue his journey of making advanced methodologies approachable and transformative.</p>
+<h3 id="maternus-herold">Maternus Herold</h3><p>Applied AI Researcher focussing on uncertainty quantification and Bayesian inference in various industrial settings.</p>
+
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

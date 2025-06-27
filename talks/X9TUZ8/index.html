@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+A Hitchhiker&#39;s Guide to the Array API Standard Ecosystem
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="A Hitchhiker&#39;s Guide to the Array API Standard Ecosystem">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="A Hitchhiker&#39;s Guide to the Array API Standard Ecosystem">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>A Hitchhiker&#39;s Guide to the Array API Standard Ecosystem</h2>
+    <h3>Lucas Colley</h3>
+
+    <div class="description">
+        <p>Support for alternative array libraries is one of the most common requests put to libraries written on top of NumPy. Users are often interested in boosting their performance by using libraries which can make the most of the hardware available to them, as well as techniques like Just-In-Time compilation. Unfortunately, supporting multiple array libraries is not simple due to API differences, so such support has historically meant heavy duplication of work, with a whole new implementation for each alternative array library. This duplication of work is at best inefficient, and at worst infeasible for maintainers of many libraries.</p>
+<p>The Python array API standard aims to standardise functionality which exists in most array libraries. It specifies an API which 'array-consumer' libraries can use to write 'array-agnostic' code, where the same codebase can support many array libraries at once.</p>
+<p>In this talk, I give a brief introduction to the standard, before taking you on a tour of the standard's ecosystem, explaining how each library built around the standard fits into the bigger picture. I'll explain what the standard enables for SciPy and scikit-learn, and what else may be needed in the future.</p>
+<p>After this talk, you'll be well-acquainted with the following libraries from the data-apis org:</p>
+<ul>
+<li>array-api</li>
+<li>array-api-tests</li>
+<li>array-api-compat</li>
+<li>array-api-strict</li>
+<li>array-api-extra</li>
+</ul>
+<p>I'll also be mentioning some exciting new tools like MArray.</p>
+<p>Rough talk outline:</p>
+<ul>
+<li>5 mins — what is the array API standard, and what problem is it addressing?</li>
+<li>10 mins — a tour of the ecosystem: what do all of these libraries do, and how can you use them?</li>
+<li>10 mins — updates from the past year, status of where we are now, what is coming in the future?</li>
+<li>Any spare time — try some live coding!</li>
+</ul>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="lucas-colley">Lucas Colley</h3><p>I am an undergraduate student studying Computer Science &amp; Philosophy at the University of Oxford. I am also a maintainer of SciPy and array-api-extra, a member of the Consortium for Python Data API Standards, and a founding member of quantity-dev.</p>
+
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

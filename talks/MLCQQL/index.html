@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Automated Chess Analysis: Real-Time Move Detection and Game Narration Using Computer Vision and Large Language Models
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Automated Chess Analysis: Real-Time Move Detection and Game Narration Using Computer Vision and Large Language Models">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Automated Chess Analysis: Real-Time Move Detection and Game Narration Using Computer Vision and Large Language Models">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>Automated Chess Analysis: Real-Time Move Detection and Game Narration Using Computer Vision and Large Language Models</h2>
+    <h3>Anuradha KAR, Likhita Yerra, Anuradha Kar, PhD</h3>
+
+    <div class="description">
+        <p>This talk presents the development of a python application for the detection and interpretation of chess moves from video footage, blending deep learning based computer vision, motion tracking, and LLM based sequence analysis. The system is designed to identify all 12 chess piece types—pawn, rook, knight, bishop, queen, and king in both black and white—on an 8×8 board, track their movements across frames. It then converts these actions into standard algebraic notation (e.g., "e4", "Nf3", "Qxd5"). A key feature of this application is the ability to distinguish between valid moves and incidental adjustments, like nudging a piece. In addition, based on the chess moves an LLM is used to generate an educational commentary on the game which adds an engaging narrative dimension for users, making it suitable for learners and casual viewers alike.</p>
+<p>The application workflow begins with object detection using a YOLOv8 model trained on a labeled chess dataset, which outputs bounding boxes and class probabilities for each chess piece. The centroids of these detected bounding boxes are then mapped to corresponding chessboard squares (e.g., "a1" to "h8"). By comparing piece positions across consecutive video frames, the system infers potential moves, which are subsequently validated using the python-chess library to ensure legality—such as preventing illegal pawn movements. Once a move is confirmed, it is passed to OpenAI’s GPT-4, which generates educational and context-aware commentary. This commentary is then converted to audio using Google Text-to-Speech (gTTS), creating an engaging and informative user experience.
+Finally this application is packaged within a Streamlit app that provides an interactive platform, allowing users to upload videos, view annotated outputs, and download commentary audio. This pipeline combines YOLOv8’s speed, chess-specific logic, and AI-driven narration into a cohesive system.</p>
+<p>The computer vision and LLM based workflow successfully automates move detection in chess games by leveraging a YOLOv8s model to process user-submitted videos, accurately generating legal move sequences and producing annotated output videos. Building on this, the Streamlit application seamlessly combines visual move annotations, structured move lists, and GPT-4-generated audio commentary, delivering a rich and interactive user experience. This integrated pipeline highlights the powerful synergy between computer vision and large language models, demonstrating a practical, real-world application where automated visual recognition and natural language generation come together to create dynamic and educational chess commentary. Furthermore, integrating large language models for commentary generation opens new possibilities for smart chess boards, coaching applications, live-streamed matches with narration, and automated game archiving for tournaments and classrooms. Overall, this fusion of computer vision and natural language generation bridges the gap between physical and digital chess, fostering greater inclusivity, deeper engagement, and accelerated learning across the chess community.
+Advancements in this work may include expanding to multi-player support by incorporating hand tracking or multi-camera systems to accurately detect player turns and interactions, as well as enhancing analysis capabilities to assess move quality, providing detailed feedback on mistakes and exceptional plays.</p>
+<p>This is an open source project and the GitHub repository details and steps for installation/running this application will be shared during the talk.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="anuradha-kar">Anuradha KAR</h3><p>I am an Associate Professor in AI and Robotics at Aivancity based in Paris, France.  I got my PhD from the University of Galway in Ireland in Electrical and Electronic Engineering. I then worked at ENS Lyon in collaboration with Inria and Inrae on deep learning for 3D biological image analysis, then joined the Paris Brain Institute with Inria on deep learning for data analysis of Alzheimer's patients, and the Pasteur Institute in Paris on applications of deep learning in the field of drug discovery. My research and teaching interests focus on applications of deep learning in computer vision, computational biology and health, as well as human-machine interactions and intelligent systems.</p>
+<h3 id="likhita-yerra">Likhita Yerra</h3><p>Likhita Yerra, a Master’s student in AI and Data Science, specializes in Python, computer vision, and large language models. I develop innovative machine learning solutions with PyTorch, TensorFlow, Docker, and Streamlit, passionate about advancing AI and scientific computing for real-world impact.</p>
+<h3 id="anuradha-kar-phd">Anuradha Kar, PhD</h3>
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

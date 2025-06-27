@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Python-Blosc2: Compress Better, Compute Bigger!
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Python-Blosc2: Compress Better, Compute Bigger!">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Python-Blosc2: Compress Better, Compute Bigger!">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>Python-Blosc2: Compress Better, Compute Bigger!</h2>
+    <h3>Francesc Alted, Luke Shaw</h3>
+
+    <div class="description">
+        <p>Blosc and Blosc2 are well-known and widely used libraries for high-performance data compression. They are particularly effective for compressing large datasets, such as those encountered in data science and high-performance computing. The Blosc library has been around for over a decade, and its design has always prioritized speed, with a focus on achieving compression and decompression speeds that are close to or even exceed memory bandwidth limits.</p>
+<p>With the introduction of a new compute engine in Python-Blosc2 3.0, the guiding principle has evolved to "Compress Better, Compute Bigger." This enhancement enables computations on datasets that are over 100 times larger than the available RAM, all while maintaining high performance.</p>
+<p>During our talk, we will delve into the latest features of Python-Blosc2, including:</p>
+<ul>
+<li>Seamless integration with NumPy and the Python Data ecosystem</li>
+<li>High-performance compression and decompression</li>
+<li>The new compute engine and its capabilities</li>
+<li>A JIT (Just-In-Time) compiler for Python functions including almost all NumPy functions</li>
+<li>The ability to perform computations on datasets that exceed available RAM</li>
+</ul>
+<p>To illustrate this, we will present an example of using Python-Blosc2 to analyze a dataset that largely exceeds the capacity of the available RAM. We will demonstrate how to leverage the new compute engine to perform computations efficiently, without the need for specialized hardware or infrastructure.</p>
+<p>By the end of this talk, attendees will understand how Python-Blosc2 can help overcome memory constraints in their data workflows. Whether you're working with medium-sized datasets on modest hardware or large datasets on high-performance systems, you'll learn practical techniques to compress data while maintaining computational efficiency.</p>
+<p>Join us to explore how this powerful library can expand your capabilities for scientific computing and data analysis while reducing memory footprint and improving processing speed.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="francesc-alted">Francesc Alted</h3><p>I am a curious person who studied Physics and Applied Maths. I spent over a year at <a href="https://home.cern">CERN</a> for my MSc in High Energy Physics. However, I found maths and computer sciences equally fascinating, so I left academia to pursue these fields. Over the years, I developed a passion for handling large datasets and using compression to enable their analysis on commodity hardware accessible to everyone.</p>
+<p>I am the CEO of <a href="https://ironarray.io">ironArray SLU</a> and also leading the <a href="https://blosc.org">Blosc Development Team</a>. I am very excited in working in providing a way for sharing Blosc2 datasets in the network in an easy and effective way via <a href="https://ironarray.io/caterva2-doc/index.html">Caterva2</a>, and <a href="https://ironarray.io/cat2cloud">Cat2Cloud</a>, a software as a service that we are introducing.</p>
+<p>As an Open Source believer, I started the <a href="https://www.blosc.org/posts/pytables-20years/">PyTables project more than 20 years ago</a>.  After 25 years in this business, I started several other useful open source projects like Blosc, Caterva2 and <a href="https://github.com/ironArray/Blosc2-Btune">Btune</a>; those efforts won me two prizes that mean a lot to me:</p>
+<ul>
+<li>2023: <a href="https://www.blosc.org/docs/NumFOCUS-Sustainability-Award.jpg">NumFOCUS Project Sustainability Award</a></li>
+<li>2017: <a href="https://opensource.googleblog.com/2017/10/more-open-source-peer-bonus-winners.html">Google’s Open Source Peer Bonus</a></li>
+</ul>
+<p>You can know more on what I am working on by reading my <a href="https://www.blosc.org/authors/francesc-alted">latest blogs</a>.</p>
+<h3 id="luke-shaw">Luke Shaw</h3><p>2019 BS in Physics (Princeton University), cum laude
+2020 MSc in Applied Mathematics (University of Edinburgh), with distinction
+2024 PhD in Applied Mathematics (Universitat Jaume I), sobresaliente cum laude</p>
+
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

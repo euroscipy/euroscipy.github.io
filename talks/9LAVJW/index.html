@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Understanding Dispatching Approaches in the Scientific Python Ecosystem
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Understanding Dispatching Approaches in the Scientific Python Ecosystem">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Understanding Dispatching Approaches in the Scientific Python Ecosystem">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>Understanding Dispatching Approaches in the Scientific Python Ecosystem</h2>
+    <h3>Sebastian Berg, Aditi Juneja</h3>
+
+    <div class="description">
+        <h1 id="description">Description</h1><p>In the first few minutes we will go over what dispatching is, why it's needed, what kind of projects may benefit from it, and the kinds of dispatching i.e the user decides which backend to use explicitly or the library implicitly dispatch to the "right" implementation for the user or implicitly dispatch based on the input type(s).</p>
+<h2 id="array-api-standard-and-numpy-predecessors-10-12-mins">Array API standard and NumPy predecessors (10-12 mins)</h2><p>In this section we will start with NumPy's old dispatching, briefly explaining how it works, and also showing what it can do, such as allowing to use a NumPy function with cupy.</p>
+<p>We will then continue with the Array API which has momentum as it is being used by libraries such as SciPy and sklearn and with existing support for numpy, pytorch, JAX, CuPy, Xarray, etc.
+We will highlight it's use by briefly show-casing the speed-up when a user switches e.g. from NumPy to pytorch.</p>
+<p>These examples will help us expose key difference in type dispatching approaches both for it's users and for the implementation.
+A main difference being that the Array API is library orientated while the NumPy dispatching was user-orientated.</p>
+<h2 id="backend-library-based-dispatching-10-12-mins">Backend-library based dispatching (10-12 mins)</h2><p>We will then continue with the more general backend-library based dispatching approach that is implemented in libraries like NetworkX and scikit-image.</p>
+<p>This approach is more general and opens up additional possibilities as it is based on Python <a href="https://packaging.python.org/en/latest/specifications/entry-points"><code>entry_point</code></a>, which are generally used to extend the functionality of a package. We will understand this <code>entry-point</code> based dispatching through a quick demo.</p>
+<p>Then we will see a demo of how NetworkX speeds-up with <a href="https://github.com/networkx/nx-parallel">nx-parallel</a> and <a href="https://github.com/rapidsai/nx-cugraph">nx-cugraph</a> backends, and the different user APIs in NetworkX to dispatch a call: based on backend-specific graph's type, <code>backend=</code> kwarg, environment variables, global configurations, context manager.</p>
+<p>Then we will go over some of the learnings gathered while integrating this mechanism in <a href="https://github.com/scikit-image/scikit-image">scikit-image</a> and challenges faced with dispatching arrays inputs.</p>
+<h2 id="summary-and-comparison">Summary and Comparison</h2><p>We will end with a summary of how dispatching approaches differ and when to use which ones, both as a developer and a user of a project. In this summary we wish to expand beyond the previous examples and also mention for example <a href="https://data-apis.org/dataframe-api/draft/">DataFrame API standards</a> and <a href="https://github.com/narwhals-dev/narwhals">narwhals</a>.</p>
+<h2 id="intended-audience">Intended audience:</h2><ul>
+<li>Contributors/Maintainers of Python libraries who are interested in providing faster algorithms without changing much of their codebase and user-API</li>
+<li>People who work with large graph, image and array datasets</li>
+<li>Anyone interested in API dispatching or any of the above stuff :)</li>
+</ul>
+<p>Some basic knowledge of Python is expected; should know what objects and classes are.</p>
+<p>Thank you :)</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="sebastian-berg">Sebastian Berg</h3><p>Sebastian has been a NumPy developer for about 10 years now.  After a PhD in phsyics he worked at as a postdoc at the Berkeley Institute for Datascience on NumPy as grants byt the Alfred P. Sloan Foundation and the Gordon and Betty Moore Foundation.  Since 2022 he has been a software engineer at NVIDIA where he continues to contribute to NumPy.</p>
+<h3 id="aditi-juneja">Aditi Juneja</h3><p>Hi, I am Aditi. I mostly work around API dispatching things in the scientific python ecosystem, mostly in NetworkX, nx-parallel backend and scikit-image.</p>
+<p>GitHub: <a href="https://github.com/Schefflera-Arboricola">https://github.com/Schefflera-Arboricola</a>
+Previous talks: <a href="https://github.com/Schefflera-Arboricola/blogs/tree/main/archive">https://github.com/Schefflera-Arboricola/blogs/tree/main/archive</a></p>
+
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

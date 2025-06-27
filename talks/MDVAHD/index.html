@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+ELVA - Local-First Real-Time Collaboration Apps in Your Terminal
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="ELVA - Local-First Real-Time Collaboration Apps in Your Terminal">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="ELVA - Local-First Real-Time Collaboration Apps in Your Terminal">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>ELVA - Local-First Real-Time Collaboration Apps in Your Terminal</h2>
+    <h3>Tiziano Zito, Jakob Zahn</h3>
+
+    <div class="description">
+        <h3 id="our-motivation">Our Motivation</h3><p>As scientists working with distributed groups all over the world, we have high and numerous expectations for a digital collaboration tool:</p>
+<ul>
+<li>platform-independent</li>
+<li>secure</li>
+<li>reliable synchronization of any kind of data</li>
+<li>works seamlessly offline</li>
+<li>private, no remote cloud services involved</li>
+<li>no central servers required, peer-to-peer</li>
+<li>access to the local filesystem</li>
+<li>easily adaptable and extensible</li>
+<li>easily accessible</li>
+<li>stable and lightweight</li>
+<li>open-source</li>
+</ul>
+<p>Several tools already exist that can fulfill a subset of these requirements, but they come with all sort of restrictions.</p>
+<p>Some examples:</p>
+<ul>
+<li>Git is great for keeping track of text files, but it requires you to manually save the current state by committing and lacks efficient native support for binary files.
+Also, the user has to manually deal with merge conflicts when multiple people work on the same files.
+While powerful extensions such as Git-LFS and git-annex do a great job with binary data, Git is still unsuitable as general purpose collaboration platform.</li>
+<li>Cloud-based software such as Nextcloud, Seafile or the corresponding commercial alternatives are able to sync any type of data out of the box, but they implement
+versioning only in a rudimentary fashion, if at all.
+Furthermore, a central server is a vital part of the architecture.
+Since their synchronization is file-based, merge conflicts still arise and need to be resolved by hand.</li>
+<li>Browser-based editors like Visual Studio Code, HedgeDoc or Etherpad feature real-time synchronization of content, but cannot sync binary data, and when they are implemented as in-browser apps, they cannot always access the local filesystem.</li>
+</ul>
+<p><code>ELVA</code> aims to close these gaps.</p>
+<h3 id="our-ideas">Our Ideas</h3><p>In short, we want to have the comfortable real-time synchronization of in-browser apps but in a software that runs locally for proper access to the filesystem on every operating system.</p>
+<p>Conflict-free replicating data types (CRDTs) are the backbone of <code>ELVA</code>.
+They provide the fundamental logic for proper integration of shared data fragments.</p>
+<p>The suite shall be written in Python, as it is relatively easy to learn and widely used in scientific research.
+If users of <code>ELVA</code> feel the need for special functionality, they should be able to add it by themselves without much effort.</p>
+<p>Also, as we intend <code>ELVA</code> to be also usable by non-technical people, we need to have a good user interface (UI).
+We decided to settle on text-based terminal apps, which are lightweight and work consistently across platforms, but graphical interfaces are likewise implementable.</p>
+<p>Versioning could still be realized with a Git integration and synchronizing bulk storage is a question of app and protocol design.</p>
+<h3 id="our-prototype">Our Prototype</h3><p>We are proud to present our prototype of <code>ELVA</code> with a working text editor and a chat app.</p>
+<p>Currently, we use the <a href="https://github.com/y-crdt/pycrdt"><code>pycrdt</code></a> package providing Python bindings to the <a href="https://github.com/y-crdt/y-crdt"><code>Yrs</code></a> library, which holds the Rust implementation of CRDTs originating from the <a href="https://github.com/yjs/yjs"><code>Yjs</code></a> library.
+<code>Yjs</code> is used in a variety of popular software: <a href="https://jupyter.org/">JupyterLab</a>, Facebook's <a href="https://lexical.dev/">Lexical</a> editor, <a href="https://nextcloud.com/">Nextcloud</a> and <a href="https://github.com/yjs/yjs?tab=readme-ov-file#who-is-using-yjs">many other projects</a>.</p>
+<p>The text-UI is powered by the <a href="https://github.com/Textualize/textual"><code>Textual</code></a> framework.
+We intentionally kept the UI minimal to also allow pure keyboard usage.
+A builtin REPL widget provides the needed configuration flexibility.</p>
+<p>The project's design concept stands: We provide apps to be directly used and library code for writing own features and apps.
+The configuration specification as well as the synchronization protocol are also defined.</p>
+<p>We publish comprehensive documentation under <a href="https://elva.mintgruen.tu-berlin.de">https://elva.mintgruen.tu-berlin.de</a> alongside a few guides and a blog.
+Code management with versioning and changelog has been properly set up for ease in long-term maintenance.</p>
+<p>The source code of <code>ELVA</code> is published under the AGPL-3.0 license on <a href="https://github.com/innocampus/elva">https://github.com/innocampus/elva</a>.</p>
+<h3 id="our-vision">Our Vision</h3><p>We hope to build up a community around this project by showing it to and improving it with other people.
+As a part of that, we plan to introduce <code>ELVA</code> to our students in programming classes.</p>
+<p>A dedicated app for bulk synchronization is being developed.
+Additionally, we would like to explore networking without a central server and implement easy to setup peer-to-peer communication protocols to also allow for 
+spontaneous collaboration in meetings or at conferences.
+Other apps and integrations might be written in other languages than Python thanks to <code>ELVA</code>'s integrated networking and the <code>Yrs</code> bindings available in several other languages.</p>
+<p>Another important point is integrating Git into <code>ELVA</code> for proper versioning and publishing with services such as <a href="https://gin.g-node.org/">GIN</a>.</p>
+<h3 id="contact-information">Contact Information</h3><p>Jakob Zahn
+Head of Software Development
+Projekt <code>ELVA</code>
+Pronouns: he/his
+Address: Mr.</p>
+<p>Technische Universität Berlin
+innoCampus
+Room E116
+Einsteinufer 19
+10587 Berlin
+Germany</p>
+<p>Phone: +49 30 314 77006
+Mobile: +49 152 06370569
+E-Mail: <a href="mailto:jakob.zahn@tu-berlin.de">jakob.zahn@tu-berlin.de</a></p>
+<p><a href="https://elva.mintgruen.tu-berlin.de">https://elva.mintgruen.tu-berlin.de</a>
+<a href="https://www.tu.berlin">https://www.tu.berlin</a></p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="tiziano-zito">Tiziano Zito</h3><h3 id="jakob-zahn">Jakob Zahn</h3><p>I studied Physics at Technische Universität Dresden and Freie Universität Berlin.
+After achieving my master's degree in 2021, I started working at Technische Universität Berlin in the ELVA project as technical lead and software developer.</p>
+
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

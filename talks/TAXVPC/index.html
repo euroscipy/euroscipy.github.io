@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Sensor data processing on microcontrollers with MicroPython
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Sensor data processing on microcontrollers with MicroPython">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Sensor data processing on microcontrollers with MicroPython">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>Sensor data processing on microcontrollers with MicroPython</h2>
+    <h3>Jon Nordby</h3>
+
+    <div class="description">
+        <p>Here is an overview of the topics you can learn about in this presentation.</p>
+<h4 id="sensor-nodes-and-wireless-sensor-networks">Sensor nodes and Wireless Sensor Networks</h4><p>A sensor node is a combined hardware + software system that can sense things in the physical world.
+It uses sensor elements such as camera, microphone, accelerometer, radar, temperature et.c.
+A node has a microcontroller that does data aquition and processing, and also some way of storing data,
+or transmitting it to another system for further processing and storage.
+The typical functional blocks of firmware for a sensor node are:</p>
+<ul>
+<li>Data readout. Fetching data from each of the attached sensors.</li>
+<li>Processing. Extracting useful information from the data.</li>
+<li>Data storage. Storing either for long term, or as a transmission buffer.</li>
+<li>Data transmission. Sending the extracted information to external systems.</li>
+<li>Power management. Transitioning between sleep and aware as needed.</li>
+</ul>
+<p>For low cost installation and operation,
+many sensor nodes are battery-powered and use wireless connectivity.
+And they are often deployed together as part of larger Wireless Sensor Networks.</p>
+<h3 id="about-micropython">About MicroPython</h3><p>MicroPython is an implementation of Python that runs on practically all microcontrollers with 16kB+ RAM.
+It provides access to the microcontroller hardware, functions for interacting with sensors and external pheripherals,
+as well as connectivity options such as WiFi, Ethernet, Bluetooth Low Energy, etc.</p>
+<p>While MicroPython (and the emlearn library) can target a very wide range of hardware,
+we will focus on the Espressif ESP32 family of devices.
+These are very powerful and affordable, with good WiFi+BLE connectivity support,
+gpod open-source toolchains, are very popular both among hobbyist and companies,
+and have many good ready-to-use hardware development kits.</p>
+<h4 id="challenges-and-constraints-of-microcontroller-based-sensor-nodes">Challenges and constraints of microcontroller-based sensor nodes</h4><p>While microcontrollers are getting more powerful year by year,
+it is still important to fit within the limited RAM, program size and CPU time available.
+For sensors with low datarates (like accelerometers) this is rather doable,
+but for higher datarates such as audio or images good practices can be critical.
+Furthermore we may wish to operate on low-power with long battery life.
+In that case it is critical to maximize sleeping, which means to reduce device wakeups,
+and to quickly return back to sleep.
+Ensuring that we stay within the resource budgets requires some care (in any programming language),
+and a high-level language like Python poses some particular challenges.</p>
+<h4 id="tools-and-practices-for-efficient-sensor-data-processing-in-micropython">Tools and practices for efficient sensor data processing in MicroPython</h4><p>We will go through the tools which MicroPython provides for efficient sensor data processing.
+This includes:</p>
+<ul>
+<li>Ways of writing (Micro)Python code that are faster. For example reducing allocations</li>
+<li>Optimizing subsets of Python using the @native and @viper code emitters</li>
+<li>The built-in Python-based assembler for ARM Cortex M chip</li>
+<li>Dynamic native C modules. Can be installed at runtime</li>
+<li>User C modules. Can be baked into a custom MicroPython image</li>
+</ul>
+<p>We will compare these approaches on a few algorithms that are often used of typical sensor data processing.
+This includes algorithms from the world of Digital Signal Processing as well as Machine Learning.
+Candidates include Fast Fourier Transform (FFT), Root Mean Square (RMS),
+Convolutional Neural Network (CNN), and Random Forest (RF).</p>
+<p>The emlearn-micropython packages provided a set of MicroPython modules
+that can be installed onto a device, without having to recompile any C code.
+This preserves the ease-of-use that Python developers are used to on a desktop system.
+Compared to pure-Python approaches, the emlearn-micropython modules are typically 10-100x faster.</p>
+<h4 id="intended-audience-and-expected-background">Intended audience and expected background</h4><p>Any developer or data scientist curious about sensor data processing, IoT,
+and how Python scales down to the smallest of devices.</p>
+<p>The audience is expected to have a basic literacy in Python, proficiency in programming,
+and know the basics of data processing.
+Some familiarity in time-series processing, Digital Signal Processing or 
+Machine Learning, will make the talk much more relevant to you.
+Familiarity with microcontrollers and embedded systems is of course an advantage</p>
+<ul>
+<li>but the talk should be approachable to those who are new to this area.</li>
+</ul>
+<h4 id="focus-and-scope-of-the-talk">Focus and scope of the talk</h4><p>The main part of the talk will be how to built sensor-nodes for scientific applications with MicroPython,</p>
+<p>The general introduction to MicroPython will be kept rather brief, as there are many resources for this available already.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="jon-nordby">Jon Nordby</h3><p>Jon is a Machine Learning Engineer specialized in IoT systems. He has a Master in Data Science and a Bachelor in Electronics Engineering, and has published several papers on applied Machine Learning.
+He has been contributing to open-source software since 2010.</p>
+<p>These days Jon is co-founder and Head of Data Science at Soundsensing, a leading provider of condition monitoring solutions for commercial buildings and HVAC systems.
+He is also the creator and maintainer of emlearn, an open-source Machine Learning library for microcontrollers and embedded systems.</p>
+
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

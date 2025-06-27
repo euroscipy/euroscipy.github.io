@@ -87,6 +87,656 @@ Talks
 
     <ul class="content-list">
         
+        <li>
+            <a href="X9TUZ8/" class="content-list--entry">
+                <h3 class="talk-title">
+                    A Hitchhiker&#39;s Guide to the Array API Standard Ecosystem
+                </h3>
+                <h4>
+                    Lucas Colley
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">The array API standard is unifying the ecosystem of Python array computing, facilitating greater interoperability between code written for different array libraries, including NumPy, CuPy, PyTorch, JAX, and Dask.
+
+But what are all of these &#34;array-api-*&#34; libraries for? How can you use these libraries to &#39;future-proof&#39; *your* libraries, and provide support for GPU and distributed arrays to your users? Find out in this talk, where I&#39;ll guide you through every corner of the array API standard ecosystem, explaining how SciPy and scikit-learn are using all of these tools to adopt the standard. I&#39;ll also be sharing progress updates from the past year, to give you a clear picture of where we are now, and what the future holds.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="L9JPZE/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Accelerate your scientific Python code with Rust
+                </h3>
+                <h4>
+                    Juan Luis Cano Rodríguez
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Combining Python with compiled languages for speed is far from novel - the scientific Python ecosystem has been doing it for around 25 years! Specifically, Rust has proven to be a particularly solid companion for Python in recent times, thanks in large part to the great tooling available. The impact on scientific Python code can be huge. And yet, the language has a reputation of having a steep learning curve.
+
+Creating your first Rust extension for Python can be done in 5 minutes thanks to uv and maturin (no exaggeration), but of course that&#39;s just the beginning. In this talk you will learn everything else you need to make your numerical code blazing fast with Rust.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="DASHT7/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Annotating the dynamic: Type Annotation for DataFrames
+                </h3>
+                <h4>
+                    Frank Sauerburger
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">While type annotation has significantly improved the readability and structure of general application code, its applicability to DataFrames—a fundamental component in data science—has yet to be fully realized. The dynamic and runtime-defined nature of DataFrames contrasts the development-time nature of type annotation. As a DataFrame schema is often only known at runtime, e.g., after reading an input file, utilizing type annotations to enhance schema validation and code readability presents a challenge.
+
+The tutorial is intended for hands-on Python enthusiasts who work with DataFrames. The tutorial introduces type annotation and presents its advantages regarding readability, maintainability, tooling, and static code analysis. The tutorial explores libraries and tools to leverage the advantages of type annotation at development-time and libraries to enforce runtime validation. The tutorial dives into the benefits of type annotations of DataFrames and highlights the limitations of type annotations specific to the dynamic nature of DataFrames. Therefore, the tutorial will present best practices for leveraging type annotations with DataFrames.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="MLCQQL/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Automated Chess Analysis: Real-Time Move Detection and Game Narration Using Computer Vision and Large Language Models
+                </h3>
+                <h4>
+                    Anuradha KAR, Likhita Yerra, Anuradha Kar, PhD
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">This talk presents a python-Streamlit application which has been developed based on integration of deep learning based automatic chess move detection and LLM-generated chess game commentary and is designed to be a powerful tool for enhancing chess learning and viewer engagement. Automatic move detection based on a high accuracy computer vision model allows chess players, learners and general viewers to accurately track the games, identify mistakes, and review tactics without the need for manual notation. Beginners gain a clearer understanding of gameplay flow, while enthusiasts can easily annotate and revisit key moments. By combining move detection with real-time, LLM-driven commentary, the system provides context-aware explanations that highlight strategic ideas, tactical patterns, and player intentions. This creates an interactive and educational experience that enriches both learning and viewing.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="MU9HAJ/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Beyond Likelihoods: Bayesian Parameter Inference for Black-Box Simulators with sbi
+                </h3>
+                <h4>
+                    Jan Boelts (Teusen), Maternus Herold
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Do you spend time tuning parameters for complex scientific simulators? Perhaps you use grid search or optimization to match parameters to data. These find a best-fit set, but often don&#39;t reveal your confidence or if other parameters also fit. This uncertainty is crucial for reliable conclusions.
+This tutorial introduces Simulation-Based Inference (SBI), a modern technique tackling this challenge. Unlike traditional Bayesian inference methods (like MCMC) that require mathematical likelihood functions, SBI works directly with your simulator&#39;s outputs. Using recent advances in probabilistic ML, it estimates the probability distribution of parameter values consistent with your observations, even for complex &#34;black-box&#34; simulators. It provides not just a single best guess, but full parameter distributions representing parameter uncertainties and potential interactions.
+In this hands-on tutorial using the `sbi` Python package, you&#39;ll learn the practical steps: setting up the problem, running SBI for parameter distributions, and checking result reliability. We will cover different SBI techniques and how to apply them.
+If you are a scientist or engineer using Python for simulations, or just interested in probabilistic inference methods, this session is designed for you. Crucially, no prior Bayesian statistics knowledge is required. You will learn to obtain more reliable and interpretable results by quantifying uncertainty and understanding how parameters interact within your model.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="GYBLDL/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Beyond the Basics: Data Visualization in Python
+                </h3>
+                <h4>
+                    Stefanie Molin
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">The human brain excels at finding patterns in visual representations, which is why data visualizations are essential to any analysis. Done right, they bridge the gap between those analyzing the data and those consuming the analysis. However, learning to create impactful, aesthetically-pleasing visualizations can often be challenging. This session will equip you with the skills to make customized visualizations for your data using Python.
+
+While there are many plotting libraries to choose from, the prolific Matplotlib library is always a great place to start. Since various Python data science libraries utilize Matplotlib under the hood, familiarity with Matplotlib itself gives you the flexibility to fine tune the resulting visualizations (e.g., add annotations, animate, etc.). This session will also introduce interactive visualizations using HoloViz, which provides a higher-level plotting API capable of using Matplotlib and Bokeh (a Python library for generating interactive, JavaScript-powered visualizations) under the hood.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="7BXY7G/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Breaking the Constraints of Linear Notebook Environments
+                </h3>
+                <h4>
+                    Ada Böhm
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">The talk will explore the limitations of current interactive notebook paradigms and introduce [ANONYMIZED TOOL], an experimental alternative to Jupyter that reimagines interactive programming for scientific computing. The talk will explore the design philosophy, technical implementation, and potential impact on scientific computing workflows. [TOOL] is an open source and available at: github.com/[ANONYMIZED].</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="FPYRSB/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Compress, Compute, and Conquer: Python-Blosc2 for Efficient Data Analysis
+                </h3>
+                <h4>
+                    Francesc Alted, Luke Shaw
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Have you ever experienced the frustration of not being able to analyze a dataset because it&#39;s too large to fit in memory? Or perhaps you&#39;ve encountered the memory wall, where computation is hindered by slow memory access? In this hands-on tutorial, you&#39;ll learn how to overcome these common challenges using Python-Blosc2.
+
+Python-Blosc2 (https://www.blosc.org/python-blosc2/) is a high-performance, multi-threaded, multi-codec array container, with an integrated compute engine that allows you to compress *and compute* on large datasets efficiently. You&#39;ll gain practical experience with Python-Blosc2&#39;s latest features, including its seamless integration with NumPy and the broader Python data ecosystem. Through guided exercises, you&#39;ll discover how to tackle data challenges that exceed your available RAM while maintaining high performance.
+
+By the end of this tutorial, you&#39;ll be able to implement Python-Blosc2 in your own workflows, dramatically increasing your ability to process large datasets on standard hardware. Participants should have basic familiarity with NumPy and Python data processing.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="Z83QKH/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Deploy your Machine Learning model with Fast API
+                </h3>
+                <h4>
+                    Cheuk Ting Ho
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">One of the challenges for a machine learning project is to deploy it. Fast API provides a fast and easy way to deploy a prototype with less software development expertise and yet allow it to be developed into a professional web service. We will look at how to do it.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="CTCYRB/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Efficient and accurate models for peptide function prediction
+                </h3>
+                <h4>
+                    Piotr Ludynia
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Peptides are small proteins, regularing many important biological processes. They have significant therapeutic potential, thanks to their properties, e.g. microbial, antiviral, or anticancer. 
+In particular, they offer a promising alternative to traditional antibiotics, addressing the growing crisis of drug resistance.
+Accurately predicting peptide properties is essential for drug discovery, and recent research has explored deep learning approaches such as graph neural networks, protein language models, and multimodal ensembles.
+However, these methods are often overly complex and lack scalability. They are also brittle and their performance breaks down on new datasets or tasks.
+We propose to use molecular fingerprints for this task. They are established feature extraction algorithms from chemoinformatics, primarily applied on small molecules. 
+We show that they obtain state-of-the-art results on peptide function prediction and can efficiently vectorize larger biomolecules.
+This approach is simple, fast, and accurate. We comprehensively measure its robustness on 6 benchmarks and 126 datasets. This unlocks a novel venue in chemoinformatics-based approaches for peptide-based drug design.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="MDVAHD/" class="content-list--entry">
+                <h3 class="talk-title">
+                    ELVA - Local-First Real-Time Collaboration Apps in Your Terminal
+                </h3>
+                <h4>
+                    Tiziano Zito, Jakob Zahn
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Science evolves and flourishes through close team work and smooth information exchange.
+Despite the plethora of digital collaboration platforms a tool that allows for seamless collaboration does not exist, yet.
+
+We present `ELVA`, a command-line tool and suite of terminal applications which are able to synchronize arbitrary data structures in real-time without conflicts in a peer-to-peer setup.
+From a simple text file to an IDE session, a chat, a directory&#39;s content ... All of this can be modeled with a combination of *conflict-free replicating data types* (CRDTs) provided by the [`Yrs`](https://github.com/y-crdt/y-crdt) library and its Python bindings in [`pycrdt`](https://github.com/y-crdt/pycrdt).
+Thereby, merge conflicts as a main pain point of version control systems and file based synchronization services are mitigated or even completely avoided.
+In addition, `ELVA` apps are written to be local-first: they run locally on your machine, also when you are offline, and store your data on your disk.
+The local state is synchronized with remote-peers automatically when you are back online.
+A central server is not needed, but it can work as a relay or broker between peers to overcome restrictive firewalls.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="EAAE9B/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Enhancing SymPy Algorithms with MatchPy&#39;s Efficient Pattern Matching
+                </h3>
+                <h4>
+                    Francesco Bonazzi
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">This presentation explores an experimental integration between SymPy (symbolic mathematics) and MatchPy (associative-commutative pattern matching), both open-source Python libraries. By leveraging MatchPy&#39;s efficient pattern matching, which allows for multiple matches with a single expression tree visit, the combined system enhances SymPy&#39;s ability to solve equations, compute derivatives and integrals, and handle differential equations. An experimental RUBI formula integration algorithm implementation demonstrates the practical benefits.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="CBPMEK/" class="content-list--entry">
+                <h3 class="talk-title">
+                    GPU Python for the Real World: Practical GPU-Accelerated Python with RAPIDS
+                </h3>
+                <h4>
+                    Jacob Tomlinson
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">NVIDIA GPUs offer unmatched speed and efficiency for data processing and model training, significantly reducing the time and cost associated with these tasks. Using GPUs is even more tempting when you use zero-code-change plugins and libraries. You can use PyData libraries including pandas, polars and networkx without needing to rewrite your code to get the benefits of GPU acceleration. We can also mix in GPU native libraries like Numba, CuPy and pytorch to accelerate our workflows from end-to-end.
+
+However, integrating GPUs into our workflow can be a new challenge where we need to learn about installation, dependency management, and deployment in the Python ecosystem. When writing code, we also need to monitor performance, leverage hardware effectively, and debug when things go wrong
+
+This is where RAPIDS and its tooling ecosystem comes to the rescue. RAPIDS, is a collection of open source software libraries to execute end-to-end data pipelines on NVIDIA GPUs using familiar PyData APIs.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="Q3FERF/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Guardians of Science: A Python Tutorial on a RAG-Powered Compliance Plug-In and Ethical AI tools
+                </h3>
+                <h4>
+                    Anuradha KAR, Likhita Yerra, Anuradha Kar, PhD
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">As AI adoption accelerates across industries, ensuring ethical integrity and reproducibility has become increasingly critical for enterprises and developers. This tutorial presents a Retrieval-Augmented Generation (RAG)-based compliance plug-in designed to promote responsible AI practices. Through a hands-on session, participants will learn how to integrate external compliance knowledge bases with generative models to automate ethical checks, document decision-making processes, and enhance the reproducibility of AI outputs. The session will cover system architecture, implementation using popular frameworks, and practical use cases, equipping attendees with tools to embed trust and accountability into AI workflows from the outset.
+Over the course of 90 minutes, we will introduce the core concepts behind the Python-based plug-in, including RAG architecture and vector-based retrieval techniques. Participants will engage with live demonstrations on querying regulatory standards such as the European Union Artificial Intelligence Act and FAIR (Findable, Accessible, Interoperable, Reusable) principles. The tutorial will also showcase bias auditing and model transparency features, using a healthcare case study to illustrate real-world application and highlight model tracking and reproducibility capabilities.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="8U3PB3/" class="content-list--entry">
+                <h3 class="talk-title">
+                    How To Accelerate Molecular Insights - Efficient Distance Calculations In Python
+                </h3>
+                <h4>
+                    Adam Staniszewski
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">In the rapidly evolving field of chemo- and bioinformatics, the efficient computation of molecular distances plays a crucial role in applications such as drug discovery, molecular clustering, and structure-activity relationship modeling. The ability to accurately and efficiently measure molecular similarity is essential for tasks ranging from virtual screening to predictive modeling. As molecular datasets continue to grow in size and complexity, scalable and computationally efficient distance metrics become increasingly necessary to facilitate large-scale analysis.
+
+In this work, we explore how Python’s numerical computing capabilities can be leveraged to implement a diverse range of molecular distance metrics. We focus on optimizing computations for vectorized molecular representations, ensuring that performance remains competitive with highly optimized C++-based solutions. By utilizing efficient numerical libraries, we demonstrate that Python can achieve substantial execution speed while maintaining the flexibility and ease of implementation that make it a preferred choice for many researchers.
+
+Beyond implementation, we conduct a comprehensive performance evaluation by comparing our Python-based methods against state-of-the-art libraries written in C++. Our benchmarking includes assessments of computational efficiency, memory usage, and scalability on large molecular datasets. The results illustrate that, with appropriate optimizations, Python-based approaches can serve as</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="CHDNML/" class="content-list--entry">
+                <h3 class="talk-title">
+                    How to become a software detective and perform security research
+                </h3>
+                <h4>
+                    Przemek
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Security research is crucial amid the rapid evolution of cybercrime, the prevalence of nation-state attacks, and over 40k CVEs reported last year. With plenty of learning resources online, it’s challenging to begin your own research. This talk explores fundamental approaches and techniques to discover existing vulnerabilities in software, focusing on practical aspects and essential tools to perform black box and white box analysis, use static analysis tools to understand application structure, and dynamic tools to analyze its behaviour. Additionally, we will exercise static analysis on a vulnerable Python application to apply new knowledge. The goal is to understand how to perform a security research.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="SNPKGF/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Industrial-Level Documentation for Scientific Projects
+                </h3>
+                <h4>
+                    Revathy Venugopal
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">**Tools Used:**
+ 
+- Sphinx
+- Sphinx AutoAPI
+- Fuse.js
+- Towncrier
+- Sphinx Design
+- Google Search Console
+ 
+## Abstract
+ 
+Maintaining high-quality documentation in large-scale open-source organizations is a complex and time-consuming challenge, despite significant advancements in documentation tools. This talk presents a collection of strategies, tools, and workflows designed to optimize the documentation process for scientific projects, improving both efficiency and user experience.
+ 
+We will explore techniques for building dynamic, user-friendly documentation using Sphinx, including:
+ 
+- Auto-generating API documentation
+- Implementing fast, client-side search
+- Enhancing SEO for better discoverability
+- Streamlining CI/CD workflows for seamless documentation deployment
+ 
+Attendees will gain insights into evolving existing documentation themes or creating new ones tailored for scalable, modern scientific projects.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="NKLD7R/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Let&#39;s rewrite optimagic from scratch in half an hour and see what we can learn
+                </h3>
+                <h4>
+                    Janos Gabler
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Optimagic provides a unified interface to optimization algorithms from various packages while adding convenience features like optimizer histories, error handling, and flexible parameter formats — all  in a relatively small code base and without modifying the source code of optimizers. In this talk, we&#39;ll build a simplified version of optimagic to demonstrate the core architectural principles that make this possible. By exploring these ideas, we&#39;ll show how they can be applied beyond optimization to simplify and enhance other scientific Python projects.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="T88GQE/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Machine learning for ecotoxicology and bee pesticide toxicity prediction
+                </h3>
+                <h4>
+                    Jakub Adamczyk
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Machine learning (ML) is widely applied in medicinal chemistry and pharmaceutical industry. Chemoinformatics and molecular ML have been used for decades for safer, faster drug design. However, the important area of agrochemistry has been relatively neglected. New regulations, with strong focus on ecotoxicology, necessitate creation of novel, safer pesticides.
+
+In this talk, I will describe how and why we can apply ML in predictive ecotoxicology, and how those models can be applied in agrochemistry. In particular, I will present ApisTox, a novel dataset about pesticide bee toxicity, how we can construct such datasets from publicly available data sources, and what are the challenges.
+
+Then, we will cover predictive ML applications in ecotoxicology, and how to apply data science tools for agrochemical data. Examples include molecular fingerprints, graph kernels, and graph neural networks. We will also discuss quantitative measures for describing differences between medicinal chemistry and agrochemistry, and how it impacts practical results.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="QPF9N7/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Maintaining People, Not Just Projects: Attracting and Retaining Talent in FOSS
+                </h3>
+                <h4>
+                    Kai Striega
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">The scientific Python ecosystem powers research, education, and innovation across disciplines from physics and biology to finance and AI. However, the long-term sustainability of this ecosystem depends on the people behind it. While the Scientific Python ecosystem continues to attract new contributors, retaining them remains a challenge with factors such as unclear career pathways, emotional labor, burnout, funding limitations, and project governance can discourage continued involvement. 
+
+This discussion is about the human side of open source: mentorship, collaboration, recognition, and belonging. The discussion will aim to surface practical ideas we can take back to our respective projects, as well as identify shared challenges we may be able to address together across the ecosystem.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="HUTEDK/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Managing Scientific Data and Workflows with DataLad
+                </h3>
+                <h4>
+                    Ole Bialas, Michał Szczepanik
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">The flourishing of open science has created an unprecedented opportunity for scientific discovery through the global exchange of data and collaboration between researchers. DataLad (datalad.org) supports this by providing the tools to develop flexible and decentralized collaborative workflows while upholding scientific rigor. It is free and open source data management software, built on top of the version control systems Git and git-annex. Among its major features are version control for files of any size or type, data transport logistics, and digital process provenance capture for reproducible digital transformations. 
+In this hands-on workshop, we will start by exploring DataLad’s basic functionality and learn how to run and re-run analyses while versioning and keeping track of your data. Following this, we will explore DataLad’s collaborative features and learn how to install and work with existing datasets and how to share and distribute your work online. After completing this tutorial, you will be equipped to start using DataLad to manage your own research projects and share them with the world.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="ASR3XL/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Predictive Modeling with Imbalanced Datasets Using Scikit-learn
+                </h3>
+                <h4>
+                    Guillaume Lemaitre, Olivier Grisel
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Real-world applications use machine learning to aid decision-making and planning. Data scientists employ probabilistic models to connect input data with outcome predictions that guide operational decisions. A common challenge is working with &#34;imbalanced&#34; datasets, where the outcome of interest occurs rarely compared to total observations. Examples include disease detection in medical screening, fraud identification in transactions, and discovery of rare physical phenomena like the Higgs boson.
+
+This tutorial examines methodological considerations for handling imbalanced datasets. We focus on resampling techniques that adjust the ratio between positive and negative outcomes. The tutorial explores: (i) how imbalanced data affects probability outcomes and classifier calibration; (ii) resampling&#39;s impact on model overfitting/underfitting and its connection to regularization; and (iii) the tradeoffs between computational and statistical performance when implementing resampling strategies.
+
+Hands-on programmatic notebooks provide practical insights into these concepts.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="LNU8UV/" class="content-list--entry">
+                <h3 class="talk-title">
+                    PyPI in the face: running jokes that PyPI download stats can play on you
+                </h3>
+                <h4>
+                    Loïc Estève
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">We all love to tell stories with data and we all love to listen to them. Wouldn&#39;t it be great if we could also draw actionable insights from these nice stories?
+
+As scikit-learn maintainers, we would love to use PyPI download stats and other proxy metrics (website analytics, github repository statistics, etc ...) to help inform some of our decisions like:
+- how do we increase user awareness of best practices (please use Pipeline and cross-validation)?
+- how do we advertise our recent improvements (use HistGradientBoosting rather than GradientBoosting, TunedThresholdClassifier, PCA and a few other models can run on GPU) ?
+- do users care more about new features from recent releases or consolidation of what already exists?
+- how long should we support older versions of Python, numpy or scipy ?
+
+In this talk we will highlight a number of lessons learned while trying to understand the complex reality behind these seemingly simple metrics.
+
+Telling nice stories is not always hard, trying to grasp the reality behind these metrics is often tricky.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="KCYYTF/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Pyro Meets SBI: Unlocking Hierarchical Bayesian Inference for Complex Simulators
+                </h3>
+                <h4>
+                    Jan Boelts (Teusen)
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">This talk introduces a novel approach that bridges Simulation-Based Inference (SBI) and probabilistic programming languages like Pyro to enable simulation-based hierarchical Bayesian inference. SBI is used to perform parameter inference for intractable simulation models, while Pyro facilitates efficient Bayesian inference with complex hierarchical structures. We demonstrate how to integrate SBI-learned likelihoods into Pyro models, allowing for hierarchical Bayesian analysis of simulation-based models. Using the drift-diffusion model from decision-making research as an example, we showcase the potential of this combined approach for tackling real-world problems with complex simulation models and hierarchical data.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="9F88K8/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Python for subsea engineering: A case study on seabed object detection using AI/ML
+                </h3>
+                <h4>
+                    Samarth Bachkheti
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">This talk explores the application of deep learning in automating object detection using high-resolution seabed images. I will discuss the challenges of working with seabed datasets, strategies for training AI models with limited labelled data, and key considerations when choosing a deep learning framework for geospatial analysis. Using offshore wind farm site assessments as a case study, I will provide practical insights on image pre-processing, model selection, and workflow integration to enhance efficiency in marine geospatial data analysis.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="ELXEN7/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Python Framework for Large-Scale Radar Data Generation and Visualization
+                </h3>
+                <h4>
+                    Manuel Jürgensen
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">The application of machine learning in automotive radar systems presents severe challenges, particularly due to the limited availability of raw radar data tailored to specific radar configurations and annotated datasets. In this presentation, we introduce a novel Python-based framework designed to address these challenges by enabling large-scale radar data generation and visualization.
+
+Our framework leverages existing radar detections from production systems, accumulating radar detections over multiple cycles to enhance resolution and minimize feature fluctuation. These accumulated features, referred to as pseudo scatter points, are treated as scatter centers to generate raw spectra for virtual radar systems with arbitrary antenna arrangements. This approach incorporates clutter in the simulation to achieve more representative results.
+
+Key features of our framework include:
+
+- GPU Acceleration: Utilizes GPU acceleration to handle the computational demands of large-scale radar data generation efficiently.
+- Inbuilt Visualizer: Provides an inbuilt visualizer for radar data, facilitating real-time analysis and debugging.
+- Specialized Data class: Implements a specialized data class to streamline the process of radar data generation and processing.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="7XUYKH/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Python Profiling and Optimisation—A Training Course for Researchers
+                </h3>
+                <h4>
+                    Jost Migenda
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Most researchers writing software are not classically trained programmers. Instead, they learn Python organically, often developing unpythonic habits that negatively impact their software‘s performance.
+
+In this talk, we present a new course on Python profiling and optimisation. We give an overview of the course contents, report on feedback from researchers at multiple universities who attended early versions of the course, and discuss our plans for developing the course further. Finally, we share how you can run the course at your own institution and contribute to it via the Software Carpentry Incubator program.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="TP8ZB7/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Python-Blosc2: Compress Better, Compute Bigger!
+                </h3>
+                <h4>
+                    Francesc Alted, Luke Shaw
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Have you ever experienced the frustration of not being able to analyze a dataset because it&#39;s too large to fit in memory? Or perhaps you&#39;ve encountered the memory wall, where computation is hindered by slow memory access? These are common challenges in data science and high-performance computing.
+
+Python-Blosc2 (https://www.blosc.org/python-blosc2/) is a high-performance, multi-threaded, multi-codec array container, with an integrated compute engine that allows you to compress *and compute* on large datasets efficiently. In this talk, we will explore the latest features of Python-Blosc2, including its seamless integration with NumPy, and the Python Data ecosystem in general, and how it can help you tackle data challenges that exceed the limits of your available RAM, all while maintaining high performance.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="LR7S8P/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Recent Developments in Pytensor, the Successor Package to Theano
+                </h3>
+                <h4>
+                    Ricardo Vieira, Jesse Grabowski
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">We present the latest developments in Pytensor, the successor package to Theano. Pytensor is a package for defining, manipulating, optimizing, and compiling static computational graphs. We especially focus on full graph-to-graph transformations relevant to the goals of a Bayesian/ML workflow. These allow the user to define a single computational graph, which can then be reused in multiple contexts. In the Bayesian workflow, we are able to extract exact expressions for probabilistic inference from a generative sampling model, or automatically marginalize discrete random variables. In a deep-learning workflow, we can automatically remove dropout and normalization layers when compiling a prediction function from a training graph, or replace expensive operations, such as transformers, with specialized forms at compile time. Finally, we show how the same machinery leads naturally to transpilation into compiled languages, via packages like Numba, Jax, and Pytorch</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="TAXVPC/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Sensor data processing on microcontrollers with MicroPython
+                </h3>
+                <h4>
+                    Jon Nordby
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Being able to sense physical phenomena is critical to many areas of science;
+from detecting particles in physics, to measuring pollution in public health, to monitoring bio-diversity in ecology. Over the last decades, the capabilities and costs of sensor system has become much better,
+driven by improvements in microprocessors, MEMS sensor technology, and low-energy wireless communication. Thanks to this, Wireless Sensor Networks and &#34;Internet of Things&#34; (IoT) sensor systems are becoming common.
+
+Typically sensor nodes use microcontroller-based hardware, and the firmware developed primarily using C (or C++). However, it is now becoming feasible to write microcontroller firmware using Python.
+This is thanks to the MicroPython project, combined with affordable and powerful hardware from the last couple of years. Using the familiar and high-level Python programming language makes the process of creating sensor nodes more accessible to an engineer or scientist.
+
+In this talk, we will discuss developing microcontroller-based sensors using MicroPython. This includes a brief introduction to MicroPython, how to do efficient data processing, and share our experience applying this to process accelerometer and microphone data, using both Digital Signal Processing and Machine Learning techniques.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="8KK8UC/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Skrub: machine learning for dataframes
+                </h3>
+                <h4>
+                    Riccardo Cappuzzo, Guillaume Lemaitre, Jérôme Dockès
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Machine-learning algorithms expect a numeric array with one row per observation. Typically, creating this table requires &#34;wrangling&#34; with Pandas or Polars (aggregations, selections, joins, ...), and to extract numeric features from structured data types such as datetimes. These transformations must be applied consistently when making predictions for unseen inputs, and choices must be informed by performance measured on a validation dataset, while preventing data leakage. This preprocessing is the most difficult and time-consuming part of many data-science projects.
+
+Skrub bridges the gap between complex tabular data stored in Pandas or Polars dataframes, and machine-learning algorithms implemented by scikit-learn estimators. It provides scikit-learn transformers to extract features from datetimes, (fuzzy) categories and text, and to perform data-wrangling such as joins and aggregations in a learning pipeline. Its pre-built, flexible learners offer very robust performance on many tabular datasets without manual tweaking. It can create complex pipelines that handle multiple tables, while easily describing and searching rich hyperparameter spaces. As interactivity and visualization are essential for preprocessing, Skrub also provides an interactive report to explore a dataframe, and its pipelines can be built incrementally while inspecting intermediate results.
+
+We will give an overview of Skrub and demonstrate its features on realistic and challenging tabular learning scenarios</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="ZRA3GV/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Solving Hard Optimization Problems with Pyomo and HiGHS: A Practical Introduction
+                </h3>
+                <h4>
+                    Florian Wilhelm
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Mixed-Integer Programming (MIP) is a fundamental technique for solving complex real-world optimization problems in logistics, scheduling, and resource allocation. However, these problems are combinatorially hard, requiring specialized solvers to find optimal solutions efficiently. This talk introduces Pyomo, a Python-based modeling language, and HiGHS, a state-of-the-art open-source solver. We will first explore the class of problems that MIP can solve, discuss why they are computationally challenging, and then explain how modern solvers like HiGHS tackle these challenges. Using conference scheduling as a real-world example, we demonstrate how Pyomo and HiGHS work together to model and solve an optimization problem. Attendees will leave with a clear understanding of how to leverage these tools for scientific and industrial optimization tasks.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="NHKMDP/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Standardised Quantity/Unit APIs discussion
+                </h3>
+                <h4>
+                    Lucas Colley
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Work with quantities (values with units) in Python? Come and help brainstorm ideas and voice your opinions for standardised APIs!
+
+Discussion session for https://github.com/quantity-dev/metrology-apis and related efforts.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="JACK7B/" class="content-list--entry">
+                <h3 class="talk-title">
+                    The BrainGlobe initiative - image analysis in a common coordinate space.
+                </h3>
+                <h4>
+                    Igor Tatarnikov
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">The BrainGlobe initiative provides open-source tools for analysis and visualisation of brain microscopy imaging data. Neuroanatomy is key to understanding the brain. However, current tools are often specialised for a single model species or image modality and lack sustained support post-publication. BrainGlobe provides a generalised framework for representing multiple anatomical atlases within and across species, allowing our tools to be uniquely interoperable. Registration tools allow the outputs of BrainGlobe packages to be placed within the broader context of a neuroanatomical atlas. This enables unique downstream analyses that would otherwise be extremely time consuming. Our goal is to empower users with easily accessible analysis and visualisation tools that can be ready for use within minutes on a standard laptop.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="VAPDZX/" class="content-list--entry">
+                <h3 class="talk-title">
+                    The road(map) towards SciPy 2.0
+                </h3>
+                <h4>
+                    Evgeni Burovski
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">We first discuss recent developments in SciPy the library, focusing on new features implemented in recent releases and ongoing work. We then survey the road ahead and discuss the roadmap for evolving SciPy forward.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="9LAVJW/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Understanding Dispatching Approaches in the Scientific Python Ecosystem
+                </h3>
+                <h4>
+                    Sebastian Berg, Aditi Juneja
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">In recent years, many specialised libraries have emerged, implementing optimised subsets of algorithms from larger Scientific Python libraries-- supporting GPUs for acceleration, parallel processing, or distributed computing, or written in a lower-level programming language like Rust or C. These implementations offer significant performance improvements—but integrating them smoothly into existing workflows can be challenging. This talk explores different dispatching approaches that enable seamless integration of these faster implementations without breaking APIs or requiring users to switch libraries. We&#39;ll focus on the following two approaches:
+
+- **Backend library-based dispatching** : allowing existing library function calls to be routed to a faster backend implementation present in a separate backend library written for GPUs or in a different language, etc. , as adopted by projects like NetworkX and scikit-image.
+
+- **Array API standardization and adoption** : more specific to dispatching in array libraries. Based on the type of array that is passed into a numpy function, the call is dispatched to the appropriate array library such as Tensorflow, PyTorch, Dask, JAX, CuPy, Xarray, etc. This allows for the array consuming libraries like SciPy and Sklearn to be used in workflows that are using these other array libraries.
+
+Then we will go over how these approaches are different from each other and when to use which approach based on different use cases and requirements.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="K9L3VH/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Units next to your Data: Arrays with Scipp
+                </h3>
+                <h4>
+                    Mridul Seth
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Inspired by xarray, Scipp enriches raw NumPy-like multi-dimensional data arrays by adding named dimensions and associated coordinates. For an even more intuitive and less error-prone user experience, Scipp adds physical units to arrays and their coordinates. There are multiple ways of working with units in the Scientific Python world, and there are even new initiatives like the Units/Quantity API and in this talk we will look at Scipp (which wraps around llnl-units).
+
+But units are just one part of working with scientific data. Scipp also has a powerful non-destructive binning method to sort record-based &#34;tabular&#34;/&#34;event&#34; data into arrays of bins which could be useful if you are dealing with lots of data which needs to analyzed quickly. Scipp can also natively propagate uncertainties through your computations. Stop by this talk if you would like to see how Scipp can power scientific data analysis.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="PTLGMW/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Use napari for easier interactive extraction of knowledge from images and other spatial data
+                </h3>
+                <h4>
+                    Grzegorz Bokota, Lorenzo
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">With cameras in everything from microscopes to telescopes to satellites, scientists produce image data in countless formats, shapes, sizes, and dimensions. Python provides a rich ecosystem of libraries to make sense of them. napari is a Python library for interactive multidimensional image visualization, but it does double duty as a standalone application that can be easily extended with GUI tools for analysis, visualization, and annotation. In this tutorial, we&#39;ll start with the basics of interacting with the napari interface. Then we will show how to extend napari, from script, with your own functions and widgets. At the end, we will describe how to convert such custom modifications into a plugin that can be easily shared with other people as a Python package.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="D78ZJP/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Using Cython and C++ kernels to speed up Python libraries
+                </h3>
+                <h4>
+                    David Cortes, Anatoly Volkov
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Many high-performance Python frameworks, such as NumPy, scikit-learn, and PyTorch, rely on primitives implemented in Cython and C++ to achieve optimal performance.  
+
+In this tutorial, we will explore how to implement custom kernels in Cython and C++ and integrate them into Python projects. Using Linear Regression model trained with Normal Equations method as an example, we will demonstrate how to accelerate numerical computations by writing efficient kernels in Cython and C++. We will also discuss when implementing custom kernels is beneficial and when existing optimized libraries offer the best performance.  
+
+This tutorial is aimed at intermediate Python users. At the same time C++ knowledge is advantageous but not mandatory.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="GQBY9V/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Voilà Meta-Dashboards for Streamlined Geospatial Data Visualization
+                </h3>
+                <h4>
+                    Davide De Marchi
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">The Joint Research Centre has cultivated significant expertise in developing Voilà dashboards using Python for scientific data visualization, resulting in the design and deployment of many real-world web applications. This presentation will highlight our commitment to building a robust Voilà developer community through dedicated training and resource libraries. We will introduce and demonstrate our innovative meta-dashboards, which streamline the creation of complex, multi-page dashboards by automating framework and code generation. A live demonstration will illustrate the ease of building a geospatial application using this tool. We will conclude with a showcase of recently developed Voilà dashboards in areas such as agricultural/biodiversity surveys and air quality monitoring, demonstrating their effectiveness in data exploration and validation.</p>
+            </a>
+        </li>
+        
+        <li>
+            <a href="BTXXNU/" class="content-list--entry">
+                <h3 class="talk-title">
+                    Women in HPC – Breaking Barriers and Shaping the Future
+                </h3>
+                <h4>
+                    Anna Lührs
+                </h4>
+                <div class="track"></div>
+                <p class="talk-abstract">Why aren’t there more women in the High-Performance Computing (HPC) community? This simple question led to the creation of the international organisation Women in High Performance Computing (WHPC). The members of this network are committed to greater equality, diversity and integration in the HPC community. The initiative is active at major HPC conferences, offers workshops and mentoring programmes, and aims to raise awareness in the HPC community with the slogan “Diversity creates a stronger community”.
+Three years ago a group at Jülich Computing Centre decided that it is time to establish a local group of WHPC – Jülich Women in HPC (JuWinHPC) – to strengthen the community of women in HPC at Forschungszentrum Jülich and to promote diversity. This talk presents the activities of JuWinHPC, from casual lunch meetings to the organisation of conference sessions, and summarises experiences gained and lessons learned striving to establish a local network of women in HPC and to increase diversity, inclusion and female visibility within the community.</p>
+            </a>
+        </li>
+        
     </ul>
 </div>
 

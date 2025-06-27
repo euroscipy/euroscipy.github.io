@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Guardians of Science: A Python Tutorial on a RAG-Powered Compliance Plug-In and Ethical AI tools
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Guardians of Science: A Python Tutorial on a RAG-Powered Compliance Plug-In and Ethical AI tools">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Guardians of Science: A Python Tutorial on a RAG-Powered Compliance Plug-In and Ethical AI tools">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>Guardians of Science: A Python Tutorial on a RAG-Powered Compliance Plug-In and Ethical AI tools</h2>
+    <h3>Anuradha KAR, Likhita Yerra, Anuradha Kar, PhD</h3>
+
+    <div class="description">
+        <h2 id="background">Background</h2><p>The growing integration of AI in research and everyday applications brings significant challenges related to ethics, compliance, and reproducibility, which are key pillars for maintaining our trust in AI's capabilities.  Compliance challenges in AI applications arise from the need to navigate evolving regulatory standards, ensure fairness and transparency, and maintain data privacy and accountability across diverse and complex systems. Bias related issues , for example bias across demographic groups pose serious risks, while reproducibility issues, such as incomplete experiment documentation or unstable software environments, further erode confidence in AI-driven applications. To tackle these problems, we present a Retrieval-Augmented Generation (RAG) framework that combines vector-based retrieval methods (e.g., FAISS for fast data access) with transformer-based language models (e.g., Mistral) to deliver transparent, standards-compliant recommendations. We also familiarize participants with complementary tools like IBM’s AI Fairness 360. that support bias detection and mitigation through metrics such as disparate impact and reweighing techniques.</p>
+<h2 id="significance">Significance</h2><p>As AI becomes central to research across disciplines, maintaining ethical standards and reproducibility is essential. Compliance with frameworks like the EU Artificial Intelligence Act and FAIR principles helps prevent biased outcomes and irreproducible results that can damage scientific credibility. In fields such as biomedicine, social sciences, and environmental science, biased or unreliable models can have serious consequences. To address these challenges, this tutorial offers hands-on exercises with a Retrieval-Augmented Generation (RAG) compliance plugin and the IBM AI Fairness 360 toolkit. These tools help researchers detect bias, improve transparency, and ensure reproducibility, supporting the creation of trustworthy, accountable AI systems across diverse domains.</p>
+<h2 id="objectives">Objectives</h2><p>The tutorial aims to teach participants about the concepts like ethical compliance, RAG capabilities and tools for estimating and mitigating bias in AI workflows. We will have focused demos using the python RAG plug-in and Fairness 360 that will show how these tools solve compliance issues, using a healthcare case study. Participants will gain skills in ethical AI checks and reproducible methods, preparing them to meet global standards in their research.</p>
+<h2 id="tutorial-breakdown">Tutorial Breakdown</h2><ul>
+<li><p>Introduction (5 min): Describe AI research challenges, like bias and reproducibility, introduce RAG, Fairness360, noting links to standards like the European Union Artificial Intelligence Act and FAIR principles.</p>
+</li>
+<li><p>Setup and Data Preparation (15 min): Look at setting up a Jupyter environment (Python 3.8+, FAISS, Transformers, Fairness360, MLflow, Docker, Plotly, Gradio) and review a synthetic healthcare dataset (10,000+ records, World Health Organization-aligned, with age, gender, ethnicity, and ICD-10 codes) and a pre-built compliance knowledge base (EU AI Act, FAIR, GDPR).</p>
+</li>
+<li><p>Demonstration 1: Retrieval-Augmented Generation (35 min): Explore RAG’s system, showing vector-based retrieval (e.g., FAISS searching EU AI Act rules on data use) and LLM generation (e.g., Mistral creating compliance tips). Demonstrate the plug-in’s process for finding standards and making checks in the healthcare case study, like ensuring GDPR-compliant data use for diagnostic models, with MLflow tracking results.</p>
+</li>
+<li><p>Demonstration 2:  Fairness360 (35 min): Study Fairness360’s bias-checking tools, calculating measures like disparate impact and statistical parity for the healthcare diagnostic model (e.g., comparing accuracy for gender and ethnicity groups). Show how to fix bias (e.g., reweighing to balance groups), using Plotly to display bias measures (e.g., bar charts of disparity) and Gradio to interact with audit reports, focusing on fair results.</p>
+</li>
+<li><p>Q&amp;A and Wrap-Up (5 min): Talk about uses in biomedicine (e.g., fair diagnostics), social sciences (e.g., unbiased data analysis), and environmental science (e.g., repeatable climate models), and answer questions to clarify concepts.</p>
+</li>
+</ul>
+<h2 id="outcomes">Outcomes</h2><p>Participants will deeply understand Retrieval-Augmented Generation and Fairness360, and see how they work in a compliance plug-in. They will build skills in ethical AI checks and reproducible methods, ready to use in biomedicine, social sciences, and environmental science, meeting standards like the European Union Artificial Intelligence Act and FAIR principles.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="anuradha-kar">Anuradha KAR</h3><p>I am an Associate Professor in AI and Robotics at Aivancity based in Paris, France.  I got my PhD from the University of Galway in Ireland in Electrical and Electronic Engineering. I then worked at ENS Lyon in collaboration with Inria and Inrae on deep learning for 3D biological image analysis, then joined the Paris Brain Institute with Inria on deep learning for data analysis of Alzheimer's patients, and the Pasteur Institute in Paris on applications of deep learning in the field of drug discovery. My research and teaching interests focus on applications of deep learning in computer vision, computational biology and health, as well as human-machine interactions and intelligent systems.</p>
+<h3 id="likhita-yerra">Likhita Yerra</h3><p>Likhita Yerra, a Master’s student in AI and Data Science, specializes in Python, computer vision, and large language models. I develop innovative machine learning solutions with PyTorch, TensorFlow, Docker, and Streamlit, passionate about advancing AI and scientific computing for real-world impact.</p>
+<h3 id="anuradha-kar-phd">Anuradha Kar, PhD</h3>
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

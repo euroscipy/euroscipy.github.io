@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Pyro Meets SBI: Unlocking Hierarchical Bayesian Inference for Complex Simulators
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Pyro Meets SBI: Unlocking Hierarchical Bayesian Inference for Complex Simulators">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Pyro Meets SBI: Unlocking Hierarchical Bayesian Inference for Complex Simulators">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>Pyro Meets SBI: Unlocking Hierarchical Bayesian Inference for Complex Simulators</h2>
+    <h3>Jan Boelts (Teusen)</h3>
+
+    <div class="description">
+        <p>Hierarchical Bayesian inference is a powerful framework for analyzing structured data common in complex experimental settings, like multi-subject decision-making research. Probabilistic programming languages (PPLs) such as <a href="https://pyro.ai/">Pyro</a> provide excellent tools for defining and inferring these hierarchical models, leveraging features like plate notation for concisely representing repeated structures and managing dependencies.
+However, a significant challenge arises when the underlying scientific model is a complex simulator with an intractable likelihood function, rendering standard PPL-based inference inapplicable. While Simulation-Based Inference (SBI) techniques can handle such simulators by learning likelihood (or posterior) approximations from simulations, they often lack native support for easily specifying and inferring complex hierarchical dependencies.
+This talk introduces a novel approach that bridges the SBI package <a href="https://sbi.readthedocs.io/en/latest/">sbi</a> and <code>pyro</code>, enabling effective simulation-based hierarchical Bayesian inference. We demonstrate how likelihood approximations learned via <code>sbi</code> can be seamlessly integrated as custom components within <code>pyro</code> models. This synergistic approach combines the strengths of both methodologies: SBI's ability to perform inference on intractable simulators and Pyro's expressive power and efficiency in handling complex hierarchical structures.
+We will illustrate the potential and practicality of this integrated methodology using a key example from cognitive science: fitting a hierarchical drift-diffusion model (DDM) to choice data. The focus will be on how this combined "Pyro meets SBI" approach successfully allows for Bayesian inference over the parameters of the hierarchical model, effectively combining the information across multiple simulated subjects while handling the intractable DDM likelihood.
+This integration significantly expands the scope of rigorous Bayesian inference, opening new possibilities for analyzing complex, simulation-based models across various scientific disciplines. We will also briefly highlight how recent developments in the <code>sbi</code> package facilitate this powerful workflow, making advanced hierarchical modeling accessible for simulator-based research.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="jan-boelts-teusen">Jan Boelts (Teusen)</h3><p>Jan initially immersed himself in the realms of cognitive science and computational neuroscience. However, he couldn’t resist the siren call of Bayesian machine learning, and his PhD evolved into a mission to enhance the user-friendliness of this complex field. He set out to bridge cutting-edge methods with user-friendly software, making the world of simulation-based inference more accessible for practitioners. In 2024, he joined the TransferLab, ready to continue his journey of making advanced methodologies approachable and transformative.</p>
+
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

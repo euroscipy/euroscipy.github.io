@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Skrub: machine learning for dataframes
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Skrub: machine learning for dataframes">
+
+  
+  <meta name="image" property="og:image:secure_url"
+    content="/static/social_card.png">
+  <meta name="image" property="og:image"
+    content="/static/social_card.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Skrub: machine learning for dataframes">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/social_card.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <h2>Skrub: machine learning for dataframes</h2>
+    <h3>Riccardo Cappuzzo, Guillaume Lemaitre, Jérôme Dockès</h3>
+
+    <div class="description">
+        <p>In the tutorial we will teach how to use skrub to easily tackle datasets that would be challenging to analyze using only scikit-learn.</p>
+<p>First, we will consider a dataset containing a single table, with information about company employees such as hiring date and role description. While its structure is relatively simple, this dataset would be challenging without skrub due to the richness of the data types it contains, including dates, categories and text. We will show how skrub can create an interactive report to see a sample, data distribution plots, summary statistics and measurements of association between the different columns. We will then show that with one line of code we can already get a very good generalization performance, thanks to skrub's pre-built learner that makes the appropriate modelling choices for the different kinds of columns found in the data. Next, we will dive into the internals of that generic pipeline to show the different encoders it uses for dates, high- and low-cardinality categories, and which can be useful on their own.</p>
+<p>In a second part, we will consider a dataset which could not be processed in a scikit-learn pipeline. The task is to detect fraud in e-commerce transactions and there are two tables with a one-to-many relationship: a table of orders and a table of products, where each order can contain multiple products. Even though it is a simple dataset, it would be difficult to handle correctly without skrub due to the need to vectorize the rich, heterogeneous data in the products table before it can be aggregated and joined to the orders (and thus the prediction targets). An upcoming addition to skrub (that will be merged in the next few weeks) allows us to easily build a pipeline that handles multiple tables and contains arbitrary dataframe transformations. Moreover, it allows tuning any of the choices we make with scikit-learn's grid or randomized search, without the need to manually construct a complex hyperparameter grid. We will explain the concepts behind these tools and illustrate them by building an effective learner for this dataset. We will also discuss the modelling choices involved and explore the available options through hyperparameter search.</p>
+<p>Finally, we will conclude with a brief summary of ongoing development and future enhancements to skrub.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="riccardo-cappuzzo">Riccardo Cappuzzo</h3><h3 id="guillaume-lemaitre">Guillaume Lemaitre</h3><p>I'm chief machine learning officer and open source software engineer at :probabl. I'm a core developer of scikit-learn and imbalanced-learn.</p>
+<h3 id="jerome-dockes">Jérôme Dockès</h3><p>Jérôme Dockès is a research engineer at Inria and one of the developers of the Skrub and Nilearn python packages.</p>
+
+    </div>
+
+    <img src="" alt="">
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
