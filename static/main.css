@@ -531,3 +531,7 @@ a.content-list--entry {
     padding: 2em 0;
     max-width: 1200px;
 }
+
+.talk-details {
+    font-weight: 200;
+}
