@@ -10,6 +10,13 @@
         {% for talk in this.children %}
         <li>
             <a href="{{ talk|url }}" class="content-list--entry">
+                <div class="talk-details">
+                    {{ talk['day'] }} {{ talk['start_time'] }}
+                    {% if talk['room'] %}
+                    in {{ talk['room']}}
+                    {% endif %}
+                </div>
+
                 <h3 class="talk-title">
                     {{ talk['title'] }}
                 </h3>

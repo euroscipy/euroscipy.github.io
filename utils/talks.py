@@ -1,6 +1,8 @@
+import calendar
 import os
 import shutil
 from collections import defaultdict
+from datetime import datetime
 from string import Template
 
 import requests
@@ -12,33 +14,29 @@ PRETALX_BASE_URL = "https://pretalx.com/api/events/"
 
 
 def fetch_submissions(api_key, event_name):
-    submissions_path = "/submissions?state=confirmed"
+    params = "state=confirmed&expand=speakers,track,slots"
     r = requests.get(
-        f"{PRETALX_BASE_URL}{event_name}{submissions_path}",
+        f"{PRETALX_BASE_URL}{event_name}/submissions?{params}",
         headers={"Authorization": api_key},
     )
     return r.json()["results"]
 
 
-def fetch_speakers(api_key, event_name):
-    speakers_path = "/speakers"
-    r = requests.get(
-        f"{PRETALX_BASE_URL}{event_name}{speakers_path}",
-        headers={"Authorization": api_key},
-    )
-    return r.json()["results"]
-
-
-def submission_to_talk(sub, all_speakers):
+def submission_to_talk(sub):
+    slot = sub["slots"][0]
+    start_time = datetime.fromisoformat(slot["start"])
     t = defaultdict(lambda: "")
     t["title"] = sub["title"]
     t["code"] = sub["code"]
     t["abstract"] = sub["abstract"]
     t["full_description"] = sub["description"]
+    t["duration_minutes"] = sub["duration"]
+    t["start_time"] = start_time.strftime("%H:%M")
+    t["day"] = calendar.day_name[start_time.weekday()]
+
     t["social_card_image"] = f"/static/talks/{sub['code']}.png"
-    speakers = find_speakers(all_speakers, sub["speakers"])
-    t["speaker_names"] = ", ".join([s["name"] for s in speakers])
-    for speaker in speakers:
+    t["speaker_names"] = ", ".join([s["name"] for s in sub["speakers"]])
+    for speaker in sub["speakers"]:
         t["speakers"] += speaker_to_markdown(speaker)
     return t
 
@@ -52,15 +50,6 @@ def speaker_to_markdown(speaker):
 $biography
 """)
     return tmpl.substitute(s)
-
-
-def find_speakers(speakers, speaker_codes):
-    return [speaker for speaker in speakers if speaker["code"] in speaker_codes]
-
-
-def merge_speakers_and_submissions(submissions, speakers):
-    talks = [submission_to_talk(sub, speakers) for sub in submissions]
-    return talks
 
 
 def talk_to_lektor(talk):
@@ -89,6 +78,8 @@ room: $room
 day: $day
 ---
 start_time: $start_time
+---
+duration_minutes: $duration_minutes
 ---
 track: $track
 ---
@@ -144,8 +135,7 @@ def main():
     assert event_name is not None and api_key is not None
 
     submissions = fetch_submissions(api_key, event_name)
-    speakers = fetch_speakers(api_key, event_name)
-    talks = merge_speakers_and_submissions(submissions, speakers)
+    talks = [submission_to_talk(sub) for sub in submissions]
 
     remove_old_talks()
     for talk in talks:
