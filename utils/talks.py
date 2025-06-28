@@ -6,8 +6,6 @@ from datetime import datetime
 from string import Template
 
 import requests
-from pydantic import BaseModel
-from pytanis import PretalxClient
 from social_cards import generate_social_card
 
 PRETALX_BASE_URL = "https://pretalx.com/api/events/"
@@ -113,21 +111,6 @@ def remove_old_talks():
     talk_dirs = [f.path for f in os.scandir("content/talks") if f.is_dir()]
     for talk_dir in talk_dirs:
         shutil.rmtree(talk_dir)
-
-
-def configure_pretalx_client():
-    pretalx_api_key = os.environ.get("PRETALX_API_KEY")
-
-    class PretalxBasicModel(BaseModel):
-        api_token: str | None = None
-
-    class PytanisBasicConfigModel(BaseModel):
-        Pretalx: PretalxBasicModel
-
-    cfg = PytanisBasicConfigModel.model_validate(
-        {"Pretalx": {"api_token": pretalx_api_key}}
-    )
-    return PretalxClient(config=cfg)
 
 
 def main():
