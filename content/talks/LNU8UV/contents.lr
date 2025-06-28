@@ -55,9 +55,11 @@ We will conclude with some thoughts about how to use this kind of metrics to inf
 ---
 room: 
 ---
-day: 
+day: Wednesday
 ---
-start_time: 
+start_time: 14:05
+---
+duration_minutes: 30
 ---
 track: 
 ---

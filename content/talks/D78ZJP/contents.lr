@@ -4,18 +4,18 @@ created:
 ---
 code: D78ZJP
 ---
-speaker_names: David Cortes, Anatoly Volkov
+speaker_names: Anatoly Volkov, David Cortes
 ---
 speakers:
-
-
-### David Cortes
-
 
 
 ### Anatoly Volkov
 
 I am the developer of the open-source libraries https://github.com/uxlfoundation/oneDAL and https://github.com/uxlfoundation/scikit-learn-intelex , which provide optimized implementations of classical machine learning algorithms.
+
+### David Cortes
+
+
 
 ---
 abstract:
@@ -49,9 +49,11 @@ We also hope that this tutorial will inspire more people to contribute to open-s
 ---
 room: 
 ---
-day: 
+day: Tuesday
 ---
-start_time: 
+start_time: 10:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

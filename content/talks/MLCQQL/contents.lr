@@ -40,9 +40,11 @@ This is an open source project and the GitHub repository details and steps for i
 ---
 room: 
 ---
-day: 
+day: Thursday
 ---
-start_time: 
+start_time: 16:30
+---
+duration_minutes: 20
 ---
 track: 
 ---

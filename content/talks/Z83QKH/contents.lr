@@ -51,9 +51,11 @@ Part 3 - Machine learning model in production
 ---
 room: 
 ---
-day: 
+day: Tuesday
 ---
-start_time: 
+start_time: 10:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

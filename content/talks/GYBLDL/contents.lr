@@ -36,9 +36,11 @@ When exploring our data, interactive visualizations can provide the most value. 
 ---
 room: 
 ---
-day: 
+day: Monday
 ---
-start_time: 
+start_time: 15:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

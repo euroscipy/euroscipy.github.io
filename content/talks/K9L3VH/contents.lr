@@ -43,9 +43,11 @@ In the talk we will cover:
 ---
 room: 
 ---
-day: 
+day: Thursday
 ---
-start_time: 
+start_time: 13:30
+---
+duration_minutes: 30
 ---
 track: 
 ---

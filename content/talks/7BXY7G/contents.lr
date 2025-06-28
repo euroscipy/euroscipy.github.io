@@ -30,9 +30,11 @@ Unlike linear notebooks, [TOOL] decouples code execution from outputs. This appr
 ---
 room: 
 ---
-day: 
+day: Thursday
 ---
-start_time: 
+start_time: 11:40
+---
+duration_minutes: 20
 ---
 track: 
 ---

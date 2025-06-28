@@ -34,9 +34,11 @@ Participants are expected to bring their own computer. Before the tutorial, we w
 ---
 room: 
 ---
-day: 
+day: Tuesday
 ---
-start_time: 
+start_time: 15:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

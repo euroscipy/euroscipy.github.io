@@ -41,9 +41,11 @@ Citations:
 ---
 room: 
 ---
-day: 
+day: Thursday
 ---
-start_time: 
+start_time: 16:30
+---
+duration_minutes: 20
 ---
 track: 
 ---

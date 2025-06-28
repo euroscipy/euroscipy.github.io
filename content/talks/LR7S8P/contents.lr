@@ -4,19 +4,19 @@ created:
 ---
 code: LR7S8P
 ---
-speaker_names: Ricardo Vieira, Jesse Grabowski
+speaker_names: Jesse Grabowski, Ricardo Vieira
 ---
 speakers:
-
-
-### Ricardo Vieira
-
 
 
 ### Jesse Grabowski
 
 Doctoral Candidate - University of Paris I: Panthéon-Sorbonne
 Trilingual economist and data scientist with experience in North America, Africa, Europe, and Asia.
+
+### Ricardo Vieira
+
+
 
 ---
 abstract:
@@ -52,9 +52,11 @@ We conclude with a short description of planned features for our upcoming Pytens
 ---
 room: 
 ---
-day: 
+day: Wednesday
 ---
-start_time: 
+start_time: 13:30
+---
+duration_minutes: 30
 ---
 track: 
 ---

@@ -4,22 +4,22 @@ created:
 ---
 code: 8KK8UC
 ---
-speaker_names: Riccardo Cappuzzo, Guillaume Lemaitre, Jérôme Dockès
+speaker_names: Jérôme Dockès, Guillaume Lemaitre, Riccardo Cappuzzo
 ---
 speakers:
 
 
-### Riccardo Cappuzzo
+### Jérôme Dockès
 
-
+Jérôme Dockès is a research engineer at Inria and one of the developers of the Skrub and Nilearn python packages.
 
 ### Guillaume Lemaitre
 
 I'm chief machine learning officer and open source software engineer at :probabl. I'm a core developer of scikit-learn and imbalanced-learn.
 
-### Jérôme Dockès
+### Riccardo Cappuzzo
 
-Jérôme Dockès is a research engineer at Inria and one of the developers of the Skrub and Nilearn python packages.
+
 
 ---
 abstract:
@@ -42,9 +42,11 @@ Finally, we will conclude with a brief summary of ongoing development and future
 ---
 room: 
 ---
-day: 
+day: Monday
 ---
-start_time: 
+start_time: 10:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

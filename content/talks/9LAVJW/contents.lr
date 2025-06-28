@@ -4,14 +4,10 @@ created:
 ---
 code: 9LAVJW
 ---
-speaker_names: Sebastian Berg, Aditi Juneja
+speaker_names: Aditi Juneja, Sebastian Berg
 ---
 speakers:
 
-
-### Sebastian Berg
-
-Sebastian has been a NumPy developer for about 10 years now.  After a PhD in phsyics he worked at as a postdoc at the Berkeley Institute for Datascience on NumPy as grants byt the Alfred P. Sloan Foundation and the Gordon and Betty Moore Foundation.  Since 2022 he has been a software engineer at NVIDIA where he continues to contribute to NumPy.
 
 ### Aditi Juneja
 
@@ -19,6 +15,10 @@ Hi, I am Aditi. I mostly work around API dispatching things in the scientific py
 
 GitHub: https://github.com/Schefflera-Arboricola
 Previous talks: https://github.com/Schefflera-Arboricola/blogs/tree/main/archive
+
+### Sebastian Berg
+
+Sebastian has been a NumPy developer for about 10 years now.  After a PhD in phsyics he worked at as a postdoc at the Berkeley Institute for Datascience on NumPy as grants byt the Alfred P. Sloan Foundation and the Gordon and Betty Moore Foundation.  Since 2022 he has been a software engineer at NVIDIA where he continues to contribute to NumPy.
 
 ---
 abstract:
@@ -75,9 +75,11 @@ Thank you :)
 ---
 room: 
 ---
-day: 
+day: Thursday
 ---
-start_time: 
+start_time: 14:05
+---
+duration_minutes: 30
 ---
 track: 
 ---

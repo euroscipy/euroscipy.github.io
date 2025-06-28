@@ -25,9 +25,11 @@ In the second part of the talk, I will discuss technical improvements planned by
 ---
 room: 
 ---
-day: 
+day: Thursday
 ---
-start_time: 
+start_time: 11:05
+---
+duration_minutes: 30
 ---
 track: 
 ---

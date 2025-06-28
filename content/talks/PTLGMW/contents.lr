@@ -41,9 +41,11 @@ In this section, we will show how to pack custom widgets into plugins and share 
 ---
 room: 
 ---
-day: 
+day: Monday
 ---
-start_time: 
+start_time: 13:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

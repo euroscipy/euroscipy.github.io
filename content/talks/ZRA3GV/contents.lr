@@ -53,9 +53,11 @@ full_description:
 ---
 room: 
 ---
-day: 
+day: Thursday
 ---
-start_time: 
+start_time: 16:00
+---
+duration_minutes: 20
 ---
 track: 
 ---

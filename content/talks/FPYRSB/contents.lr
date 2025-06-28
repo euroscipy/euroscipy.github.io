@@ -75,9 +75,11 @@ This tutorial will help you expand your capabilities for scientific computing an
 ---
 room: 
 ---
-day: 
+day: Monday
 ---
-start_time: 
+start_time: 15:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

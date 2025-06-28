@@ -58,9 +58,11 @@ These approaches are applicable to organizations of all sizes, offering scalable
 ---
 room: 
 ---
-day: 
+day: Wednesday
 ---
-start_time: 
+start_time: 14:40
+---
+duration_minutes: 20
 ---
 track: 
 ---

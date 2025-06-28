@@ -32,9 +32,11 @@ All course materials are available online via the [Carpentries Incubator](https:
 ---
 room: 
 ---
-day: 
+day: Thursday
 ---
-start_time: 
+start_time: 14:40
+---
+duration_minutes: 20
 ---
 track: 
 ---

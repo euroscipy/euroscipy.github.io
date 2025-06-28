@@ -59,9 +59,11 @@ This tutorial will equip participants with the practical skills to effectively u
 ---
 room: 
 ---
-day: 
+day: Tuesday
 ---
-start_time: 
+start_time: 15:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

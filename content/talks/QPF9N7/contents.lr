@@ -40,9 +40,11 @@ This session is designed as a participatory, peer-to-peer discussion. However so
 ---
 room: 
 ---
-day: 
+day: Wednesday
 ---
-start_time: 
+start_time: 13:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

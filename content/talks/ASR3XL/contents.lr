@@ -36,9 +36,11 @@ This tutorial provides a hands-on approach through programmatic notebooks to off
 ---
 room: 
 ---
-day: 
+day: Tuesday
 ---
-start_time: 
+start_time: 08:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

@@ -32,9 +32,11 @@ ApisTox paper was followed up by additional molecular datasets' analyzes and bui
 ---
 room: 
 ---
-day: 
+day: Wednesday
 ---
-start_time: 
+start_time: 10:30
+---
+duration_minutes: 30
 ---
 track: 
 ---

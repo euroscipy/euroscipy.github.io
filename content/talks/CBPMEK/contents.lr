@@ -33,9 +33,11 @@ This is a hands-on tutorial, with multiple examples to get familiarized with the
 ---
 room: 
 ---
-day: 
+day: Tuesday
 ---
-start_time: 
+start_time: 13:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

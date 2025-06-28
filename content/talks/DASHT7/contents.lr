@@ -30,9 +30,11 @@ The tutorial is intended for hands-on Python enthusiasts who work with DataFrame
 ---
 room: 
 ---
-day: 
+day: Tuesday
 ---
-start_time: 
+start_time: 08:30
+---
+duration_minutes: 90
 ---
 track: 
 ---

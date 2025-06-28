@@ -26,9 +26,11 @@ Three years ago a group at Jülich Computing Centre decided that it is time to e
 ---
 room: 
 ---
-day: 
+day: Wednesday
 ---
-start_time: 
+start_time: 09:00
+---
+duration_minutes: 60
 ---
 track: 
 ---
