@@ -32,7 +32,6 @@ def submission_to_talk(sub):
     t["duration_minutes"] = sub["duration"]
     t["start_time"] = start_time.strftime("%H:%M")
     t["day"] = calendar.day_name[start_time.weekday()]
-
     t["social_card_image"] = f"/static/talks/{sub['code']}.png"
     t["speaker_names"] = ", ".join([s["name"] for s in sub["speakers"]])
     for speaker in sub["speakers"]:
