@@ -31,7 +31,7 @@ In this tutorial we will cover:
 
 This is a hands-on tutorial, with multiple examples to get familiarized with the RAPIDS ecosystem. Participants should ideally have some experience using Python, pandas and sci-kit learn. We'll use cloud-based VMs, so familiarity with the cloud and resource creation is helpful but not required. No prior GPU knowledge is needed.
 ---
-room: 
+room: large room
 ---
 day: Tuesday
 ---

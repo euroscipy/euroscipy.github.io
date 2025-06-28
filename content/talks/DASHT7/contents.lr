@@ -28,7 +28,7 @@ While type annotation has significantly improved the readability and structure o
 
 The tutorial is intended for hands-on Python enthusiasts who work with DataFrames. The tutorial introduces type annotation and presents its advantages regarding readability, maintainability, tooling, and static code analysis. The tutorial explores libraries and tools to leverage the advantages of type annotation at development-time and libraries to enforce runtime validation. The tutorial dives into the benefits of type annotations of DataFrames and highlights the limitations of type annotations specific to the dynamic nature of DataFrames. Therefore, the tutorial will present best practices for leveraging type annotations with DataFrames.
 ---
-room: 
+room: small room
 ---
 day: Tuesday
 ---
