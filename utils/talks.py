@@ -26,7 +26,8 @@ def submission_to_talk(sub):
     t = defaultdict(lambda: "")
     t["title"] = sub["title"]
     t["code"] = sub["code"]
-    t["room"] = slot["room"]["name"]["en"].lower()
+    if slot["room"] is not None:
+        t["room"] = slot["room"]["name"]["en"].lower()
     t["abstract"] = sub["abstract"]
     t["full_description"] = sub["description"]
     t["duration_minutes"] = sub["duration"]
