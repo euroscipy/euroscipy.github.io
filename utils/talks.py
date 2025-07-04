@@ -12,7 +12,7 @@ PRETALX_BASE_URL = "https://pretalx.com/api/events/"
 
 
 def fetch_submissions(api_key, event_name):
-    params = "state=confirmed&expand=speakers,track,slots"
+    params = "state=confirmed&expand=speakers,track,slots,slots.room"
     r = requests.get(
         f"{PRETALX_BASE_URL}{event_name}/submissions?{params}",
         headers={"Authorization": api_key},
