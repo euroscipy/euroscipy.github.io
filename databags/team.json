@@ -1,0 +1,32 @@
+{
+    "members": [
+        {
+            "name": "Test 1",
+            "role": "Lead Developer",
+            "image": "/static/team/default-image.png",
+            "github_url": "https://github.com/johndoe/",
+            "x_url": "https://x.com/johndoe_dev"
+        },
+        {
+            "name": "Test 2",
+            "role": "Mid Developer",
+            "image": "/static/team/default-image.png",
+            "github_url": "https://github.com/johndoe/",
+            "x_url": "https://x.com/johndoe_dev"
+        },
+        {
+            "name": "Test 3",
+            "role": "Mid Developer",
+            "image": "/static/team/default-image.png",
+            "github_url": "https://github.com/johndoe",
+            "x_url": "https://x.com/johndoe_dev"
+        },
+        {
+            "name": "Test 4",
+            "role": "Mid Developer",
+            "image": "/static/team/default-image.png",
+            "github_url": "https://github.com/johndoe",
+            "x_url": "https://x.com/johndoe_dev"
+        }
+    ]
+}
