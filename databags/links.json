@@ -33,6 +33,10 @@
             "path": "faq"
         },
         {
+            "name": "Team",
+            "path": "team"
+        },
+        {
             "name": "About",
             "path": "about"
         }

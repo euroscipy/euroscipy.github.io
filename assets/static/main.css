@@ -535,3 +535,21 @@ a.content-list--entry {
 .talk-details {
     font-weight: 200;
 }
+
+/* Team */
+.team-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 4em;
+}
+
+.team-member {
+    border: 2px;
+    border-radius: 5px;
+    padding: 2em;
+}
+
+.team-member-item {
+  border: 2px;
+  border-radius: 5px;
+}

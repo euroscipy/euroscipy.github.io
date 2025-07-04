@@ -1,0 +1,70 @@
+{
+    "members": [
+        {
+            "name": "Mike Müller",
+            "role": "<role>",
+            "image": "/static/team/mike_muller.png",
+            "website_url": "http://www.python-academy.com/",
+            "linkedin_url": "https://www.linkedin.com/in/mike-m%C3%BCller-1937695/",
+            "github_url": "https://github.com/pya",
+            "x_url": "https://x.com/pyacademy"
+        },
+        {
+            "name": "Alexander CS Hendorf",
+            "role": "<role>",
+            "image": "/static/team/alexander_hendorf.png",
+            "website_url": "https://pioneershub.org/",
+            "linkedin_url": "https://www.linkedin.com/in/hendorf/",
+            "github_url": "https://github.com/alanderex",
+            "x_url": "https://x.com/hendorf"
+        },
+        {
+            "name": "Nefta Kanilmaz",
+            "role": "<role>",
+            "image": "/static/team/nefta_kanilmaz.png",
+            "github_url": "https://github.com/NeroCorleone"
+        },
+        {
+            "name": "Lúcia Pedrosa",
+            "role": "<role>",
+            "image": "/static/team/lucia_pedrosa.jpg"
+        },
+        {
+            "name": "Reimar Bauer",
+            "role": "<role>",
+            "image": "/static/team/reimar_bauer.png",
+            "github_url": "https://github.com/ReimarBauer",
+            "x_url": "https://x.com/ReimarBauer"
+        },
+        {
+            "name": "Konstantin",
+            "role": "<role>",
+            "image": "/static/team/default-image.png"
+        },
+        {
+            "name": "Vasu",
+            "role": "<role>",
+            "image": "/static/team/default-image.png"
+        },
+        {
+            "name": "Karol Sowa",
+            "role": "Local Team",
+            "image": "/static/team/default-image.png"
+        },
+        {
+            "name": "Justyna Szydłowska-Samsel",
+            "role": "Local Team",
+            "image": "/static/team/default-image.png"
+        },
+        {
+            "name": "Mateusz Sokół",
+            "role": "Local Team, Website",
+            "image": "/static/team/default-image.png"
+        },
+        {
+            "name": "Ömür Özkir",
+            "role": "Website",
+            "image": "/static/team/omur_ozkir.jpg"
+        }
+    ]
+}
