@@ -27,7 +27,7 @@ def submission_to_talk(sub):
     t["title"] = sub["title"]
     t["code"] = sub["code"]
     if slot["room"] is not None:
-        t["room"] = slot["room"]["name"]["en"].lower()
+        t["room"] = slot.get("room", {}).get("name", {}).get("en").lower()
     t["abstract"] = sub["abstract"]
     t["full_description"] = sub["description"]
     t["duration_minutes"] = sub["duration"]
