@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Introduction to NumPy and DataFrames
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Introduction to NumPy and DataFrames">
+
+  
+  <meta name="image" property="og:image:secure_url" content="/static/talks/UWMH7B.png">
+  <meta name="image" property="og:image" content="/static/talks/UWMH7B.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Introduction to NumPy and DataFrames">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/talks/UWMH7B.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <div class="talk-details">
+        Monday 10:30
+        
+        in room 1.19 (ground floor)
+        
+    </div>
+
+    <h2>Introduction to NumPy and DataFrames</h2>
+    <h3>Nefta Kanilmaz</h3>
+
+    <div class="description">
+        <h2 id="title-introduction-to-numpy-and-dataframes-pandas-polars"><strong>Title: Introduction to NumPy and DataFrames (Pandas &amp; Polars)</strong></h2><p>This tutorial is targeted for beginners with basic Python knowledge and will give an understand of the basics of NumPy arrays and DataFrames, as well as perform simple data analysis tasks.</p>
+<h3 id="welcome-and-setup-10-min">Welcome and Setup (~ 10 min)</h3><ul>
+<li>Quick introduction to the topic and objectives</li>
+<li>Ensure environments are setup</li>
+<li>Overview of what NumPy and DataFrames are used for</li>
+</ul>
+<h3 id="introduction-to-numpy-25-min">Introduction to NumPy (~25 min)</h3><ul>
+<li>What is NumPy and why use it?</li>
+<li>Creating arrays:<ul>
+<li><code>np.array</code>, <code>np.zeros</code>, <code>np.ones</code>, <code>np.arange</code>, <code>np.linspace</code></li>
+</ul>
+</li>
+<li>Array shapes and reshaping: <code>.shape</code>, <code>.reshape()</code></li>
+<li>Indexing and slicing</li>
+<li>Vectorized operations vs Python loops (brief performance motivation)</li>
+<li>Basic operations:<ul>
+<li>Arithmetic, broadcasting, <code>.mean()</code>, <code>.sum()</code>, <code>.axis</code></li>
+</ul>
+</li>
+<li>Hands-on exercises:<ul>
+<li>Create a 2D array and compute row-wise and column-wise means</li>
+<li>Element-wise multiplication of arrays</li>
+</ul>
+</li>
+</ul>
+<h3 id="introduction-to-pandas-dataframes-25-min">Introduction to Pandas DataFrames (~25 min)</h3><ul>
+<li>What is a DataFrame?</li>
+<li>Creating a DataFrame (from dicts, CSV, etc.)</li>
+<li>Exploring data:<ul>
+<li><code>.head()</code>, <code>.info()</code>, <code>.describe()</code></li>
+<li>Accessing columns and rows: <code>df['col']</code>, <code>.loc</code>, <code>.iloc</code></li>
+</ul>
+</li>
+<li>Filtering and boolean indexing</li>
+<li>Common operations:<ul>
+<li>Sorting (<code>.sort_values()</code>), grouping (<code>.groupby()</code>), aggregation</li>
+<li>Handling missing values: <code>.isna()</code>, <code>.fillna()</code>, <code>.dropna()</code></li>
+</ul>
+</li>
+<li>Simple data visualization with <code>.plot()</code> (optional if time)</li>
+<li>Hands-on exercises:<ul>
+<li>Load a small CSV</li>
+<li>Filter rows by condition</li>
+<li>Group by a column and compute summary stats</li>
+</ul>
+</li>
+</ul>
+<h3 id="polars-25-min">Polars (~25 min)</h3><ul>
+<li>Why Polars? Performance and parallelism</li>
+<li>Quick comparison with Pandas (syntax similarities/differences)</li>
+<li>Lazy vs eager evaluation</li>
+<li>Basic usage:<ul>
+<li><code>pl.read_csv</code>, <code>df.select</code>, <code>df.filter</code>, <code>df.groupby</code></li>
+</ul>
+</li>
+<li>Hands-on mini demo (load and filter data)</li>
+</ul>
+<h3 id="recap-tips-q-a-5-min">Recap, Tips &amp; Q\&amp;A (~ 5 min)</h3><ul>
+<li>Summary of key concepts</li>
+<li>When to use what (NumPy vs Pandas vs Polars)</li>
+<li>Tips for continued learning</li>
+<li>Q\&amp;A</li>
+</ul>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="nefta-kanilmaz">Nefta Kanilmaz</h3><p>PhD researcher at LMU Munich with a background in software engineering and a M.Sc. degree in physics.</p>
+
+    </div>
+
+    <div class="social-card-image">
+        <img src="/static/talks/UWMH7B.png" alt="">
+    </div>
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
