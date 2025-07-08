@@ -1,0 +1,50 @@
+title: Introduction to Scikit-learn
+---
+created: 
+---
+code: LMDYUQ
+---
+speaker_names: Justyna Szydłowska-Samsel
+---
+speakers:
+
+
+### Justyna Szydłowska-Samsel
+
+Magister of engineering in Computer Science, currently research assistant at University of Szczecin, Institute of Management.
+
+---
+abstract:
+
+Scikit-learn is a free and open-source machine learning library for Python. It provides multiple machine learning algorithms as well as various tools for model fitting, data preprocessing, model selection, model evaluation, and many other utilities. 
+In this beginner tutorial, you will learn the basics of machine learning development with scikit-learn - from creating a machine learning model to validating it using available tools.
+---
+full_description:
+
+This beginner tutorial will include:
+1. Brief introduction to machine learning
+2. Why Python?
+3. Where to get the data?
+4. Introduction to scikit-learn - basic machine learning algorithms
+5. Hands-on tutorial on how to create your own machine learning model
+6. Instructions on how and why to validate your machine learning model
+7. Where, when, and why use machine learning?
+
+All the code will be provided to you in a GitHub repository. There will also be time prepared for additional questions regarding the topic.
+---
+room: room 1.19 (ground floor)
+---
+day: Monday
+---
+start_time: 13:30
+---
+duration_minutes: 90
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: /static/talks/LMDYUQ.png
+

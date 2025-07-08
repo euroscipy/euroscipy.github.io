@@ -34,7 +34,7 @@ While static visualizations are limited in how much information they can show, a
 
 When exploring our data, interactive visualizations can provide the most value. Without having to create multiple iterations of the same plot, we can use mouse actions (e.g., click, hover, zoom, etc.) to explore different aspects and subsets of the data. In this section, we will learn how to use HoloViz to create interactive visualizations for exploring our data utilizing the Bokeh backend.
 ---
-room: small room
+room: room 1.19 (ground floor)
 ---
 day: Monday
 ---

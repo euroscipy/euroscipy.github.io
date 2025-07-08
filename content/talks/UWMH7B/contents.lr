@@ -1,0 +1,97 @@
+title: Introduction to NumPy and DataFrames
+---
+created: 
+---
+code: UWMH7B
+---
+speaker_names: Nefta Kanilmaz
+---
+speakers:
+
+
+### Nefta Kanilmaz
+
+PhD researcher at LMU Munich with a background in software engineering and a M.Sc. degree in physics.
+
+---
+abstract:
+
+This 90-minute hands-on tutorial introduces the fundamentals of NumPy and explain the basics and usage of DataFrames using the Pandas and Polars libraries. This tutorial is aimed at Python beginners and covers essential techniques for working with numerical and tabular data.
+
+Participants will learn how to create and manipulate arrays with NumPy, and perform common data analysis tasks using Pandas DataFrames—such as filtering, grouping, and summarizing data. The session will also provide a brief look at Polars, a high-performance alternative to Pandas. Through live coding and exercises, attendees will gain practical skills for efficient data wrangling and analysis.
+---
+full_description:
+
+## **Title: Introduction to NumPy and DataFrames (Pandas & Polars)**
+
+This tutorial is targeted for beginners with basic Python knowledge and will give an understand of the basics of NumPy arrays and DataFrames, as well as perform simple data analysis tasks.
+
+### Welcome and Setup (~ 10 min)
+
+* Quick introduction to the topic and objectives
+* Ensure environments are setup
+* Overview of what NumPy and DataFrames are used for
+
+### Introduction to NumPy (~25 min)
+
+* What is NumPy and why use it?
+* Creating arrays:
+  * `np.array`, `np.zeros`, `np.ones`, `np.arange`, `np.linspace`
+* Array shapes and reshaping: `.shape`, `.reshape()`
+* Indexing and slicing
+* Vectorized operations vs Python loops (brief performance motivation)
+* Basic operations:
+  * Arithmetic, broadcasting, `.mean()`, `.sum()`, `.axis`
+* Hands-on exercises:
+  * Create a 2D array and compute row-wise and column-wise means
+  * Element-wise multiplication of arrays
+
+### Introduction to Pandas DataFrames (~25 min)
+
+* What is a DataFrame?
+* Creating a DataFrame (from dicts, CSV, etc.)
+* Exploring data:
+  * `.head()`, `.info()`, `.describe()`
+  * Accessing columns and rows: `df['col']`, `.loc`, `.iloc`
+* Filtering and boolean indexing
+* Common operations:
+  * Sorting (`.sort_values()`), grouping (`.groupby()`), aggregation
+  * Handling missing values: `.isna()`, `.fillna()`, `.dropna()`
+* Simple data visualization with `.plot()` (optional if time)
+* Hands-on exercises:
+  * Load a small CSV
+  * Filter rows by condition
+  * Group by a column and compute summary stats
+
+### Polars (~25 min)
+
+* Why Polars? Performance and parallelism
+* Quick comparison with Pandas (syntax similarities/differences)
+* Lazy vs eager evaluation
+* Basic usage:
+  * `pl.read_csv`, `df.select`, `df.filter`, `df.groupby`
+* Hands-on mini demo (load and filter data)
+
+###  Recap, Tips & Q\&A (~ 5 min)
+
+* Summary of key concepts
+* When to use what (NumPy vs Pandas vs Polars)
+* Tips for continued learning
+* Q\&A
+---
+room: room 1.19 (ground floor)
+---
+day: Monday
+---
+start_time: 10:30
+---
+duration_minutes: 90
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: /static/talks/UWMH7B.png
+

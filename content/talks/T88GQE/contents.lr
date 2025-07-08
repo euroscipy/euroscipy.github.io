@@ -30,7 +30,7 @@ Recently created ApisTox (https://doi.org/10.1038/s41597-024-04232-w) is the lar
 
 ApisTox paper was followed up by additional molecular datasets' analyzes and building ML models (currently under review). In this talk, we will also explore initial results of pesticide toxicity classification and how we can approach building molecular ML models for agrochemistry, e.g. molecular fingerprints, graph kernels, and graph neural networks. Results are highly distinct from those on molecular chemistry datasets, indicating a lot of unexplored potential.
 ---
-room: small room
+room: room 1.19 (ground floor)
 ---
 day: Wednesday
 ---
