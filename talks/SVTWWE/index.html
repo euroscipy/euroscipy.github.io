@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Processing Cloud-optimized data in Python (Dataplug)
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Processing Cloud-optimized data in Python (Dataplug)">
+
+  
+  <meta name="image" property="og:image:secure_url" content="/static/talks/SVTWWE.png">
+  <meta name="image" property="og:image" content="/static/talks/SVTWWE.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Processing Cloud-optimized data in Python (Dataplug)">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/talks/SVTWWE.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <div class="talk-details">
+        Thursday 14:05
+        
+        in room 1.19 (ground floor)
+        
+    </div>
+
+    <h2>Processing Cloud-optimized data in Python (Dataplug)</h2>
+    <h3>Universitat Rovira i Virgili (Pedro Garcia Lopez)</h3>
+
+    <div class="description">
+        <p>Cloud-optimized (CO) data formats are designed to efficiently store and access data directly from cloud object storage without needing to download the entire dataset. 
+These formats enable faster data retrieval, scalability, and cost-effectiveness by allowing users to fetch only the necessary subsets of data.</p>
+<p>They also allow for efficient parallel data processing using on-the-fly partitioning, which can considerably accelerate data management operations. For example, Dask can efficiently read data in parallel from Object Storage in CO formats like ZARR.</p>
+<p>Cloud-optimized formats are now widely used in geospatial settings with entire datasets available in the AWS Registry for Open Data like <a href="https://registry.opendata.aws/sentinel-2-l2a-cogs/">Sentinel-2 Cloud Optimized GeoTIFFs</a>. In this line, COPC (Cloud Optimized Point Cloud) was developed to overcome the limitations of LIDAR. Likewise, Cloud Optimized GeoTIFF (COG) was developed to facilitate cloud processing of GeoTIFF files.</p>
+<p>Nevertheless, there are no cloud optimized versions of widely used formats in genomics (FASTA, FASTQ, VCF, FASTQGZIP) and metabolomics (imzML). Furthermore, a costly preprocessing from legacy formats is required (from GeoTIFF to COG, from LIDAR to COPC). In this talk, we will present a novel data processing library called <a href="https://github.com/CLOUDLAB-URV/dataplug">Dataplug</a> that enables Cloud-optimized access to legacy formats without a costly preprocessing and also avoiding huge data movements. Dataplug covers legacy formats like LIDAR but also major data formats found in bioinformatics (genomics, metabolomics) that lack appropriate Cloud Optimized alternatives.</p>
+<p>In this talk, you will learn how to process scientific data formats in Python using the <a href="https://github.com/CLOUDLAB-URV/dataplug">Dataplug library</a> from any Python data analytics platform like Dask or Ray.  We will show different data processing pipelines in the Cloud that demonstrate the benefits of cloud-optimized data management.</p>
+<h2 id="objectives">Objectives</h2><p>By the end of this talk, you will be able to:</p>
+<ol>
+<li>Understand Cloud-Optimized data formats and their benefits for data processing in the Cloud</li>
+<li>Learn how to process Cloud Optimized Data from Object Storage in Python using Dask</li>
+<li>Use Dataplug library to enable on-the-fly partitioning of Cloud Optimized data (COG, ZARR, COPC).</li>
+<li>Use Dataplug library to enable on-the-fly partitioning of non-Cloud Optimized formats (LIDAR, FASTQGZIP, FASTA, FASTQ, VCF,imzML, MS)</li>
+</ol>
+<h2 id="outline">Outline</h2><p>Introduction (10 minutes)</p>
+<ol>
+<li>About Us</li>
+<li>Understanding Cloud-Optimized data formats and Cloud Object storage</li>
+<li>Processing Cloud-Optimized data in Dask</li>
+</ol>
+<p>Processing Cloud-optimized data in the Cloud with Python (15 minutes)</p>
+<ol>
+<li>Processing COG (Cloud-Optimized  GeoTIFFs) in Python in the <a href="https://github.com/cloudbutton/geospatial-usecase/tree/main/ndvi-diff">NDVI pipeline</a> </li>
+<li>On-the-fly processing of compressed genomic data (FASTQGZIP) with <a href="https://github.com/CLOUDLAB-URV/dataplug/blob/master/examples/fastqgz_example.py">Dataplug</a> </li>
+<li>On-the-fly processing of metabolomics data (imzML) with <a href="https://github.com/CLOUDLAB-URV/dataplug/blob/master/examples/imzml_processed_example.py">Dataplug</a></li>
+<li>Commparing LIDAR and COPC processing with Dataplug library in Dask (<a href="https://github.com/CLOUDLAB-URV/dataplug/blob/master/examples/lidar_example.py">code</a>)</li>
+</ol>
+<p>Conclusions (2 minutes)</p>
+<h2 id="audience">Audience</h2><p>The talk is aimed at Python developers interested in processing data in the Cloud. In particular, it may be of interest in the following domains:
+geospatial data (COG, COPC, LIDAR, ZARR, Kerchunk), genomics data (FASTA, FASTQ, VCF, FASTQGZIP), astronomics (MS), and metabolomics data (imzML).
+This talk requires basic understanding of Cloud Object Storage.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="universitat-rovira-i-virgili-pedro-garcia-lopez">Universitat Rovira i Virgili (Pedro Garcia Lopez)</h3><p>Pedro Garcia is professor of the Computer Engineering and Mathematics Department at the University Rovira i Virgili (Spain). He leads he “Cloud and Distributed Systems Lab” research group and coordinates large research european projects. In particular, he leads CloudStars (2023-2027), NearData (2023-2025), CloudSkin (2023-2025),  and he participates as partner in EXTRACT (2023-2025). He also coordinated FP7 CloudSpaces (2013-1015), H2020 IOStack (2015-2017) and H2020 CloudButton (2019-2022).</p>
+<p>During 2019-2020 he worked as visiting scientist in IBM Watson Research in the Hybrid Clouds group focused on serverless technologies. His research topics are distributed systems, cloud computing, data analytics, software architectures and middleware. He has published more than 100 papers on journals and prestigious conferences (ACM Middleware, IEEE ICDCS, USENIX FAST, ICDE, IMC). He has participated in scientific committees of different conferences like Middleware, CCGRID, CloudCom, CIC, P2P, CLOSER, or WETICE among others. He is currenlty co-organizing the International Workshop on Serverless Computing (WoSC).</p>
+
+    </div>
+
+    <div class="social-card-image">
+        <img src="/static/talks/SVTWWE.png" alt="">
+    </div>
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

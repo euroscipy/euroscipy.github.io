@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/static/main.css">
   <title>
-Units next to your Data: Arrays with Scipp
+Array API and library dispatching
 </title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,11 +16,11 @@ Units next to your Data: Arrays with Scipp
     rel="stylesheet">
 
   <meta property="og:title"
-    content="Units next to your Data: Arrays with Scipp">
+    content="Array API and library dispatching">
 
   
-  <meta name="image" property="og:image:secure_url" content="/static/talks/K9L3VH.png">
-  <meta name="image" property="og:image" content="/static/talks/K9L3VH.png">
+  <meta name="image" property="og:image:secure_url" content="/static/talks/DN7SMP.png">
+  <meta name="image" property="og:image" content="/static/talks/DN7SMP.png">
   
 
   <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
@@ -36,10 +36,10 @@ Units next to your Data: Arrays with Scipp
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@euroscipy">
   <meta name="twitter:title"
-    content="Units next to your Data: Arrays with Scipp">
+    content="Array API and library dispatching">
   <meta name="twitter:description" content="">
   
-  <meta name="twitter:image" content="/static/talks/K9L3VH.png">
+  <meta name="twitter:image" content="/static/talks/DN7SMP.png">
   
 
   
@@ -82,44 +82,34 @@ Units next to your Data: Arrays with Scipp
 
 <div class="content">
     <div class="talk-details">
-        Thursday 13:30
+        Wednesday 11:05
         
-        in room 1.38 (ground floor)
+        in room 2.41 (first floor)
         
     </div>
 
-    <h2>Units next to your Data: Arrays with Scipp</h2>
-    <h3>Mridul Seth</h3>
+    <h2>Array API and library dispatching</h2>
+    <h3>Sebastian Berg, Tim Head</h3>
 
     <div class="description">
-        <p>This talk will introduce the Scipp library, originally developed for neutron science experiments, and how it can be useful for record-based "tabular"/"event" data in general.</p>
-<p>One of Scipp's key features is the possibility of binning to sort record-based data into arrays of bins. This provides fast and flexible binning, rebinning, and filtering operations, all while preserving the original individual records.</p>
-<p>If your use case requires one or several of the items on the following list, using Scipp may be worth considering:</p>
-<ul>
-<li>Physical units are stored with each data or coord array and are handled in arithmetic operations.</li>
-<li>Histograms, i.e., bin-edge axes, which are by 1 longer than the data extent.</li>
-<li>Support for non-regular or scattered data and non-destructive binning.</li>
-<li>Support for masks stored with data.</li>
-<li>Propagation of uncertainties.</li>
-<li>Internals written in C++ for better performance (for certain applications), in combination with Python bindings.</li>
-</ul>
-<p>In the talk we will cover:</p>
-<ul>
-<li>Why units are important? What's the current landscape? (5 mins)</li>
-<li>Labeled dimensions, Units (in Scipp) and data structures in scipp (5 mins)</li>
-<li>Bins, Histograms and Uncertainties in Scipp (10 mins)</li>
-<li>Tips and tricks of multi dimensional data handling (5 mins)</li>
-<li>Buffer and Q/A (5 mins)</li>
-</ul>
+        <p>This session will be split in two parts.  First we wish discuss Array API adoption into libraries, how to continue this work and what needs to be done. 
+There has been a lot of progress in adoption across several libraries and interesting efforts like <a href="https://github.com/mdhaber/marray">https://github.com/mdhaber/marray</a>.
+What are patterns that work well or need improvement in the future?</p>
+<p>In the second part, we want to discuss adoption of dispatching and backend selection across libraries.  NetworkX has this for a long time and scikit-image has experimented with it in the past year.
+We plan on showing the spatch design, but wish to focus discussion on what the missing pieces are for libraries to adopt spatch or similar patterns.</p>
 
     </div>
 
     <div class="authors">
-        <h3 id="mridul-seth">Mridul Seth</h3>
+        <h3 id="sebastian-berg">Sebastian Berg</h3><p>Sebastian has been a NumPy developer for about 10 years now.  After a PhD in phsyics he worked at as a postdoc at the Berkeley Institute for Datascience on NumPy as grants byt the Alfred P. Sloan Foundation and the Gordon and Betty Moore Foundation.  Since 2022 he has been a software engineer at NVIDIA where he continues to contribute to NumPy.</p>
+<h3 id="tim-head">Tim Head</h3><p>I am a scikit-learn core maintainer and work at NVIDIA.</p>
+<p>Before working on scikit-learn I helped build mybinder.org and worked on JupyterHub.</p>
+<p>Many years ago I was a particle physicist at CERN in Geneva.</p>
+
     </div>
 
     <div class="social-card-image">
-        <img src="/static/talks/K9L3VH.png" alt="">
+        <img src="/static/talks/DN7SMP.png" alt="">
     </div>
 </div>
 

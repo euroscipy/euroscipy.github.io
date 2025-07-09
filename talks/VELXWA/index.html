@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <title>
+Can Your Research Notebook Survive a Code Update? On maintaining Reproducibility with Continuous Integration
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Can Your Research Notebook Survive a Code Update? On maintaining Reproducibility with Continuous Integration">
+
+  
+  <meta name="image" property="og:image:secure_url" content="/static/talks/VELXWA.png">
+  <meta name="image" property="og:image" content="/static/talks/VELXWA.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Can Your Research Notebook Survive a Code Update? On maintaining Reproducibility with Continuous Integration">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/talks/VELXWA.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <div class="talk-details">
+        Thursday 14:40
+        
+        in room 1.19 (ground floor)
+        
+    </div>
+
+    <h2>Can Your Research Notebook Survive a Code Update? On maintaining Reproducibility with Continuous Integration</h2>
+    <h3>Agnieszka Żaba</h3>
+
+    <div class="description">
+        <p>From the user's perspective, maintenance of notebooks that reproduce paper results using up-to-date project codebase serves the purpose of documenting and exemplifying project features and applications. 
+It enables exploratory usage with little-to-no effort needed to set up a working environment.
+However, this is contingent on a design embracing modularity and inversion of control - it is not uncommon in atmospheric modelling for papers to use different simulation flow control or different parameterisations.
+We present the inversion of control solutions from PySDM that enable the choice of formulae and constants from user code, without trade-offs in: 
+(i) performance, 
+(ii) ability to switch between CPU and GPU backends, and 
+(iii) dimensional analysis of physics-relevant routines for testing unit correctness.
+The maintenance of notebooks within code repositories also poses challenges in terms of handling embedded visuals. The jupyter-utils project helps with embedding GitHub-renderable and Jupyter-book-compatible vector graphics and animations.</p>
+<p>From the developer's perspective, notebooks within the code repository are a source of test scenarios and constraints for the assertions that constitute a robust regression-test suite. We present the notebook_vars() function from the jupyter-utils package, designed to be used in concert with the fixture logic of the pytest framework. It enables the execution of the notebook code once in a test session, allowing us of  the final notebook state in multiple automated tests. This occurs without modifications to the notebooks themselves.
+In notebooks pertaining to specific research studies, a direct link from test code up to subject literature is provided. Overall, we achieve an improvement in code readability and refactoring capability.</p>
+<p>The presented solutions, along with the availability of platforms such as Google Colab, mybinder.org or institutional Jupyter hubs, ensure single-click reproducibility of research-paper results, and a structure for retaining this through future releases of the code base. In addition to the benefits for software users and developers, this satisfies the scientific-method and research-journal reproducibility requirements.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="agnieszka-zaba">Agnieszka Żaba</h3><p>I am a PhD student in the Environmental Physics Group (zfs.agh.edu.pl/en) at the Faculty of Physics and Applied Computer Science, AGH University of Krakow. My research interests lie at the intersection between cloud microphysics and climate-science applications of water isotopes. I am a member of the github.com/open-atmos community and the maintainer of PySDM project.</p>
+
+    </div>
+
+    <div class="social-card-image">
+        <img src="/static/talks/VELXWA.png" alt="">
+    </div>
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
