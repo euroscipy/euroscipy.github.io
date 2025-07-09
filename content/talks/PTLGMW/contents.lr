@@ -39,7 +39,7 @@ In this section, we will teach: How to allow trigger custom functions from napar
 Part 3: How to convert your custom extension of napari into a plugin, Python package, that can be easily shared with other people. 
 In this section, we will show how to pack custom widgets into plugins and share them as Python packages.
 ---
-room: room 1.38, (ground floor)
+room: room 1.38 (ground floor)
 ---
 day: Monday
 ---

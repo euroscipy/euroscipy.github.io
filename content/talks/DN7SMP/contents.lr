@@ -1,0 +1,54 @@
+title: Array API and library dispatching
+---
+created: 
+---
+code: DN7SMP
+---
+speaker_names: Sebastian Berg, Tim Head
+---
+speakers:
+
+
+### Sebastian Berg
+
+Sebastian has been a NumPy developer for about 10 years now.  After a PhD in phsyics he worked at as a postdoc at the Berkeley Institute for Datascience on NumPy as grants byt the Alfred P. Sloan Foundation and the Gordon and Betty Moore Foundation.  Since 2022 he has been a software engineer at NVIDIA where he continues to contribute to NumPy.
+
+### Tim Head
+
+I am a scikit-learn core maintainer and work at NVIDIA.
+
+Before working on scikit-learn I helped build mybinder.org and worked on JupyterHub.
+
+Many years ago I was a particle physicist at CERN in Geneva.
+
+---
+abstract:
+
+There has been much progress in SciPy, scikit-learn and interesting efforts around Array API as well as some progress in dispatching similar to the NetworkX dispatching.
+This session is to discuss d future plans and pain points for libraries to further adopt these patterns.
+---
+full_description:
+
+This session will be split in two parts.  First we wish discuss Array API adoption into libraries, how to continue this work and what needs to be done. 
+There has been a lot of progress in adoption across several libraries and interesting efforts like https://github.com/mdhaber/marray.
+What are patterns that work well or need improvement in the future?
+
+In the second part, we want to discuss adoption of dispatching and backend selection across libraries.  NetworkX has this for a long time and scikit-image has experimented with it in the past year.
+We plan on showing the spatch design, but wish to focus discussion on what the missing pieces are for libraries to adopt spatch or similar patterns.
+---
+room: room 2.41 (first floor)
+---
+day: Wednesday
+---
+start_time: 11:05
+---
+duration_minutes: 45
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: /static/talks/DN7SMP.png
+

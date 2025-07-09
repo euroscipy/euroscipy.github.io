@@ -26,7 +26,7 @@ This talk introduces a novel approach that bridges the SBI package [sbi](https:/
 We will illustrate the potential and practicality of this integrated methodology using a key example from cognitive science: fitting a hierarchical drift-diffusion model (DDM) to choice data. The focus will be on how this combined "Pyro meets SBI" approach successfully allows for Bayesian inference over the parameters of the hierarchical model, effectively combining the information across multiple simulated subjects while handling the intractable DDM likelihood.
 This integration significantly expands the scope of rigorous Bayesian inference, opening new possibilities for analyzing complex, simulation-based models across various scientific disciplines. We will also briefly highlight how recent developments in the `sbi` package facilitate this powerful workflow, making advanced hierarchical modeling accessible for simulator-based research.
 ---
-room: room 1.38, (ground floor)
+room: room 1.38 (ground floor)
 ---
 day: Wednesday
 ---

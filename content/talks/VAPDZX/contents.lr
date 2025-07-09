@@ -23,7 +23,7 @@ full_description:
 In the first part of the talk, I will briefly discuss new features added to SciPy over the last year of development.
 In the second part of the talk, I will discuss technical improvements planned by the SciPy team, and the roadmap for the SciPy evolution, again focusing on technical side of things: enhancements to SciPy's coverage, performance and scalability, porting SciPy provided algorithms to novel hardware and software systems.
 ---
-room: room 1.38, (ground floor)
+room: room 1.38 (ground floor)
 ---
 day: Thursday
 ---
