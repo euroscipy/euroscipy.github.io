@@ -4,7 +4,7 @@ created:
 ---
 code: SVTWWE
 ---
-speaker_names: Universitat Rovira i Virgili (Pedro Garcia Lopez)
+speaker_names: Universitat Rovira i Virgili (Pedro Garcia Lopez), Daniel Alejandro Coll Tejeda
 ---
 speakers:
 
@@ -14,6 +14,10 @@ speakers:
 Pedro Garcia is professor of the Computer Engineering and Mathematics Department at the University Rovira i Virgili (Spain). He leads he “Cloud and Distributed Systems Lab” research group and coordinates large research european projects. In particular, he leads CloudStars (2023-2027), NearData (2023-2025), CloudSkin (2023-2025),  and he participates as partner in EXTRACT (2023-2025). He also coordinated FP7 CloudSpaces (2013-1015), H2020 IOStack (2015-2017) and H2020 CloudButton (2019-2022).
 
 During 2019-2020 he worked as visiting scientist in IBM Watson Research in the Hybrid Clouds group focused on serverless technologies. His research topics are distributed systems, cloud computing, data analytics, software architectures and middleware. He has published more than 100 papers on journals and prestigious conferences (ACM Middleware, IEEE ICDCS, USENIX FAST, ICDE, IMC). He has participated in scientific committees of different conferences like Middleware, CCGRID, CloudCom, CIC, P2P, CLOSER, or WETICE among others. He is currenlty co-organizing the International Workshop on Serverless Computing (WoSC).
+
+### Daniel Alejandro Coll Tejeda
+
+Daniel Alejandro Coll Tejeda is a dedicated researcher of Cloud and Distributed Systems Lab at the University Rovira i Virgili (URV), Tarragona. Specializing in cloud computing, his current research involves intensive data analysis and the creation of sophisticated tools designed to optimize the management of diverse cloud infrastructures, encompassing Kubernetes orchestration, serverless computing paradigms (such as AWS Lambda and Lithops), and virtual machine environments.
 
 ---
 abstract:
