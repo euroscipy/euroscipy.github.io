@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block body %}
+
+<div class="content">
+    <h2>{{ this.title }}</h2>
+
+    {{ this.body }}
+
+    <div class="team-table">
+        {% for member in bag('team')['members'] %}
+            <div class="team-member">
+                {% if member.image %}
+                <div class="team-member-item">
+                    <img src="{{ member.image }}" alt="{{ member.name ~ ' profile picture' }}" height="300" width="300">
+                </div>
+                {% else %}
+                <div class="team-member-item">
+                    <img src="/static/team/default-image.png" alt="default picture" height="300" width="300">
+                </div>
+                {% endif %}
+                <div class="team-member-item">
+                    <h4>{{ member.name }}</h4>
+                    {{ member.role }}
+                    </div>
+
+                    <div class="team-member-item">
+                    {% if member.website_url %}
+                        <a target="_blank" rel="noopener noreferrer" href="{{ member.website_url }}"><img src="/static/team/website-logo.jpg" alt="Website Logo" height="20" width="20"></a>
+                    {% endif %}
+                    {% if member.linkedin_url %}
+                        <a target="_blank" rel="noopener noreferrer" href="{{ member.linkedin_url }}"><img src="/static/team/linkedin-logo.png" alt="LinkedIn Logo" height="20" width="20"></a>
+                    {% endif %}
+                    {% if member.github_url %}
+                        <a target="_blank" rel="noopener noreferrer" href="{{ member.github_url }}"><img src="/static/team/github-logo.svg" alt="GitHub Logo" height="20" width="20"></a>
+                    {% endif %}
+                    {% if member.x_url %}
+                        <a target="_blank" rel="noopener noreferrer" href="{{ member.x_url }}"><img src="/static/team/x-logo.svg" alt="X Logo" height="20" width="20"></a>
+                    {% endif %}
+                </div>
+
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
