@@ -29,6 +29,10 @@
             "path": "sponsoring"
         },
         {
+            "name": "Venue",
+            "path": "venue"
+        },
+        {
             "name": "FAQ",
             "path": "faq"
         },
