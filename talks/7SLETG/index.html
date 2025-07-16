@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <link rel="icon" type="image/x-icon" href="/static/euroscipy_logo.svg">
+  <title>
+EffVer: Versioning code by the effort required to upgrade
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="EffVer: Versioning code by the effort required to upgrade">
+
+  
+  <meta name="image" property="og:image:secure_url" content="/static/talks/7SLETG.png">
+  <meta name="image" property="og:image" content="/static/talks/7SLETG.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="EffVer: Versioning code by the effort required to upgrade">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/talks/7SLETG.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/team">Team</a></li>
+        
+        <li class="navigation-link"><a href="/venue">Venue</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <div class="talk-details">
+        Thursday 11:40
+        
+        in room 1.38 (ground floor)
+        
+    </div>
+
+    <h2>EffVer: Versioning code by the effort required to upgrade</h2>
+    <h3>Jacob Tomlinson</h3>
+
+    <div class="description">
+        <p>Version numbers are hard to get right. Maintainers want to communicate to users what the impact of adopting a new version will be, but poor communication can lead to a lot of frustration. There are a few popular version schemes in use today including Semantic Versioning (SemVer) and Calendar Versioning (CalVer). However, projects in the Python community often don’t strictly conform to these standards which leads to confusion.</p>
+<p>In this talk we will discuss Intended Effort Versioning (EffVer), a new scheme that captures the reality of what many Python projects do today. This formalisation has been officially adopted by projects including Jupyter Hub, Matplotlib, JAX and many more.</p>
+<p>It’s very common for projects in the Python ecosystem to try to follow Semantic Versioning (SemVer), a scheme that adds specific meanings to each version segment and guarantees backward compatibility in all but major releases. In practice many projects violate the semantics laid out in SemVer because often reality is more complex than the scheme allows for.</p>
+<p>Some projects go another route and use Calendar Versioning (CalVer), a scheme that intentionally gives no meaning in the segments other than the date the software was released. This information causes challenges in other ways, such as not communicating how much effort it will be to adopt the new version or misleading users to believe that releases of different projects from the same time period will be compatible.</p>
+<p>EffVer is forward and backward compatible with SemVer, making it easy to adopt for projects already loosely following SemVer. However, instead of communicating specific semantics about what a release contains, it communicates the magnitude of the effort required to adopt those changes. This is already what many Python packages do today, but by formalising things it makes it easy for maintainers to reason about what the next version of a project should be, and allows users to more clearly understand how much effort they need to spend to adopt a new version.</p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="jacob-tomlinson">Jacob Tomlinson</h3><p>Jacob Tomlinson is a senior software engineer at NVIDIA. His work involves maintaining open source projects including RAPIDS and Dask. He also tinkers with kr8s in his spare time. He lives in Exeter, UK.</p>
+
+    </div>
+
+    <div class="social-card-image">
+        <img src="/static/talks/7SLETG.png" alt="">
+    </div>
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://t.me/euroscipy" target="_blank">telegram</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
