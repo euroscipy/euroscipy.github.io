@@ -13,6 +13,18 @@
             ]
         },
         {
+            "name": "Bronze Sponsors",
+            "sponsors": [
+                {
+                    "name": "Forschungszentrum Jülich",
+                    "id": "fzj",
+                    "logo": "/static/sponsors/fzj.jpg",
+                    "url": "https://www.fz-juelich.de/careers",
+                    "full_description": "Conducting research for a changing society: This is what drives us at Forschungszentrum Jülich. As a member of the Helmholtz Association, we aim to tackle the grand challenges of our times. How can we utilize the potential of artificial intelligence for society and science? How can we decode the human brain? How can we make a success of the energy transition and mitigate the effects of climate change? And how can we facilitate the transition to a sustainable economy in regions affected by structural change? Come and work with us at our scientific institutes, administration, or in research management alongside more than 7,500 colleagues from almost 110 countries at one of Europe’s biggest research centres and help make a contribution to solving societal challenges. Help us to shape change! <br> For more information on career opportunities, visit www.fz-juelich.de/careers."
+                }
+            ]
+        },
+        {
             "name": "Community Partners",
             "sponsors": [
                 {
