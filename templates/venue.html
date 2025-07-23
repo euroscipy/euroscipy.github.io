@@ -5,7 +5,62 @@
 {% block body %}
 
 <div class="content">
-  {{ this.body }}
+
+  <h1>AGH University of Kraków</h1>
+
+  Founded in 1913, it is one of the oldest universities in Poland, educating nearly 19,000 undergraduates and 900 PhD candidates,
+  focusing on most modern STEM (science, technology, engineering, mathematics) fields, and organizing numerous scientific conferences annually.
+
+  Cyfronet owns and maintains several supercomputers on the AGH campus. <a href="https://www.cyfronet.pl/en/computers/4581,main.html" target="_blank">HELIOS</a>
+  - the most powerful of them - ranks 55th in the prestigious TOP500 ranking (in 2024).
+
+  <div style="text-align:center;padding:1em;">
+    <img src="/static/venue/agh.jpg" alt="AGH" width=600>
+    <br>
+    <p><small>By Maciej Talar / KSAF AGH, CC BY-SA 4.0, <a href="https://commons.wikimedia.org/w/index.php?curid=114466379" target="_blank">wikimedia link</a></small></p>
+  </div>
+
+  <h3>From the airport to the city center</h3>
+
+  You can choose from trains, buses, and taxis like Uber or Bolt.
+
+  <a href="https://krakowairport.pl/en/passenger/transport-en/directions/from-to-krakow-airport/train-en/" target="_blank">There's a train station next to the airport</a>.
+  A train runs from the airport to the city's main train station.
+
+  The bus stop is right <a href="https://maps.app.goo.gl/wJdjcbzGbpMx4hSp7" target="_blank">in front of the airport</a>. Search for bus line number 300.
+
+  <h3>Venue</h3>
+
+  Here is the exact location where the main conference takes place:
+
+  <div class="map">
+    <iframe src={{ this.general_map_url }}></iframe>
+  </div>
+
+  And this is the location for the sprints only:
+
+  <div class="map">
+    <iframe src={{ this.sprint_map_url }}></iframe>
+  </div>
+
+  <h1>City</h1>
+
+  We welcome you to Kraków! The former capital city of Poland and one of the most popular tourist destinations in Europe.
+  The hometown of renowed mathematician Stefan Banach, and a UNESCO World Heritage Site,
+  hosts the annual EuroSciPy conference, where we can once again connect and share our knowledge and
+  novelties within the Scientific Python Ecosystem.
+
+  <div style="text-align:center;padding:1em;">
+    <img src="/static/venue/krakow.jpg" alt="Krakow" width=1000>
+    <br>
+    <p><small>By Zygmunt Put, CC BY-SA 4.0, <a href="https://commons.wikimedia.org/w/index.php?curid=145679603" target="_blank">wikimedia link</a></small></p>
+  </div>
+
+  {{ this.lists_city }}
+
+  <br><br>
+  Looking forward to seeing you in Kraków! 🇵🇱
+
 </div>
 
 {% endblock %}
