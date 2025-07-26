@@ -2,7 +2,7 @@
     "members": [
         {
             "name": "Mike Müller",
-            "role": "Sponsoring, Website",
+            "role": "Founder, Program, Sponsoring, Website",
             "image": "/static/team/mike_muller.png",
             "website_url": "http://www.python-academy.com/",
             "linkedin_url": "https://www.linkedin.com/in/mike-m%C3%BCller-1937695/",
@@ -11,7 +11,7 @@
         },
         {
             "name": "Alexander CS Hendorf",
-            "role": "Program",
+            "role": "Administrative",
             "image": "/static/team/alexander_hendorf.png",
             "website_url": "https://pioneershub.org/",
             "linkedin_url": "https://www.linkedin.com/in/hendorf/",
@@ -20,7 +20,7 @@
         },
         {
             "name": "Nefta Kanilmaz",
-            "role": "Program",
+            "role": "Program, Communications",
             "image": "/static/team/nefta_kanilmaz.png",
             "github_url": "https://github.com/NeroCorleone"
         },
@@ -40,13 +40,15 @@
             "mastodon_url": "https://ruhr.social/@ReimarBauer"
         },
         {
-            "name": "Konstantin",
+            "name": "Konstantin Ignatov",
             "role": "Program",
-            "image": "/static/team/default-image.png"
+            "image": "/static/team/konstantin_ignatov.jpg",
+            "github_url": "https://github.com/code-of-kpp",
+            "linkedin_url": "https://www.linkedin.com/in/work-of-kpp/"
         },
         {
             "name": "Vasu Sharma",
-            "role": "Diversity",
+            "role": "FinAid",
             "image": "/static/team/default-image.png",
             "linkedin_url": "https://www.linkedin.com/in/vasusharma-314/"
         },
@@ -58,7 +60,7 @@
         },
         {
             "name": "Justyna Szydłowska-Samsel",
-            "role": "Local Team, Program",
+            "role": "Program",
             "image": "/static/team/default-image.png"
         },
         {
