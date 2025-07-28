@@ -553,3 +553,14 @@ a.content-list--entry {
   border: 2px;
   border-radius: 5px;
 }
+
+.map {
+    text-align: center;
+    border: 0;
+    padding: 1em;
+}
+
+.map > iframe {
+    width: 70%;
+    height: 300px;
+}
