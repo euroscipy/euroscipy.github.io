@@ -45,6 +45,13 @@
                     "logo": "/static/sponsors/python_software_verband.svg",
                     "url": "https://pysv.de",
                     "full_description": "The Python Software Verband supports and promotes the Python community in the German-speaking region. <br><br>The association is a gathering of companies, freelancers, and individuals who use Python and open-source software for commercial or personal purposes and wish to express their appreciation for the open-source community by engaging with it. The Python Software Verband consolidates resources through member contributions and coordinates support measures that would not be feasible for individual members or would require significant effort.<br><br>Examples of support measures include conference events, educational activities, and development support. Details about the possible support forms are described in the support program."
+                },
+                {
+                    "name": "Python Academy",
+                    "id": "pyy",
+                    "logo": "/static/sponsors/python_academy.png",
+                    "url": "https://www.python-academy.com",
+                    "full_description": "Python Academy is a specialized Python training company. It offers open courses for individuals as well as customized on-site courses for companies and institutes. It covers a wide range of Python topics from introductory to advanced, Python for scientists and engineers, big data, web development, code optimization and many more. In addition to training, it consults companies that migrate to Python and develop high-quality Python software often in combination with training. The special expertise of the academy is scientific and technical software development with Python."
                 }
             ]
         }
