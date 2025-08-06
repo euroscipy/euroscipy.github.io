@@ -4,6 +4,13 @@
             "name": "Platinum Sponsors",
             "sponsors": [
                 {
+                    "name": "Anaconda Inc.",
+                    "id": "anaconda",
+                    "logo": "/static/sponsors/anaconda.png",
+                    "url": "https:/anaconda.com",
+                    "full_description": "Anaconda is built to advance AI with open source at scale, giving builders and organizations the confidence to increase productivity, and save time, spend and risk associated with open source. 95% of the Fortune 500 including Panasonic, AmTrust Financial, Booz Allen and over 50 million users rely on the value The Anaconda AI Platform delivers through a centralized approach to sourcing, securing, building and deploying AI. With 21 billion downloads and growing, Anaconda has established itself as the gold standard for Python, data science and AI and the enterprise-ready solution of choice for AI innovation. Anaconda partners with Nvidia, AWS, Microsoft and Oracle and is backed by world-class investors including, Snowflake Ventures and Apertu Capital."
+                },
+                {
                     "name": "MDPI",
                     "id": "mdpi",
                     "logo": "/static/sponsors/mdpi.png",
