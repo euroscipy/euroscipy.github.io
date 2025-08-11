@@ -44,6 +44,33 @@
             ]
         },
         {
+            "name": "Financial Aid Sponsors",
+            "sponsors": [
+                {
+                    "name": "Python Software Foundation",
+                    "id": "psf",
+                    "logo": "/static/sponsors/psf.png",
+                    "url": "https://www.python.org/",
+                    "full_description": "The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language,  and to support and facilitate the growth of a diverse and international community of Python programmers. The majority of the PSF's work is focused on empowering and supporting people within the Python community. The PSF has active grant programs that support sprints, conferences, meet ups, user groups, and Python development efforts all over the world. In addition, the PSF underwrites and runs PyCon US, the primary Python community conference. Being part of the PSF means being part of the Python community. Recently we changed the PSF to an open membership organization, so that everyone who uses and supports Python can join."
+                },
+                {
+                    "name": "EuroPython Society",
+                    "id": "eps",
+                    "logo": "/static/sponsors/eps.png",
+                    "url": "https://www.europython-society.org",
+                    "full_description": "The EuroPython Society (EPS) is a Swedish non-profit organization which organizes EuroPython conferences, supports the Python community in Europe and holds the rights to the EuroPython conference series and trademarks."
+                },
+                {
+                    "name": "NumFOCUS",
+                    "id": "num",
+                    "logo": "/static/sponsors/NumFocus.png",
+                    "url": "https://www.numfocus.org",
+                    "full_description": "NumFOCUS is a nonprofit organization providing foundational support to empower the open source scientific computing ecosystem. We envision and work toward an inclusive scientific and research community that utilizes actively supported open source software to make impactful discoveries for a better world."
+                }
+            ]
+        },
+
+        {
             "name": "Institutional Sponsors",
             "sponsors": [
                 {
@@ -55,7 +82,7 @@
                 },
                 {
                     "name": "Python Academy",
-                    "id": "pyy",
+                    "id": "pya",
                     "logo": "/static/sponsors/python_academy.png",
                     "url": "https://www.python-academy.com",
                     "full_description": "Python Academy is a specialized Python training company. It offers open courses for individuals as well as customized on-site courses for companies and institutes. It covers a wide range of Python topics from introductory to advanced, Python for scientists and engineers, big data, web development, code optimization and many more. In addition to training, it consults companies that migrate to Python and develop high-quality Python software often in combination with training. The special expertise of the academy is scientific and technical software development with Python."
