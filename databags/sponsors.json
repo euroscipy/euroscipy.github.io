@@ -79,6 +79,13 @@
                     "logo": "/static/sponsors/python_academy.png",
                     "url": "https://www.python-academy.com",
                     "full_description": "Python Academy is a specialized Python training company. It offers open courses for individuals as well as customized on-site courses for companies and institutes. It covers a wide range of Python topics from introductory to advanced, Python for scientists and engineers, big data, web development, code optimization and many more. In addition to training, it consults companies that migrate to Python and develop high-quality Python software often in combination with training. The special expertise of the academy is scientific and technical software development with Python."
+                },
+                {
+                    "name": "Pioneers Hub gGmbH",
+                    "id": "phub",
+                    "logo": "/static/sponsors/pioneers-hub.svg",
+                    "url": "https://pioneershub.org",
+                    "full_description": "Pioneers Hub gGmbH is a non-profit limited liability company (gemeinnützige GmbH) based in Heidelberg, Germany, dedicated to fostering innovation, knowledge-sharing, and collaboration among technology and research communities."
                 }
             ]
         }
