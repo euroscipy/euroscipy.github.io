@@ -59,13 +59,6 @@
                     "logo": "/static/sponsors/eps.png",
                     "url": "https://www.europython-society.org",
                     "full_description": "The EuroPython Society (EPS) is a Swedish non-profit organization which organizes EuroPython conferences, supports the Python community in Europe and holds the rights to the EuroPython conference series and trademarks."
-                },
-                {
-                    "name": "NumFOCUS",
-                    "id": "num",
-                    "logo": "/static/sponsors/NumFocus.png",
-                    "url": "https://www.numfocus.org",
-                    "full_description": "NumFOCUS is a nonprofit organization providing foundational support to empower the open source scientific computing ecosystem. We envision and work toward an inclusive scientific and research community that utilizes actively supported open source software to make impactful discoveries for a better world."
                 }
             ]
         },
@@ -86,6 +79,13 @@
                     "logo": "/static/sponsors/python_academy.png",
                     "url": "https://www.python-academy.com",
                     "full_description": "Python Academy is a specialized Python training company. It offers open courses for individuals as well as customized on-site courses for companies and institutes. It covers a wide range of Python topics from introductory to advanced, Python for scientists and engineers, big data, web development, code optimization and many more. In addition to training, it consults companies that migrate to Python and develop high-quality Python software often in combination with training. The special expertise of the academy is scientific and technical software development with Python."
+                },
+                {
+                    "name": "Pioneers Hub gGmbH",
+                    "id": "phub",
+                    "logo": "/static/sponsors/pioneers-hub.svg",
+                    "url": "https://pioneershub.org",
+                    "full_description": "Pioneers Hub gGmbH is a non-profit limited liability company (gemeinnützige GmbH) based in Heidelberg, Germany, dedicated to fostering innovation, knowledge-sharing, and collaboration among technology and research communities."
                 }
             ]
         }
