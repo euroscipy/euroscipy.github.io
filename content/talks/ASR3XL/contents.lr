@@ -1,4 +1,4 @@
-title: Predictive modeling with imbalanced datasets using scikit-learn
+title: Predictive modeling for imbalanced classification using scikit-learn
 ---
 created: 
 ---
@@ -25,6 +25,9 @@ Real-world applications use machine learning to aid decision-making and planning
 This tutorial examines methodological considerations for handling imbalanced datasets. We focus on resampling techniques that adjust the ratio between positive and negative outcomes. The tutorial explores: (i) how imbalanced data affects probability outcomes and classifier calibration; (ii) resampling's impact on model overfitting/underfitting and its connection to regularization; and (iii) the tradeoffs between computational and statistical performance when implementing resampling strategies.
 
 Hands-on programmatic notebooks provide practical insights into these concepts.
+
+The material and instructions to follow the tutorial will be available here:
+https://github.com/probabl-ai/calibration-cost-sensitive-learning
 ---
 full_description:
 
@@ -33,6 +36,9 @@ Real-world applications utilize machine learning (or artificial intelligence) to
 This tutorial addresses this particular problem and examines specific methodological considerations when approaching imbalanced datasets. One important consideration relates to resampling and its various effects: with numerous negative outcomes compared to positive outcomes, existing literature supports reducing the ratio between these event types. With these techniques in mind, we examine and study the following aspects: (i) the impact of imbalanced datasets on probability outcomes and classifier calibration; (ii) the effect of resampling on model overfitting and underfitting and its relationship to model regularization; and (iii) the impact of resampling on computational performance versus statistical performance.
 
 This tutorial provides a hands-on approach through programmatic notebooks to offer insights into each of these concepts.
+
+The material and instructions to follow the tutorial will be available here:
+https://github.com/probabl-ai/calibration-cost-sensitive-learning
 ---
 room: room 1.38 (ground floor)
 ---
