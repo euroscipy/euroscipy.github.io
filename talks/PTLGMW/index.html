@@ -109,6 +109,21 @@ Part 2: Extending napari with custom functionalities: custom widgets and mouse c
 In this section, we will teach: How to allow trigger custom functions from napari GUI. How to create a simple widget from a function and how to prepare a more complex widget to fit better into workflow. How to integrate the napari viewer with an interactive session in jupyter. 
 Part 3: How to convert your custom extension of napari into a plugin, Python package, that can be easily shared with other people. 
 In this section, we will show how to pack custom widgets into plugins and share them as Python packages.</p>
+<h2 id="installation-instruction">Installation instruction</h2><p>In this tutorial we assume usage of <a href="https://docs.astral.sh/uv/"><code>uv</code></a> for environment management. 
+If you prefer to use <code>conda</code> or <code>pip</code>, then you may use our <a href="https://napari.org/stable/tutorials/fundamentals/installation.html#napari-installation">installation instruction</a></p>
+<p>To setup your workspace:</p>
+<ol>
+<li>Install <code>uv</code> (here instruction <a href="https://docs.astral.sh/uv/#installation">https://docs.astral.sh/uv/#installation</a>) </li>
+<li>Clone (<code>git clone https://github.com/brisvag/napari-tutorial-euroscipy2025.git</code>) or <a href="https://github.com/brisvag/napari-tutorial-euroscipy2025/archive/refs/heads/main.zip">download</a> the repository</li>
+<li>Go into the project directory</li>
+<li>Execute <code>uv sync</code></li>
+<li>Check if everything works by executing <code>uv run napari</code>. If the application starts your environment is ready!</li>
+</ol>
+<p>You may activate the environment by typing</p>
+<ul>
+<li>[Linux/MacOs] <code>source .venv/bin/activate</code></li>
+<li>[Windows] <code>venv\Scripts\activate.bat</code> (or <code>venv\Scripts\Activate.ps1</code> if using PowerShell)</li>
+</ul>
 
     </div>
 
