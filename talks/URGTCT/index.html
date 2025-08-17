@@ -97,7 +97,35 @@ Introduction to Python and JupyterLab
     <h3>Mike Müller</h3>
 
     <div class="description">
-        <p>This tutorial provides a whirlwind introduction to the basic of the Python language and how to use JupyterLab. All other tutorials require some command of Python and will use Jupyter Notebooks for teaching. So, if you are new to Python and/or Jupyter, you should definitely attend this tutorial. I will adjust the topics to the needs of attendees. Prepare for 90 intensive minutes. You will learn something new and useful.</p>
+        <p>Please install JupyterLab <strong>before</strong> the tutorial. Depending on the way you install Python packages you chose on of these options:</p>
+<pre><code> pip install jupyterlab
+</code></pre>
+<p>or</p>
+<pre><code> conda install jupyterlab
+</code></pre>
+<p>or</p>
+<pre><code> mamba install jupyterlab
+</code></pre>
+<p>or</p>
+<pre><code> pixi add jupyterlab
+</code></pre>
+<p>or</p>
+<pre><code> uv add jupyterlab
+</code></pre>
+<p>or</p>
+<p>Your own way.</p>
+<p>I use <a href="https://pixi.sh/latest/">Pixi</a>. If you like to try it, please <a href="https://pixi.sh/latest/#installation">install</a> and create an environment:</p>
+<pre><code>pixi init jupyterlab_tutorial
+cd jupyterlab_tutorial
+pixi add jupyterlab python=3.13
+pixi shell
+</code></pre>
+<p>No matter what installation method you use, you can start JupyterLab with:</p>
+<pre><code>jupyter-lab
+</code></pre>
+<p>or</p>
+<pre><code>python -m jupyter-lab
+</code></pre>
 
     </div>
 
