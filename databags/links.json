@@ -29,6 +29,10 @@
             "path": "sponsoring"
         },
         {
+            "name": "Sprints",
+            "path": "sprints"
+        },
+        {
             "name": "Team",
             "path": "team"
         },
