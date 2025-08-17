@@ -1,0 +1,43 @@
+title: Sprints Registration Open for EuroSciPy 2025!
+---
+pub_date: 2025-08-17
+---
+body:
+
+## Would you like to run a sprint for your open-source project at EuroSciPy 2025?
+
+EuroSciPy 2025 is excited to announce that sprint registration is now open!
+Sprints are a fantastic opportunity to gather with fellow developers,
+collaborate on open-source projects, and make meaningful contributions.
+
+**No conference ticket is required to attend or run a sprint; they are open to
+everyone!**
+
+### What is a Sprint?
+
+Sprints are informal, collaborative coding sessions where participants work
+together on a specific open-source project. They are a great way to get
+involved, learn from experienced contributors, and help improve the tools and
+libraries you use every day.
+
+### When and Where?
+
+Sprints at EuroSciPy 2025 will take place on **Friday, 22 August 2025**, in the
+same building as the main conference. Specific room details will be announced
+closer to the date.
+
+### How to Register Your Sprint
+
+If you're an open-source project maintainer or a passionate contributor and
+would like to host a sprint, we encourage you to register your project! You can
+propose a sprint by submitting a Pull Request to our website, or by sending an
+email to `sprints@euroscipy.org`.
+
+For detailed instructions on how to publish your sprint via a Pull Request,
+please refer to the comments within the source file of our Sprints page on
+GitHub: [Sprints Page Source on GitHub](https://github.com/euroscipy/euroscipy.github.io/blob/main/content/sprints/contents.lr)
+
+To see the list of currently registered sprints, please visit our dedicated
+Sprints page: [EuroSciPy 2025 Sprints](/sprints/)
+
+We look forward to seeing your projects and contributions at EuroSciPy 2025!

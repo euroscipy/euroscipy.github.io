@@ -1,0 +1,72 @@
+_model: sprints
+---
+title: Sprints at EuroSciPy 2025
+---
+body:
+
+### What are Sprints?
+
+Sprints are collaborative coding sessions where participants work together on
+open-source projects. It's a great opportunity to contribute to projects you
+use, learn from experienced developers, and network with the community.
+
+### When are Sprints happening?
+
+Sprints at EuroSciPy 2025 will be held on **Friday, 22 August 2025**.
+
+**No ticket is required to attend the sprints; they are open to everyone!**
+
+## Registered Sprints
+
+<!--
+### How to register your sprint:
+
+To add your sprint to this page, please follow these steps:
+
+1.  **Fork the repository:** Go to the EuroSciPy website repository on GitHub
+    and click the "Fork" button.
+2.  **Clone your fork:** Clone your forked repository to your local machine:
+    `git clone https://github.com/YOUR_USERNAME/euroscipy.github.io.git`
+3.  **Create a new branch:** Navigate into your cloned repository and create a
+    new branch for your changes:
+    `git switch --create add-my-sprint`
+4.  **Edit this file:** Open `content/sprints/contents.lr` in your text editor.
+5.  **Add your sprint:** Add a new section for your sprint under "Registered
+    Sprints" using a `###` heading, followed by a short description.
+    Example:
+    ```
+    ### My Awesome Project Sprint
+
+    This sprint will focus on improving the documentation and adding new
+    features to My Awesome Project.
+    ```
+6.  **Commit your changes:** Save the file and commit your changes:
+    `git add content/sprints/contents.lr`
+    `git commit -m "Add My Awesome Project sprint"`
+7.  **Push your branch:** Push your new branch to your forked repository on
+    GitHub:
+    `git push origin add-my-sprint`
+8.  **Open a Pull Request (PR):** Go to your forked repository on GitHub and
+    open a Pull Request from your new branch to the `main` branch of the
+    original `euroscipy/euroscipy.github.io` repository.
+9.  Once your PR is approved and merged, your sprint will appear on this page.
+
+For more details on how to propose a sprint, please read our blog post:
+[Sprints Registration Open!](/blog/sprints-registration-open/)
+-->
+
+### numpy
+
+TBA
+
+### scipy
+
+TBA
+
+### scikit-learn & scikit-image
+
+TBA
+
+### pyfixest
+
+TBA
