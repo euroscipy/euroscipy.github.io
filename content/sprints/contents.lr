@@ -87,3 +87,11 @@ If you don't know Rust, don't worry! Here are some other topics we'd like to tac
 Before the sprint, you can fork and clone pyfixest from [github](https://github.com/py-econometrics/pyfixest), and we explain how to set up the dev environment [here](https://py-econometrics.github.io/pyfixest/contributing.html). 
 
 If you're interested, please feel free to reach out!
+
+### array-api-extra
+
+Come and contribute to array-api-extra! We have [good first issues](https://github.com/data-apis/array-api-extra/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22) across the following topics:
+- adding a new function, `nan_to_num`
+- adding delegation to existing implementations for functions
+- improving static typing annotations
+- improving documentation
