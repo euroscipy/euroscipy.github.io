@@ -69,4 +69,21 @@ TBA
 
 ### pyfixest
 
-TBA
+We'd love to implement a range of exciting new features for PyFixest during the EuroScipy sprint: 
+
+We are currently porting some of the core algorithms that make PyFixest fast from numba to Rust and would like to implement multiple enhancements: 
+
+- Implement the Irons-Tuck Fixed-Point Acceleration Method in PyFixest, plus some other tricks that make r-fixest so fast ([Background on IT](https://cea.hal.science/cea-01403292/document), [fixest IT options](https://lrberge.github.io/fixest/reference/demeaning_algo.html), [pyfixest draft PR](https://github.com/py-econometrics/pyfixest/issues/357)).
+- We want to port the Frisch-Newton Quantile Regression solver from PyFixest from pure Python / numpy to Rust. You can find the code [here](https://github.com/py-econometrics/pyfixest/blob/master/pyfixest/estimation/quantreg/frisch_newton_ip.py#L70).
+- We'd like core functionality of the randomization inference code base from numba to Rust. You can find the code [here](https://github.com/py-econometrics/pyfixest/blob/49d65a426ddc3311632ed69d77762ea344574533/pyfixest/estimation/ritest.py#L196). 
+
+If you don't know Rust, don't worry! Here are some other topics we'd like to tackle during the sprint:
+
+- We've recently implemented a specialized Frisch-Newton solver to solve the Quantile Regression optimization problem. In initial benchmarks, we have found that our FN implementation is much faster than the Quantile Regression solver in scikit-learn. We want to create exhaustive benchmarking to validate our initial finding. If confirmed, our hope is to contribute the algorithm to scikit-learn! You can find an initial PR to sklearn [here](https://github.com/scikit-learn/scikit-learn/issues/31708#issuecomment-3191641341).
+- We want to implement a complement to the FN estimator that works with sparse matrices. For the associate PR, see [here](https://github.com/py-econometrics/pyfixest/issues/963). 
+- We also have a range of "good first issues", many of which are very beginner-friendly. You can find them [here](https://github.com/py-econometrics/pyfixest/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22).
+- Tooling: We'd like to set up a conda forge feed for PyFixest [issue](https://github.com/py-econometrics/pyfixest/issues/549). 
+
+Before the sprint, you can fork and clone pyfixest from [github](https://github.com/py-econometrics/pyfixest), and we explain how to set up the dev environment [here](https://py-econometrics.github.io/pyfixest/contributing.html). 
+
+If you're interested, please feel free to reach out!
