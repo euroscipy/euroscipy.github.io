@@ -38,6 +38,23 @@ Part 2: Extending napari with custom functionalities: custom widgets and mouse c
 In this section, we will teach: How to allow trigger custom functions from napari GUI. How to create a simple widget from a function and how to prepare a more complex widget to fit better into workflow. How to integrate the napari viewer with an interactive session in jupyter. 
 Part 3: How to convert your custom extension of napari into a plugin, Python package, that can be easily shared with other people. 
 In this section, we will show how to pack custom widgets into plugins and share them as Python packages.
+
+## Installation instruction
+
+In this tutorial we assume usage of [`uv`](https://docs.astral.sh/uv/) for environment management. 
+If you prefer to use `conda` or `pip`, then you may use our [installation instruction](https://napari.org/stable/tutorials/fundamentals/installation.html#napari-installation) 
+
+To setup your workspace:
+
+1. Install `uv` (here instruction https://docs.astral.sh/uv/#installation) 
+2. Clone (`git clone https://github.com/brisvag/napari-tutorial-euroscipy2025.git`) or [download](https://github.com/brisvag/napari-tutorial-euroscipy2025/archive/refs/heads/main.zip) the repository
+3. Go into the project directory
+4. Execute `uv sync`
+5. Check if everything works by executing `uv run napari`. If the application starts your environment is ready!
+
+You may activate the environment by typing 
+* [Linux/MacOs] `source .venv/bin/activate`
+* [Windows] `venv\Scripts\activate.bat` (or `venv\Scripts\Activate.ps1` if using PowerShell)
 ---
 room: room 1.38 (ground floor)
 ---
