@@ -45,7 +45,7 @@ By the end of this session, attendees will:
 - Learn how to write and integrate custom Cython or C++ kernels  
 - Know when to optimize Python code and when to rely on existing libraries  
 
-We also hope that this tutorial will inspire more people to contribute to open-source high-performance libraries.
+We also hope that this tutorial will inspire more people to contribute to open-source high-performance libraries such as scikit-learn-intelex https://github.com/uxlfoundation/scikit-learn-intelex
 ---
 room: room 1.38 (ground floor)
 ---
