@@ -20,9 +20,9 @@ Security research is crucial in IT - considering the fast-paced growth of cyberc
 ---
 full_description:
 
-Participants of this tutorial will gain a solid foundation in software analysis, with a strong emphasis on security. We will explore the significance of security research in software development and consider various resources and tools to discover vulnerabilities - including static and dynamic analysis, signature matching, automated scanning and fuzzing.
+Participants of this tutorial will gain a solid foundation in software analysis, with a strong emphasis on security. We will explore the significance of security research in software development and consider various resources and tools to discover vulnerabilities.
 
-To illustrate these concepts, we’ll perform static analysis with CodeQL, Bandit and Nuclei on a vulnerable Python library as a case study. Additionally, we’ll understand different approaches and techniques to security-oriented analysis. Participants will gain essential knowledge to identify vulnerabilities, find potential targets for analysis, and apply research methodology. 
+To illustrate these concepts, we’ll perform static analysis with Bandit on a vulnerable Python library as a case study. Additionally, we’ll understand different approaches and techniques to security-oriented analysis. Participants will gain essential knowledge to identify vulnerabilities, find potential targets for analysis, and apply research methodology. 
 
 This tutorial will cover
 * Introduction to security research

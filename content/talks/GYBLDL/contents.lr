@@ -33,6 +33,9 @@ While static visualizations are limited in how much information they can show, a
 #### Section 3: Building Interactive Visualizations for Data Exploration
 
 When exploring our data, interactive visualizations can provide the most value. Without having to create multiple iterations of the same plot, we can use mouse actions (e.g., click, hover, zoom, etc.) to explore different aspects and subsets of the data. In this section, we will learn how to use HoloViz to create interactive visualizations for exploring our data utilizing the Bokeh backend.
+
+## Setup instructions
+Please set up your laptop beforehand by following these [setup instructions](https://github.com/stefmolin/python-data-viz-workshop?tab=readme-ov-file#setup-instructions).
 ---
 room: room 1.19 (ground floor)
 ---
