@@ -102,3 +102,5 @@ The Blosc development team has just released a beta version of TreeStore class (
 * Being able to open a store with blosc2.open(), which fits better with Blosc2 philosophy
 * Making sure that vlmeta works well for subtrees
 * Producing a proper tutorial.
+
+We would also like to talk on how to implement fancy indexing for NDArray type (NDArray.slice(fancy_index))
