@@ -69,9 +69,15 @@ TBA
 
 ### napari
 
+<!--
 TBA (our propositions)
+-->
 
 - whatever you want to be improved in napari :)
+
+[napari](https://github.com/napari/napari) is a fast, interactive,
+multi-dimensional image viewer for Python.
+
 
 ### PyFixest
 
