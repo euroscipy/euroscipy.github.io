@@ -43,7 +43,7 @@ Blosc and Blosc2 are well-known and widely used libraries for high-performance d
 
 With the introduction of a new compute engine in Python-Blosc2 3.0, the guiding principle has evolved to "Compress Better, Compute Bigger." This enhancement enables computations on datasets that are over 100 times larger than the available RAM, all while maintaining high performance.
 
-In this hands-on tutorial, participants will learn how to effectively use Python-Blosc2 through practical exercises divided into four sections:
+In this hands-on tutorial, participants will learn how to effectively use Python-Blosc2 through practical exercises divided into three sections:
 
 **Section 1: Getting Started with Python-Blosc2 (20 minutes)**
 - Introduction to compression concepts and Blosc2 architecture
@@ -51,27 +51,20 @@ In this hands-on tutorial, participants will learn how to effectively use Python
 - Basic compression/decompression operations with various codecs
 - Hands-on: Creating your first compressed arrays
 
-**Section 2: Integration with NumPy and the Python Data Ecosystem (20 minutes)**
-- Working with NDArrays and SChunks containers
-- Converting between NumPy arrays and Blosc2 containers
-- Optimizing memory usage with minimal performance impact
-- Hands-on: Processing real-world datasets with NumPy and Blosc2
-
-**Section 3: The Compute Engine (30 minutes)**
+**Section 2: The Compute Engine (30 minutes)**
 - Understanding the Blosc2 compute engine architecture
-- Using JIT compilation for expressions with NumPy functions
 - Processing data larger than available RAM
 - Hands-on: Implementing calculations on out-of-memory datasets
 
-**Section 4: Advanced Usage and Real-world Applications (20 minutes)**
-- Performance optimization techniques
-- Integration with existing data pipelines
-- Scaling strategies for different hardware configurations
+**Section 3: Advanced Usage and Remote Access (20 minutes)**
+- Caterva2: serving Blosc2 files remotely
 - Hands-on: Solving a complex data analysis challenge
 
 Throughout the tutorial, we'll work with practical examples demonstrating how to analyze datasets that exceed available RAM without specialized hardware. By the end, participants will have hands-on experience implementing Python-Blosc2 in data workflows and will understand how to compress data while maintaining computational efficiency.
 
-This tutorial will help you expand your capabilities for scientific computing and data analysis while reducing memory footprint and improving processing speed. Attendees should bring laptops with Python installed; pre-tutorial setup instructions will be provided.
+This tutorial will help you expand your capabilities for scientific computing and data analysis while reducing memory footprint and improving processing speed. Attendees should bring laptops with Python installed.
+
+Tutorial setup instructions are accessible at: https://github.com/Blosc/EuroSciPy2025-CCC-Tutorial
 ---
 room: room 1.38 (ground floor)
 ---
