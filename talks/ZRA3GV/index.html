@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/main.css">
+  <link rel="icon" type="image/x-icon" href="/static/euroscipy_logo.svg">
+  <title>
+Solving Hard Optimization Problems with Pyomo and HiGHS: A Practical Introduction
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Solving Hard Optimization Problems with Pyomo and HiGHS: A Practical Introduction">
+
+  
+  <meta name="image" property="og:image:secure_url" content="/static/talks/ZRA3GV.png">
+  <meta name="image" property="og:image" content="/static/talks/ZRA3GV.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Solving Hard Optimization Problems with Pyomo and HiGHS: A Practical Introduction">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/static/talks/ZRA3GV.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="/schedule">Schedule</a></li>
+        
+        <li class="navigation-link"><a href="/tickets">Tickets</a></li>
+        
+        <li class="navigation-link"><a href="/finaid">Financial Aid</a></li>
+        
+        <li class="navigation-link"><a href="/talks">Talks</a></li>
+        
+        <li class="navigation-link"><a href="/blog">Blog</a></li>
+        
+        <li class="navigation-link"><a href="/sponsors">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="/sponsoring">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="/sprints">Sprints</a></li>
+        
+        <li class="navigation-link"><a href="/team">Team</a></li>
+        
+        <li class="navigation-link"><a href="/venue">Venue</a></li>
+        
+        <li class="navigation-link"><a href="/faq">FAQ</a></li>
+        
+        <li class="navigation-link"><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <div class="talk-details">
+        Thursday 16:00
+        
+        in room 1.38 (ground floor)
+        
+    </div>
+
+    <h2>Solving Hard Optimization Problems with Pyomo and HiGHS: A Practical Introduction</h2>
+    <h3>Florian Wilhelm</h3>
+
+    <div class="description">
+        <h3 id="1-introduction-3-min-what-kind-of-problems-can-mip-solve"><strong>1. Introduction (3 min) – What Kind of Problems Can MIP Solve?</strong></h3><ul>
+<li>MIP is widely used in scheduling, logistics, and operations research.</li>
+<li>Examples of real-world problems: workforce scheduling, vehicle routing, and conference scheduling.</li>
+<li>Why are these problems hard? The explosion of possible solutions in combinatorial optimization.</li>
+</ul>
+<h3 id="2-why-are-these-problems-difficult-2-min-the-challenge-of-combinatorial-optimization"><strong>2. Why Are These Problems Difficult? (2 min) – The Challenge of Combinatorial Optimization</strong></h3><ul>
+<li>Theoretical complexity: Why brute-force search is infeasible.</li>
+<li>How solvers like <strong>HiGHS</strong> approach the problem efficiently:<ul>
+<li><strong>Branch-and-Bound</strong>: How it systematically narrows down the search space.</li>
+<li><strong>Cutting Planes &amp; Presolve Techniques</strong>: Reducing problem size before solving.</li>
+<li><strong>Heuristics vs. Exact Solutions</strong>: Trade-offs in computation time.</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-introduction-to-pyomo-highs-4-min-the-optimization-toolkit"><strong>3. Introduction to Pyomo &amp; HiGHS (4 min) – The Optimization Toolkit</strong></h3><ul>
+<li><strong>Pyomo</strong>: A structured way to define optimization models in Python.</li>
+<li><strong>HiGHS</strong>: A high-performance solver for linear and mixed-integer problems.</li>
+<li>How they work together: Model in Pyomo → Solve with HiGHS → Interpret results.</li>
+</ul>
+<h3 id="4-conference-scheduling-5-min-a-practical-example"><strong>4. Conference Scheduling (5 min) – A Practical Example</strong></h3><ul>
+<li>Formulating the problem as a <strong>MIP model</strong>:<ul>
+<li>Decision variables: Assigning talks to rooms and time slots.</li>
+<li>Constraints: Speaker availability, room capacities, topic grouping.</li>
+<li>Objective function: Maximizing session coherence and fairness.</li>
+</ul>
+</li>
+<li>Broad overview of the <strong>Python implementation</strong>:<ul>
+<li>Writing the model in Pyomo.</li>
+<li>Solving it using HiGHS.</li>
+<li>Evaluating the solution.</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-conclusion-wrap-up-1-min-key-takeaways"><strong>5. Conclusion &amp; Wrap-up (1 min) – Key Takeaways</strong></h3><ul>
+<li>Why Pyomo and HiGHS? Flexibility, efficiency, and scalability.</li>
+<li>Where to go next: Learning resources and real-world applications beyond scheduling.</li>
+</ul>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="florian-wilhelm">Florian Wilhelm</h3><p>Florian is Head of Data Science &amp; Mathematical Modeling at inovex GmbH, an IT project center driven by innovation and quality, focusing its services on ‘Digital Transformation’. He holds a PhD in mathematics, has more than 10 years of experience in predictive &amp; prescriptive analytics use-cases and likes everything math 🤯</p>
+
+    </div>
+
+    <div class="social-card-image">
+        <img src="/static/talks/ZRA3GV.png" alt="">
+    </div>
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="/code-of-conduct">code of conduct</a></li>
+      <li><a href="/imprint">imprint</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
