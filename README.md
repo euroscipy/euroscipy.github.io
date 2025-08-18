@@ -1,4 +1,4 @@
-# EuroScipy Website
+# EuroSciPy Website
 
 New framework for EuroSciPy website, starting 2025.
 
@@ -66,3 +66,31 @@ the `body` is the blog post as markdown.
 The new blog post will automatically be deployed, once it has been merged.
 
 Add any images you might want to use to the same folder you added the `contents.lr` file to, so that all the content is contained in one place.
+
+## Using Pixi
+
+Optionally, you can use Pixi.
+You need to have [Pixi installed](https://pixi.sh/latest/#installation).
+
+### Build locally
+
+Run:
+
+```sh
+pixi run build
+```
+
+### Adding a sponsor
+
+See above.
+Instead of step 3 do:
+
+```sh
+pixi run sponsors
+```
+
+### List all tasks
+
+```sh
+pixi task list
+```
