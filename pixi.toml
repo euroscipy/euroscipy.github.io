@@ -1,0 +1,22 @@
+[workspace]
+authors = ["Mike Müller <mmueller@python-academy.de>"]
+channels = ["conda-forge"]
+name = "euroscipy.github.io"
+platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
+version = "0.1.0"
+
+[tasks]
+build = { cmd = "make run", description = "build locallay" }
+sponsors = { cmd = "make sponsor-pages", description = "create sponsor pages"}
+
+[dependencies]
+python = ">=3.13,<4"
+pyyaml = "*"
+lektor = "*"
+pillow = "*"
+pydantic = ">=2.11.3,<3"
+
+
+[pypi-dependencies]
+pytanis = ">=0.8, <0.9"
+lektor-markdown-header-anchors = "*"
