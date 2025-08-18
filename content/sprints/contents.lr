@@ -61,7 +61,10 @@ TBA
 
 ### SciPy
 
-TBA
+* [SciPy](https://scipy.org/) is completely Free and Open Source, and provides fundamental and foundational algorithms for the Scientific Python ecosystem.
+* Please checkout the [Contributor Guidelines](https://github.com/scipy/scipy/blob/f762ab3dddf1541da7475580f16d5a4b8da31fea/CONTRIBUTING.rst) for tips and more links on how to contribute.
+* Please see the [Good First Issue](https://github.com/scipy/scipy/contribute) for issues which can be contributed to (more) easily.
+* If you have any specific interests, please reach out to one of the hosts. We can help point you in the right direction.
 
 ### scikit-learn & scikit-image
 
