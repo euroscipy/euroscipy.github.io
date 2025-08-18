@@ -95,3 +95,10 @@ Come and contribute to array-api-extra! We have [good first issues](https://gith
 - adding delegation to existing implementations for functions
 - improving static typing annotations
 - improving documentation
+
+### Blosc2
+
+The Blosc development team has just released a beta version of TreeStore class (https://www.blosc.org/python-blosc2/reference/tree_store.html#blosc2.TreeStore), a new way to structure Blosc2 datasets hierarchically. We will meet and try to polish rough edges, like:
+* Being able to open a store with blosc2.open(), which fits better with Blosc2 philosophy
+* Making sure that vlmeta works well for subtrees
+* Producing a proper tutorial.
