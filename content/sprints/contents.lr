@@ -66,7 +66,21 @@ TBA
 * Please see the [Good First Issue](https://github.com/scipy/scipy/contribute) for issues which can be contributed to (more) easily.
 * If you have any specific interests, please reach out to one of the hosts. We can help point you in the right direction.
 
-### scikit-learn & scikit-image
+### scikit-learn
+
+* [scikit-learn](https://scikit-learn.org) is a Python library to solve machine learning problem.
+* Please checkout the [Contributor Guidelines](https://scikit-learn.org/dev/developers/index.html) for tips and more links.
+* Talk to us such that we can direct you towards a good issues to solve.
+* Mentors will leave for the airports at the beginning of the afternoon.
+
+### skrub
+
+* [skrub](https://skrub-data.org) is a Python library to bring machine learning in the dataframe world.
+* Please checkout the [Contributor Guidelines](https://skrub-data.org/stable/development.html) for tips and more links.
+* Talk to us such that we can direct you towards a good issues to solve.
+* Mentors will leave for the airports at the beginning of the afternoon.
+
+### scikit-image
 
 TBA
 
