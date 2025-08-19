@@ -32,7 +32,7 @@ Some projects go another route and use Calendar Versioning (CalVer), a scheme th
 
 EffVer is forward and backward compatible with SemVer, making it easy to adopt for projects already loosely following SemVer. However, instead of communicating specific semantics about what a release contains, it communicates the magnitude of the effort required to adopt those changes. This is already what many Python packages do today, but by formalising things it makes it easy for maintainers to reason about what the next version of a project should be, and allows users to more clearly understand how much effort they need to spend to adopt a new version.
 ---
-room: room 1.38 (ground floor)
+room: room 1.19 (ground floor)
 ---
 day: Thursday
 ---
