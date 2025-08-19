@@ -119,3 +119,18 @@ The Blosc development team has just released a beta version of TreeStore class (
 * Producing a proper tutorial.
 
 We would also like to talk on how to implement fancy indexing for NDArray type (NDArray.slice(fancy_index))
+
+
+### Ultimate Notion
+
+Come hack on [Ultimate Notion](https://ultimate-notion.com/) — the ultimate Python client for the planning and organisation workspace [Notion](https://www.notion.com/).
+We could hack together on following topics:
+
+* more real world [examples](https://ultimate-notion.com/latest/examples/) to get users started
+* improve the docs for users and especially new contributors
+* implement one of the many # ToDo comments in the code :-)
+* start implementing the file upload endpoint.
+* work on one of the current [issues](https://github.com/ultimate-notion/ultimate-notion/issues)
+* your ideas
+
+I am looking forward to meet you and have great time coding together.
