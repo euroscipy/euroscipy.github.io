@@ -17,6 +17,8 @@ Jan initially immersed himself in the realms of cognitive science and computatio
 abstract:
 
 This talk introduces a novel approach that bridges Simulation-Based Inference (SBI) and probabilistic programming languages like Pyro to enable simulation-based hierarchical Bayesian inference. SBI is used to perform parameter inference for intractable simulation models, while Pyro facilitates efficient Bayesian inference with complex hierarchical structures. We demonstrate how to integrate SBI-learned likelihoods into Pyro models, allowing for hierarchical Bayesian analysis of simulation-based models. Using the drift-diffusion model from decision-making research as an example, we showcase the potential of this combined approach for tackling real-world problems with complex simulation models and hierarchical data.
+
+Slides and Code are available at [github.com/janfb/pyro-meets-sbi](https://github.com/janfb/pyro-meets-sbi).
 ---
 full_description:
 
