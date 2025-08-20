@@ -153,3 +153,16 @@ We could hack together on following topics:
 * your ideas
 
 I am looking forward to meet you and have great time coding together.
+
+### MicroPython & emlearn
+
+[MicroPython](https://micropython.org) is a Python that runs on low-cost, low-power microcontrollers.
+A microcontroller is a great core basis for doing physical computing - sensing and acting in the real world.
+[emlearn-micropython](https://github.com/emlearn/emlearn-micropython) is a machine learning library and digital signal processing for microcontrollers,
+to enable automatically analysing sensor data on such devices.
+
+In the sprint we will be hacking on MicroPython related projects.
+
+People who are curious but have no prior experience with MicroPython are welcome!
+I got some devices with me that you can borrow and play with.
+PS: bring an USB-C cable if you have (I might be a bit short on those).
