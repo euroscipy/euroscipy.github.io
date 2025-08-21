@@ -36,7 +36,11 @@ Finally this application is packaged within a Streamlit app that provides an int
 The computer vision and LLM based workflow successfully automates move detection in chess games by leveraging a YOLOv8s model to process user-submitted videos, accurately generating legal move sequences and producing annotated output videos. Building on this, the Streamlit application seamlessly combines visual move annotations, structured move lists, and GPT-4-generated audio commentary, delivering a rich and interactive user experience. This integrated pipeline highlights the powerful synergy between computer vision and large language models, demonstrating a practical, real-world application where automated visual recognition and natural language generation come together to create dynamic and educational chess commentary. Furthermore, integrating large language models for commentary generation opens new possibilities for smart chess boards, coaching applications, live-streamed matches with narration, and automated game archiving for tournaments and classrooms. Overall, this fusion of computer vision and natural language generation bridges the gap between physical and digital chess, fostering greater inclusivity, deeper engagement, and accelerated learning across the chess community.
 Advancements in this work may include expanding to multi-player support by incorporating hand tracking or multi-camera systems to accurately detect player turns and interactions, as well as enhancing analysis capabilities to assess move quality, providing detailed feedback on mistakes and exceptional plays. 
 
-This is an open source project and the GitHub repository details and steps for installation/running this application will be shared during the talk. https://github.com/LikhitaYerra/Chess-Vision-Narrator
+This is an open source project and the GitHub repository details and steps for installation/running this application will be shared during the talk. 
+
+Github: https://github.com/LikhitaYerra/Chess-Vision-Narrator
+Presentation: https://docs.google.com/presentation/d/1ZkafIz_0lOLsXR2Ct11pox1E1HZLYi_NkxoVaz5UF_I/edit?usp=sharing
+Magazine:https://drive.google.com/file/d/1bZJJ5V2K_a6TVgSa2sDLqR-9hy1T7Be1/view?usp=sharing
 ---
 room: room 1.38 (ground floor)
 ---
