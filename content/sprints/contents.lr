@@ -91,14 +91,22 @@ TBA
 
 ### napari
 
-<!--
-TBA (our propositions)
--->
-
-- whatever you want to be improved in napari :)
-
 [napari](https://github.com/napari/napari) is a fast, interactive,
 multi-dimensional image viewer for Python.
+Check out [napari.org](https://napari.org) for more information about the project, how to get started and how to contribute.
+
+For this sprint, you'll have easy access to two members of the core team to help you get started with using, contributing or extending napari. You're welcome to join whether you never used napari or you're a long time user! 
+
+We don't have strict plans for this day, but here's a few ideas for what you could be doing:
+- ask our help with getting started with napari, or with some issue you found along the way
+- get guidance with developing your napari plugin
+- fix that long-standing annoying bug that has been bothering you for so long...
+- develop (or at least begin working on :P) a new feature you'd like to add to napari  
+
+If you're comfortable with reaching deeper into the guts of the napari codebase, here are some PR ideas:
+- updating the `features` table on the `Labels` layer to match the behaviour of `Points` (autosync with label contents, addition of manager classes such as TextManager or ColorManager, ...)
+- introduction of a new `Overlay` that you'd really like to have (e.g: we're currently working on a [colorbar](https://github.com/napari/napari/pull/7832) and a [grid](https://github.com/napari/napari/pull/7827))
+- Anything else that crosses your mind!
 
 
 ### PyFixest
