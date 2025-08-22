@@ -48,7 +48,7 @@ This software enables users to:
 - Benchmark self-supervised architectures (e.g., Mol2Vec, MolFormer) across varied dataset sizes and chemical domains
 - Integrate new data sources or custom filters as requirements evolve
 ---
-room: room 1.19 (ground floor)
+room: room 1.20 (ground floor, shannon)
 ---
 day: Thursday
 ---

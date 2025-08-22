@@ -36,7 +36,7 @@ In notebooks pertaining to specific research studies, a direct link from test co
 
 The presented solutions, along with the availability of platforms such as Google Colab, mybinder.org or institutional Jupyter hubs, ensure single-click reproducibility of research-paper results, and a structure for retaining this through future releases of the code base. In addition to the benefits for software users and developers, this satisfies the scientific-method and research-journal reproducibility requirements.
 ---
-room: room 1.19 (ground floor)
+room: room 1.20 (ground floor, shannon)
 ---
 day: Thursday
 ---
