@@ -1,5 +1,5 @@
 _model: redirect
 ---
-target: /
+target: https://archive.euroscipy.org/2024/
 ---
 _discoverable: no
