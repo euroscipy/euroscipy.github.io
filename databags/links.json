@@ -1,52 +1,12 @@
 {
     "pages": [
         {
-            "name": "Schedule",
-            "path": "schedule"
-        },
-        {
-            "name": "Tickets",
-            "path": "tickets"
-        },
-        {
-            "name": "Financial Aid",
-            "path": "finaid"
-        },
-        {
-            "name": "Talks",
-            "path": "talks"
-        },
-        {
-            "name": "Blog",
-            "path": "blog"
-        },
-        {
-            "name": "Sponsors",
-            "path": "sponsors"
-        },
-        {
-            "name": "Sponsoring",
-            "path": "sponsoring"
-        },
-        {
-            "name": "Sprints",
-            "path": "sprints"
-        },
-        {
             "name": "Team",
             "path": "team"
         },
         {
             "name": "Venue",
             "path": "venue"
-        },
-        {
-            "name": "FAQ",
-            "path": "faq"
-        },
-        {
-            "name": "About",
-            "path": "about"
         }
     ]
 }
