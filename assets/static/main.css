@@ -298,7 +298,7 @@ a.content-list--entry {
 }
 
 .hero .visuals {
-    background-image: url("/static/euroscipy.webp");
+    background-image: url("euroscipy.webp");
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center center;
