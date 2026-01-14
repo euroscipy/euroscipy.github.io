@@ -36,7 +36,7 @@ What are patterns that work well or need improvement in the future?
 In the second part, we want to discuss adoption of dispatching and backend selection across libraries.  NetworkX has this for a long time and scikit-image has experimented with it in the past year.
 We plan on showing the spatch design, but wish to focus discussion on what the missing pieces are for libraries to adopt spatch or similar patterns.
 ---
-room: room 2.41 (first floor)
+room: room 2.41 (first floor, turing)
 ---
 day: Wednesday
 ---

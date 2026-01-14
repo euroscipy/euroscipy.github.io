@@ -36,7 +36,7 @@ Beyond implementation, we conduct a benchmarking study to evaluate the performan
 
 By showcasing the feasibility of high-performance molecular similarity computations in Python, our work lowers the barrier to entry for researchers and practitioners who may not have extensive experience with lower-level programming languages. This contribution enhances the accessibility of advanced molecular informatics tools, fostering broader adoption and enabling a wider range of scientists to leverage these computational techniques in their research. Ultimately, this work paves the way for more inclusive and reproducible computational chemistry and bioinformatics, empowering researchers across disciplines to engage with large-scale molecular data analysis using modern, user-friendly methodologies.
 ---
-room: room 1.19 (ground floor)
+room: room 1.20 (ground floor, shannon)
 ---
 day: Thursday
 ---

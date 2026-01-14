@@ -74,7 +74,7 @@ The talk is aimed at Python developers interested in processing data in the Clou
 geospatial data (COG, COPC, LIDAR, ZARR, Kerchunk), genomics data (FASTA, FASTQ, VCF, FASTQGZIP), astronomics (MS), and metabolomics data (imzML).
 This talk requires basic understanding of Cloud Object Storage.
 ---
-room: room 1.19 (ground floor)
+room: room 1.20 (ground floor, shannon)
 ---
 day: Thursday
 ---

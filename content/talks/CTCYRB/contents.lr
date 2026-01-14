@@ -34,7 +34,7 @@ Additionally, we will present performance optimizations that enhance computation
 
 This presentation will offer insights into the broader applications of peptide-based drug discovery and highlight the importance of using molecular fingerprints in chemoinformatics with scalable machine learning frameworks. Attendees will gain an understanding of current chemoinformatics research on peptides and familiarize with graph vectorization methods. They will see how combining domain-specific feature extraction with tree ensembles can yield superior results compared to complex models, all at a fraction of the computational cost.
 ---
-room: room 1.19 (ground floor)
+room: room 1.20 (ground floor, shannon)
 ---
 day: Thursday
 ---
