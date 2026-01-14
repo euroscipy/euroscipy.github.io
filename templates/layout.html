@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/static/main.css">
-  <link rel="icon" type="image/x-icon" href="/static/euroscipy_logo.svg">
+  <link rel="stylesheet" href="{{ '/static/main.css'|url }}">
+  <link rel="icon" type="image/x-icon" href="{{ '/static/euroscipy_logo.svg'|url }}">
   <title>{% block title %}{% endblock %}</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,13 +18,13 @@
     content="{% if this.meta_title %}{{ this.meta_title }}{% else %}{{ this.title }}{% endif %}">
 
   {% if this.social_card_image %}
-  <meta name="image" property="og:image:secure_url" content="{{ this.social_card_image }}">
-  <meta name="image" property="og:image" content="{{ this.social_card_image }}">
+  <meta name="image" property="og:image:secure_url" content="{{ this.social_card_image|url }}">
+  <meta name="image" property="og:image" content="{{ this.social_card_image|url }}">
   {% else %}
   <meta name="image" property="og:image:secure_url"
-    content="{{ site.config.PROJECT.social_card }}">
+    content="{{ site.config.PROJECT.social_card|url }}">
   <meta name="image" property="og:image"
-    content="{{ site.config.PROJECT.social_card }}">
+    content="{{ site.config.PROJECT.social_card|url }}">
   {% endif %}
 
   <meta property="og:description" content="{% if this.description %}{{ this.description }}{% else %}{{ site.config.PROJECT.og_description }}{% endif %}">
@@ -43,9 +43,9 @@
     content="{% if this.meta_twitter_title %}{{ this.meta_twitter_title }}{% else %}{{ this.title }}{% endif %}">
   <meta name="twitter:description" content="{{ this.description }}">
   {% if this.social_card_image %}
-  <meta name="twitter:image" content="{{ this.social_card_image }}">
+  <meta name="twitter:image" content="{{ this.social_card_image|url }}">
   {% else %}
-  <meta name="twitter:image" content="{{ site.config.PROJECT.social_card }}">
+  <meta name="twitter:image" content="{{ site.config.PROJECT.social_card|url }}">
   {% endif %}
 
   {% block header %}
@@ -60,9 +60,9 @@
   <aside class="sidebar">
     <nav aria-label="Site Navigation">
       <ul class="nav main-navigation">
-        <li class="navigation-link"><a href="/"><img src="/static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        <li class="navigation-link"><a href="{{ '/'|url }}"><img src="{{ '/static/euroscipy_logo.svg'|url }}" alt="euroscipy"></a></li>
         {% for page in bag('links')['pages'] %}
-        <li class="navigation-link"><a href="/{{ page.path|url }}">{{ page.name }}</a></li>
+        <li class="navigation-link"><a href="{{ ('/' ~ page.path)|url }}">{{ page.name }}</a></li>
         {% endfor %}
       </ul>
     </nav>
@@ -73,8 +73,8 @@
 
   <div class="content footer">
     <ul class="legal-links">
-      <li><a href="/code-of-conduct">code of conduct</a></li>
-      <li><a href="/imprint">imprint</a></li>
+      <li><a href="{{ '/code-of-conduct'|url }}">code of conduct</a></li>
+      <li><a href="{{ '/imprint'|url }}">imprint</a></li>
       <li><a href="https://archive.euroscipy.org/">archive</a></li>
     </ul>
 
