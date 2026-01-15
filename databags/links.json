@@ -7,6 +7,10 @@
         {
             "name": "Venue",
             "path": "venue"
+        },
+        {
+            "name": "About",
+            "path": "about"
         }
     ]
 }
