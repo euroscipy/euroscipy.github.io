@@ -7,16 +7,16 @@ body:
 
 The EuroSciPy is an annual non-profit European conference on Scientific Python. It is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research. This event strives to bring together both users and developers of scientific tools, as well as academic research and state-of-the-art industry.
 
-
-EuroSciPy 2025 takes place from **Monday, August 18 to Friday, August 22 in Kraków, Poland.**
+EuroSciPy 2026 takes place from **Saturday, July 18 to Thursday, July 23 in Kraków, Poland.**
 
 ### Conference Layout
 
-- **Mon**, August 18 Tutorials
-- **Tue**, August 19 Tutorials
-- **Wed**, August 20 Talks
-- **Thu**, August 21 Talks
-- **Fri**, August 22 Sprints
+- **Sat**, July 18 Sprints
+- **Sun**, July 19 Sprints
+- **Mon**, July 20 Talks
+- **Tue**, July 21 Talks
+- **Wed**, July 22 Tutorials
+- **Thu**, July 23 Tutorials
 
 During the one-day sprints, attendees come together to work on and contribute to open-source packages and projects.
 
