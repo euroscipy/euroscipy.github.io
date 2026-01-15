@@ -5,7 +5,7 @@ pub_date: 2025-08-15
 body:
 
 <div style="text-align:center;padding:1em;">
-  <img src="/static/venue/studio.jpg" alt="Klub Studio" width=600>
+  <img src="../../static/venue/studio.jpg" alt="Klub Studio" width=600>
   <br>
   <p><small>By Damian Stróżek, CC BY-SA 4.0, <a href="https://commons.wikimedia.org/w/index.php?curid=114466379" target="_blank">wikimedia link</a></small></p>
 </div>

@@ -7,8 +7,8 @@
     <ul class="sponsors">
         {% for sponsor in sponsor_type.sponsors %}
         <li class="sponsor">
-            <a href="/sponsors/{{ sponsor.id }}">
-                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+            <a href="{{ ('/sponsors/' ~ sponsor.id)|url }}">
+                <img src="{{ sponsor.logo|url }}" alt="{{ sponsor.name }}" />
             </a>
         </li>
         {% endfor %}

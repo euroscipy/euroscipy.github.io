@@ -14,11 +14,11 @@
             <div class="team-member">
                 {% if member.image %}
                 <div class="team-member-item">
-                    <img src="{{ member.image }}" alt="{{ member.name ~ ' profile picture' }}" height="300" width="300">
+                    <img src="{{ member.image|url }}" alt="{{ member.name ~ ' profile picture' }}" height="300" width="300">
                 </div>
                 {% else %}
                 <div class="team-member-item">
-                    <img src="/static/team/default-image.png" alt="default picture" height="300" width="300">
+                    <img src="{{ '/static/team/default-image.png'|url }}" alt="default picture" height="300" width="300">
                 </div>
                 {% endif %}
                 <div class="team-member-item">
@@ -28,16 +28,16 @@
 
                     <div class="team-member-item">
                     {% if member.website_url %}
-                        <a target="_blank" rel="noopener noreferrer" href="{{ member.website_url }}"><img src="/static/team/website-logo.jpg" alt="Website Logo" height="20" width="20"></a>
+                        <a target="_blank" rel="noopener noreferrer" href="{{ member.website_url }}"><img src="{{ '/static/team/website-logo.jpg'|url }}" alt="Website Logo" height="20" width="20"></a>
                     {% endif %}
                     {% if member.linkedin_url %}
-                        <a target="_blank" rel="noopener noreferrer" href="{{ member.linkedin_url }}"><img src="/static/team/linkedin-logo.png" alt="LinkedIn Logo" height="20" width="20"></a>
+                        <a target="_blank" rel="noopener noreferrer" href="{{ member.linkedin_url }}"><img src="{{ '/static/team/linkedin-logo.png'|url }}" alt="LinkedIn Logo" height="20" width="20"></a>
                     {% endif %}
                     {% if member.github_url %}
-                        <a target="_blank" rel="noopener noreferrer" href="{{ member.github_url }}"><img src="/static/team/github-logo.svg" alt="GitHub Logo" height="20" width="20"></a>
+                        <a target="_blank" rel="noopener noreferrer" href="{{ member.github_url }}"><img src="{{ '/static/team/github-logo.svg'|url }}" alt="GitHub Logo" height="20" width="20"></a>
                     {% endif %}
                     {% if member.x_url %}
-                        <a target="_blank" rel="noopener noreferrer" href="{{ member.x_url }}"><img src="/static/team/x-logo.svg" alt="X Logo" height="20" width="20"></a>
+                        <a target="_blank" rel="noopener noreferrer" href="{{ member.x_url }}"><img src="{{ '/static/team/x-logo.svg'|url }}" alt="X Logo" height="20" width="20"></a>
                     {% endif %}
                 </div>
 
