@@ -2,12 +2,11 @@ title: EuroSciPy 2026
 ---
 cta:
 
-### Coming soon!
 
 ---
-conference_date: Summer 2026
+conference_date: 18-23 July 2026
 ---
-location: Poland
+location: AGH University of Kraków, Poland
 ---
 about:
 
@@ -16,10 +15,15 @@ about:
 The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.
 
 This event strives to bring together both users and developers of scientific tools, as well as academic research and state of the art industry.
+
+* 18-19 July 2026 Sprints (joined with EuroPython and SciPy [virtual])
+* 20-21 July 2026 Talks
+* 22-23 July 2026 Tutorials
+
 ---
 stats:
 
 - **40** Speakers
-- **5** Days Event
+- **6** Days Event
 - **16** Workshops
 - **200** Participants
