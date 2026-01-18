@@ -1,6 +1,10 @@
 {
     "pages": [
         {
+            "name": "CfP",
+            "path": "call-for-proposals"
+        },
+        {
             "name": "Team",
             "path": "team"
         },
