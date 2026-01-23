@@ -15,6 +15,10 @@
         {
             "name": "About",
             "path": "about"
+        },
+        {
+            "name": "Financial Aid",
+            "path": "finaid"
         }
     ]
 }
