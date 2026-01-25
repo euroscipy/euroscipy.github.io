@@ -5,20 +5,20 @@
             "path": "call-for-proposals"
         },
         {
-            "name": "Team",
-            "path": "team"
+            "name": "Financial Aid",
+            "path": "finaid"
         },
         {
             "name": "Venue",
             "path": "venue"
         },
         {
-            "name": "About",
-            "path": "about"
+            "name": "Team",
+            "path": "team"
         },
         {
-            "name": "Financial Aid",
-            "path": "finaid"
+            "name": "About",
+            "path": "about"
         }
     ]
 }

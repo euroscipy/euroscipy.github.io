@@ -1,3 +1,81 @@
 {
-    "members": []
+    "members": [
+        {
+            "name": "Mike Müller",
+            "role": "Founder, Program, Sponsoring, Website",
+            "image": "/static/team/mike_mueller.jpg",
+            "website_url": "http://www.python-academy.com/",
+            "linkedin_url": "https://www.linkedin.com/in/mike-m%C3%BCller-1937695/",
+            "github_url": "https://github.com/pya",
+            "x_url": "https://x.com/pyacademy"
+        },
+        {
+            "name": "Alexander CS Hendorf",
+            "role": "Administrative",
+            "image": "/static/team/alexander_hendorf.png",
+            "website_url": "https://pioneershub.org/",
+            "linkedin_url": "https://www.linkedin.com/in/hendorf/",
+            "github_url": "https://github.com/alanderex",
+            "x_url": "https://x.com/hendorf"
+        },
+        {
+            "name": "Nefta Kanilmaz",
+            "role": "Program",
+            "image": "/static/team/nefta_kanilmaz.png",
+            "github_url": "https://github.com/NeroCorleone"
+        },
+        {
+            "name": "Lúcia Pedrosa",
+            "role": "Program",
+            "image": "/static/team/lucia_pedrosa.jpg"
+        },
+        {
+            "name": "Reimar Bauer",
+            "role": "Program, FinAid",
+            "image": "/static/team/reimar_bauer.png",
+            "github_url": "https://github.com/ReimarBauer",
+            "x_url": "https://x.com/ReimarBauer",
+            "linkedin_url": "https://www.linkedin.com/in/reimar-bauer-61a4a6a9/",
+            "bsky_url": "https://bsky.app/profile/reimarbauer.bsky.social",
+            "mastodon_url": "https://ruhr.social/@ReimarBauer"
+        },
+        {
+            "name": "Vasu Sharma",
+            "role": "FinAid",
+            "linkedin_url": "https://www.linkedin.com/in/vasusharma-314/"
+        },
+        {
+            "name": "Irina Saribekova",
+            "role": "Administrative",
+            "image": "/static/team/irina_saribekova.jpg"
+        },
+        {
+            "name": "Konstantin Ignatov",
+            "role": "Program",
+            "image": "/static/team/konstantin_ignatov.jpg",
+            "github_url": "https://github.com/code-of-kpp",
+            "linkedin_url": "https://www.linkedin.com/in/work-of-kpp/"
+        },
+        {
+            "name": "Artur Czepiel",
+            "role": "Local Team"
+        },
+        {
+            "name": "Mateusz Sokół",
+            "role": "Local Team, Website",
+            "image": "/static/team/mateusz_sokol.jpg",
+            "linkedin_url": "https://www.linkedin.com/in/mateusz-sokol/",
+            "github_url": "https://github.com/mtsokol"
+        },
+        {
+            "name": "Karol Sowa",
+            "role": "Local Team",
+            "image": "/static/team/karol_sowa.png",
+            "linkedin_url": "https://www.linkedin.com/in/karol-sowa-b596a32b3/"
+        },
+        {
+            "name": "Justyna Szydłowska-Samsel",
+            "role": "Local Team, Program"
+        }
+    ]
 }

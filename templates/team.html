@@ -13,12 +13,12 @@
         {% for member in bag('team')['members'] %}
             <div class="team-member">
                 {% if member.image %}
-                <div class="team-member-item">
-                    <img src="{{ member.image|url }}" alt="{{ member.name ~ ' profile picture' }}" height="300" width="300">
+                <div class="team-member-image">
+                    <img src="{{ member.image|url }}" alt="{{ member.name ~ ' profile picture' }}">
                 </div>
                 {% else %}
-                <div class="team-member-item">
-                    <img src="{{ '/static/team/default-image.png'|url }}" alt="default picture" height="300" width="300">
+                <div class="team-member-image">
+                    <img src="{{ '/static/team/default-image.png'|url }}" alt="default picture">
                 </div>
                 {% endif %}
                 <div class="team-member-item">
