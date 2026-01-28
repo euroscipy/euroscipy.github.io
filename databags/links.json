@@ -5,6 +5,10 @@
             "path": "call-for-proposals"
         },
         {
+            "name": "CfR",
+            "path": "call-for-reviewers"
+        },
+        {
             "name": "Financial Aid",
             "path": "finaid"
         },
