@@ -9,8 +9,12 @@
             "path": "call-for-reviewers"
         },
         {
-            "name": "Financial Aid",
-            "path": "finaid"
+            "name": "Sponsoring",
+            "path": "sponsoring"
+        },
+        {
+            "name": "Sponsors",
+            "path": "sponsors"
         },
         {
             "name": "Venue",
