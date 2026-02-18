@@ -4,14 +4,10 @@ created:
 ---
 code: DN7SMP
 ---
-speaker_names: Sebastian Berg, Tim Head
+speaker_names: Tim Head, Sebastian Berg
 ---
 speakers:
 
-
-### Sebastian Berg
-
-Sebastian has been a NumPy developer for about 10 years now.  After a PhD in phsyics he worked at as a postdoc at the Berkeley Institute for Datascience on NumPy as grants byt the Alfred P. Sloan Foundation and the Gordon and Betty Moore Foundation.  Since 2022 he has been a software engineer at NVIDIA where he continues to contribute to NumPy.
 
 ### Tim Head
 
@@ -20,6 +16,10 @@ I am a scikit-learn core maintainer and work at NVIDIA.
 Before working on scikit-learn I helped build mybinder.org and worked on JupyterHub.
 
 Many years ago I was a particle physicist at CERN in Geneva.
+
+### Sebastian Berg
+
+Sebastian has been a NumPy developer for about 10 years now.  After a PhD in phsyics he worked at as a postdoc at the Berkeley Institute for Datascience on NumPy as grants byt the Alfred P. Sloan Foundation and the Gordon and Betty Moore Foundation.  Since 2022 he has been a software engineer at NVIDIA where he continues to contribute to NumPy.
 
 ---
 abstract:
