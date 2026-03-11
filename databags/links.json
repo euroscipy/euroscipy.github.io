@@ -5,14 +5,6 @@
             "path": "tickets"
         },
         {
-            "name": "CfP",
-            "path": "call-for-proposals"
-        },
-        {
-            "name": "CfR",
-            "path": "call-for-reviewers"
-        },
-        {
             "name": "Sponsoring",
             "path": "sponsoring"
         },
