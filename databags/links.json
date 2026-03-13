@@ -23,6 +23,10 @@
         {
             "name": "About",
             "path": "about"
+        },
+        {
+            "name": "Previous editions",
+            "path": "previous-editions"
         }
     ]
 }
