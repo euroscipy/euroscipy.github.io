@@ -1,5 +1,17 @@
 {
     "types": [
+         {
+            "name": "Silver Sponsors",
+            "sponsors": [
+                {
+                    "name": "Quansight",
+                    "id": "qsight",
+                    "logo": "/static/sponsors/quansight_bw.svg",
+                    "url": "https://quansight.com/",
+                    "full_description": "Organizations rely on open source software to innovate, but many struggle to engage sustainably with the communities behind the projects they depend on. Quansight exists to bridge that gap. Our team of software developers, community leaders, technical writers, and designers actively maintain and contribute to more than 40 open source projects, including CPython, NumPy, Jupyter, conda-forge, Polars, and stdlib.js. We partner with engineering, product, and research teams to solve complex technical challenges, accelerate development, reduce risk, and unlock new value across the PyData ecosystem. At the same time, we ensure that this work strengthens the health, resilience, and long-term sustainability of the open source projects and communities our customers rely on. We believe commercial success and community sustainability should reinforce each other — and we help organizations achieve both."
+                }
+            ]
+        },
 
         {
             "name": "Institutional Sponsors",
