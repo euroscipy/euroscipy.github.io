@@ -2,7 +2,7 @@
     "members": [
         {
             "name": "Mike Müller",
-            "role": "Founder, Program, Sponsoring, Website",
+            "role": "Founder, Sponsoring, Website",
             "image": "/static/team/mike_mueller.jpg",
             "website_url": "http://www.python-academy.com/",
             "linkedin_url": "https://www.linkedin.com/in/mike-m%C3%BCller-1937695/",
@@ -50,19 +50,12 @@
             "image": "/static/team/irina_saribekova.jpg"
         },
         {
-            "name": "Konstantin Ignatov",
-            "role": "Program",
-            "image": "/static/team/konstantin_ignatov.jpg",
-            "github_url": "https://github.com/code-of-kpp",
-            "linkedin_url": "https://www.linkedin.com/in/work-of-kpp/"
-        },
-        {
             "name": "Artur Czepiel",
-            "role": "Local Team"
+            "role": "Program, Local Team"
         },
         {
             "name": "Mateusz Sokół",
-            "role": "Local Team, Website",
+            "role": "Program, Local Team, Website",
             "image": "/static/team/mateusz_sokol.jpg",
             "linkedin_url": "https://www.linkedin.com/in/mateusz-sokol/",
             "github_url": "https://github.com/mtsokol"
@@ -75,7 +68,7 @@
         },
         {
             "name": "Justyna Szydłowska-Samsel",
-            "role": "Local Team, Program"
+            "role": "Program, Local Team"
         }
     ]
 }

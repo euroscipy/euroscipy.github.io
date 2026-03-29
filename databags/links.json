@@ -25,6 +25,10 @@
             "path": "about"
         },
         {
+            "name": "FAQ",
+            "path": "faq"
+        },
+        {
             "name": "Previous editions",
             "path": "previous-editions"
         }
