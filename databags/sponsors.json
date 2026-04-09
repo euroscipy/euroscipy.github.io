@@ -1,5 +1,17 @@
 {
     "types": [
+        {
+            "name": "Platinum Sponsors",
+            "sponsors": [
+                {
+                    "name": "napari",
+                    "id": "napari",
+                    "logo": "/static/sponsors/napari.svg",
+                    "url": "https://napari.org/stable/",
+                    "full_description": "napari is an open-source Python viewer for interactive exploration of large, multi-dimensional scientific images. Widely used in the scientific Python and bioimaging communities, it provides a fast, extensible platform for visualisation, annotation, and analysis. With a strong focus on community and a thriving plugin ecosystem, napari supports both researchers and developers in building reproducible, scalable imaging workflows."
+                }
+            ]
+        },
          {
             "name": "Silver Sponsors",
             "sponsors": [
