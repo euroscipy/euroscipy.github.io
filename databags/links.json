@@ -5,6 +5,10 @@
             "path": "tickets"
         },
         {
+            "name": "Schedule",
+            "path": "schedule"
+        },
+        {
             "name": "Sponsoring",
             "path": "sponsoring"
         },
