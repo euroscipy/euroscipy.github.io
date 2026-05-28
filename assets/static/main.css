@@ -151,20 +151,24 @@ a {
 }
 
 .sidebar {
-    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
     padding-top: calc(var(--hamburger-height) * 4);
+    padding-bottom: 2rem;
     background-color: black;
     color: white;
     translate: 0 -100%;
     opacity: 0;
     transition: translate var(--animation-timing), opacity var(--animation-timing);
-    min-height: 100vh;
+    height: 100vh;
+    height: 100dvh;
     width: 100%;
     padding-left: var(--hamburger-margin);
     z-index: 999;
     font-size: 3em;
     overscroll-behavior: contain;
-    overflow: hidden;
+    overflow-y: auto;
 }
 
 .hamburger-menu:has(input:checked)+.sidebar {
