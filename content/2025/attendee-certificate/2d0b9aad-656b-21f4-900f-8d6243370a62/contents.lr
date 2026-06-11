@@ -1,0 +1,13 @@
+_model: validate_certificate
+---
+title: Certificate of Attendance Validation Service
+---
+full_name: K*****i C******a K***r M***a
+---
+conference: EuroSciPy 2025
+---
+hash: LQUARW
+---
+cert_type: attendee
+---
+_discoverable: no

@@ -1,0 +1,13 @@
+_model: validate_certificate
+---
+title: Certificate of Attendance Validation Service
+---
+full_name: K***l T******i
+---
+conference: EuroSciPy 2025
+---
+hash: DBNCA9
+---
+cert_type: attendee
+---
+_discoverable: no

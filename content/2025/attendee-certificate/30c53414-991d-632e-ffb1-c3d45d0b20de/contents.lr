@@ -1,0 +1,13 @@
+_model: validate_certificate
+---
+title: Certificate of Attendance Validation Service
+---
+full_name: O****r Z********n
+---
+conference: EuroSciPy 2025
+---
+hash: MMU0FJ
+---
+cert_type: attendee
+---
+_discoverable: no

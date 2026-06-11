@@ -1,0 +1,13 @@
+_model: validate_certificate
+---
+title: Certificate of Attendance Validation Service
+---
+full_name: P***r L*****a
+---
+conference: EuroSciPy 2025
+---
+hash: HLIPLO
+---
+cert_type: attendee
+---
+_discoverable: no
