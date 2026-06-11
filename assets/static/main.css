@@ -600,3 +600,96 @@ a.content-list--entry {
     width: 70%;
     height: 300px;
 }
+
+/* Certificates */
+.cert-header__eyebrow {
+    font-weight: 200;
+    font-size: .9em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: var(--highlight-color);
+    margin: 0;
+}
+
+.cert-header__title {
+    margin: 0.2em 0 0 0;
+}
+
+.cert-section {
+    padding-bottom: 6rem;
+}
+
+.cert-card {
+    max-width: 640px;
+    background-color: white;
+    color: var(--background-color);
+    padding: 2.5rem;
+    box-shadow: 10px 12px 0 var(--highlight-color);
+}
+
+.cert-card__badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: var(--highlight-color);
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.cert-card__lead {
+    font-size: 1.15em;
+    font-weight: bold;
+    color: var(--background-color);
+    margin: 1.5rem 0;
+}
+
+.cert-meta {
+    margin: 1.5rem 0;
+}
+
+.cert-meta__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.25rem 1rem;
+    padding: 0.85rem 0;
+    border-top: 2px solid rgba(49, 34, 199, 0.12);
+}
+
+.cert-meta__row:last-child {
+    border-bottom: 2px solid rgba(49, 34, 199, 0.12);
+}
+
+.cert-meta dt {
+    font-weight: 200;
+    font-size: .9em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: var(--shadow-color);
+}
+
+.cert-meta dd {
+    margin: 0;
+    font-weight: bold;
+    color: var(--background-color);
+}
+
+.cert-meta dd code {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: .9em;
+    padding: 0.15em 0.45em;
+    background-color: rgba(49, 34, 199, 0.08);
+    letter-spacing: .05em;
+}
+
+.cert-card__note {
+    font-size: .8em;
+    font-weight: 400;
+    color: #6b6b6b;
+    margin: 1.5rem 0 0 0;
+}

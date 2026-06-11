@@ -1,0 +1,13 @@
+_model: validate_certificate
+---
+title: Certificate of Attendance Validation Service
+---
+full_name: F*******o R*******i
+---
+conference: EuroSciPy 2025
+---
+hash: AS3PPL
+---
+cert_type: attendee
+---
+_discoverable: no

@@ -1,0 +1,13 @@
+_model: validate_certificate
+---
+title: Certificate of Attendance Validation Service
+---
+full_name: P***l M*******v
+---
+conference: EuroSciPy 2025
+---
+hash: JHDBCH
+---
+cert_type: attendee
+---
+_discoverable: no
