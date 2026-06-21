@@ -21,6 +21,10 @@
             "path": "venue"
         },
         {
+            "name": "Sprints",
+            "url": "https://ep2026.europython.eu/sprints/"
+        },
+        {
             "name": "Team",
             "path": "team"
         },
