@@ -67,7 +67,7 @@
         
         <li class="navigation-link"><a href="../venue/">Venue</a></li>
         
-        <li class="navigation-link"><a href="https://ep2026.europython.eu/sprints/" target="_blank" rel="noopener">Sprints</a></li>
+        <li class="navigation-link"><a href="sprints" target="_blank" rel="noopener">Sprints</a></li>
         
         <li class="navigation-link"><a href="../team/">Team</a></li>
         
@@ -89,140 +89,10 @@
     </div>
 
     <div class="body-content">
-        <h3 id="what-are-sprints">What are Sprints?</h3><p>Sprints are collaborative coding sessions where participants work together on
-open-source projects. It's a great opportunity to contribute to projects you
-use, learn from experienced developers, and network with the community.</p>
-<h3 id="when-are-sprints-happening">When are Sprints happening?</h3><p>Sprints at EuroSciPy 2025 will be held on <strong>Friday, 22 August 2025</strong>.</p>
-<p><strong>No ticket is required to attend the sprints; they are open to everyone!</strong></p>
-<h2 id="registered-sprints">Registered Sprints</h2><!--
-### How to register your sprint:
-
-To add your sprint to this page, please follow these steps:
-
-1.  **Fork the repository:** Go to the EuroSciPy website repository on GitHub
-    and click the "Fork" button.
-2.  **Clone your fork:** Clone your forked repository to your local machine:
-    `git clone https://github.com/YOUR_USERNAME/euroscipy.github.io.git`
-3.  **Create a new branch:** Navigate into your cloned repository and create a
-    new branch for your changes:
-    `git switch --create add-my-sprint`
-4.  **Edit this file:** Open `content/sprints/contents.lr` in your text editor.
-5.  **Add your sprint:** Add a new section for your sprint under "Registered
-    Sprints" using a `###` heading, followed by a short description.
-    Example:
-    ```
-    ### My Awesome Project Sprint
-
-    This sprint will focus on improving the documentation and adding new
-    features to My Awesome Project.
-    ```
-6.  **Commit your changes:** Save the file and commit your changes:
-    `git add content/sprints/contents.lr`
-    `git commit -m "Add My Awesome Project sprint"`
-7.  **Push your branch:** Push your new branch to your forked repository on
-    GitHub:
-    `git push origin add-my-sprint`
-8.  **Open a Pull Request (PR):** Go to your forked repository on GitHub and
-    open a Pull Request from your new branch to the `main` branch of the
-    original `euroscipy/euroscipy.github.io` repository.
-9.  Once your PR is approved and merged, your sprint will appear on this page.
-
-For more details on how to propose a sprint, please read our blog post:
-[Sprints Registration Open!](/blog/sprints-registration-open/)
--->
-
-<h3 id="numpy">NumPy</h3><ul>
-<li><a href="https://numpy.org/">NumPy</a> is completely Free and Open Source, and a the fundamental package for scientific computing with Python.</li>
-<li>Please check the <a href="https://numpy.org/devdocs/dev/index.html">contribution documentation</a> for getting set up. A codespaces setup can be used in case of difficulties.</li>
-<li>Issues that fit a sprint are tagged with <a href="https://github.com/numpy/numpy/issues?q=is%3Aissue%20state%3Aopen%20label%3Asprintable%20OR%20label%3A%22sprintable%20-%20C%22">"sprintable" or "sprintable C"</a>.
-You may find other issues, for example documentation ones.</li>
-<li>Reach out to the host before working deeply on such or other issues. Issues are often more complicated than they first seem.</li>
-</ul>
-<h3 id="scipy">SciPy</h3><ul>
-<li><a href="https://scipy.org/">SciPy</a> is completely Free and Open Source, and provides fundamental and foundational algorithms for the Scientific Python ecosystem.</li>
-<li>Please checkout the <a href="https://github.com/scipy/scipy/blob/f762ab3dddf1541da7475580f16d5a4b8da31fea/CONTRIBUTING.rst">Contributor Guidelines</a> for tips and more links on how to contribute.</li>
-<li>Please see the <a href="https://github.com/scipy/scipy/contribute">Good First Issue</a> for issues which can be contributed to (more) easily.</li>
-<li>If you have any specific interests, please reach out to one of the hosts. We can help point you in the right direction.</li>
-</ul>
-<h3 id="scikit-learn">scikit-learn</h3><ul>
-<li><a href="https://scikit-learn.org">scikit-learn</a> is a Python library to solve machine learning problem.</li>
-<li>Please checkout the <a href="https://scikit-learn.org/dev/developers/index.html">Contributor Guidelines</a> for tips and more links.</li>
-<li>Talk to us such that we can direct you towards a good issues to solve.</li>
-<li>Mentors will leave for the airports at the beginning of the afternoon.</li>
-</ul>
-<h3 id="scikit-image">scikit-image</h3><p>TBA</p>
-<h3 id="skrub">skrub</h3><ul>
-<li><a href="https://skrub-data.org">skrub</a> is a Python library to bring machine learning in the dataframe world.</li>
-<li>Please checkout the <a href="https://skrub-data.org/stable/development.html">Contributor Guidelines</a> for tips and more links.</li>
-<li>Talk to us such that we can direct you towards a good issues to solve.</li>
-<li>Mentors will leave for the airports at the beginning of the afternoon.</li>
-</ul>
-<h3 id="napari">napari</h3><p><a href="https://github.com/napari/napari">napari</a> is a fast, interactive,
-multi-dimensional image viewer for Python.
-Check out <a href="https://napari.org">napari.org</a> for more information about the project, how to get started and how to contribute.</p>
-<p>For this sprint, you'll have easy access to two members of the core team to help you get started with using, contributing or extending napari. You're welcome to join whether you never used napari or you're a long time user!</p>
-<p>We don't have strict plans for this day, but here's a few ideas for what you could be doing:</p>
-<ul>
-<li>ask our help with getting started with napari, or with some issue you found along the way</li>
-<li>get guidance with developing your napari plugin</li>
-<li>fix that long-standing annoying bug that has been bothering you for so long...</li>
-<li>develop (or at least begin working on :P) a new feature you'd like to add to napari  </li>
-</ul>
-<p>If you're comfortable with reaching deeper into the guts of the napari codebase, here are some PR ideas:</p>
-<ul>
-<li>updating the <code>features</code> table on the <code>Labels</code> layer to match the behaviour of <code>Points</code> (autosync with label contents, addition of manager classes such as TextManager or ColorManager, ...)</li>
-<li>introduction of a new <code>Overlay</code> that you'd really like to have (e.g: we're currently working on a <a href="https://github.com/napari/napari/pull/7832">colorbar</a> and a <a href="https://github.com/napari/napari/pull/7827">grid</a>)</li>
-<li>Anything else that crosses your mind!</li>
-</ul>
-<h3 id="pyfixest">PyFixest</h3><p>We'd love to implement a range of exciting new features for PyFixest during the EuroScipy sprint:</p>
-<p>We are currently porting some of the core algorithms that make PyFixest fast from numba to Rust and would like to implement multiple enhancements:</p>
-<ul>
-<li>Implement the Irons-Tuck Fixed-Point Acceleration Method in PyFixest, plus some other tricks that make r-fixest so fast (<a href="https://cea.hal.science/cea-01403292/document">Background on IT</a>, <a href="https://lrberge.github.io/fixest/reference/demeaning_algo.html">fixest IT options</a>, <a href="https://github.com/py-econometrics/pyfixest/issues/357">pyfixest draft PR</a>).</li>
-<li>We want to port the Frisch-Newton Quantile Regression solver from PyFixest from pure Python / numpy to Rust. You can find the code <a href="https://github.com/py-econometrics/pyfixest/blob/master/pyfixest/estimation/quantreg/frisch_newton_ip.py#L70">here</a>.</li>
-<li>We'd like core functionality of the randomization inference code base from numba to Rust. You can find the code <a href="https://github.com/py-econometrics/pyfixest/blob/49d65a426ddc3311632ed69d77762ea344574533/pyfixest/estimation/ritest.py#L196">here</a>.</li>
-</ul>
-<p>If you don't know Rust, don't worry! Here are some other topics we'd like to tackle during the sprint:</p>
-<ul>
-<li>We've recently implemented a specialized Frisch-Newton solver to solve the Quantile Regression optimization problem. In initial benchmarks, we have found that our FN implementation is much faster than the Quantile Regression solver in scikit-learn. We want to create exhaustive benchmarking to validate our initial finding. If confirmed, our hope is to contribute the algorithm to scikit-learn! You can find an initial PR to sklearn <a href="https://github.com/scikit-learn/scikit-learn/issues/31708#issuecomment-3191641341">here</a>.</li>
-<li>We want to implement a complement to the FN estimator that works with sparse matrices. For the associate PR, see <a href="https://github.com/py-econometrics/pyfixest/issues/963">here</a>.</li>
-<li>We also have a range of "good first issues", many of which are very beginner-friendly. You can find them <a href="https://github.com/py-econometrics/pyfixest/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22">here</a>.</li>
-<li>Tooling: We'd like to set up a conda forge feed for PyFixest <a href="https://github.com/py-econometrics/pyfixest/issues/549">issue</a>.</li>
-</ul>
-<p>Before the sprint, you can fork and clone pyfixest from <a href="https://github.com/py-econometrics/pyfixest">github</a>, and we explain how to set up the dev environment <a href="https://py-econometrics.github.io/pyfixest/contributing.html">here</a>.</p>
-<p>If you're interested, please feel free to reach out!</p>
-<h3 id="array-api-extra">array-api-extra</h3><p>Come and contribute to array-api-extra! We have <a href="https://github.com/data-apis/array-api-extra/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22">good first issues</a> across the following topics:</p>
-<ul>
-<li>adding a new function, <code>nan_to_num</code></li>
-<li>adding delegation to existing implementations for functions</li>
-<li>improving static typing annotations</li>
-<li>improving documentation</li>
-</ul>
-<h3 id="blosc2">Blosc2</h3><p>The Blosc development team has just released a beta version of TreeStore class (<a href="https://www.blosc.org/python-blosc2/reference/tree_store.html#blosc2.TreeStore">https://www.blosc.org/python-blosc2/reference/tree_store.html#blosc2.TreeStore</a>), a new way to structure Blosc2 datasets hierarchically. We will meet and try to polish rough edges, like:</p>
-<ul>
-<li>Being able to open a store with blosc2.open(), which fits better with Blosc2 philosophy</li>
-<li>Making sure that vlmeta works well for subtrees</li>
-<li>Producing a proper tutorial.</li>
-</ul>
-<p>We would also like to talk on how to implement fancy indexing for NDArray type (NDArray.slice(fancy_index))</p>
-<h3 id="ultimate-notion">Ultimate Notion</h3><p>Come hack on <a href="https://ultimate-notion.com/">Ultimate Notion</a> — the ultimate Python client for the planning and organisation workspace <a href="https://www.notion.com/">Notion</a>.
-We could hack together on following topics:</p>
-<ul>
-<li>more real world <a href="https://ultimate-notion.com/latest/examples/">examples</a> to get users started</li>
-<li>improve the docs for users and especially new contributors</li>
-<li>implement one of the many # ToDo comments in the code :-)</li>
-<li>start implementing the file upload endpoint.</li>
-<li>work on one of the current <a href="https://github.com/ultimate-notion/ultimate-notion/issues">issues</a></li>
-<li>your ideas</li>
-</ul>
-<p>I am looking forward to meet you and have great time coding together.</p>
-<h3 id="micropython-emlearn">MicroPython &amp; emlearn</h3><p><a href="https://micropython.org">MicroPython</a> is a Python that runs on low-cost, low-power microcontrollers.
-A microcontroller is a great core basis for doing physical computing - sensing and acting in the real world.
-<a href="https://github.com/emlearn/emlearn-micropython">emlearn-micropython</a> is a machine learning library and digital signal processing for microcontrollers,
-to enable automatically analysing sensor data on such devices.</p>
-<p>In the sprint we will be hacking on MicroPython related projects.</p>
-<p>People who are curious but have no prior experience with MicroPython are welcome!
-I got some devices with me that you can borrow and play with.
-PS: bring an USB-C cable if you have (I might be a bit short on those).</p>
+        <h3 id="joined-sprints-with-europython">Joined Sprints with EuroPython</h3><p>This years sprints will happen on July 18 and 19, 2026.
+We we are happy to announce that we joined with EuroPython.
+You can find all relevant information at the
+<a href="https://ep2026.europython.eu/sprints/">EuroPython site</a>.</p>
 
     </div>
 </section>
