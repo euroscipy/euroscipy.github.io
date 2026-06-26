@@ -1,0 +1,27 @@
+_model: maintainers
+---
+title: Maintainers Track at EuroSciPy 2026
+---
+body:
+
+### Maintainers Track at EuroSciPy 2026
+
+EuroSciPy is more than the conference of the European scientific Python
+community. It is also a meeting place for the maintainers of widely used
+open source projects such as NumPy, SciPy, and pandas.
+
+Most of this work happens remotely, scattered across issue trackers,
+pull requests, and time zones. EuroSciPy is a rare chance to do it in
+person — so we offer maintainers a dedicated track.
+
+The Maintainers Track is for in-depth technical talks, design discussions,
+and the exchange of hard-won experience between maintainers and interested
+participants. Maintainers can compare notes on the problems they are wrestling
+with; everyone else can learn how a library actually works under the hood,
+how its development is organized, and where it is heading.
+
+The track takes place in room 2.41 (see the [schedule](https://euroscipy.org/schedule/)).
+
+If you would like to present or discuss the internals of an open source
+project, please fill in this [form](https://forms.gle/a2KPG8GXq8bN2Cf87).
+If your topic fits and we have room, we will add it as a talk slot.

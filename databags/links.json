@@ -24,6 +24,10 @@
             "name": "Sprints",
             "url": "sprints"
         },
+         {
+            "name": "Maintainers track",
+            "url": "maintainers"
+        },
         {
             "name": "Team",
             "path": "team"
