@@ -28,6 +28,10 @@
             "name": "Maintainers track",
             "url": "maintainers"
         },
+         {
+            "name": "Blog",
+            "path": "blog"
+        },
         {
             "name": "Team",
             "path": "team"
