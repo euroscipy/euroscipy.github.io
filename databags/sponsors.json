@@ -36,7 +36,7 @@
                 }
             ]
         },
-          {
+        {
             "name": "Community Partners",
             "sponsors": [
                 {
@@ -48,6 +48,20 @@
                 }
             ]
         },
+        {
+            "name": "Financial Aid Sponsor",
+            "sponsors": [
+                {
+                    "name": "EuroPython Society",
+                    "id": "eps",
+                    "logo": "/static/sponsors/eps.png",
+                    "url": "https://www.europython-society.org/",
+                    "full_description": "The EuroPython Society (EPS) is a Swedish non-profit organization which organizes EuroPython conferences, supports the Python community in Europe and holds the rights to the EuroPython conference series and trademarks."
+
+                }
+            ]
+        },
+
 
         {
             "name": "Institutional Sponsors",
