@@ -1,0 +1,13 @@
+_model: validate_certificate
+---
+title: Certificate of Attendance Validation Service
+---
+full_name: F***k S*********r
+---
+conference: EuroSciPy 2025
+---
+hash: CUYOXY
+---
+cert_type: attendee
+---
+_discoverable: no

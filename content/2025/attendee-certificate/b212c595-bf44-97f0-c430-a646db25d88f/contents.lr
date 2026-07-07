@@ -1,0 +1,13 @@
+_model: validate_certificate
+---
+title: Certificate of Attendance Validation Service
+---
+full_name: O*e B****s
+---
+conference: EuroSciPy 2025
+---
+hash: SHLFLB
+---
+cert_type: attendee
+---
+_discoverable: no

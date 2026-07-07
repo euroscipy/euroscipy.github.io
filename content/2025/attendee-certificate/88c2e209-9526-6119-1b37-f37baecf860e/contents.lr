@@ -1,0 +1,13 @@
+_model: validate_certificate
+---
+title: Certificate of Attendance Validation Service
+---
+full_name: F********k J*b
+---
+conference: EuroSciPy 2025
+---
+hash: IMLICZ
+---
+cert_type: attendee
+---
+_discoverable: no

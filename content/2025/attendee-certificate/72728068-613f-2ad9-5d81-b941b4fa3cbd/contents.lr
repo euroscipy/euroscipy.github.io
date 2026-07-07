@@ -1,0 +1,13 @@
+_model: validate_certificate
+---
+title: Certificate of Attendance Validation Service
+---
+full_name: R****u B******j
+---
+conference: EuroSciPy 2025
+---
+hash: CNKAAG
+---
+cert_type: attendee
+---
+_discoverable: no
