@@ -22,11 +22,11 @@
         },
         {
             "name": "Sprints",
-            "url": "sprints"
+            "path": "sprints"
         },
-         {
+        {
             "name": "Maintainers track",
-            "url": "maintainers"
+            "path": "maintainers"
         },
          {
             "name": "Blog",
