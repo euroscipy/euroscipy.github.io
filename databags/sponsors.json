@@ -33,6 +33,13 @@
                     "logo": "/static/sponsors/ansys_synopsys.svg",
                     "url": "https://www.ansys.com/",
                     "full_description": "Our Mission: Powering Innovation That Drives Human Advancement - For over 50 years, Ansys (part of Synopsys) software has enabled innovators to push boundaries with the predictive power of simulation. From sustainable transportation to advanced semiconductors, from satellite systems to life-saving medical devices, our software will power the next great leaps in human advancement."
+                },
+                 {
+                    "name": "engicloud.ai",
+                    "id": "engicloud",
+                    "logo": "/static/sponsors/engicloud.png",
+                    "url": "http://engicloud.ai/",
+                    "full_description": " engicloud.ai is a python-based modelling & simulation platform for engineers and scientists. Beyond our library of 20,000+ cross-checked calculators, connect to APIs with managed secrets, use AI assistants to build entire projects or turn a research PDF into an executable calculator. From node-based logic to verifiable simulations across 20 engineering fields. Every step stays inspectable. No black-box output. Built by DCS Computing GmbH, the team behind LIGGGHTS, CFDEM, and Aspherix. Founded in 2012 in Linz, Austria. Free academic accounts at engicloud.ai - python-based collaborative modeling & simulation platform"
                 }
             ]
         },
