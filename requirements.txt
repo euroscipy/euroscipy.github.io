@@ -71,7 +71,7 @@ pandas==2.3.0
     # via pytanis
 pandas-stubs==2.2.3.250527
     # via pytanis
-pillow==11.1.0
+pillow==12.1.1
     # via euroscipy (pyproject.toml)
 pip==25.1.1
     # via lektor
