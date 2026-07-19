@@ -25,7 +25,7 @@ exifread==3.3.1
     # via lektor
 filetype==1.2.0
     # via lektor
-flask==2.3.3
+flask==3.1.3
     # via lektor
 h11==0.16.0
     # via httpcore
