@@ -1,0 +1,64 @@
+title: Skrub: machine learning for dataframes
+---
+created: 
+---
+code: 8KK8UC
+---
+speaker_names: Guillaume Lemaitre, Jérôme Dockès, Riccardo Cappuzzo
+---
+speakers:
+
+
+### Guillaume Lemaitre
+
+I'm chief machine learning officer and open source software engineer at :probabl. I'm a core developer of scikit-learn and imbalanced-learn.
+
+### Jérôme Dockès
+
+Jérôme Dockès is a research engineer at Inria and one of the developers of the Skrub and Nilearn python packages.
+
+### Riccardo Cappuzzo
+
+
+
+---
+abstract:
+
+Machine-learning algorithms expect a numeric array with one row per observation. Typically, creating this table requires "wrangling" with Pandas or Polars (aggregations, selections, joins, ...), and to extract numeric features from structured data types such as datetimes. These transformations must be applied consistently when making predictions for unseen inputs, and choices must be informed by performance measured on a validation dataset, while preventing data leakage. This preprocessing is the most difficult and time-consuming part of many data-science projects.
+
+Skrub bridges the gap between complex tabular data stored in Pandas or Polars dataframes, and machine-learning algorithms implemented by scikit-learn estimators. It provides scikit-learn transformers to extract features from datetimes, (fuzzy) categories and text, and to perform data-wrangling such as joins and aggregations in a learning pipeline. Its pre-built, flexible learners offer very robust performance on many tabular datasets without manual tweaking. It can create complex pipelines that handle multiple tables, while easily describing and searching rich hyperparameter spaces. As interactivity and visualization are essential for preprocessing, Skrub also provides an interactive report to explore a dataframe, and its pipelines can be built incrementally while inspecting intermediate results.
+
+We will give an overview of Skrub and demonstrate its features on realistic and challenging tabular learning scenarios
+---
+full_description:
+
+In the tutorial we will teach how to use skrub to easily tackle datasets that would be challenging to analyze using only scikit-learn. In this regards, we show how skrub can be combined with scikit-learn to address some time series forecasting use case.
+
+First, we give a short introduction regarding the scope of the skrub library. We show that some tedious tasks around machine learning can be reduce with a couple of out of the shelve functionalities.
+
+Then, we focus on the skrub DataOps that allows to combine data wrangling operations, using commonly tools such as pandas or polars, with common machine learning pipeline, using scikit-learn. We focus on time series forecasting. First, we show how to build some common time series preprocessing using polars. Then, we show that we can record the set of such transformation into a graph allowing us to replay the same transformation in the future on a new set of data. Then, we combine this preprocessing stage together with a classic scikit-learn regressor to predict the desired target. Finally, we show how to evaluate this pipeline with cross-validation as well as how to perform hyperparameter search.
+
+We conclude with a brief summary of ongoing development and future enhancements to skrub.
+
+The material and instructions for the tutorial will be available here: 
+- [static website](http://skrub-data.org/EuroSciPy2025/)
+- [git repository](https://github.com/skrub-data/EuroSciPy2025)
+
+You can find an extended version [here](https://github.com/probabl-ai/forecasting)
+---
+room: room 1.38 (ground floor)
+---
+day: Monday
+---
+start_time: 10:30
+---
+duration_minutes: 90
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: /static/talks/8KK8UC.png
+

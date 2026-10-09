@@ -1,0 +1,54 @@
+title: How to become a software detective and perform security research
+---
+created: 
+---
+code: CHDNML
+---
+speaker_names: Przemek
+---
+speakers:
+
+
+### Przemek
+
+Web & mobile security researcher with a few years of experience. MSc in computer sciences. Currently working on network security, including kubernetes infrastructure. In free time doing hackthebox, sharing knowledge and analysing applications in Apple ecosystem.
+
+---
+abstract:
+
+Security research is crucial in IT - considering the fast-paced growth of cybercrime, the prevalence of nation-state attacks, or the 40k CVEs reported last year. Yet, performing one’s own security research is challenging. This talk explores fundamental approaches and techniques to discover vulnerabilities in software. Participants will exercise static analysis on a vulnerable Python application to apply new knowledge. The goal is to understand how to perform security research.
+---
+full_description:
+
+Participants of this tutorial will gain a solid foundation in software analysis, with a strong emphasis on security. We will explore the significance of security research in software development and consider various resources and tools to discover vulnerabilities.
+
+To illustrate these concepts, we’ll perform static analysis with Bandit on a vulnerable Python library as a case study. Additionally, we’ll understand different approaches and techniques to security-oriented analysis. Participants will gain essential knowledge to identify vulnerabilities, find potential targets for analysis, and apply research methodology. 
+
+This tutorial will cover
+* Introduction to security research
+* Automated software analysis - SAST vs DAST
+* Research methodologies and resources
+* Basics of static code analysis
+* Practical examples using vulnerable software to test acquired skills
+
+Key takeaways 
+* Basic concepts related to vulnerability research
+* Software analysis fundamentals 
+* Security analysis tools
+---
+room: room 1.20 (ground floor, shannon)
+---
+day: Tuesday
+---
+start_time: 13:30
+---
+duration_minutes: 90
+---
+track: 
+---
+python_skill: 
+---
+domain_expertise: 
+---
+social_card_image: /static/talks/CHDNML.png
+
