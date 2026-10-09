@@ -2,7 +2,7 @@
     "members": [
         {
             "name": "Mike Müller",
-            "role": "Founder, Sponsoring, Website",
+            "role": "Founder, Local Team, Sponsoring, Website",
             "image": "/static/team/mike_mueller.jpg",
             "website_url": "http://www.python-academy.com/",
             "linkedin_url": "https://www.linkedin.com/in/mike-m%C3%BCller-1937695/",
@@ -51,24 +51,24 @@
         },
         {
             "name": "Artur Czepiel",
-            "role": "Program, Local Team"
+            "role": "Program"
         },
         {
             "name": "Mateusz Sokół",
-            "role": "Program, Local Team, Website",
+            "role": "Program, Website",
             "image": "/static/team/mateusz_sokol.jpg",
             "linkedin_url": "https://www.linkedin.com/in/mateusz-sokol/",
             "github_url": "https://github.com/mtsokol"
         },
         {
             "name": "Karol Sowa",
-            "role": "Local Team",
+            "role": "",
             "image": "/static/team/karol_sowa.png",
             "linkedin_url": "https://www.linkedin.com/in/karol-sowa-b596a32b3/"
         },
         {
             "name": "Justyna Szydłowska-Samsel",
-            "role": "Program, Local Team"
+            "role": "Program"
         }
     ]
 }
