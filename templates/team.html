@@ -39,6 +39,12 @@
                     {% if member.x_url %}
                         <a target="_blank" rel="noopener noreferrer" href="{{ member.x_url }}"><img src="{{ '/static/team/x-logo.svg'|url }}" alt="X Logo" height="20" width="20"></a>
                     {% endif %}
+                    {% if member.bsky_url %}
+                        <a target="_blank" rel="noopener noreferrer" href="{{ member.bsky_url }}"><img src="{{ '/static/team/bsky-logo.svg'|url }}" alt="Bluesky Logo" height="20" width="20"></a>
+                    {% endif %}
+                    {% if member.mastodon_url %}
+                        <a target="_blank" rel="noopener noreferrer" href="{{ member.mastodon_url }}"><img src="{{ '/static/team/mastodon-logo.svg'|url }}" alt="Mastodon Logo" height="20" width="20"></a>
+                    {% endif %}
                 </div>
 
             </div>
