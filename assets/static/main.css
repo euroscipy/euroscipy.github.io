@@ -8,11 +8,22 @@
     --animation-timing: 433ms ease-in-out;
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 
-    /* colors */
-    --background-color: #3122C7;
-    --foreground-color: #d2d2d2;
-    --highlight-color: #ff5366;
-    --shadow-color: #31126F;
+    /* palette: the only place where colors are defined */
+    --background-color: #2b2f6b;   /* page background, muted indigo        */
+    --foreground-color: #c9cbe0;   /* body text, soft lavender-grey        */
+    --highlight-color:  #e8838f;   /* accent, dusty coral                  */
+    --shadow-color:     #1b1d45;   /* deep ink: sidebar, tickets, shadows  */
+    --heading-color:    #eceef8;   /* headings, links, emphasis (off-white)*/
+    --surface-color:    #f4f2ef;   /* light cards, warm paper              */
+    --highlight-strong: #b4495a;   /* coral text on light surfaces         */
+    --on-highlight:     #1b1d45;   /* text on coral fills                  */
+    --muted-color:      #6b6b6b;   /* small print on light cards           */
+
+    /* derived tints (computed from the palette above) */
+    --highlight-shadow: color-mix(in srgb, var(--highlight-color) 45%, transparent);
+    --divider-color:    color-mix(in srgb, var(--heading-color) 50%, transparent);
+    --tint-subtle:      color-mix(in srgb, var(--background-color) 8%, transparent);
+    --tint-line:        color-mix(in srgb, var(--background-color) 12%, transparent);
 }
 
 /* resets */
@@ -84,11 +95,11 @@ h1,
 h2,
 h3,
 h4 {
-    color: white;
+    color: var(--heading-color);
 }
 
 a {
-    color: white;
+    color: var(--heading-color);
     font-weight: bold;
     text-decoration-thickness: 3px;
 }
@@ -97,8 +108,8 @@ a {
 .hamburger-menu {
     --x-width: calc(var(--hamburger-height) * 1.41421356237);
     /* height * sqrt(2) = length of the diagonal, since it is a right angle */
-    --foreground: white;
-    --background: white;
+    --foreground: var(--heading-color);
+    --background: var(--heading-color);
     display: flex;
     flex-direction: column;
     gap: var(--hamburger-gap);
@@ -156,8 +167,8 @@ a {
     left: 0;
     padding-top: calc(var(--hamburger-height) * 4);
     padding-bottom: 2rem;
-    background-color: black;
-    color: white;
+    background-color: var(--shadow-color);
+    color: var(--heading-color);
     translate: 0 -100%;
     opacity: 0;
     transition: translate var(--animation-timing), opacity var(--animation-timing);
@@ -177,7 +188,7 @@ a {
 }
 
 .navigation-link a:hover {
-    color: var(--background-color);
+    color: var(--highlight-color);
 }
 
 
@@ -204,7 +215,7 @@ p {
 }
 
 p strong {
-    color: white;
+    color: var(--heading-color);
 }
 
 .content {
@@ -225,12 +236,12 @@ p strong {
 .content-list--entry {
     margin-bottom: 0.4em;
     padding: 0.4em;
-    background-color: white;
-    box-shadow: 10px 12px 0 var(--highlight-color);
+    background-color: var(--surface-color);
+    box-shadow: 10px 12px 0 var(--highlight-shadow);
 }
 
 .content-list--entry:hover {
-    background-color: var(--highlight-color);
+    background-color: var(--highlight-strong);
     box-shadow: 10px 12px var(--shadow-color);
 }
 
@@ -242,13 +253,13 @@ a.content-list--entry {
 .content-list--entry h3,
 .content-list--entry h4,
 .content-list--entry {
-    color: var(--highlight-color);
+    color: var(--highlight-strong);
 }
 
 .content-list--entry:hover h3,
 .content-list--entry:hover h4,
 .content-list--entry:hover {
-    color: white;
+    color: var(--surface-color);
 }
 
 .content-list--entry h3,
@@ -261,7 +272,7 @@ a.content-list--entry {
     display: grid;
     grid-gap: 4rem;
     align-items: center;
-    color: white;
+    color: var(--heading-color);
 }
 
 .date,
@@ -276,14 +287,15 @@ a.content-list--entry {
 
 .cta a {
     background-color: var(--highlight-color);
+    color: var(--on-highlight);
     text-decoration: none;
     padding: .3em;
     transition: color var(--animation-timing), background-color var(--animation-timing);
 }
 
 .cta a:hover {
-    background-color: white;
-    color: var(--highlight-color);
+    background-color: var(--surface-color);
+    color: var(--highlight-strong);
 }
 
 .cta.submit-abstract {
@@ -342,12 +354,12 @@ a.content-list--entry {
 }
 
 .stats ul li:nth-child(odd) {
-    color: var(--highlight-color);
+    color: var(--background-color);
     background-color: var(--foreground-color);
 }
 
 .stats ul li:nth-child(even) {
-    color: var(--foreground-color);
+    color: var(--on-highlight);
     background-color: var(--highlight-color);
 }
 
@@ -433,7 +445,7 @@ a.content-list--entry {
 
 /* Subsites */
 .cfp h4 {
-    background-color: white;
+    background-color: var(--surface-color);
     color: var(--background-color);
     padding: 0.2em;
 }
@@ -447,7 +459,7 @@ a.content-list--entry {
 .blog-posts li {
     margin-bottom: 0.4em;
     padding: 0.4em;
-    background-color: white;
+    background-color: var(--surface-color);
 }
 
 .blog-posts li:hover {
@@ -466,18 +478,19 @@ a.content-list--entry {
 
 .subsite ol li:first-line {
     font-weight: bold;
-    color: white;
+    color: var(--heading-color);
 }
 
 /* Tickets */
 .pretix-widget {
-    background-color: black;
+    background-color: var(--shadow-color);
+    color: var(--heading-color);
 }
 
 .pretix-widget .pretix-widget-pricebox-currency,
 .pretix-widget .pretix-widget-pricebox {
     font-weight: bold;
-    color: white;
+    color: var(--heading-color);
     text-align: left;
 }
 
@@ -501,20 +514,21 @@ a.content-list--entry {
 .pretix-widget .pretix-widget-item-title:hover,
 .pretix-widget .pretix-widget-collapse-indicator:hover,
 .pretix-widget .pretix-widget-attribution a:hover {
-    color: white;
+    color: var(--heading-color);
 }
 
 .pretix-widget .pretix-widget-action button {
     background-color: var(--highlight-color);
     border-color: var(--highlight-color);
+    color: var(--on-highlight);
     font-weight: bold;
     font-size: 1em;
 }
 
 .pretix-widget .pretix-widget-action button:hover {
-    color: var(--highlight-color);
-    background-color: white;
-    border-color: white;
+    color: var(--highlight-strong);
+    background-color: var(--surface-color);
+    border-color: var(--surface-color);
 }
 
 /* Sponsors */
@@ -548,8 +562,8 @@ a.content-list--entry {
 
 /* Talks */
 .social-card-image {
-    border-bottom: 8px dashed rgba(255, 255, 255, 0.5);
-    border-top: 8px dashed rgba(255, 255, 255, 0.5);
+    border-bottom: 8px dashed var(--divider-color);
+    border-top: 8px dashed var(--divider-color);
     margin: 4em 0;
     padding: 2em 0;
     max-width: 1200px;
@@ -621,10 +635,10 @@ a.content-list--entry {
 
 .cert-card {
     max-width: 640px;
-    background-color: white;
+    background-color: var(--surface-color);
     color: var(--background-color);
     padding: 2.5rem;
-    box-shadow: 10px 12px 0 var(--highlight-color);
+    box-shadow: 10px 12px 0 var(--highlight-shadow);
 }
 
 .cert-card__badge {
@@ -635,7 +649,7 @@ a.content-list--entry {
     height: 3rem;
     border-radius: 50%;
     background-color: var(--highlight-color);
-    color: white;
+    color: var(--on-highlight);
     font-size: 1.6rem;
     font-weight: bold;
     line-height: 1;
@@ -658,11 +672,11 @@ a.content-list--entry {
     justify-content: space-between;
     gap: 0.25rem 1rem;
     padding: 0.85rem 0;
-    border-top: 2px solid rgba(49, 34, 199, 0.12);
+    border-top: 2px solid var(--tint-line);
 }
 
 .cert-meta__row:last-child {
-    border-bottom: 2px solid rgba(49, 34, 199, 0.12);
+    border-bottom: 2px solid var(--tint-line);
 }
 
 .cert-meta dt {
@@ -683,13 +697,13 @@ a.content-list--entry {
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
     font-size: .9em;
     padding: 0.15em 0.45em;
-    background-color: rgba(49, 34, 199, 0.08);
+    background-color: var(--tint-subtle);
     letter-spacing: .05em;
 }
 
 .cert-card__note {
     font-size: .8em;
     font-weight: 400;
-    color: #6b6b6b;
+    color: var(--muted-color);
     margin: 1.5rem 0 0 0;
 }
