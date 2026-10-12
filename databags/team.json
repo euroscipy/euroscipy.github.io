@@ -69,6 +69,13 @@
         {
             "name": "Justyna Szydłowska-Samsel",
             "role": "Program"
+        },
+        {
+            "name": "Ingo Reinhold",
+            "role": "Local Team",
+            "image": "/static/team/ingo_reinhold.jpg",
+            "website_url": "https://fim.htwk-leipzig.de/fakultaet/personen/professorinnen-und-professoren/ingo-reinhold",
+            "linkedin_url": "https://www.linkedin.com/in/ingo-reinhold-68ab9527"
         }
     ]
 }
