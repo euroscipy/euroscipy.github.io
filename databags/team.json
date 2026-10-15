@@ -76,6 +76,12 @@
             "image": "/static/team/ingo_reinhold.jpg",
             "website_url": "https://fim.htwk-leipzig.de/fakultaet/personen/professorinnen-und-professoren/ingo-reinhold",
             "linkedin_url": "https://www.linkedin.com/in/ingo-reinhold-68ab9527"
+        },
+         {
+            "name": "Konrad Schöbel",
+            "role": "Local Team",
+            "image": "/static/team/konrad_schöbel.jpg",
+            "website_url": "https://fdit.htwk-leipzig.de/fakultaet-dit/personen/professoren/prof-dr-konrad-schoebel"
         }
     ]
 }
