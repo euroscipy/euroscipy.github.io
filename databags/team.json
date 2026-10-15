@@ -82,6 +82,14 @@
             "role": "Local Team",
             "image": "/static/team/konrad_schöbel.jpg",
             "website_url": "https://fdit.htwk-leipzig.de/fakultaet-dit/personen/professoren/prof-dr-konrad-schoebel"
-        }
+        },
+        {
+        "name": "Franziska Klemstein",
+        "role": "Local Team",
+        "image": "/static/team/franziska_klemstein.jpg",
+        "website_url": "https://fim.htwk-leipzig.de/fakultaet/personen/professorinnen-und-professoren/franziska-klemstein",
+        "linkedin_url": "https://www.linkedin.com/in/franziska-klemstein-a9b818a6/",
+        "mastodon_url": "https://digitalcourage.social/@FKlemstein"
+       }
     ]
 }
