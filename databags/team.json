@@ -90,6 +90,14 @@
         "website_url": "https://fim.htwk-leipzig.de/fakultaet/personen/professorinnen-und-professoren/franziska-klemstein",
         "linkedin_url": "https://www.linkedin.com/in/franziska-klemstein-a9b818a6/",
         "mastodon_url": "https://digitalcourage.social/@FKlemstein"
+       },
+       {
+        "name": "Jens Schneider",
+        "role": "Local Team",
+        "image": "/static/team/jens_schneider.jpg",
+        "website_url": "https://fing.htwk-leipzig.de/fakultaet/professuren/prof-jens-schneider",
+        "linkedin_url": "https://www.linkedin.com/in/jens-schneider-b982286a/",
+        "linkedin_url": "https://bsky.app/profile/jenspv.bsky.social"
        }
     ]
 }
