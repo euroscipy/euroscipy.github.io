@@ -225,7 +225,7 @@ p strong {
 
 .content .hero {
     font-size: 1.4em;
-    padding: 0 0 8rem 0;
+    padding: 0 0 2rem 0;
 }
 
 .content-list {
@@ -404,12 +404,12 @@ a.content-list--entry {
         grid-gap: 1rem;
     }
 
-    .hero .visuals {
-        height: 100%;
-        background-position: center right;
+   .hero .visuals {
+        height: auto;            /* was: 100% */
+        aspect-ratio: 4 / 3;     /* matches euroscipy.webp (1200×900) */
+        background-position: right center;
         background-size: contain;
         order: 2;
-        padding: 15rem;
     }
 }
 
@@ -435,8 +435,10 @@ a.content-list--entry {
     }
 
     .content {
-        padding: 8rem 6rem 0 6rem;
+        padding: 2rem 6rem 0 6rem;
     }
+
+
 
     :root {
         --hamburger-margin: 6rem;
