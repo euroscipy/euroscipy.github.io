@@ -1,12 +1,8 @@
 {
     "pages": [
         {
-            "name": "Tickets",
-            "path": "tickets"
-        },
-        {
-            "name": "Schedule",
-            "path": "schedule"
+            "name": "Venue",
+            "path": "venue"
         },
         {
             "name": "Sponsoring",
@@ -15,14 +11,6 @@
         {
             "name": "Sponsors",
             "path": "sponsors"
-        },
-        {
-            "name": "Venue",
-            "path": "venue"
-        },
-        {
-            "name": "Sprints",
-            "path": "sprints"
         },
         {
             "name": "Maintainers track",
@@ -39,14 +27,6 @@
         {
             "name": "About",
             "path": "about"
-        },
-        {
-            "name": "FAQ",
-            "path": "faq"
-        },
-        {
-            "name": "Previous editions",
-            "path": "previous-editions"
         }
     ]
 }

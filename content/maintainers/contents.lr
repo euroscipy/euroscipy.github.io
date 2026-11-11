@@ -1,10 +1,10 @@
 _model: maintainers
 ---
-title: Maintainers Track at EuroSciPy 2026
+title: Maintainers Track at EuroSciPy 2027
 ---
 body:
 
-### Maintainers Track at EuroSciPy 2026
+### Maintainers Track at EuroSciPy 2027
 
 EuroSciPy is more than the conference of the European scientific Python
 community. It is also a meeting place for the maintainers of widely used
@@ -20,8 +20,6 @@ participants. Maintainers can compare notes on the problems they are wrestling
 with; everyone else can learn how a library actually works under the hood,
 how its development is organized, and where it is heading.
 
-The track takes place on Wednesday in room 2.41 (see the [schedule](https://euroscipy.org/schedule/)).
-
 If you would like to present or discuss the internals of an open source
-project, please fill in this [form](https://forms.gle/a2KPG8GXq8bN2Cf87).
+project, please contact us.
 If your topic fits and we have room, we will add it as a talk slot.
