@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../../static/main.css">
+  <link rel="icon" type="image/x-icon" href="../../../static/euroscipy_logo.svg">
+  <title>
+Skrub: machine learning for dataframes
+</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <meta property="og:title"
+    content="Skrub: machine learning for dataframes">
+
+  
+  <meta name="image" property="og:image:secure_url" content="../../../static/talks/8KK8UC.png">
+  <meta name="image" property="og:image" content="../../../static/talks/8KK8UC.png">
+  
+
+  <meta property="og:description" content="The EuroSciPy meeting is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research.">
+  <meta property="og:url" content="https://euroscipy.org">
+  <meta property="og:type" content="article">
+  <meta property=“article:publisher“ content="https://euroscipy.org">
+  <meta property=“og:site_name“ content="EuroSciPy" />
+
+  <meta property=“og:image:type“ content="image/png" />
+  <meta property=“og:image:width“ content=“1200″ />
+  <meta property=“og:image:height“ content=“630″ />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@euroscipy">
+  <meta name="twitter:title"
+    content="Skrub: machine learning for dataframes">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="../../../static/talks/8KK8UC.png">
+  
+
+  
+  
+</head>
+
+<body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+
+  <aside class="sidebar">
+    <nav aria-label="Site Navigation">
+      <ul class="nav main-navigation">
+        <li class="navigation-link"><a href="../../../"><img src="../../../static/euroscipy_logo.svg" alt="euroscipy"></a></li>
+        
+        <li class="navigation-link"><a href="../../../venue/">Venue</a></li>
+        
+        <li class="navigation-link"><a href="../../../sponsoring/">Sponsoring</a></li>
+        
+        <li class="navigation-link"><a href="../../../sponsors/">Sponsors</a></li>
+        
+        <li class="navigation-link"><a href="../../../maintainers/">Maintainers track</a></li>
+        
+        <li class="navigation-link"><a href="../../../blog/">Blog</a></li>
+        
+        <li class="navigation-link"><a href="../../../team/">Team</a></li>
+        
+        <li class="navigation-link"><a href="../../../about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  
+
+<div class="content">
+    <div class="talk-details">
+        Monday 10:30
+        
+        in room 1.38 (ground floor)
+        
+    </div>
+
+    <h2>Skrub: machine learning for dataframes</h2>
+    <h3>Guillaume Lemaitre, Jérôme Dockès, Riccardo Cappuzzo</h3>
+
+    <div class="description">
+        <p>In the tutorial we will teach how to use skrub to easily tackle datasets that would be challenging to analyze using only scikit-learn. In this regards, we show how skrub can be combined with scikit-learn to address some time series forecasting use case.</p>
+<p>First, we give a short introduction regarding the scope of the skrub library. We show that some tedious tasks around machine learning can be reduce with a couple of out of the shelve functionalities.</p>
+<p>Then, we focus on the skrub DataOps that allows to combine data wrangling operations, using commonly tools such as pandas or polars, with common machine learning pipeline, using scikit-learn. We focus on time series forecasting. First, we show how to build some common time series preprocessing using polars. Then, we show that we can record the set of such transformation into a graph allowing us to replay the same transformation in the future on a new set of data. Then, we combine this preprocessing stage together with a classic scikit-learn regressor to predict the desired target. Finally, we show how to evaluate this pipeline with cross-validation as well as how to perform hyperparameter search.</p>
+<p>We conclude with a brief summary of ongoing development and future enhancements to skrub.</p>
+<p>The material and instructions for the tutorial will be available here:</p>
+<ul>
+<li><a href="http://skrub-data.org/EuroSciPy2025/">static website</a></li>
+<li><a href="https://github.com/skrub-data/EuroSciPy2025">git repository</a></li>
+</ul>
+<p>You can find an extended version <a href="https://github.com/probabl-ai/forecasting">here</a></p>
+
+    </div>
+
+    <div class="authors">
+        <h3 id="guillaume-lemaitre">Guillaume Lemaitre</h3><p>I'm chief machine learning officer and open source software engineer at :probabl. I'm a core developer of scikit-learn and imbalanced-learn.</p>
+<h3 id="jerome-dockes">Jérôme Dockès</h3><p>Jérôme Dockès is a research engineer at Inria and one of the developers of the Skrub and Nilearn python packages.</p>
+<h3 id="riccardo-cappuzzo">Riccardo Cappuzzo</h3>
+    </div>
+
+    <div class="social-card-image">
+        <img src="../../../static/talks/8KK8UC.png" alt="">
+    </div>
+</div>
+
+
+
+  <div class="content footer">
+    <ul class="legal-links">
+      <li><a href="../../../code-of-conduct/">code of conduct</a></li>
+      <li><a href="../../../imprint/">imprint</a></li>
+      <li><a href="https://archive.euroscipy.org/">archive</a></li>
+    </ul>
+
+    <ul class="contact">
+      <li><a href="https://www.linkedin.com/company/euroscipy">LinkedIn</a></li>
+      <li><a href="mailto:info@euroscipy.org">email</a></li>
+      <li>
+          <a
+          href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.euroscipy.org%2F2019%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=euroscipy&tw_p=followbutton">x</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
