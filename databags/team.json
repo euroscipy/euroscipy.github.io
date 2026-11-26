@@ -47,8 +47,9 @@
         },
         {
             "name": "Irina Saribekova",
-            "role": "Administrative",
-            "image": "/static/team/irina_saribekova.jpg"
+            "role": "Communications, Operations",
+            "image": "/static/team/irina_saribekova.jpg",
+            "linkedin_url": "https://www.linkedin.com/in/irinasaribekova/"
         },
         {
             "name": "Artur Czepiel",
