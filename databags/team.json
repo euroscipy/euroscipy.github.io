@@ -47,8 +47,9 @@
         },
         {
             "name": "Irina Saribekova",
-            "role": "Administrative",
-            "image": "/static/team/irina_saribekova.jpg"
+            "role": "Communications, Operations",
+            "image": "/static/team/irina_saribekova.jpg",
+            "linkedin_url": "https://www.linkedin.com/in/irinasaribekova/"
         },
         {
             "name": "Artur Czepiel",
@@ -98,7 +99,7 @@
         "image": "/static/team/jens_schneider.jpg",
         "website_url": "https://fing.htwk-leipzig.de/fakultaet/professuren/prof-jens-schneider",
         "linkedin_url": "https://www.linkedin.com/in/jens-schneider-b982286a/",
-        "linkedin_url": "https://bsky.app/profile/jenspv.bsky.social"
+        "bsky_url": "https://bsky.app/profile/jenspv.bsky.social"
        }
     ]
 }
